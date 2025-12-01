@@ -1,42 +1,40 @@
 import json
-import os
 from live_sat_engine import LiveSatelliteEngine
 
 engine = LiveSatelliteEngine()
 
-os.makedirs("output", exist_ok=True)
+print("\n🌍 Generating GeoJSON files...")
 
-groups = {}
-
-# Organize by group
-for norad, sat in engine.sats.items():
-    g = sat["group"]
-    groups.setdefault(g, []).append(norad)
-
-print("\n🌍 Generating GeoJSON files...\n")
-
-for group, sats in groups.items():
-
+for group in set([v["GROUP"] for v in engine.meta.values()]):
     features = []
 
-    for norad in sats:
-        p = engine.compute(norad)
-        if p is None:
+    for norad, meta in engine.meta.items():
+        if meta["GROUP"] != group:
             continue
 
-        features.append({
-            "type": "Feature",
-            "properties": p,
-            "geometry": {"type": "Point", "coordinates": [p["lon"], p["lat"]]}
-        })
+        pos = engine.compute(norad)
+        if pos is None:
+            continue
 
-    output = {"type": "FeatureCollection", "features": features}
+        feat = {
+            "type": "Feature",
+            "properties": pos,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [pos["lon"], pos["lat"]]
+            }
+        }
+
+        features.append(feat)
+
+    geojson = {
+        "type": "FeatureCollection",
+        "features": features
+    }
 
     with open(f"output/{group}.geojson", "w") as f:
-        json.dump(output, f, indent=2)
+        json.dump(geojson, f)
 
     print(f"✔ {group}.geojson → {len(features)} satellites")
 
-
-    print(f"✔ {outfile} → {len(features)} satellites")
-
+print("\n🎉 All files generated!")
