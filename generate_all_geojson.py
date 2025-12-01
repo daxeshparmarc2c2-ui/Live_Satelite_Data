@@ -15,7 +15,7 @@ for group in GP_GROUPS.keys():
             continue
 
         pos = engine.compute(norad)
-        if not pos:
+        if pos is None:
             continue
 
         features.append({
@@ -27,8 +27,9 @@ for group in GP_GROUPS.keys():
             }
         })
 
-    filename = f"output/{group}.geojson"
-    with open(filename, "w") as f:
+    outfile = f"output/{group}.geojson"
+    with open(outfile, "w") as f:
         json.dump({"type": "FeatureCollection", "features": features}, f, indent=2)
 
-    print(f"✔ {filename} ({len(features)} satellites)")
+    print(f"✔ {outfile} → {len(features)} satellites")
+
