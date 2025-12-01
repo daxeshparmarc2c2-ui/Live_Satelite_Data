@@ -14,10 +14,9 @@ class LiveSatelliteEngine:
         self.sats = {}
         self.load_all()
 
-
-    # ----------------------------------------------------
-    # LOAD ALL GP JSON GROUPS
-    # ----------------------------------------------------
+    # -------------------------------------
+    # LOAD ALL GROUPS
+    # -------------------------------------
     def load_all(self):
         for group, url in GP_GROUPS.items():
             print(f"📡 Loading {group} ...")
@@ -25,7 +24,7 @@ class LiveSatelliteEngine:
             try:
                 data = requests.get(url, headers=HEADERS, timeout=30).json()
             except Exception as e:
-                print("❌ Failed to download:", e)
+                print("❌ Failed:", e)
                 continue
 
             print(f"✔ {len(data)} satellites")
@@ -42,39 +41,38 @@ class LiveSatelliteEngine:
                 except Exception as err:
                     print("❌ init error:", err)
 
-
-    # ----------------------------------------------------
+    # -------------------------------------
     # CORRECT GP JSON → SGP4 INIT
-    # ----------------------------------------------------
+    # -------------------------------------
     def init_sgp4(self, e):
         s = Satrec()
 
-        # Epoch conversion: ISO → SGP4 epoch (days since 1949)
+        # Convert ISO8601 epoch to SGP4 epoch days since 1949
         epoch_dt = datetime.fromisoformat(e["EPOCH"].replace("Z", ""))
         epoch_days = (epoch_dt - datetime(1949, 12, 31)).total_seconds() / 86400.0
 
+        # Correct parameter order for SGP4
         s.sgp4init(
-            72,                        # gravity model (WGS-72)
-            'i',                       # opsmode ('i' = improved)
-            int(e["NORAD_CAT_ID"]),   # satellite number
-            epoch_days,               # epoch in days since 1949
-            e["BSTAR"],              # B* drag
-            e["MEAN_MOTION_DOT"],    # first derivative of mean motion
-            e["MEAN_MOTION_DDOT"],   # second derivative of mean motion
-            e["ECCENTRICITY"],       # eccentricity
-            e["ARG_OF_PERICENTER"],  # argument of pericenter
-            e["INCLINATION"],        # inclination (degrees OK)
-            e["MEAN_ANOMALY"],       # mean anomaly
-            e["MEAN_MOTION"],        # mean motion (rev/day)
-            e["RA_OF_ASC_NODE"]      # right ascension of ascending node
+            72,                        # WGS72 model
+            'i',                       # improved mode
+            int(e["NORAD_CAT_ID"]),    # satnum
+            epoch_days,                # epoch
+            e["BSTAR"],                # drag term
+            e["MEAN_MOTION_DOT"],      # ndot
+            e["MEAN_MOTION_DDOT"],     # nddot
+            e["ECCENTRICITY"],         # eccentricity
+            e["ARG_OF_PERICENTER"],    # argument of pericenter
+            e["INCLINATION"],          # inclination (deg OK)
+            e["MEAN_ANOMALY"],         # mean anomaly
+            e["MEAN_MOTION"],          # mean motion
+            e["RA_OF_ASC_NODE"]        # RAAN
         )
 
         return s
 
-
-    # ----------------------------------------------------
-    # COMPUTE SATELLITE POSITION (LON/LAT/ALT)
-    # ----------------------------------------------------
+    # -------------------------------------
+    # COMPUTE CURRENT POSITION
+    # -------------------------------------
     def compute(self, norad):
         if norad not in self.sats:
             return None
@@ -84,15 +82,12 @@ class LiveSatelliteEngine:
         group = self.sats[norad]["group"]
 
         t = datetime.now(timezone.utc)
+        jd, fr = jday(t.year, t.month, t.day,
+                      t.hour, t.minute,
+                      t.second + t.microsecond/1e6)
 
-        jd, fr = jday(
-            t.year, t.month, t.day,
-            t.hour, t.minute,
-            t.second + t.microsecond / 1e6
-        )
-
-        error, r, v = sat.sgp4(jd, fr)
-        if error != 0:
+        e, r, v = sat.sgp4(jd, fr)
+        if e != 0:
             return None
 
         x, y, z = r
@@ -100,7 +95,6 @@ class LiveSatelliteEngine:
         lon = math.degrees(math.atan2(y, x))
         hyp = math.sqrt(x*x + y*y)
         lat = math.degrees(math.atan2(z, hyp))
-
         alt = math.sqrt(x*x + y*y + z*z) - 6378.137
 
         return {
@@ -113,3 +107,4 @@ class LiveSatelliteEngine:
             "timestamp": t.isoformat(),
             "meta": meta
         }
+
