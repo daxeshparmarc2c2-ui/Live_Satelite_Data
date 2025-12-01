@@ -1,8 +1,8 @@
 import requests
+import math
 from datetime import datetime, timezone
 from sgp4.api import Satrec, jday
 from groups import GP_GROUPS
-
 
 HEADERS = {"User-Agent": "Mozilla/5.0"}
 
@@ -10,95 +10,79 @@ HEADERS = {"User-Agent": "Mozilla/5.0"}
 class LiveSatelliteEngine:
 
     def __init__(self):
-        self.meta = {}  # raw metadata JSON
-        self.tle = {}   # TLE lines
-        self.sat = {}   # Satrec objects
+        self.sats = {}
         self.load_all()
 
-    # -------------------------------------------------
-    # LOAD JSON + TLE for every group
-    # -------------------------------------------------
+    # ---------------------------------------------------------
+    # LOAD JSON + TLE FOR EACH GROUP
+    # ---------------------------------------------------------
     def load_all(self):
-
-        for group, url in GP_GROUPS.items():
-
+        for group, urls in GP_GROUPS.items():
             print(f"\n📡 Loading group: {group}")
 
-            # --- Load GP JSON metadata ---
-            try:
-                data = requests.get(url, headers=HEADERS, timeout=20).json()
-            except Exception as e:
-                print("❌ Could not load metadata:", e)
-                continue
+            # load metadata JSON
+            meta = requests.get(urls["json"], headers=HEADERS, timeout=30).json()
+            print(f"✔ Loaded {len(meta)} metadata")
 
-            print(f"✔ Loaded {len(data)} metadata")
+            # load TLE 3LE
+            tle_text = requests.get(urls["tle"], headers=HEADERS, timeout=30).text
+            tle_lines = [l.strip() for l in tle_text.split("\n") if l.strip()]
 
-            for entry in data:
-                norad = int(entry["NORAD_CAT_ID"])
+            # convert 3LE → dictionary
+            tle_map = {}
+            for i in range(0, len(tle_lines), 3):
+                name = tle_lines[i][2:].strip()
+                line1 = tle_lines[i + 1]
+                line2 = tle_lines[i + 2]
+                tle_map[name] = (line1, line2)
 
-                # Add group information into metadata
-                entry["GROUP"] = group
-                self.meta[norad] = entry
+            print(f"✔ Loaded {len(tle_map)} TLE entries")
 
-                # ----------------------------------------
-                # Load TLE for each NORAD
-                # ----------------------------------------
-                tle_url = f"https://celestrak.org/NORAD/elements/tle.php?CATNR={norad}"
-
-                try:
-                    tle_text = requests.get(tle_url, headers=HEADERS, timeout=20).text.strip()
-                    lines = tle_text.splitlines()
-
-                    if len(lines) >= 2:
-                        line1 = lines[0].strip()
-                        line2 = lines[1].strip()
-                        self.tle[norad] = {"line1": line1, "line2": line2}
-
-                        # Create Satrec object
-                        satrec = Satrec.twoline2rv(line1, line2)
-                        self.sat[norad] = satrec
-
-                except Exception:
+            # match metadata → TLE
+            for entry in meta:
+                name = entry["OBJECT_NAME"]
+                if name not in tle_map:
                     continue
 
-            print(f"✔ Loaded {len(self.tle)} TLE entries")
+                line1, line2 = tle_map[name]
+                satrec = Satrec.twoline2rv(line1, line2)
 
-        print(f"\n✨ TOTAL satellites with valid TLE: {len(self.sat)}\n")
+                norad = entry["NORAD_CAT_ID"]
+                self.sats[norad] = {
+                    "group": group,
+                    "meta": entry,
+                    "tle_line1": line1,
+                    "tle_line2": line2,
+                    "satrec": satrec
+                }
 
-    # -------------------------------------------------
-    # COMPUTE LIVE POSITION USING SGP4
-    # -------------------------------------------------
+        print(f"\n✨ TOTAL satellites with valid TLE: {len(self.sats)}")
+
+    # ---------------------------------------------------------
+    # COMPUTE POSITION
+    # ---------------------------------------------------------
     def compute_position(self, norad):
 
-        if norad not in self.sat:
+        if norad not in self.sats:
             return None
 
-        sat = self.sat[norad]
-        meta = self.meta[norad]
-        group = meta["GROUP"]
+        sat = self.sats[norad]["satrec"]
+        meta = self.sats[norad]["meta"]
+        group = self.sats[norad]["group"]
 
-        # Current UTC timestamp
         t = datetime.now(timezone.utc)
+        jd, fr = jday(t.year, t.month, t.day, t.hour, t.minute, t.second)
 
-        jd, fr = jday(t.year, t.month, t.day,
-                      t.hour, t.minute,
-                      t.second + t.microsecond / 1e6)
-
-        # Propagate
-        e, r, v = sat.sgp4(jd, fr)
-
-        if e != 0:
+        error, r, v = sat.sgp4(jd, fr)
+        if error != 0:
             return None
 
-        # Convert ECI → lat/lon (simple approximation)
         x, y, z = r
-        import math
 
         lon = math.degrees(math.atan2(y, x))
-        hyp = (x * x + y * y) ** 0.5
+        hyp = math.sqrt(x*x + y*y)
         lat = math.degrees(math.atan2(z, hyp))
-
-        alt = (x * x + y * y + z * z) ** 0.5 - 6378.137
+        alt = math.sqrt(x*x + y*y + z*z) - 6378.137
 
         return {
             "norad_id": norad,
@@ -107,7 +91,10 @@ class LiveSatelliteEngine:
             "lat": lat,
             "lon": lon,
             "alt_km": alt,
-            "timestamp": t.isoformat()
+            "timestamp": t.isoformat(),
+            "meta": meta,
+            "tle": {
+                "line1": self.sats[norad]["tle_line1"],
+                "line2": self.sats[norad]["tle_line2"]
+            }
         }
-
-
