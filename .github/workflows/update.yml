@@ -1,11 +1,11 @@
-name: Update GP Satellite GeoJSON
+name: Update Satellite GP GeoJSON
 
 permissions:
   contents: write
 
 on:
   schedule:
-    - cron: "0 * * * *"    # every hour
+    - cron: "0 * * * *"   # every hour
   workflow_dispatch:
 
 jobs:
@@ -13,18 +13,20 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - uses: actions/setup-python@v5
+      - name: Setup Python
+        uses: actions/setup-python@v5
         with:
           python-version: "3.10"
 
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Generate GeoJSON
+      - name: Generate GeoJSONs
         run: python generate_all_geojson.py
 
       - name: Commit & Push
@@ -32,5 +34,5 @@ jobs:
           git config --global user.email "actions@github.com"
           git config --global user.name "GitHub Actions"
           git add -A
-          git commit -m "Auto update GP satellite GeoJSON" || echo "No changes"
+          git commit -m "Auto update satellite GP GeoJSON" || echo "No changes"
           git push || echo "Push skipped"
