@@ -8,6 +8,55 @@ from groups import GP_GROUPS
 HEADERS = {"User-Agent": "Mozilla/5.0"}
 
 
+# ----------------------------------------------------------
+# Convert GP JSON → REAL TLE LINES
+# ----------------------------------------------------------
+def convert_gp_to_tle(entry):
+    satnum = int(entry["NORAD_CAT_ID"])
+    classification = entry["CLASSIFICATION_TYPE"]
+
+    # International Designator
+    intldes = entry["OBJECT_ID"].replace("-", "")
+
+    # Epoch
+    epoch = datetime.fromisoformat(entry["EPOCH"].replace("Z", ""))
+    epoch_year = epoch.year % 100
+    epoch_day = (
+        epoch.timetuple().tm_yday +
+        epoch.hour / 24.0 +
+        epoch.minute / 1440.0 +
+        epoch.second / 86400.0
+    )
+
+    # Eccentricity → 7-digit string
+    ecc_str = f"{float(entry['ECCENTRICITY']):.7f}".split(".")[1]
+
+    # TLE Line 1
+    line1 = (
+        f"1 {satnum:05d}{classification} {intldes:<8}"
+        f"{epoch_year:02d}{epoch_day:012.8f} "
+        f"{entry['MEAN_MOTION_DOT']: .8f} "
+        f"{entry['MEAN_MOTION_DDOT']: .8f} "
+        f"{entry['BSTAR']: .8f} 0 9999"
+    )
+
+    # TLE Line 2
+    line2 = (
+        f"2 {satnum:05d} "
+        f"{entry['INCLINATION']:8.4f} "
+        f"{entry['RA_OF_ASC_NODE']:8.4f} "
+        f"{ecc_str:7s} "
+        f"{entry['ARG_OF_PERICENTER']:8.4f} "
+        f"{entry['MEAN_ANOMALY']:8.4f} "
+        f"{entry['MEAN_MOTION']:11.8f} 0"
+    )
+
+    return line1, line2
+
+
+# ----------------------------------------------------------
+# Satellite Engine
+# ----------------------------------------------------------
 class LiveSatelliteEngine:
 
     def __init__(self):
@@ -15,95 +64,68 @@ class LiveSatelliteEngine:
         self.load_all()
 
     # -------------------------------------
-    # LOAD ALL GROUPS
-    # -------------------------------------
     def load_all(self):
         for group, url in GP_GROUPS.items():
             print(f"📡 Loading {group} ...")
 
             try:
                 data = requests.get(url, headers=HEADERS, timeout=30).json()
-            except Exception as e:
-                print("❌ Failed:", e)
+            except:
+                print("❌ Failed download")
                 continue
 
             print(f"✔ {len(data)} satellites")
 
             for entry in data:
                 try:
-                    satrec = self.init_sgp4(entry)
-                    norad = int(entry["NORAD_CAT_ID"])
-                    self.sats[norad] = {
+                    line1, line2 = convert_gp_to_tle(entry)
+                    satrec = Satrec.twoline2rv(line1, line2)
+
+                    self.sats[int(entry["NORAD_CAT_ID"])] = {
                         "group": group,
                         "meta": entry,
                         "satrec": satrec
                     }
-                except Exception as err:
-                    print("❌ init error:", err)
+
+                except Exception as e:
+                    print("❌ TLE conversion error:", e)
 
     # -------------------------------------
-    # CORRECT GP JSON → SGP4 INIT
-    # -------------------------------------
-    def init_sgp4(self, e):
-        s = Satrec()
-
-        # Convert ISO8601 epoch to SGP4 epoch days since 1949
-        epoch_dt = datetime.fromisoformat(e["EPOCH"].replace("Z", ""))
-        epoch_days = (epoch_dt - datetime(1949, 12, 31)).total_seconds() / 86400.0
-
-        # Correct parameter order for SGP4
-        s.sgp4init(
-            72,                        # WGS72 model
-            'i',                       # improved mode
-            int(e["NORAD_CAT_ID"]),    # satnum
-            epoch_days,                # epoch
-            e["BSTAR"],                # drag term
-            e["MEAN_MOTION_DOT"],      # ndot
-            e["MEAN_MOTION_DDOT"],     # nddot
-            e["ECCENTRICITY"],         # eccentricity
-            e["ARG_OF_PERICENTER"],    # argument of pericenter
-            e["INCLINATION"],          # inclination (deg OK)
-            e["MEAN_ANOMALY"],         # mean anomaly
-            e["MEAN_MOTION"],          # mean motion
-            e["RA_OF_ASC_NODE"]        # RAAN
-        )
-
-        return s
-
-    # -------------------------------------
-    # COMPUTE CURRENT POSITION
+    # COMPUTE POSITION
     # -------------------------------------
     def compute(self, norad):
         if norad not in self.sats:
             return None
 
-        sat = self.sats[norad]["satrec"]
-        meta = self.sats[norad]["meta"]
-        group = self.sats[norad]["group"]
-
         t = datetime.now(timezone.utc)
-        jd, fr = jday(t.year, t.month, t.day,
-                      t.hour, t.minute,
-                      t.second + t.microsecond/1e6)
 
-        e, r, v = sat.sgp4(jd, fr)
+        jd, fr = jday(
+            t.year, t.month, t.day,
+            t.hour, t.minute,
+            t.second + t.microsecond / 1e6
+        )
+
+        satrec = self.sats[norad]["satrec"]
+        e, r, v = satrec.sgp4(jd, fr)
+
         if e != 0:
             return None
 
         x, y, z = r
 
         lon = math.degrees(math.atan2(y, x))
-        hyp = math.sqrt(x*x + y*y)
+        hyp = math.sqrt(x * x + y * y)
         lat = math.degrees(math.atan2(z, hyp))
-        alt = math.sqrt(x*x + y*y + z*z) - 6378.137
+        alt = math.sqrt(x * x + y * y + z * z) - 6378.137
 
         return {
             "norad_id": norad,
-            "name": meta["OBJECT_NAME"],
-            "group": group,
+            "name": self.sats[norad]["meta"]["OBJECT_NAME"],
+            "group": self.sats[norad]["group"],
             "lat": lat,
             "lon": lon,
             "alt_km": alt,
             "timestamp": t.isoformat(),
-            "meta": meta
+            "meta": self.sats[norad]["meta"]
         }
+
