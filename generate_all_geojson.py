@@ -37,5 +37,6 @@ for group, sats in groups.items():
 
     print(f"✔ {group}.geojson → {len(features)} satellites")
 
+
     print(f"✔ {outfile} → {len(features)} satellites")
 
