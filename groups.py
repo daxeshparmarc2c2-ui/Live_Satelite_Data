@@ -1,0 +1,22 @@
+GP_GROUPS = {
+    "last-30-days": "https://celestrak.org/NORAD/elements/gp.php?GROUP=last-30-days&FORMAT=json",
+    "stations": "https://celestrak.org/NORAD/elements/gp.php?GROUP=stations&FORMAT=json",
+    "active": "https://celestrak.org/NORAD/elements/gp.php?GROUP=active&FORMAT=json",
+    "weather": "https://celestrak.org/NORAD/elements/gp.php?GROUP=weather&FORMAT=json",
+    "resource": "https://celestrak.org/NORAD/elements/gp.php?GROUP=resource&FORMAT=json",
+    "dmc": "https://celestrak.org/NORAD/elements/gp.php?GROUP=dmc&FORMAT=json",
+    "intelsat": "https://celestrak.org/NORAD/elements/gp.php?GROUP=intelsat&FORMAT=json",
+    "eutelsat": "https://celestrak.org/NORAD/elements/gp.php?GROUP=eutelsat&FORMAT=json",
+    "starlink": "https://celestrak.org/NORAD/elements/gp.php?GROUP=starlink&FORMAT=json",
+    "gnss": "https://celestrak.org/NORAD/elements/gp.php?GROUP=gnss&FORMAT=json",
+    "gps-ops": "https://celestrak.org/NORAD/elements/gp.php?GROUP=gps-ops&FORMAT=json",
+    "glo-ops": "https://celestrak.org/NORAD/elements/gp.php?GROUP=glo-ops&FORMAT=json",
+    "galileo": "https://celestrak.org/NORAD/elements/gp.php?GROUP=galileo&FORMAT=json",
+    "beidou": "https://celestrak.org/NORAD/elements/gp.php?GROUP=beidou&FORMAT=json",
+    "nnss": "https://celestrak.org/NORAD/elements/gp.php?GROUP=nnss&FORMAT=json",
+    "musson": "https://celestrak.org/NORAD/elements/gp.php?GROUP=musson&FORMAT=json",
+    "cosmos-1408-debris": "https://celestrak.org/NORAD/elements/gp.php?GROUP=cosmos-1408-debris&FORMAT=json",
+    "fengyun-1c-debris": "https://celestrak.org/NORAD/elements/gp.php?GROUP=fengyun-1c-debris&FORMAT=json",
+    "iridium-33-debris": "https://celestrak.org/NORAD/elements/gp.php?GROUP=iridium-33-debris&FORMAT=json",
+    "cosmos-2251-debris": "https://celestrak.org/NORAD/elements/gp.php?GROUP=cosmos-2251-debris&FORMAT=json"
+}
