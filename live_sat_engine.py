@@ -107,4 +107,3 @@ class LiveSatelliteEngine:
             "timestamp": t.isoformat(),
             "meta": meta
         }
-
