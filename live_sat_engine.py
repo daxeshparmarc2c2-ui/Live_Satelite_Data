@@ -2,71 +2,91 @@ import requests
 import math
 from datetime import datetime, timezone
 from sgp4.api import Satrec, jday
-
 from groups import GP_GROUPS
 
 HEADERS = {"User-Agent": "Mozilla/5.0"}
 
 
+def parse_tle_block(tle_text):
+    """Parses a TLE group block into {norad: (line1, line2)}"""
+    lines = tle_text.strip().splitlines()
+    tle_map = {}
+    i = 0
+
+    while i < len(lines) - 2:
+        if lines[i].startswith("1 ") and lines[i+1].startswith("2 "):
+            line1 = lines[i].strip()
+            line2 = lines[i+1].strip()
+            satnum = int(line1[2:7])
+            tle_map[satnum] = (line1, line2)
+            i += 2
+        else:
+            i += 1
+
+    return tle_map
+
+
 class LiveSatelliteEngine:
 
     def __init__(self):
-        self.sats = {}  # {norad: {...}}
+        self.sats = {}
         self.load_all()
 
     # ----------------------------------------------------
-    # Load GP JSON metadata + REAL TLE
+    # Load JSON + TLE for each group (FAST & SAFE)
     # ----------------------------------------------------
     def load_all(self):
-        for group, url in GP_GROUPS.items():
-            print(f"\n📡 Loading GP JSON for group: {group}")
+        for group, gp_url in GP_GROUPS.items():
 
+            print(f"\n📡 Loading group: {group}")
+
+            # 1. Load GP metadata
             try:
-                entries = requests.get(url, headers=HEADERS, timeout=20).json()
+                gp_data = requests.get(gp_url, headers=HEADERS, timeout=30).json()
             except Exception as e:
                 print("❌ GP fetch failed:", e)
                 continue
 
-            print(f"✔ Loaded {len(entries)} metadata entries")
+            print(f"✔ Loaded {len(gp_data)} metadata")
 
-            for meta in entries:
-                norad = int(meta["NORAD_CAT_ID"])
+            # 2. Load TLE for whole group
+            tle_url = f"https://celestrak.org/NORAD/elements/tle.php?GROUP={group}&FORMAT=tle"
 
-                # Fetch REAL TLE
-                tle_url = f"https://celestrak.org/NORAD/elements/tle.php?CATNR={norad}"
-                tle_text = requests.get(tle_url, headers=HEADERS, timeout=20).text.strip()
+            try:
+                tle_text = requests.get(tle_url, headers=HEADERS, timeout=30).text
+                tle_map = parse_tle_block(tle_text)
+            except Exception as e:
+                print("❌ TLE fetch failed:", e)
+                continue
 
-                lines = tle_text.splitlines()
-                if len(lines) < 2:
-                    print(f"❌ No TLE for {norad}")
+            print(f"✔ Loaded {len(tle_map)} TLE entries")
+
+            # 3. Match metadata to TLE
+            for entry in gp_data:
+                norad = int(entry["NORAD_CAT_ID"])
+
+                if norad not in tle_map:
                     continue
 
-                # Sometimes name line is included
-                if len(lines) == 3:
-                    line1 = lines[1].strip()
-                    line2 = lines[2].strip()
-                else:
-                    line1 = lines[-2].strip()
-                    line2 = lines[-1].strip()
+                line1, line2 = tle_map[norad]
 
                 try:
                     satrec = Satrec.twoline2rv(line1, line2)
-                except Exception as err:
-                    print(f"❌ TLE parse error for {norad}: {err}")
+                except Exception:
                     continue
 
                 self.sats[norad] = {
+                    "meta": entry,
                     "group": group,
-                    "meta": meta,
                     "line1": line1,
                     "line2": line2,
                     "satrec": satrec
                 }
 
-        print(f"\n✨ Total satellites loaded with TLE: {len(self.sats)}")
+        print(f"\n✨ TOTAL satellites loaded with valid TLE: {len(self.sats)}")
 
     # ----------------------------------------------------
-    # Compute current satellite position (SGP4)
+    # Compute current satellite position
     # ----------------------------------------------------
     def compute(self, norad):
         if norad not in self.sats:
@@ -76,6 +96,7 @@ class LiveSatelliteEngine:
         satrec = sat["satrec"]
 
         t = datetime.now(timezone.utc)
+
         jd, fr = jday(
             t.year, t.month, t.day,
             t.hour, t.minute,
@@ -84,12 +105,10 @@ class LiveSatelliteEngine:
 
         e, r, v = satrec.sgp4(jd, fr)
         if e != 0:
-            # Propagation error — skip
             return None
 
         x, y, z = r
 
-        # Convert TEME position to Earth lat/lon/alt
         lon = math.degrees(math.atan2(y, x))
         hyp = math.sqrt(x*x + y*y)
         lat = math.degrees(math.atan2(z, hyp))
@@ -103,13 +122,10 @@ class LiveSatelliteEngine:
             "lon": lon,
             "alt_km": alt,
             "timestamp": t.isoformat(),
-
-            # FULL metadata included!
             "meta": sat["meta"],
-
-            # Keep full TLE too
             "tle": {
                 "line1": sat["line1"],
                 "line2": sat["line2"]
             }
         }
+
