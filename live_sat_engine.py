@@ -2,92 +2,87 @@ import requests
 import math
 from datetime import datetime, timezone
 from sgp4.api import Satrec, jday
+from groups import GP_GROUPS
 
-BASE_URL = "https://celestrak.org/NORAD/elements/gp.php?GROUP={}&FORMAT=json"
-HEADERS = {"User-Agent": "Mozilla/5.0", "Accept": "application/json"}
+HEADERS = {"User-Agent": "Mozilla/5.0"}
 
-CELESTRAK_GROUPS = [
-    "last-30-days",
-    "stations",
-    "active",
-    "weather",
-    "resource",
-    "dmc",
-    "intelsat",
-    "eutelsat",
-    "starlink",
-    "gnss",
-    "gps-ops",
-    "glo-ops",
-    "galileo",
-    "beidou",
-    "nnss",
-    "musson",
-    "cosmos-1408-debris",
-    "fengyun-1c-debris",
-    "iridium-33-debris",
-    "cosmos-2251-debris",
-]
+class LiveSatelliteEngine:
 
-def fetch_group(name):
-    url = BASE_URL.format(name)
-    try:
-        r = requests.get(url, headers=HEADERS, timeout=20)
-        return r.json()
-    except:
-        return []
+    def __init__(self):
+        self.sats = {}
+        self.load_all()
 
-def to_ttle_date(entry):
-    dt = datetime.fromisoformat(entry["EPOCH"].replace("Z", ""))
-    epoch_year = dt.year % 100
-    epoch_day = dt.timetuple().tm_yday + (
-        dt.hour / 24 + dt.minute / 1440 + dt.second / 86400
-    )
-    return epoch_year, epoch_day
+    def load_all(self):
+        for group, url in GP_GROUPS.items():
+            print(f"📡 Loading {group} ...")
 
-def to_tle(entry):
-    satnum = int(entry["NORAD_CAT_ID"])
-    intl = entry["OBJECT_ID"].replace("-", "")
+            try:
+                data = requests.get(url, headers=HEADERS, timeout=30).json()
+            except:
+                print("❌ Failed to load group")
+                continue
 
-    epoch_year, epoch_day = to_ttle_date(entry)
+            print(f"✔ {len(data)} satellites")
 
-    ndot = float(entry["MEAN_MOTION_DOT"])
-    nddot = float(entry["MEAN_MOTION_DDOT"])
-    bstar = float(entry["BSTAR"])
+            for e in data:
+                try:
+                    satrec = self.init_sgp4(e)
+                    norad = int(e["NORAD_CAT_ID"])
+                    self.sats[norad] = {
+                        "group": group,
+                        "meta": e,
+                        "satrec": satrec
+                    }
+                except Exception as err:
+                    print("   ❌ init error:", err)
 
-    line1 = (
-        f"1 {satnum:05d}U {intl:8s} "
-        f"{epoch_year:02d}{epoch_day:012.8f} "
-        f"{ndot: .8f} {nddot: .8f} {bstar: .8f} 0 9999"
-    )
+    def init_sgp4(self, e):
+        s = Satrec()
+        s.sgp4init(
+            72,                         # gravity model
+            e["EPHEMERIS_TYPE"],        # ephemeris type
+            int(e["NORAD_CAT_ID"]),     # NORAD ID
+            e["EPOCH"],                 # epoch timestamp
+            e["MEAN_MOTION_DOT"],       # first time derivative
+            e["MEAN_MOTION_DDOT"],      # second time derivative
+            e["BSTAR"],                 # drag term
+            e["INCLINATION"],           # radians? No → degrees OK
+            e["RA_OF_ASC_NODE"],
+            e["ECCENTRICITY"],
+            e["ARG_OF_PERICENTER"],
+            e["MEAN_ANOMALY"],
+            e["MEAN_MOTION"]
+        )
+        return s
 
-    ecc = int(float(entry["ECCENTRICITY"]) * 1e7)
+    def compute(self, norad):
+        sat = self.sats[norad]["satrec"]
+        meta = self.sats[norad]["meta"]
+        group = self.sats[norad]["group"]
 
-    line2 = (
-        f"2 {satnum:05d} "
-        f"{float(entry['INCLINATION']):8.4f} "
-        f"{float(entry['RA_OF_ASC_NODE']):8.4f} "
-        f"{ecc:07d} "
-        f"{float(entry['ARG_OF_PERICENTER']):8.4f} "
-        f"{float(entry['MEAN_ANOMALY']):8.4f} "
-        f"{float(entry['MEAN_MOTION']):11.8f} 0"
-    )
+        t = datetime.now(timezone.utc)
 
-    return line1, line2
+        jd, fr = jday(t.year, t.month, t.day,
+                      t.hour, t.minute,
+                      t.second + t.microsecond/1e6)
 
-def compute_position(satrec):
-    now = datetime.now(timezone.utc)
-    jd, fr = jday(
-        now.year, now.month, now.day,
-        now.hour, now.minute, now.second
-    )
-    e, r, v = satrec.sgp4(jd, fr)
-    if e != 0:
-        return None
-    x, y, z = r
-    lon = math.degrees(math.atan2(y, x))
-    hyp = math.sqrt(x*x + y*y)
-    lat = math.degrees(math.atan2(z, hyp))
-    alt = math.sqrt(x*x + y*y + z*z) - 6378.137
-    return lon, lat, alt, now.isoformat()
+        e, r, v = sat.sgp4(jd, fr)
+        if e != 0:
+            return None
 
+        x, y, z = r
+        lon = math.degrees(math.atan2(y, x))
+        hyp = math.sqrt(x*x + y*y)
+        lat = math.degrees(math.atan2(z, hyp))
+        alt = math.sqrt(x*x + y*y + z*z) - 6378.137
+
+        return {
+            "norad_id": norad,
+            "name": meta["OBJECT_NAME"],
+            "group": group,
+            "lat": lat,
+            "lon": lon,
+            "alt_km": alt,
+            "timestamp": t.isoformat(),
+            "meta": meta
+        }
