@@ -1,33 +1,45 @@
-name: Update Live Satellite GeoJSON
+name: Update Satellite GeoJSON
 
 on:
   schedule:
-    - cron: "*/10 * * * *"
-  workflow_dispatch:
+    - cron: "0 * * * *"     # run at the top of every hour
+  workflow_dispatch:         # allow manual run
 
 jobs:
-  build:
+  update:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v3
+      - name: Checkout Repo
+        uses: actions/checkout@v3
 
-    - name: Set up Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: "3.10"
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
 
-    - name: Install Requirements
-      run: |
-        pip install sgp4 requests
+      - name: Install dependencies
+        run: |
+          pip install sgp4 requests
 
-    - name: Generate GeoJSON
-      run: python generate_all_geojson.py
+      - name: Run satellite generator
+        run: |
+          python generate_all_geojson.py
 
-    - name: Commit and Push
-      run: |
-        git config --global user.name "github-actions"
-        git config --global user.email "actions@github.com"
-        git add output/*.geojson
-        git commit -m "Auto update live satellite geojson" || echo "No changes"
-        git push
+      - name: Commit updated output/*.geojson
+        run: |
+          git config --global user.email "actions@github.com"
+          git config --global user.name "actions-user"
+
+          git add output/*.geojson || true
+          git commit -m "Updated satellite output files" || true
+          git push || true
+
+      - name: Trigger flatten workflow
+        run: |
+          echo "🚀 Triggering flatten workflow..."
+          curl -X POST \
+            -H "Accept: application/vnd.github+json" \
+            -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+            https://api.github.com/repos/${{ github.repository }}/dispatches \
+            -d '{"event_type":"run-flatten"}'
