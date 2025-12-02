@@ -2,24 +2,26 @@ import json
 import os
 import glob
 
-INPUT_DIR = "."
-OUTPUT_DIR = "flattened"
+# Your original GeoJSON folder
+INPUT_DIR = "output"
 
+# New folder for flattened GeoJSON
+OUTPUT_DIR = "flattened"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 def flatten_properties(props):
     flat = {}
 
-    # Keep main fields
-    for k in ["norad_id", "name", "group", "lat", "lon", "alt_km", "timestamp"]:
-        flat[k] = props.get(k)
+    # Keep original top-level fields
+    for key in ["norad_id", "name", "group", "lat", "lon", "alt_km", "timestamp"]:
+        flat[key] = props.get(key)
 
-    # Flatten metadata
+    # Flatten meta fields
     meta = props.get("meta", {})
     for mk, mv in meta.items():
         flat[f"meta_{mk.lower()}"] = mv
 
-    # Flatten TLE fields
+    # Flatten tle fields
     tle = props.get("tle", {})
     for tk, tv in tle.items():
         flat[f"tle_{tk.lower()}"] = tv
@@ -27,31 +29,32 @@ def flatten_properties(props):
     return flat
 
 
-print("🔍 Searching for GeoJSON files...")
+print(f"🔍 Searching for GeoJSON files inside: {INPUT_DIR}/")
 
-# Process all original GeoJSON files (not inside flattened/)
-for file in glob.glob("*.geojson"):
-    print(f"📄 Flattening {file}")
+for file_path in glob.glob(f"{INPUT_DIR}/*.geojson"):
+    print(f"📄 Flattening: {file_path}")
 
-    with open(file, "r") as f:
+    with open(file_path, "r") as f:
         data = json.load(f)
 
-    new_features = []
-    for feat in data.get("features", []):
-        new_features.append({
+    flattened_features = []
+    for feature in data.get("features", []):
+        flattened_features.append({
             "type": "Feature",
-            "properties": flatten_properties(feat["properties"]),
-            "geometry": feat["geometry"]
+            "properties": flatten_properties(feature["properties"]),
+            "geometry": feature["geometry"]
         })
 
-    output_file = os.path.join(OUTPUT_DIR, file)
+    out_name = os.path.basename(file_path)
+    out_path = os.path.join(OUTPUT_DIR, out_name)
 
-    with open(output_file, "w") as f:
+    with open(out_path, "w") as f:
         json.dump({
             "type": "FeatureCollection",
-            "features": new_features
+            "features": flattened_features
         }, f, indent=2)
 
-    print(f"✔ Saved flattened → {output_file}")
+    print(f"✔ Saved flattened file → {out_path}")
 
-print("🎉 Flattening complete!")
+print("🎉 Done! All flattened files created in /flattened/")
+
