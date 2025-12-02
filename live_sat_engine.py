@@ -1,107 +1,86 @@
-# live_sat_engine.py
-
 import requests
-import time
-import math
 from datetime import datetime, timezone
+import math
+import time
 from sgp4.api import Satrec, jday
+from groups import GP_GROUPS, gp_json_url, tle_url
 
-from groups import GP_GROUPS
 
 HEADERS = {"User-Agent": "Mozilla/5.0"}
-
-SAFE_DELAY = 0.20   # Recommended safe mode
 
 
 class LiveSatelliteEngine:
 
     def __init__(self):
-        self.sats = {}   # {norad: {group, meta, satrec}}
-        self.load_all_groups()
+        self.data = {}  # combined per group
 
-    # --------------------------------------------------
-    # LOAD ALL GROUPS (metadata + TLE)
-    # --------------------------------------------------
+    # -----------------------------------------------------
+    # Load metadata + TLE for all groups
+    # -----------------------------------------------------
     def load_all_groups(self):
-        for group, url in GP_GROUPS.items():
-
+        for group, group_key in GP_GROUPS.items():
             print(f"\n📡 Loading group: {group}")
 
-            try:
-                gp = requests.get(url, headers=HEADERS, timeout=25).json()
-            except Exception as e:
-                print("❌ GP JSON error:", e)
-                continue
+            # ---------------- META JSON ----------------
+            meta = requests.get(gp_json_url(group), headers=HEADERS, timeout=30).json()
+            print(f"✔ Loaded {len(meta)} metadata")
 
-            print(f"✔ Loaded {len(gp)} metadata")
+            # Convert metadata into dict by NORAD
+            meta_dict = {int(e["NORAD_CAT_ID"]): e for e in meta}
 
-            count_tle = 0
-            for entry in gp:
-                tle_url = f"https://celestrak.org/NORAD/elements/tle.php?CATNR={entry['NORAD_CAT_ID']}"
+            # ---------------- TLE BULK DOWNLOAD ----------------
+            tle_text = requests.get(tle_url(group), headers=HEADERS, timeout=30).text
+            lines = tle_text.strip().splitlines()
+            tle_dict = {}
 
-                try:
-                    tle_text = requests.get(tle_url, headers=HEADERS, timeout=25).text.strip()
-                    lines = tle_text.splitlines()
-                    if len(lines) < 2:
-                        continue
+            for i in range(0, len(lines) - 2, 3):
+                name = lines[i].strip()
+                l1 = lines[i+1].strip()
+                l2 = lines[i+2].strip()
+                satnum = int(l1[2:7])
+                tle_dict[satnum] = {"name": name, "l1": l1, "l2": l2}
 
-                    satrec = Satrec.twoline2rv(lines[0], lines[1])
-                    self.sats[int(entry["NORAD_CAT_ID"])] = {
-                        "group": group,
-                        "meta": entry,
-                        "tle1": lines[0],
-                        "tle2": lines[1],
-                        "satrec": satrec
+            print(f"✔ Loaded {len(tle_dict)} TLE entries")
+
+            # ------------- MERGE TLE + METADATA -------------
+            merged = {}
+            for norad, tle in tle_dict.items():
+                if norad in meta_dict:
+                    merged[norad] = {
+                        "metadata": meta_dict[norad],
+                        "tle": tle
                     }
-                    count_tle += 1
 
-                except:
-                    pass
+            print(f"✔ Final merged satellites: {len(merged)}")
 
-                time.sleep(SAFE_DELAY)
+            self.data[group] = merged
 
-            print(f"✔ Loaded {count_tle} TLE entries")
+    # -----------------------------------------------------
+    # Compute satellite position from TLE
+    # -----------------------------------------------------
+    def compute_position(self, tle):
+        line1 = tle["l1"]
+        line2 = tle["l2"]
 
-        print(f"\n✨ TOTAL satellites with valid TLE: {len(self.sats)}\n")
-
-    # --------------------------------------------------
-    # COMPUTE SATELLITE POSITION NOW
-    # --------------------------------------------------
-    def compute_position(self, norad):
-        if norad not in self.sats:
-            return None
-
-        sat = self.sats[norad]
-        satrec = sat["satrec"]
+        sat = Satrec.twoline2rv(line1, line2)
 
         t = datetime.now(timezone.utc)
-        jd, fr = jday(
-            t.year, t.month, t.day,
-            t.hour, t.minute, t.second + t.microsecond / 1e6
-        )
+        jd, fr = jday(t.year, t.month, t.day,
+                      t.hour, t.minute, t.second + t.microsecond/1e6)
 
-        e, r, v = satrec.sgp4(jd, fr)
+        e, r, v = sat.sgp4(jd, fr)
         if e != 0:
             return None
 
         x, y, z = r
-
         lon = math.degrees(math.atan2(y, x))
-        hyp = math.sqrt(x * x + y * y)
+        hyp = math.sqrt(x*x + y*y)
         lat = math.degrees(math.atan2(z, hyp))
-        alt = math.sqrt(x * x + y * y + z * z) - 6378.137
+        alt = math.sqrt(x*x + y*y + z*z) - 6378.137
 
         return {
-            "norad_id": norad,
-            "name": sat["meta"]["OBJECT_NAME"],
-            "group": sat["group"],
             "lat": lat,
             "lon": lon,
             "alt_km": alt,
-            "timestamp": t.isoformat(),
-            "meta": sat["meta"],
-            "tle": {
-                "line1": sat["tle1"],
-                "line2": sat["tle2"]
-            }
+            "timestamp": t.isoformat()
         }
