@@ -1,39 +1,34 @@
-# generate_all_geojson.py
-
 import json
-import os
 from live_sat_engine import LiveSatelliteEngine
-from groups import GP_GROUPS
-
-os.makedirs("output", exist_ok=True)
 
 engine = LiveSatelliteEngine()
+engine.load_all_groups()
 
 print("\n🌍 Generating GeoJSON files...")
 
-for group in GP_GROUPS.keys():
+for group, sats in engine.data.items():
     features = []
 
-    for norad, sat in engine.sats.items():
-        if sat["group"] != group:
+    for norad, sat_data in sats.items():
+        pos = engine.compute_position(sat_data["tle"])
+        if pos is None:
             continue
 
-        pos = engine.compute_position(norad)
-        if not pos:
-            continue
+        meta = sat_data["metadata"]
+        tle = sat_data["tle"]
 
         feature = {
             "type": "Feature",
             "properties": {
-                "norad_id": pos["norad_id"],
-                "name": pos["name"],
-                "group": pos["group"],
-                "lat": pos["lat"],
-                "lon": pos["lon"],
-                "alt_km": pos["alt_km"],
-                "timestamp": pos["timestamp"],
-                "meta": pos["meta"],
-                "tle": pos["tle"]
+                "norad_id": norad,
+                "name": meta["OBJECT_NAME"],
+                "group": group,
+                **pos,
+                "meta": meta,
+                "tle": {
+                    "line1": tle["l1"],
+                    "line2": tle["l2"]
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -47,8 +42,7 @@ for group in GP_GROUPS.keys():
         "features": features
     }
 
-    outfile = f"output/{group}.geojson"
-    with open(outfile, "w") as f:
+    with open(f"output/{group}.geojson", "w") as f:
         json.dump(out, f)
 
     print(f"✔ {group}.geojson → {len(features)} satellites")
