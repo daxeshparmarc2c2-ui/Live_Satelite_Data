@@ -7,10 +7,10 @@
         "norad_id": 28187,
         "name": "EUTELSAT 7A",
         "group": "eutelsat",
-        "lat": 3.6374588965717645,
-        "lon": 116.72077782369365,
-        "alt_km": 35791.96501228541,
-        "timestamp": "2025-12-12T11:38:31.087475+00:00",
+        "lat": 5.35605059447685,
+        "lon": 162.14320637581176,
+        "alt_km": 35790.610754902795,
+        "timestamp": "2025-12-12T14:39:17.642485+00:00",
         "meta_object_name": "EUTELSAT 7A",
         "meta_object_id": "2004-008A",
         "meta_epoch": "2025-12-11T23:07:14.381760",
@@ -34,8 +34,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          116.72077782369365,
-          3.6374588965717645
+          162.14320637581176,
+          5.35605059447685
         ]
       }
     },
@@ -45,35 +45,35 @@
         "norad_id": 28924,
         "name": "EUTELSAT 174A",
         "group": "eutelsat",
-        "lat": -0.5525291155687757,
-        "lon": 70.10055112724503,
-        "alt_km": 35812.04415274197,
-        "timestamp": "2025-12-12T11:38:31.087498+00:00",
+        "lat": 2.242097056053214,
+        "lon": 115.28740637938905,
+        "alt_km": 35807.466696206924,
+        "timestamp": "2025-12-12T14:39:17.642505+00:00",
         "meta_object_name": "EUTELSAT 174A",
         "meta_object_id": "2005-052A",
-        "meta_epoch": "2025-12-12T02:19:21.169056",
-        "meta_mean_motion": 1.00273643,
-        "meta_eccentricity": 0.0006358,
-        "meta_inclination": 3.747,
-        "meta_ra_of_asc_node": 78.8599,
-        "meta_arg_of_pericenter": 182.1857,
-        "meta_mean_anomaly": 28.8492,
+        "meta_epoch": "2025-12-12T04:02:05.433216",
+        "meta_mean_motion": 1.00273673,
+        "meta_eccentricity": 0.00063539,
+        "meta_inclination": 3.7471,
+        "meta_ra_of_asc_node": 78.8592,
+        "meta_arg_of_pericenter": 182.256,
+        "meta_mean_anomaly": 54.5347,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 28924,
         "meta_element_set_no": 999,
         "meta_rev_at_epoch": 5045,
         "meta_bstar": 0,
-        "meta_mean_motion_dot": 1.8e-07,
+        "meta_mean_motion_dot": 1.9e-07,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 28924U 05052A   25346.09677279  .00000018  00000+0  00000+0 0  9991",
-        "tle_line2": "2 28924   3.7470  78.8599 0006358 182.1857  28.8492  1.00273643 50451"
+        "tle_line1": "1 28924U 05052A   25346.16811844  .00000019  00000+0  00000+0 0  9998",
+        "tle_line2": "2 28924   3.7471  78.8592 0006353 182.2560  54.5347  1.00273673 50450"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          70.10055112724503,
-          -0.5525291155687757
+          115.28740637938905,
+          2.242097056053214
         ]
       }
     },
@@ -83,19 +83,19 @@
         "norad_id": 29270,
         "name": "EUTELSAT HOTBIRD 13B",
         "group": "eutelsat",
-        "lat": -0.5092324499172226,
-        "lon": -70.83225498421396,
-        "alt_km": 35773.41754852205,
-        "timestamp": "2025-12-12T11:38:31.087513+00:00",
+        "lat": -1.1111479128523674,
+        "lon": -25.49639421675692,
+        "alt_km": 35783.788223108444,
+        "timestamp": "2025-12-12T14:39:17.642518+00:00",
         "meta_object_name": "EUTELSAT HOTBIRD 13B",
         "meta_object_id": "2006-032A",
-        "meta_epoch": "2025-12-12T01:39:10.018080",
-        "meta_mean_motion": 1.0026935,
-        "meta_eccentricity": 0.0003802,
-        "meta_inclination": 1.1792,
-        "meta_ra_of_asc_node": 84.3755,
-        "meta_arg_of_pericenter": 170.8623,
-        "meta_mean_anomaly": 243.6696,
+        "meta_epoch": "2025-12-12T05:04:36.945408",
+        "meta_mean_motion": 1.00269431,
+        "meta_eccentricity": 0.00037966,
+        "meta_inclination": 1.1795,
+        "meta_ra_of_asc_node": 84.3732,
+        "meta_arg_of_pericenter": 171.0194,
+        "meta_mean_anomaly": 295.0165,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 29270,
@@ -104,14 +104,14 @@
         "meta_bstar": 0,
         "meta_mean_motion_dot": 1.65e-06,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 29270U 06032A   25346.06886595  .00000165  00000+0  00000+0 0  9998",
-        "tle_line2": "2 29270   1.1792  84.3755 0003802 170.8623 243.6696  1.00269350 45432"
+        "tle_line1": "1 29270U 06032A   25346.21153872  .00000165  00000+0  00000+0 0  9990",
+        "tle_line2": "2 29270   1.1795  84.3732 0003796 171.0194 295.0165  1.00269431 45430"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.83225498421396,
-          -0.5092324499172226
+          -25.49639421675692,
+          -1.1111479128523674
         ]
       }
     },
@@ -121,35 +121,35 @@
         "norad_id": 33459,
         "name": "EUTELSAT HOTBIRD 13C",
         "group": "eutelsat",
-        "lat": 1.9506474655912807,
-        "lon": -151.21409747797017,
-        "alt_km": 35849.701515724824,
-        "timestamp": "2025-12-12T11:38:31.087527+00:00",
+        "lat": 0.30117636791494534,
+        "lon": -106.01342578492056,
+        "alt_km": 35845.254047608214,
+        "timestamp": "2025-12-12T14:39:17.642530+00:00",
         "meta_object_name": "EUTELSAT HOTBIRD 13C",
         "meta_object_id": "2008-065A",
-        "meta_epoch": "2025-12-12T02:59:02.366016",
-        "meta_mean_motion": 1.00046658,
-        "meta_eccentricity": 0.000152,
-        "meta_inclination": 2.4704,
-        "meta_ra_of_asc_node": 81.4298,
-        "meta_arg_of_pericenter": 222.936,
-        "meta_mean_anomaly": 134.4812,
+        "meta_epoch": "2025-12-12T06:24:29.295936",
+        "meta_mean_motion": 1.00046622,
+        "meta_eccentricity": 0.0001523,
+        "meta_inclination": 2.4707,
+        "meta_ra_of_asc_node": 81.4289,
+        "meta_arg_of_pericenter": 223.4963,
+        "meta_mean_anomaly": 185.3091,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 33459,
         "meta_element_set_no": 999,
-        "meta_rev_at_epoch": 4546,
+        "meta_rev_at_epoch": 4547,
         "meta_bstar": 0,
         "meta_mean_motion_dot": -2.72e-06,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 33459U 08065A   25346.12433294 -.00000272  00000+0  00000+0 0  9991",
-        "tle_line2": "2 33459   2.4704  81.4298 0001520 222.9360 134.4812  1.00046658 45469"
+        "tle_line1": "1 33459U 08065A   25346.26700574 -.00000272  00000+0  00000+0 0  9994",
+        "tle_line2": "2 33459   2.4707  81.4289 0001523 223.4963 185.3091  1.00046622 45476"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -151.21409747797017,
-          1.9506474655912807
+          -106.01342578492056,
+          0.30117636791494534
         ]
       }
     },
@@ -159,35 +159,35 @@
         "norad_id": 36101,
         "name": "EUTELSAT 36B",
         "group": "eutelsat",
-        "lat": -0.04644006606159109,
-        "lon": -53.38453536386652,
-        "alt_km": 35766.528880909136,
-        "timestamp": "2025-12-12T11:38:31.087540+00:00",
+        "lat": -0.01122423982508017,
+        "lon": -8.044729783276187,
+        "alt_km": 35785.59225144805,
+        "timestamp": "2025-12-12T14:39:17.642541+00:00",
         "meta_object_name": "EUTELSAT 36B",
         "meta_object_id": "2009-065A",
-        "meta_epoch": "2025-12-12T03:26:52.203264",
-        "meta_mean_motion": 1.00273841,
-        "meta_eccentricity": 0.0006331,
+        "meta_epoch": "2025-12-12T05:09:36.467424",
+        "meta_mean_motion": 1.00273875,
+        "meta_eccentricity": 0.00063299,
         "meta_inclination": 0.0405,
-        "meta_ra_of_asc_node": 12.5282,
-        "meta_arg_of_pericenter": 249.0796,
-        "meta_mean_anomaly": 281.7107,
+        "meta_ra_of_asc_node": 13.1357,
+        "meta_arg_of_pericenter": 248.5187,
+        "meta_mean_anomaly": 307.4194,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 36101,
         "meta_element_set_no": 999,
         "meta_rev_at_epoch": 5883,
         "meta_bstar": 0,
-        "meta_mean_motion_dot": 1.21e-06,
+        "meta_mean_motion_dot": 1.22e-06,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 36101U 09065A   25346.14365976  .00000121  00000+0  00000+0 0  9994",
-        "tle_line2": "2 36101   0.0405  12.5282 0006331 249.0796 281.7107  1.00273841 58838"
+        "tle_line1": "1 36101U 09065A   25346.21500541  .00000122  00000+0  00000+0 0  9992",
+        "tle_line2": "2 36101   0.0405  13.1357 0006329 248.5187 307.4194  1.00273875 58832"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -53.38453536386652,
-          -0.04644006606159109
+          -8.044729783276187,
+          -0.01122423982508017
         ]
       }
     },
@@ -197,35 +197,35 @@
         "norad_id": 37258,
         "name": "EUTELSAT KA-SAT 9A",
         "group": "eutelsat",
-        "lat": -0.06438136715583297,
-        "lon": -94.90626200822506,
-        "alt_km": 35785.086215282805,
-        "timestamp": "2025-12-12T11:38:31.087553+00:00",
+        "lat": -0.02984477432909021,
+        "lon": -49.58426359338852,
+        "alt_km": 35790.10881504212,
+        "timestamp": "2025-12-12T14:39:17.642552+00:00",
         "meta_object_name": "EUTELSAT KA-SAT 9A",
         "meta_object_id": "2010-069A",
-        "meta_epoch": "2025-12-11T23:42:38.674368",
-        "meta_mean_motion": 1.00270372,
-        "meta_eccentricity": 0.0001724,
-        "meta_inclination": 0.0496,
-        "meta_ra_of_asc_node": 337.0002,
-        "meta_arg_of_pericenter": 208.7598,
-        "meta_mean_anomaly": 259.8642,
+        "meta_epoch": "2025-12-12T03:15:00.838368",
+        "meta_mean_motion": 1.00272733,
+        "meta_eccentricity": 0.00018427,
+        "meta_inclination": 0.0495,
+        "meta_ra_of_asc_node": 337.0485,
+        "meta_arg_of_pericenter": 209.2337,
+        "meta_mean_anomaly": 312.582,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 37258,
         "meta_element_set_no": 999,
         "meta_rev_at_epoch": 4213,
         "meta_bstar": 0,
-        "meta_mean_motion_dot": 7e-07,
+        "meta_mean_motion_dot": 7.1e-07,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 37258U 10069A   25345.98794762  .00000070  00000+0  00000+0 0  9997",
-        "tle_line2": "2 37258   0.0496 337.0002 0001724 208.7598 259.8642  1.00270372 42132"
+        "tle_line1": "1 37258U 10069A   25346.13542637  .00000071  00000+0  00000+0 0  9998",
+        "tle_line2": "2 37258   0.0495 337.0485 0001842 209.2337 312.5820  1.00272733 42132"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -94.90626200822506,
-          -0.06438136715583297
+          -49.58426359338852,
+          -0.02984477432909021
         ]
       }
     },
@@ -235,19 +235,19 @@
         "norad_id": 37816,
         "name": "EUTELSAT 7 WEST A",
         "group": "eutelsat",
-        "lat": -0.08296084392039804,
-        "lon": -111.22723834545413,
-        "alt_km": 35763.969799039594,
-        "timestamp": "2025-12-12T11:38:31.087566+00:00",
+        "lat": -0.06005931083864133,
+        "lon": -65.87389881176205,
+        "alt_km": 35776.74180639585,
+        "timestamp": "2025-12-12T14:39:17.642563+00:00",
         "meta_object_name": "EUTELSAT 7 WEST A",
         "meta_object_id": "2011-051A",
-        "meta_epoch": "2025-12-12T03:10:23.780352",
-        "meta_mean_motion": 1.00271314,
-        "meta_eccentricity": 0.0005653,
-        "meta_inclination": 0.0646,
-        "meta_ra_of_asc_node": 341.5342,
-        "meta_arg_of_pericenter": 245.7177,
-        "meta_mean_anomaly": 254.1255,
+        "meta_epoch": "2025-12-12T04:53:08.043648",
+        "meta_mean_motion": 1.00271328,
+        "meta_eccentricity": 0.00056485,
+        "meta_inclination": 0.0647,
+        "meta_ra_of_asc_node": 341.7455,
+        "meta_arg_of_pericenter": 245.5287,
+        "meta_mean_anomaly": 279.8579,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 37816,
@@ -256,14 +256,14 @@
         "meta_bstar": 0,
         "meta_mean_motion_dot": -5.1e-07,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 37816U 11051A   25346.13221968 -.00000051  00000+0  00000+0 0  9990",
-        "tle_line2": "2 37816   0.0646 341.5342 0005653 245.7177 254.1255  1.00271314 52007"
+        "tle_line1": "1 37816U 11051A   25346.20356532 -.00000051  00000+0  00000+0 0  9994",
+        "tle_line2": "2 37816   0.0647 341.7455 0005648 245.5287 279.8579  1.00271328 52007"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -111.22723834545413,
-          -0.08296084392039804
+          -65.87389881176205,
+          -0.06005931083864133
         ]
       }
     },
@@ -273,35 +273,35 @@
         "norad_id": 37836,
         "name": "EUTELSAT 16A",
         "group": "eutelsat",
-        "lat": -0.07510246527210776,
-        "lon": -87.93674987088121,
-        "alt_km": 35760.67543302579,
-        "timestamp": "2025-12-12T11:38:31.087578+00:00",
+        "lat": -0.05301187275797526,
+        "lon": -42.57265161247536,
+        "alt_km": 35770.28601213886,
+        "timestamp": "2025-12-12T14:39:17.642575+00:00",
         "meta_object_name": "EUTELSAT 16A",
         "meta_object_id": "2011-057A",
-        "meta_epoch": "2025-12-12T03:17:00.645792",
-        "meta_mean_motion": 1.00272084,
-        "meta_eccentricity": 0.000602,
-        "meta_inclination": 0.0593,
-        "meta_ra_of_asc_node": 8.4471,
-        "meta_arg_of_pericenter": 256.8063,
-        "meta_mean_anomaly": 241.0867,
+        "meta_epoch": "2025-12-12T06:42:27.574848",
+        "meta_mean_motion": 1.00272138,
+        "meta_eccentricity": 0.00060253,
+        "meta_inclination": 0.0595,
+        "meta_ra_of_asc_node": 8.9324,
+        "meta_arg_of_pericenter": 256.4416,
+        "meta_mean_anomaly": 292.4691,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 37836,
         "meta_element_set_no": 999,
         "meta_rev_at_epoch": 545,
         "meta_bstar": 0,
-        "meta_mean_motion_dot": 1.13e-06,
+        "meta_mean_motion_dot": 1.14e-06,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 37836U 11057A   25346.13681303  .00000113  00000+0  00000+0 0  9999",
-        "tle_line2": "2 37836   0.0593   8.4471 0006020 256.8063 241.0867  1.00272084  5454"
+        "tle_line1": "1 37836U 11057A   25346.27948582  .00000114  00000+0  00000+0 0  9990",
+        "tle_line2": "2 37836   0.0595   8.9324 0006025 256.4416 292.4691  1.00272138  5456"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.93674987088121,
-          -0.07510246527210776
+          -42.57265161247536,
+          -0.05301187275797526
         ]
       }
     },
@@ -311,35 +311,35 @@
         "norad_id": 38992,
         "name": "EUTELSAT 21B",
         "group": "eutelsat",
-        "lat": -0.08230435194441557,
-        "lon": -82.34354307167368,
-        "alt_km": 35771.88733299574,
-        "timestamp": "2025-12-12T11:38:31.087590+00:00",
+        "lat": -0.049606080269122645,
+        "lon": -37.00002753155504,
+        "alt_km": 35777.22872464981,
+        "timestamp": "2025-12-12T14:39:17.642585+00:00",
         "meta_object_name": "EUTELSAT 21B",
         "meta_object_id": "2012-062B",
-        "meta_epoch": "2025-12-12T03:18:37.990944",
-        "meta_mean_motion": 1.00272222,
-        "meta_eccentricity": 0.0003344,
-        "meta_inclination": 0.0668,
-        "meta_ra_of_asc_node": 4.6284,
-        "meta_arg_of_pericenter": 266.0892,
-        "meta_mean_anomaly": 241.6258,
+        "meta_epoch": "2025-12-12T06:44:04.920000",
+        "meta_mean_motion": 1.00272284,
+        "meta_eccentricity": 0.00033496,
+        "meta_inclination": 0.0669,
+        "meta_ra_of_asc_node": 5.0893,
+        "meta_arg_of_pericenter": 265.7782,
+        "meta_mean_anomaly": 292.979,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 38992,
         "meta_element_set_no": 999,
         "meta_rev_at_epoch": 4795,
         "meta_bstar": 0,
-        "meta_mean_motion_dot": 1.39e-06,
+        "meta_mean_motion_dot": 1.4e-06,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 38992U 12062B   25346.13793971  .00000139  00000+0  00000+0 0  9993",
-        "tle_line2": "2 38992   0.0668   4.6284 0003344 266.0892 241.6258  1.00272222 47955"
+        "tle_line1": "1 38992U 12062B   25346.28061250  .00000140  00000+0  00000+0 0  9999",
+        "tle_line2": "2 38992   0.0669   5.0893 0003349 265.7782 292.9790  1.00272284 47954"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -82.34354307167368,
-          -0.08230435194441557
+          -37.00002753155504,
+          -0.049606080269122645
         ]
       }
     },
@@ -349,15 +349,15 @@
         "norad_id": 39020,
         "name": "EUTELSAT 70B",
         "group": "eutelsat",
-        "lat": -0.02231859140712389,
-        "lon": -33.382984970604795,
-        "alt_km": 35783.18870192543,
-        "timestamp": "2025-12-12T11:38:31.087602+00:00",
+        "lat": 0.03974221103492642,
+        "lon": 11.925694823903813,
+        "alt_km": 35796.88616733043,
+        "timestamp": "2025-12-12T14:39:17.642596+00:00",
         "meta_object_name": "EUTELSAT 70B",
         "meta_object_id": "2012-069A",
-        "meta_epoch": "2025-12-12T03:32:29.164128",
+        "meta_epoch": "2025-12-12T03:32:29.164992",
         "meta_mean_motion": 1.00270851,
-        "meta_eccentricity": 0.000431,
+        "meta_eccentricity": 0.00043101,
         "meta_inclination": 0.0627,
         "meta_ra_of_asc_node": 344.4219,
         "meta_arg_of_pericenter": 262.0301,
@@ -370,14 +370,14 @@
         "meta_bstar": 0,
         "meta_mean_motion_dot": -3.4e-07,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 39020U 12069A   25346.14755977 -.00000034  00000+0  00000+0 0  9993",
+        "tle_line1": "1 39020U 12069A   25346.14755978 -.00000034  00000+0  00000+0 0  9994",
         "tle_line2": "2 39020   0.0627 344.4219 0004310 262.0301 318.2825  1.00270851 47633"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -33.382984970604795,
-          -0.02231859140712389
+          11.925694823903813,
+          0.03974221103492642
         ]
       }
     },
@@ -387,19 +387,19 @@
         "norad_id": 39122,
         "name": "EUTELSAT 117 WEST A",
         "group": "eutelsat",
-        "lat": 0.018672641397530682,
-        "lon": 139.21958614842393,
-        "alt_km": 35793.23029481904,
-        "timestamp": "2025-12-12T11:38:31.087614+00:00",
+        "lat": -0.0036839205609368554,
+        "lon": -175.46825219165035,
+        "alt_km": 35783.88860772875,
+        "timestamp": "2025-12-12T14:39:17.642607+00:00",
         "meta_object_name": "EUTELSAT 117 WEST A",
         "meta_object_id": "2013-012A",
-        "meta_epoch": "2025-12-12T03:46:38.737056",
-        "meta_mean_motion": 1.00271534,
-        "meta_eccentricity": 0.0002944,
-        "meta_inclination": 0.015,
-        "meta_ra_of_asc_node": 10.4942,
-        "meta_arg_of_pericenter": 253.4678,
-        "meta_mean_anomaly": 117.0003,
+        "meta_epoch": "2025-12-12T06:04:38.695296",
+        "meta_mean_motion": 1.00271563,
+        "meta_eccentricity": 0.00029357,
+        "meta_inclination": 0.0151,
+        "meta_ra_of_asc_node": 11.6569,
+        "meta_arg_of_pericenter": 252.5323,
+        "meta_mean_anomaly": 151.3674,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 39122,
@@ -408,14 +408,14 @@
         "meta_bstar": 0,
         "meta_mean_motion_dot": -3e-08,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 39122U 13012A   25346.15739279 -.00000003  00000+0  00000+0 0  9999",
-        "tle_line2": "2 39122   0.0150  10.4942 0002944 253.4678 117.0003  1.00271534 46554"
+        "tle_line1": "1 39122U 13012A   25346.25322564 -.00000003  00000+0  00000+0 0  9995",
+        "tle_line2": "2 39122   0.0151  11.6569 0002935 252.5323 151.3674  1.00271563 46557"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.21958614842393,
-          0.018672641397530682
+          -175.46825219165035,
+          -0.0036839205609368554
         ]
       }
     },
@@ -425,15 +425,15 @@
         "norad_id": 39163,
         "name": "EUTELSAT 7B",
         "group": "eutelsat",
-        "lat": -0.0816495136641841,
-        "lon": -96.99292375003692,
-        "alt_km": 35774.35062492578,
-        "timestamp": "2025-12-12T11:38:31.087626+00:00",
+        "lat": -0.07805702124045445,
+        "lon": -51.64004668710559,
+        "alt_km": 35766.53900799132,
+        "timestamp": "2025-12-12T14:39:17.642618+00:00",
         "meta_object_name": "EUTELSAT 7B",
         "meta_object_id": "2013-022A",
         "meta_epoch": "2025-12-12T03:14:30.886080",
         "meta_mean_motion": 1.00272809,
-        "meta_eccentricity": 0.0004625,
+        "meta_eccentricity": 0.00046245,
         "meta_inclination": 0.0731,
         "meta_ra_of_asc_node": 20.1699,
         "meta_arg_of_pericenter": 297.0742,
@@ -447,13 +447,13 @@
         "meta_mean_motion_dot": 5.7e-07,
         "meta_mean_motion_ddot": 0,
         "tle_line1": "1 39163U 13022A   25346.13507970  .00000057  00000+0  00000+0 0  9992",
-        "tle_line2": "2 39163   0.0731  20.1699 0004625 297.0742 179.4643  1.00272809 46081"
+        "tle_line2": "2 39163   0.0731  20.1699 0004624 297.0742 179.4643  1.00272809 46080"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -96.99292375003692,
-          -0.0816495136641841
+          -51.64004668710559,
+          -0.07805702124045445
         ]
       }
     },
@@ -463,19 +463,19 @@
         "norad_id": 39612,
         "name": "EXPRESS-AT1",
         "group": "eutelsat",
-        "lat": -0.008271029231828424,
-        "lon": -47.957117957474324,
-        "alt_km": 35786.51404339621,
-        "timestamp": "2025-12-12T11:38:31.087638+00:00",
+        "lat": 0.018213896232050986,
+        "lon": -2.6388996751777474,
+        "alt_km": 35786.88876733747,
+        "timestamp": "2025-12-12T14:39:17.642629+00:00",
         "meta_object_name": "EXPRESS-AT1",
         "meta_object_id": "2014-010A",
-        "meta_epoch": "2025-12-12T03:28:29.548416",
-        "meta_mean_motion": 1.00270061,
-        "meta_eccentricity": 1.66e-05,
-        "meta_inclination": 0.0172,
-        "meta_ra_of_asc_node": 320.8716,
-        "meta_arg_of_pericenter": 262.8726,
-        "meta_mean_anomaly": 325.4628,
+        "meta_epoch": "2025-12-12T05:11:13.811712",
+        "meta_mean_motion": 1.00270477,
+        "meta_eccentricity": 1.93e-05,
+        "meta_inclination": 0.0169,
+        "meta_ra_of_asc_node": 320.8587,
+        "meta_arg_of_pericenter": 270.5831,
+        "meta_mean_anomaly": 343.5205,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 39612,
@@ -484,14 +484,14 @@
         "meta_bstar": 0,
         "meta_mean_motion_dot": 0,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 39612U 14010A   25346.14478644  .00000000  00000+0  00000+0 0  9993",
-        "tle_line2": "2 39612   0.0172 320.8716 0000166 262.8726 325.4628  1.00270061 42942"
+        "tle_line1": "1 39612U 14010A   25346.21613208  .00000000  00000+0  00000+0 0  9998",
+        "tle_line2": "2 39612   0.0169 320.8587 0000193 270.5831 343.5205  1.00270477 42940"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -47.957117957474324,
-          -0.008271029231828424
+          -2.6388996751777474,
+          0.018213896232050986
         ]
       }
     },
@@ -501,19 +501,19 @@
         "norad_id": 39613,
         "name": "EXPRESS-AT2",
         "group": "eutelsat",
-        "lat": 0.03151701998885128,
-        "lon": 35.934427175094314,
-        "alt_km": 35786.590016097296,
-        "timestamp": "2025-12-12T11:38:31.087650+00:00",
+        "lat": 0.0272398507444515,
+        "lon": 81.2391077522885,
+        "alt_km": 35792.13910950135,
+        "timestamp": "2025-12-12T14:39:17.642640+00:00",
         "meta_object_name": "EXPRESS-AT2",
         "meta_object_id": "2014-010B",
-        "meta_epoch": "2025-12-12T05:35:04.028928",
-        "meta_mean_motion": 1.002723,
-        "meta_eccentricity": 0.0001465,
-        "meta_inclination": 0.0164,
-        "meta_ra_of_asc_node": 303.1942,
-        "meta_arg_of_pericenter": 357.1365,
-        "meta_mean_anomaly": 4.4809,
+        "meta_epoch": "2025-12-12T07:17:54.181248",
+        "meta_mean_motion": 1.00269965,
+        "meta_eccentricity": 0.00015347,
+        "meta_inclination": 0.0172,
+        "meta_ra_of_asc_node": 306.1253,
+        "meta_arg_of_pericenter": 346.9448,
+        "meta_mean_anomaly": 37.518,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 39613,
@@ -522,14 +522,14 @@
         "meta_bstar": 0,
         "meta_mean_motion_dot": -2.71e-06,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 39613U 14010B   25346.23268552 -.00000271  00000+0  00000+0 0  9990",
-        "tle_line2": "2 39613   0.0164 303.1942 0001465 357.1365   4.4809  1.00272300 42627"
+        "tle_line1": "1 39613U 14010B   25346.30409932 -.00000271  00000+0  00000+0 0  9997",
+        "tle_line2": "2 39613   0.0172 306.1253 0001534 346.9448  37.5180  1.00269965 42621"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.934427175094314,
-          0.03151701998885128
+          81.2391077522885,
+          0.0272398507444515
         ]
       }
     },
@@ -539,15 +539,15 @@
         "norad_id": 39773,
         "name": "EUTELSAT 3B",
         "group": "eutelsat",
-        "lat": -0.0793570254674204,
-        "lon": -100.82206931273414,
-        "alt_km": 35769.39619331879,
-        "timestamp": "2025-12-12T11:38:31.087662+00:00",
+        "lat": -0.05190785287006461,
+        "lon": -55.47969520635489,
+        "alt_km": 35781.085616841025,
+        "timestamp": "2025-12-12T14:39:17.642650+00:00",
         "meta_object_name": "EUTELSAT 3B",
         "meta_object_id": "2014-030A",
         "meta_epoch": "2025-12-12T03:13:23.493216",
         "meta_mean_motion": 1.00270499,
-        "meta_eccentricity": 0.0004597,
+        "meta_eccentricity": 0.00045969,
         "meta_inclination": 0.0614,
         "meta_ra_of_asc_node": 347.8073,
         "meta_arg_of_pericenter": 242.4386,
@@ -561,13 +561,13 @@
         "meta_mean_motion_dot": 2.9e-07,
         "meta_mean_motion_ddot": 0,
         "tle_line1": "1 39773U 14030A   25346.13429969  .00000029  00000+0  00000+0 0  9999",
-        "tle_line2": "2 39773   0.0614 347.8073 0004597 242.4386 262.2867  1.00270499 42199"
+        "tle_line2": "2 39773   0.0614 347.8073 0004596 242.4386 262.2867  1.00270499 42198"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -100.82206931273414,
-          -0.0793570254674204
+          -55.47969520635489,
+          -0.05190785287006461
         ]
       }
     },
@@ -577,35 +577,35 @@
         "norad_id": 40425,
         "name": "EUTELSAT 115 WEST B",
         "group": "eutelsat",
-        "lat": -0.01718006722091915,
-        "lon": 141.15938856388445,
-        "alt_km": 35785.021063400905,
-        "timestamp": "2025-12-12T11:38:31.087674+00:00",
+        "lat": 0.004682115500563045,
+        "lon": -173.51958991470116,
+        "alt_km": 35785.24281545389,
+        "timestamp": "2025-12-12T14:39:17.642661+00:00",
         "meta_object_name": "EUTELSAT 115 WEST B",
         "meta_object_id": "2015-010B",
-        "meta_epoch": "2025-12-12T00:56:56.376096",
-        "meta_mean_motion": 1.00272865,
-        "meta_eccentricity": 1.78e-05,
-        "meta_inclination": 0.0399,
-        "meta_ra_of_asc_node": 160.4365,
-        "meta_arg_of_pericenter": 343.6071,
-        "meta_mean_anomaly": 196.286,
+        "meta_epoch": "2025-12-12T06:05:08.647584",
+        "meta_mean_motion": 1.00273318,
+        "meta_eccentricity": 1.672e-05,
+        "meta_inclination": 0.0099,
+        "meta_ra_of_asc_node": 150.4217,
+        "meta_arg_of_pericenter": 340.8536,
+        "meta_mean_anomaly": 286.3181,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 40425,
         "meta_element_set_no": 999,
         "meta_rev_at_epoch": 3951,
         "meta_bstar": 0,
-        "meta_mean_motion_dot": -1.6e-07,
+        "meta_mean_motion_dot": -1.5e-07,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 40425U 15010B   25346.03954139 -.00000016  00000+0  00000+0 0  9992",
-        "tle_line2": "2 40425   0.0399 160.4365 0000178 343.6071 196.2860  1.00272865 39514"
+        "tle_line1": "1 40425U 15010B   25346.25357231 -.00000015  00000+0  00000+0 0  9995",
+        "tle_line2": "2 40425   0.0099 150.4217 0000167 340.8536 286.3181  1.00273318 39510"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          141.15938856388445,
-          -0.01718006722091915
+          -173.51958991470116,
+          0.004682115500563045
         ]
       }
     },
@@ -615,19 +615,19 @@
         "norad_id": 40875,
         "name": "EUTELSAT 8 WEST B",
         "group": "eutelsat",
-        "lat": -0.0750283343592356,
-        "lon": -111.94199733323478,
-        "alt_km": 35768.855487953755,
-        "timestamp": "2025-12-12T11:38:31.087685+00:00",
+        "lat": -0.07529163366889453,
+        "lon": -66.58763219853343,
+        "alt_km": 35770.92441042152,
+        "timestamp": "2025-12-12T14:39:17.642672+00:00",
         "meta_object_name": "EUTELSAT 8 WEST B",
         "meta_object_id": "2015-039B",
-        "meta_epoch": "2025-12-12T03:10:08.802912",
-        "meta_mean_motion": 1.00271632,
-        "meta_eccentricity": 0.0004205,
-        "meta_inclination": 0.0653,
-        "meta_ra_of_asc_node": 6.6681,
-        "meta_arg_of_pericenter": 255.3415,
-        "meta_mean_anomaly": 218.6251,
+        "meta_epoch": "2025-12-12T04:52:53.067936",
+        "meta_mean_motion": 1.00271635,
+        "meta_eccentricity": 0.00042073,
+        "meta_inclination": 0.0654,
+        "meta_ra_of_asc_node": 6.8016,
+        "meta_arg_of_pericenter": 255.2683,
+        "meta_mean_anomaly": 244.3196,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 40875,
@@ -636,14 +636,14 @@
         "meta_bstar": 0,
         "meta_mean_motion_dot": -5.6e-07,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 40875U 15039B   25346.13204633 -.00000056  00000+0  00000+0 0  9994",
-        "tle_line2": "2 40875   0.0653   6.6681 0004205 255.3415 218.6251  1.00271632 37785"
+        "tle_line1": "1 40875U 15039B   25346.20339199 -.00000056  00000+0  00000+0 0  9998",
+        "tle_line2": "2 40875   0.0654   6.8016 0004207 255.2683 244.3196  1.00271635 37785"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -111.94199733323478,
-          -0.0750283343592356
+          -66.58763219853343,
+          -0.07529163366889453
         ]
       }
     },
@@ -653,10 +653,10 @@
         "norad_id": 41310,
         "name": "EUTELSAT 9B",
         "group": "eutelsat",
-        "lat": -0.031875164417677314,
-        "lon": -94.94504037488527,
-        "alt_km": 35766.86285955905,
-        "timestamp": "2025-12-12T11:38:31.087697+00:00",
+        "lat": -0.04547914212457736,
+        "lon": -49.58888786707499,
+        "alt_km": 35771.594790051495,
+        "timestamp": "2025-12-12T14:39:17.642682+00:00",
         "meta_object_name": "EUTELSAT 9B",
         "meta_object_id": "2016-005A",
         "meta_epoch": "2025-12-11T22:06:55.623168",
@@ -680,8 +680,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -94.94504037488527,
-          -0.031875164417677314
+          -49.58888786707499,
+          -0.04547914212457736
         ]
       }
     },
@@ -691,35 +691,35 @@
         "norad_id": 41382,
         "name": "EUTELSAT 65 WEST A",
         "group": "eutelsat",
-        "lat": -0.00693052458623147,
-        "lon": -169.1723927304335,
-        "alt_km": 35783.72888730621,
-        "timestamp": "2025-12-12T11:38:31.087708+00:00",
+        "lat": -0.05181006296472087,
+        "lon": -123.84178666367166,
+        "alt_km": 35777.04840554914,
+        "timestamp": "2025-12-12T14:39:17.642693+00:00",
         "meta_object_name": "EUTELSAT 65 WEST A",
         "meta_object_id": "2016-014A",
-        "meta_epoch": "2025-12-12T02:53:55.355712",
-        "meta_mean_motion": 1.002721,
-        "meta_eccentricity": 0.0002529,
-        "meta_inclination": 0.0516,
-        "meta_ra_of_asc_node": 12.9642,
-        "meta_arg_of_pericenter": 255.5076,
-        "meta_mean_anomaly": 150.8816,
+        "meta_epoch": "2025-12-12T06:19:22.284768",
+        "meta_mean_motion": 1.00272064,
+        "meta_eccentricity": 0.0002521,
+        "meta_inclination": 0.0514,
+        "meta_ra_of_asc_node": 13.1071,
+        "meta_arg_of_pericenter": 255.6026,
+        "meta_mean_anomaly": 202.1469,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 41382,
         "meta_element_set_no": 999,
-        "meta_rev_at_epoch": 3565,
+        "meta_rev_at_epoch": 3566,
         "meta_bstar": 0,
-        "meta_mean_motion_dot": -2.67e-06,
+        "meta_mean_motion_dot": -2.66e-06,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 41382U 16014A   25346.12077958 -.00000267  00000+0  00000+0 0  9993",
-        "tle_line2": "2 41382   0.0516  12.9642 0002529 255.5076 150.8816  1.00272100 35655"
+        "tle_line1": "1 41382U 16014A   25346.26345237 -.00000266  00000+0  00000+0 0  9995",
+        "tle_line2": "2 41382   0.0514  13.1071 0002521 255.6026 202.1469  1.00272064 35665"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -169.1723927304335,
-          -0.00693052458623147
+          -123.84178666367166,
+          -0.05181006296472087
         ]
       }
     },
@@ -729,10 +729,10 @@
         "norad_id": 41589,
         "name": "EUTELSAT 117 WEST B",
         "group": "eutelsat",
-        "lat": -0.0026017150766061378,
-        "lon": 139.09308476714764,
-        "alt_km": 35785.0849369434,
-        "timestamp": "2025-12-12T11:38:31.087720+00:00",
+        "lat": 0.004757806225403616,
+        "lon": -175.58984771387617,
+        "alt_km": 35786.832203583916,
+        "timestamp": "2025-12-12T14:39:17.642704+00:00",
         "meta_object_name": "EUTELSAT 117 WEST B",
         "meta_object_id": "2016-038B",
         "meta_epoch": "2025-12-11T23:13:36.273216",
@@ -756,8 +756,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.09308476714764,
-          -0.0026017150766061378
+          -175.58984771387617,
+          0.004757806225403616
         ]
       }
     },
@@ -767,35 +767,35 @@
         "norad_id": 42741,
         "name": "EUTELSAT 172B",
         "group": "eutelsat",
-        "lat": -0.024655597045055738,
-        "lon": 68.04328068281885,
-        "alt_km": 35786.70977045263,
-        "timestamp": "2025-12-12T11:38:31.087732+00:00",
+        "lat": 0.004932558402147087,
+        "lon": 113.35997759604915,
+        "alt_km": 35786.8039076414,
+        "timestamp": "2025-12-12T14:39:17.642722+00:00",
         "meta_object_name": "EUTELSAT 172B",
         "meta_object_id": "2017-029B",
-        "meta_epoch": "2025-12-12T02:18:51.215904",
-        "meta_mean_motion": 1.00269868,
-        "meta_eccentricity": 5.7e-06,
-        "meta_inclination": 0.0441,
-        "meta_ra_of_asc_node": 151.278,
-        "meta_arg_of_pericenter": 161.8007,
-        "meta_mean_anomaly": 334.6731,
+        "meta_epoch": "2025-12-12T05:01:38.705664",
+        "meta_mean_motion": 1.00270008,
+        "meta_eccentricity": 1.125e-05,
+        "meta_inclination": 0.0256,
+        "meta_ra_of_asc_node": 150.9223,
+        "meta_arg_of_pericenter": 201.7173,
+        "meta_mean_anomaly": 335.9201,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 42741,
         "meta_element_set_no": 999,
         "meta_rev_at_epoch": 3185,
         "meta_bstar": 0,
-        "meta_mean_motion_dot": 3e-08,
+        "meta_mean_motion_dot": 4e-08,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 42741U 17029B   25346.09642611  .00000003  00000+0  00000+0 0  9997",
-        "tle_line2": "2 42741   0.0441 151.2780 0000057 161.8007 334.6731  1.00269868 31852"
+        "tle_line1": "1 42741U 17029B   25346.20947576  .00000004  00000+0  00000+0 0  9999",
+        "tle_line2": "2 42741   0.0256 150.9223 0000112 201.7173 335.9201  1.00270008 31858"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          68.04328068281885,
-          -0.024655597045055738
+          113.35997759604915,
+          0.004932558402147087
         ]
       }
     },
@@ -805,19 +805,19 @@
         "norad_id": 44334,
         "name": "EUTELSAT 7C",
         "group": "eutelsat",
-        "lat": 0.0524417277725286,
-        "lon": -96.94963787036956,
-        "alt_km": 35773.10476581761,
-        "timestamp": "2025-12-12T11:38:31.087743+00:00",
+        "lat": 0.04786342111945502,
+        "lon": -51.61052754893145,
+        "alt_km": 35780.158227324806,
+        "timestamp": "2025-12-12T14:39:17.642734+00:00",
         "meta_object_name": "EUTELSAT 7C",
         "meta_object_id": "2019-034B",
         "meta_epoch": "2025-12-12T03:14:30.886080",
         "meta_mean_motion": 1.00271596,
-        "meta_eccentricity": 0.0003251,
+        "meta_eccentricity": 0.00032509,
         "meta_inclination": 0.072,
         "meta_ra_of_asc_node": 178.1084,
         "meta_arg_of_pericenter": 65.7254,
-        "meta_mean_anomaly": 252.8644,
+        "meta_mean_anomaly": 252.8645,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 44334,
@@ -827,13 +827,13 @@
         "meta_mean_motion_dot": 5.8e-07,
         "meta_mean_motion_ddot": 0,
         "tle_line1": "1 44334U 19034B   25346.13507970  .00000058  00000+0  00000+0 0  9998",
-        "tle_line2": "2 44334   0.0720 178.1084 0003251  65.7254 252.8644  1.00271596  4969"
+        "tle_line2": "2 44334   0.0720 178.1084 0003250  65.7254 252.8645  1.00271596  4969"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -96.94963787036956,
-          0.0524417277725286
+          -51.61052754893145,
+          0.04786342111945502
         ]
       }
     },
@@ -843,19 +843,19 @@
         "norad_id": 44624,
         "name": "EUTELSAT 5 WEST B",
         "group": "eutelsat",
-        "lat": -0.08019834850112426,
-        "lon": -108.95390518311058,
-        "alt_km": 35772.07863714254,
-        "timestamp": "2025-12-12T11:38:31.087754+00:00",
+        "lat": -0.06090017016516956,
+        "lon": -63.60714033187764,
+        "alt_km": 35774.33184125912,
+        "timestamp": "2025-12-12T14:39:17.642745+00:00",
         "meta_object_name": "EUTELSAT 5 WEST B",
         "meta_object_id": "2019-067A",
-        "meta_epoch": "2025-12-12T03:11:01.220064",
-        "meta_mean_motion": 1.00271785,
-        "meta_eccentricity": 0.0003369,
-        "meta_inclination": 0.0623,
-        "meta_ra_of_asc_node": 347.8721,
-        "meta_arg_of_pericenter": 274.027,
-        "meta_mean_anomaly": 221.9383,
+        "meta_epoch": "2025-12-12T04:53:45.485088",
+        "meta_mean_motion": 1.00271802,
+        "meta_eccentricity": 0.00033658,
+        "meta_inclination": 0.0624,
+        "meta_ra_of_asc_node": 348.0818,
+        "meta_arg_of_pericenter": 273.8757,
+        "meta_mean_anomaly": 247.6347,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 44624,
@@ -864,14 +864,14 @@
         "meta_bstar": 0,
         "meta_mean_motion_dot": -3.3e-07,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 44624U 19067A   25346.13265301 -.00000033  00000+0  00000+0 0  9999",
-        "tle_line2": "2 44624   0.0623 347.8721 0003369 274.0270 221.9383  1.00271785 22562"
+        "tle_line1": "1 44624U 19067A   25346.20399867 -.00000033  00000+0  00000+0 0  9992",
+        "tle_line2": "2 44624   0.0624 348.0818 0003365 273.8757 247.6347  1.00271802 22561"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -108.95390518311058,
-          -0.08019834850112426
+          -63.60714033187764,
+          -0.06090017016516956
         ]
       }
     },
@@ -881,15 +881,15 @@
         "norad_id": 45027,
         "name": "EUTELSAT KONNECT",
         "group": "eutelsat",
-        "lat": -0.004498535703224742,
-        "lon": -96.76556235751282,
-        "alt_km": 35780.37536271755,
-        "timestamp": "2025-12-12T11:38:31.087767+00:00",
+        "lat": -0.04789229212426784,
+        "lon": -51.434685913627234,
+        "alt_km": 35780.28268019193,
+        "timestamp": "2025-12-12T14:39:17.642755+00:00",
         "meta_object_name": "EUTELSAT KONNECT",
         "meta_object_id": "2020-005B",
-        "meta_epoch": "2025-12-12T01:31:48.222048",
+        "meta_epoch": "2025-12-12T01:31:48.222912",
         "meta_mean_motion": 1.00270011,
-        "meta_eccentricity": 0.0001596,
+        "meta_eccentricity": 0.00015956,
         "meta_inclination": 0.0715,
         "meta_ra_of_asc_node": 96.0285,
         "meta_arg_of_pericenter": 191.0796,
@@ -902,14 +902,14 @@
         "meta_bstar": 0,
         "meta_mean_motion_dot": 5.8e-07,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 45027U 20005B   25346.06375257  .00000058  00000+0  00000+0 0  9991",
-        "tle_line2": "2 45027   0.0715  96.0285 0001596 191.0796 184.0480  1.00270011 22468"
+        "tle_line1": "1 45027U 20005B   25346.06375258  .00000058  00000+0  00000+0 0  9992",
+        "tle_line2": "2 45027   0.0715  96.0285 0001595 191.0796 184.0480  1.00270011 22467"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -96.76556235751282,
-          -0.004498535703224742
+          -51.434685913627234,
+          -0.04789229212426784
         ]
       }
     },
@@ -919,19 +919,19 @@
         "norad_id": 49056,
         "name": "EUTELSAT QUANTUM",
         "group": "eutelsat",
-        "lat": -0.028545400320731017,
-        "lon": -56.224339187270516,
-        "alt_km": 35772.490951702806,
-        "timestamp": "2025-12-12T11:38:31.087781+00:00",
+        "lat": -0.012540615990341578,
+        "lon": -10.886718794432513,
+        "alt_km": 35781.90155015553,
+        "timestamp": "2025-12-12T14:39:17.642766+00:00",
         "meta_object_name": "EUTELSAT QUANTUM",
         "meta_object_id": "2021-069B",
-        "meta_epoch": "2025-12-12T03:26:07.275264",
-        "meta_mean_motion": 1.00272405,
-        "meta_eccentricity": 0.0003647,
-        "meta_inclination": 0.0207,
-        "meta_ra_of_asc_node": 35.1128,
-        "meta_arg_of_pericenter": 238.9314,
-        "meta_mean_anomaly": 266.2792,
+        "meta_epoch": "2025-12-12T04:58:38.646336",
+        "meta_mean_motion": 1.00272439,
+        "meta_eccentricity": 0.00036458,
+        "meta_inclination": 0.021,
+        "meta_ra_of_asc_node": 35.8102,
+        "meta_arg_of_pericenter": 238.2566,
+        "meta_mean_anomaly": 289.4509,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 49056,
@@ -940,14 +940,14 @@
         "meta_bstar": 0,
         "meta_mean_motion_dot": 1.35e-06,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 49056U 21069B   25346.14313976  .00000135  00000+0  00000+0 0  9993",
-        "tle_line2": "2 49056   0.0207  35.1128 0003647 238.9314 266.2792  1.00272405 16052"
+        "tle_line1": "1 49056U 21069B   25346.20739174  .00000135  00000+0  00000+0 0  9992",
+        "tle_line2": "2 49056   0.0210  35.8102 0003645 238.2566 289.4509  1.00272439 16055"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -56.224339187270516,
-          -0.028545400320731017
+          -10.886718794432513,
+          -0.012540615990341578
         ]
       }
     },
@@ -957,15 +957,15 @@
         "norad_id": 53765,
         "name": "EUTELSAT KONNECT VHTS",
         "group": "eutelsat",
-        "lat": 0.0026836269756506845,
-        "lon": -101.21632252294847,
-        "alt_km": 35776.035149714866,
-        "timestamp": "2025-12-12T11:38:31.087793+00:00",
+        "lat": -0.03630356125280295,
+        "lon": -55.88200379639952,
+        "alt_km": 35781.31302845595,
+        "timestamp": "2025-12-12T14:39:17.642777+00:00",
         "meta_object_name": "EUTELSAT KONNECT VHTS",
         "meta_object_id": "2022-110A",
-        "meta_epoch": "2025-12-12T03:13:16.004064",
+        "meta_epoch": "2025-12-12T03:13:16.004928",
         "meta_mean_motion": 1.00271767,
-        "meta_eccentricity": 0.0002492,
+        "meta_eccentricity": 0.00024923,
         "meta_inclination": 0.0639,
         "meta_ra_of_asc_node": 101.3299,
         "meta_arg_of_pericenter": 139.4387,
@@ -978,14 +978,14 @@
         "meta_bstar": 0,
         "meta_mean_motion_dot": 2.7e-07,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 53765U 22110A   25346.13421301  .00000027  00000+0  00000+0 0  9994",
+        "tle_line1": "1 53765U 22110A   25346.13421302  .00000027  00000+0  00000+0 0  9995",
         "tle_line2": "2 53765   0.0639 101.3299 0002492 139.4387 251.3532  1.00271767  4953"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -101.21632252294847,
-          0.0026836269756506845
+          -55.88200379639952,
+          -0.03630356125280295
         ]
       }
     },
@@ -995,10 +995,10 @@
         "norad_id": 54048,
         "name": "EUTELSAT HOTBIRD 13F",
         "group": "eutelsat",
-        "lat": -0.03364365963840684,
-        "lon": -90.9702781457287,
-        "alt_km": 35786.53489172258,
-        "timestamp": "2025-12-12T11:38:31.087804+00:00",
+        "lat": 0.012430661331540572,
+        "lon": -45.64583357457115,
+        "alt_km": 35779.87817935193,
+        "timestamp": "2025-12-12T14:39:17.642787+00:00",
         "meta_object_name": "EUTELSAT HOTBIRD 13F",
         "meta_object_id": "2022-134A",
         "meta_epoch": "2025-12-11T23:36:58.233312",
@@ -1022,8 +1022,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.9702781457287,
-          -0.03364365963840684
+          -45.64583357457115,
+          0.012430661331540572
         ]
       }
     },
@@ -1033,35 +1033,35 @@
         "norad_id": 54225,
         "name": "EUTELSAT HOTBIRD 13G",
         "group": "eutelsat",
-        "lat": 0.007937611059083532,
-        "lon": -90.9366507040207,
-        "alt_km": 35785.84907187828,
-        "timestamp": "2025-12-12T11:38:31.087815+00:00",
+        "lat": 0.0360230635616993,
+        "lon": -45.6248780120981,
+        "alt_km": 35791.366963171924,
+        "timestamp": "2025-12-12T14:39:17.642797+00:00",
         "meta_object_name": "EUTELSAT HOTBIRD 13G",
         "meta_object_id": "2022-146A",
-        "meta_epoch": "2025-12-12T03:16:08.230368",
-        "meta_mean_motion": 1.00271133,
-        "meta_eccentricity": 0.0001821,
-        "meta_inclination": 0.0481,
-        "meta_ra_of_asc_node": 233.9865,
-        "meta_arg_of_pericenter": 307.8152,
-        "meta_mean_anomaly": 321.3083,
+        "meta_epoch": "2025-12-12T06:41:35.159424",
+        "meta_mean_motion": 1.00271187,
+        "meta_eccentricity": 0.00018164,
+        "meta_inclination": 0.0478,
+        "meta_ra_of_asc_node": 233.9518,
+        "meta_arg_of_pericenter": 307.8257,
+        "meta_mean_anomaly": 12.835,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 54225,
         "meta_element_set_no": 999,
         "meta_rev_at_epoch": 559,
         "meta_bstar": 0,
-        "meta_mean_motion_dot": 9.6e-07,
+        "meta_mean_motion_dot": 9.7e-07,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 54225U 22146A   25346.13620637  .00000096  00000+0  00000+0 0  9994",
-        "tle_line2": "2 54225   0.0481 233.9865 0001821 307.8152 321.3083  1.00271133  5594"
+        "tle_line1": "1 54225U 22146A   25346.27887916  .00000097  00000+0  00000+0 0  9995",
+        "tle_line2": "2 54225   0.0478 233.9518 0001816 307.8257  12.8350  1.00271187  5593"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.9366507040207,
-          0.007937611059083532
+          -45.6248780120981,
+          0.0360230635616993
         ]
       }
     },
@@ -1071,15 +1071,15 @@
         "norad_id": 54259,
         "name": "EUTELSAT 10B",
         "group": "eutelsat",
-        "lat": -0.006933638575920728,
-        "lon": -93.97074390275,
-        "alt_km": 35787.79826270722,
-        "timestamp": "2025-12-12T11:38:31.087826+00:00",
+        "lat": -0.04051180739648363,
+        "lon": -48.65841114847195,
+        "alt_km": 35789.28009048685,
+        "timestamp": "2025-12-12T14:39:17.642808+00:00",
         "meta_object_name": "EUTELSAT 10B",
         "meta_object_id": "2022-157A",
         "meta_epoch": "2025-12-12T03:15:15.814080",
         "meta_mean_motion": 1.00269595,
-        "meta_eccentricity": 6.67e-05,
+        "meta_eccentricity": 6.672e-05,
         "meta_inclination": 0.0602,
         "meta_ra_of_asc_node": 99.4652,
         "meta_arg_of_pericenter": 52.9075,
@@ -1098,8 +1098,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -93.97074390275,
-          -0.006933638575920728
+          -48.65841114847195,
+          -0.04051180739648363
         ]
       }
     },
@@ -1109,19 +1109,19 @@
         "norad_id": 59346,
         "name": "EUTELSAT 36D",
         "group": "eutelsat",
-        "lat": -0.029198337020020414,
-        "lon": -68.11160392084854,
-        "alt_km": 35785.78819834763,
-        "timestamp": "2025-12-12T11:38:31.087838+00:00",
+        "lat": -0.005277937411243675,
+        "lon": -22.79188952593658,
+        "alt_km": 35784.87485373311,
+        "timestamp": "2025-12-12T14:39:17.642819+00:00",
         "meta_object_name": "EUTELSAT 36D",
         "meta_object_id": "2024-059A",
-        "meta_epoch": "2025-12-12T01:40:02.434368",
-        "meta_mean_motion": 1.00269434,
-        "meta_eccentricity": 4.34e-05,
-        "meta_inclination": 0.0187,
-        "meta_ra_of_asc_node": 349.451,
-        "meta_arg_of_pericenter": 2.6949,
-        "meta_mean_anomaly": 149.7269,
+        "meta_epoch": "2025-12-12T05:05:29.361696",
+        "meta_mean_motion": 1.00269505,
+        "meta_eccentricity": 4.441e-05,
+        "meta_inclination": 0.0186,
+        "meta_ra_of_asc_node": 351.1584,
+        "meta_arg_of_pericenter": 1.6497,
+        "meta_mean_anomaly": 200.5666,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 59346,
@@ -1130,14 +1130,14 @@
         "meta_bstar": 0,
         "meta_mean_motion_dot": 0,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 59346U 24059A   25346.06947262  .00000000  00000+0  00000+0 0  9991",
-        "tle_line2": "2 59346   0.0187 349.4510 0000434   2.6949 149.7269  1.00269434  6274"
+        "tle_line1": "1 59346U 24059A   25346.21214539  .00000000  00000+0  00000+0 0  9992",
+        "tle_line2": "2 59346   0.0186 351.1584 0000444   1.6497 200.5666  1.00269505  6278"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -68.11160392084854,
-          -0.029198337020020414
+          -22.79188952593658,
+          -0.005277937411243675
         ]
       }
     }
