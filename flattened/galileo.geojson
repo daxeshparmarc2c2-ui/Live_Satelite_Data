@@ -7,10 +7,10 @@
         "norad_id": 37846,
         "name": "GSAT0101 (GALILEO-PFM)",
         "group": "galileo",
-        "lat": 54.96870812123702,
-        "lon": 54.464707570761355,
-        "alt_km": 23220.43561046148,
-        "timestamp": "2025-12-14T18:52:55.766158+00:00",
+        "lat": 44.54065862672507,
+        "lon": 127.09780368485441,
+        "alt_km": 23225.43583410428,
+        "timestamp": "2025-12-14T20:40:32.034320+00:00",
         "meta_object_name": "GSAT0101 (GALILEO-PFM)",
         "meta_object_id": "2011-060A",
         "meta_epoch": "2025-12-12T21:37:17.093856",
@@ -34,8 +34,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          54.464707570761355,
-          54.96870812123702
+          127.09780368485441,
+          44.54065862672507
         ]
       }
     },
@@ -45,10 +45,10 @@
         "norad_id": 37847,
         "name": "GSAT0102 (GALILEO-FM2)",
         "group": "galileo",
-        "lat": 44.79512125369274,
-        "lon": 126.67662079557228,
-        "alt_km": 23231.283951285925,
-        "timestamp": "2025-12-14T18:52:55.766181+00:00",
+        "lat": 9.453142988148091,
+        "lon": 160.56261418439732,
+        "alt_km": 23232.418311543082,
+        "timestamp": "2025-12-14T20:40:32.034343+00:00",
         "meta_object_name": "GSAT0102 (GALILEO-FM2)",
         "meta_object_id": "2011-060B",
         "meta_epoch": "2025-12-12T05:47:25.345248",
@@ -72,8 +72,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          126.67662079557228,
-          44.79512125369274
+          160.56261418439732,
+          9.453142988148091
         ]
       }
     },
@@ -83,10 +83,10 @@
         "norad_id": 38857,
         "name": "GSAT0103 (GALILEO-FM3)",
         "group": "galileo",
-        "lat": 41.13129383171491,
-        "lon": 143.16231711628066,
-        "alt_km": 23223.701393692012,
-        "timestamp": "2025-12-14T18:52:55.766196+00:00",
+        "lat": 54.76064485336369,
+        "lon": -148.3326174220926,
+        "alt_km": 23223.746846907587,
+        "timestamp": "2025-12-14T20:40:32.034358+00:00",
         "meta_object_name": "GSAT0103 (GALILEO-FM3)",
         "meta_object_id": "2012-055A",
         "meta_epoch": "2025-12-13T12:39:44.093088",
@@ -110,8 +110,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          143.16231711628066,
-          41.13129383171491
+          -148.3326174220926,
+          54.76064485336369
         ]
       }
     },
@@ -121,35 +121,35 @@
         "norad_id": 40128,
         "name": "GSAT0201 (GALILEO 5)",
         "group": "galileo",
-        "lat": 13.927555530167682,
-        "lon": 88.55479106669769,
-        "alt_km": 17041.782759716596,
-        "timestamp": "2025-12-14T18:52:55.766209+00:00",
+        "lat": -34.96228342199033,
+        "lon": 138.24629450535966,
+        "alt_km": 18598.397147694912,
+        "timestamp": "2025-12-14T20:40:32.034371+00:00",
         "meta_object_name": "GSAT0201 (GALILEO 5)",
         "meta_object_id": "2014-050A",
-        "meta_epoch": "2025-12-13T11:12:06.167520",
+        "meta_epoch": "2025-12-14T00:08:14.916480",
         "meta_mean_motion": 1.85519648,
-        "meta_eccentricity": 0.16479838,
-        "meta_inclination": 49.0758,
-        "meta_ra_of_asc_node": 281.0339,
-        "meta_arg_of_pericenter": 172.3077,
-        "meta_mean_anomaly": 190.6076,
+        "meta_eccentricity": 0.16480052,
+        "meta_inclination": 49.0753,
+        "meta_ra_of_asc_node": 281.012,
+        "meta_arg_of_pericenter": 172.3262,
+        "meta_mean_anomaly": 190.5827,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 40128,
         "meta_element_set_no": 999,
-        "meta_rev_at_epoch": 7487,
+        "meta_rev_at_epoch": 7488,
         "meta_bstar": 0,
-        "meta_mean_motion_dot": -1e-06,
+        "meta_mean_motion_dot": -9.9e-07,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 40128U 14050A   25347.46673805 -.00000100  00000+0  00000+0 0  9995",
-        "tle_line2": "2 40128  49.0758 281.0339 1647983 172.3077 190.6076  1.85519648 74873"
+        "tle_line1": "1 40128U 14050A   25348.00572820 -.00000099  00000+0  00000+0 0  9998",
+        "tle_line2": "2 40128  49.0753 281.0120 1648005 172.3262 190.5827  1.85519648 74882"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          88.55479106669769,
-          13.927555530167682
+          138.24629450535966,
+          -34.96228342199033
         ]
       }
     },
@@ -159,10 +159,10 @@
         "norad_id": 40129,
         "name": "GSAT0202 (GALILEO 6)",
         "group": "galileo",
-        "lat": -5.206499903302246,
-        "lon": -84.47954583767488,
-        "alt_km": 26217.636854259323,
-        "timestamp": "2025-12-14T18:52:55.766222+00:00",
+        "lat": 22.464460897808618,
+        "lon": -58.97711933862127,
+        "alt_km": 24945.190624113144,
+        "timestamp": "2025-12-14T20:40:32.034383+00:00",
         "meta_object_name": "GSAT0202 (GALILEO 6)",
         "meta_object_id": "2014-050B",
         "meta_epoch": "2025-12-11T13:36:31.827456",
@@ -186,8 +186,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -84.47954583767488,
-          -5.206499903302246
+          -58.97711933862127,
+          22.464460897808618
         ]
       }
     },
@@ -197,10 +197,10 @@
         "norad_id": 40544,
         "name": "GSAT0203 (GALILEO 7)",
         "group": "galileo",
-        "lat": -27.508361029379106,
-        "lon": -173.47359738827743,
-        "alt_km": 23215.615845215292,
-        "timestamp": "2025-12-14T18:52:55.766234+00:00",
+        "lat": -55.354654333582765,
+        "lon": -122.28820755673608,
+        "alt_km": 23209.12766960739,
+        "timestamp": "2025-12-14T20:40:32.034395+00:00",
         "meta_object_name": "GSAT0203 (GALILEO 7)",
         "meta_object_id": "2015-017A",
         "meta_epoch": "2025-12-13T06:22:25.500288",
@@ -224,8 +224,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -173.47359738827743,
-          -27.508361029379106
+          -122.28820755673608,
+          -55.354654333582765
         ]
       }
     },
@@ -235,35 +235,35 @@
         "norad_id": 40545,
         "name": "GSAT0204 (GALILEO 8)",
         "group": "galileo",
-        "lat": 44.43930786231315,
-        "lon": 26.500308257034096,
-        "alt_km": 23233.361059538453,
-        "timestamp": "2025-12-14T18:52:55.766246+00:00",
+        "lat": 54.780958866231366,
+        "lon": 98.84440364978413,
+        "alt_km": 23233.146921107513,
+        "timestamp": "2025-12-14T20:40:32.034406+00:00",
         "meta_object_name": "GSAT0204 (GALILEO 8)",
         "meta_object_id": "2015-017B",
-        "meta_epoch": "2025-12-11T04:11:34.346112",
-        "meta_mean_motion": 1.70475574,
-        "meta_eccentricity": 0.0006249,
-        "meta_inclination": 56.853,
-        "meta_ra_of_asc_node": 346.7403,
-        "meta_arg_of_pericenter": 262.765,
-        "meta_mean_anomaly": 97.1808,
+        "meta_epoch": "2025-12-13T12:30:18.591264",
+        "meta_mean_motion": 1.70475656,
+        "meta_eccentricity": 0.00062134,
+        "meta_inclination": 56.8526,
+        "meta_ra_of_asc_node": 346.6763,
+        "meta_arg_of_pericenter": 263.8119,
+        "meta_mean_anomaly": 96.1359,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 40545,
         "meta_element_set_no": 999,
-        "meta_rev_at_epoch": 2904,
+        "meta_rev_at_epoch": 2908,
         "meta_bstar": 0,
-        "meta_mean_motion_dot": -8.8e-07,
+        "meta_mean_motion_dot": -8.6e-07,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 40545U 15017B   25345.17470308 -.00000088  00000+0  00000+0 0  9996",
-        "tle_line2": "2 40545  56.8530 346.7403 0006249 262.7650  97.1808  1.70475574 29041"
+        "tle_line1": "1 40545U 15017B   25347.52104851 -.00000086  00000+0  00000+0 0  9992",
+        "tle_line2": "2 40545  56.8526 346.6763 0006213 263.8119  96.1359  1.70475656 29082"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          26.500308257034096,
-          44.43930786231315
+          98.84440364978413,
+          54.780958866231366
         ]
       }
     },
@@ -273,10 +273,10 @@
         "norad_id": 40889,
         "name": "GSAT0205 (GALILEO 9)",
         "group": "galileo",
-        "lat": -15.447949695805915,
-        "lon": 57.86112986544338,
-        "alt_km": 23241.148066560752,
-        "timestamp": "2025-12-14T18:52:55.766258+00:00",
+        "lat": -47.82504317553064,
+        "lon": 97.2910948748713,
+        "alt_km": 23243.860741140725,
+        "timestamp": "2025-12-14T20:40:32.034418+00:00",
         "meta_object_name": "GSAT0205 (GALILEO 9)",
         "meta_object_id": "2015-045A",
         "meta_epoch": "2025-12-13T06:56:57.536448",
@@ -300,8 +300,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          57.86112986544338,
-          -15.447949695805915
+          97.2910948748713,
+          -47.82504317553064
         ]
       }
     },
@@ -311,10 +311,10 @@
         "norad_id": 40890,
         "name": "GSAT0206 (GALILEO 10)",
         "group": "galileo",
-        "lat": 47.155568620067505,
-        "lon": -84.29943434448447,
-        "alt_km": 23206.447479263617,
-        "timestamp": "2025-12-14T18:52:55.766270+00:00",
+        "lat": 50.59988629663412,
+        "lon": -11.738000355532355,
+        "alt_km": 23212.88478815863,
+        "timestamp": "2025-12-14T20:40:32.034442+00:00",
         "meta_object_name": "GSAT0206 (GALILEO 10)",
         "meta_object_id": "2015-045B",
         "meta_epoch": "2025-12-11T03:55:56.933760",
@@ -338,8 +338,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -84.29943434448447,
-          47.155568620067505
+          -11.738000355532355,
+          50.59988629663412
         ]
       }
     },
@@ -349,35 +349,35 @@
         "norad_id": 41174,
         "name": "GSAT0209 (GALILEO 12)",
         "group": "galileo",
-        "lat": -31.88120689441141,
-        "lon": 81.22678425095305,
-        "alt_km": 23220.043951410717,
-        "timestamp": "2025-12-14T18:52:55.766281+00:00",
+        "lat": 5.076214465709803,
+        "lon": 109.78110774469778,
+        "alt_km": 23214.831328618875,
+        "timestamp": "2025-12-14T20:40:32.034468+00:00",
         "meta_object_name": "GSAT0209 (GALILEO 12)",
         "meta_object_id": "2015-079A",
-        "meta_epoch": "2025-12-10T17:53:22.611840",
-        "meta_mean_motion": 1.70474458,
-        "meta_eccentricity": 0.00024095,
-        "meta_inclination": 55.7117,
-        "meta_ra_of_asc_node": 106.4357,
-        "meta_arg_of_pericenter": 351.4479,
-        "meta_mean_anomaly": 8.5179,
+        "meta_epoch": "2025-12-13T16:16:46.046208",
+        "meta_mean_motion": 1.70474514,
+        "meta_eccentricity": 0.00024314,
+        "meta_inclination": 55.7133,
+        "meta_ra_of_asc_node": 106.3552,
+        "meta_arg_of_pericenter": 349.5598,
+        "meta_mean_anomaly": 10.4024,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 41174,
         "meta_element_set_no": 999,
-        "meta_rev_at_epoch": 6156,
+        "meta_rev_at_epoch": 6161,
         "meta_bstar": 0,
-        "meta_mean_motion_dot": 1.1e-07,
+        "meta_mean_motion_dot": -1e-08,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 41174U 15079A   25344.74540060  .00000011  00000+0  00000+0 0  9993",
-        "tle_line2": "2 41174  55.7117 106.4357 0002409 351.4479   8.5179  1.70474458 61567"
+        "tle_line1": "1 41174U 15079A   25347.67831072 -.00000001  00000+0  00000+0 0  9994",
+        "tle_line2": "2 41174  55.7133 106.3552 0002431 349.5598  10.4024  1.70474514 61616"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          81.22678425095305,
-          -31.88120689441141
+          109.78110774469778,
+          5.076214465709803
         ]
       }
     },
@@ -387,10 +387,10 @@
         "norad_id": 41175,
         "name": "GSAT0208 (GALILEO 11)",
         "group": "galileo",
-        "lat": -4.301205150270175,
-        "lon": -70.7522677204057,
-        "alt_km": 23228.514987910687,
-        "timestamp": "2025-12-14T18:52:55.766293+00:00",
+        "lat": -39.982800447421184,
+        "lon": -38.82874464654849,
+        "alt_km": 23230.29715703801,
+        "timestamp": "2025-12-14T20:40:32.034483+00:00",
         "meta_object_name": "GSAT0208 (GALILEO 11)",
         "meta_object_id": "2015-079B",
         "meta_epoch": "2025-12-12T17:24:26.771040",
@@ -414,8 +414,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.7522677204057,
-          -4.301205150270175
+          -38.82874464654849,
+          -39.982800447421184
         ]
       }
     },
@@ -425,10 +425,10 @@
         "norad_id": 41549,
         "name": "GSAT0211 (GALILEO 14)",
         "group": "galileo",
-        "lat": 50.86034520530396,
-        "lon": -12.013354919283236,
-        "alt_km": 23216.415035601283,
-        "timestamp": "2025-12-14T18:52:55.766305+00:00",
+        "lat": 20.333948745485845,
+        "lon": 31.824629753165176,
+        "alt_km": 23228.72755193367,
+        "timestamp": "2025-12-14T20:40:32.034495+00:00",
         "meta_object_name": "GSAT0211 (GALILEO 14)",
         "meta_object_id": "2016-030A",
         "meta_epoch": "2025-12-11T02:09:03.353760",
@@ -452,8 +452,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -12.013354919283236,
-          50.86034520530396
+          31.824629753165176,
+          20.333948745485845
         ]
       }
     },
@@ -463,35 +463,35 @@
         "norad_id": 41550,
         "name": "GSAT0210 (GALILEO 13)",
         "group": "galileo",
-        "lat": -38.24045970420678,
-        "lon": -166.4937266729005,
-        "alt_km": 23225.558693882842,
-        "timestamp": "2025-12-14T18:52:55.766317+00:00",
+        "lat": -2.5388204104045995,
+        "lon": -134.99807796199335,
+        "alt_km": 23224.24125717854,
+        "timestamp": "2025-12-14T20:40:32.034507+00:00",
         "meta_object_name": "GSAT0210 (GALILEO 13)",
         "meta_object_id": "2016-030B",
-        "meta_epoch": "2025-12-11T08:19:41.751264",
-        "meta_mean_motion": 1.70473653,
-        "meta_eccentricity": 0.00011945,
-        "meta_inclination": 55.152,
-        "meta_ra_of_asc_node": 226.8599,
-        "meta_arg_of_pericenter": 242.2312,
-        "meta_mean_anomaly": 117.8354,
+        "meta_epoch": "2025-12-13T16:38:25.135008",
+        "meta_mean_motion": 1.70473753,
+        "meta_eccentricity": 0.00013525,
+        "meta_inclination": 55.1513,
+        "meta_ra_of_asc_node": 226.7953,
+        "meta_arg_of_pericenter": 245.9786,
+        "meta_mean_anomaly": 114.0887,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 41550,
         "meta_element_set_no": 999,
-        "meta_rev_at_epoch": 5946,
+        "meta_rev_at_epoch": 5950,
         "meta_bstar": 0,
-        "meta_mean_motion_dot": 1e-07,
+        "meta_mean_motion_dot": 2.5e-07,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 41550U 16030B   25345.34701101  .00000010  00000+0  00000+0 0  9990",
-        "tle_line2": "2 41550  55.1520 226.8599 0001194 242.2312 117.8354  1.70473653 59466"
+        "tle_line1": "1 41550U 16030B   25347.69334647  .00000025  00000+0  00000+0 0  9993",
+        "tle_line2": "2 41550  55.1513 226.7953 0001352 245.9786 114.0887  1.70473753 59508"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -166.4937266729005,
-          -38.24045970420678
+          -134.99807796199335,
+          -2.5388204104045995
         ]
       }
     },
@@ -501,10 +501,10 @@
         "norad_id": 41859,
         "name": "GSAT0207 (GALILEO 15)",
         "group": "galileo",
-        "lat": 31.720041611001495,
-        "lon": -99.06857236350713,
-        "alt_km": 23224.907067723914,
-        "timestamp": "2025-12-14T18:52:55.766328+00:00",
+        "lat": -5.053991126268863,
+        "lon": -70.3226457269062,
+        "alt_km": 23227.824543422645,
+        "timestamp": "2025-12-14T20:40:32.034518+00:00",
         "meta_object_name": "GSAT0207 (GALILEO 15)",
         "meta_object_id": "2016-069A",
         "meta_epoch": "2025-12-13T09:14:27.730752",
@@ -528,8 +528,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -99.06857236350713,
-          31.720041611001495
+          -70.3226457269062,
+          -5.053991126268863
         ]
       }
     },
@@ -539,10 +539,10 @@
         "norad_id": 41860,
         "name": "GSAT0212 (GALILEO 16)",
         "group": "galileo",
-        "lat": -39.16802888852129,
-        "lon": -39.61287846757961,
-        "alt_km": 23232.725810449116,
-        "timestamp": "2025-12-14T18:52:55.766340+00:00",
+        "lat": -54.94283856736137,
+        "lon": 26.574399436327298,
+        "alt_km": 23230.365858227782,
+        "timestamp": "2025-12-14T20:40:32.034530+00:00",
         "meta_object_name": "GSAT0212 (GALILEO 16)",
         "meta_object_id": "2016-069B",
         "meta_epoch": "2025-12-11T11:29:42.448992",
@@ -566,8 +566,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -39.61287846757961,
-          -39.16802888852129
+          26.574399436327298,
+          -54.94283856736137
         ]
       }
     },
@@ -577,35 +577,35 @@
         "norad_id": 41861,
         "name": "GSAT0213 (GALILEO 17)",
         "group": "galileo",
-        "lat": 3.7045242940905747,
-        "lon": 108.74436061450616,
-        "alt_km": 23220.76196337781,
-        "timestamp": "2025-12-14T18:52:55.766351+00:00",
+        "lat": 39.337017789683685,
+        "lon": 140.6247931137698,
+        "alt_km": 23221.630091209856,
+        "timestamp": "2025-12-14T20:40:32.034541+00:00",
         "meta_object_name": "GSAT0213 (GALILEO 17)",
         "meta_object_id": "2016-069C",
-        "meta_epoch": "2025-12-11T06:14:19.190112",
-        "meta_mean_motion": 1.70474845,
-        "meta_eccentricity": 0.00023572,
-        "meta_inclination": 55.3813,
-        "meta_ra_of_asc_node": 106.2942,
-        "meta_arg_of_pericenter": 283.5833,
-        "meta_mean_anomaly": 76.361,
+        "meta_epoch": "2025-12-14T04:37:41.330208",
+        "meta_mean_motion": 1.70474935,
+        "meta_eccentricity": 0.00024236,
+        "meta_inclination": 55.3829,
+        "meta_ra_of_asc_node": 106.2129,
+        "meta_arg_of_pericenter": 283.222,
+        "meta_mean_anomaly": 76.7169,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 41861,
         "meta_element_set_no": 999,
-        "meta_rev_at_epoch": 5631,
+        "meta_rev_at_epoch": 5636,
         "meta_bstar": 0,
-        "meta_mean_motion_dot": 9e-08,
+        "meta_mean_motion_dot": -4e-08,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 41861U 16069C   25345.25994433  .00000009  00000+0  00000+0 0  9997",
-        "tle_line2": "2 41861  55.3813 106.2942 0002357 283.5833  76.3610  1.70474845 56318"
+        "tle_line1": "1 41861U 16069C   25348.19283947 -.00000004  00000+0  00000+0 0  9990",
+        "tle_line2": "2 41861  55.3829 106.2129 0002423 283.2220  76.7169  1.70474935 56361"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          108.74436061450616,
-          3.7045242940905747
+          140.6247931137698,
+          39.337017789683685
         ]
       }
     },
@@ -615,10 +615,10 @@
         "norad_id": 41862,
         "name": "GSAT0214 (GALILEO 18)",
         "group": "galileo",
-        "lat": -55.085968502208495,
-        "lon": 24.758970494572793,
-        "alt_km": 23224.09976157008,
-        "timestamp": "2025-12-14T18:52:55.766363+00:00",
+        "lat": -31.376344862991324,
+        "lon": 81.28385676774116,
+        "alt_km": 23222.56435874634,
+        "timestamp": "2025-12-14T20:40:32.034552+00:00",
         "meta_object_name": "GSAT0214 (GALILEO 18)",
         "meta_object_id": "2016-069D",
         "meta_epoch": "2025-12-12T13:53:54.735936",
@@ -642,8 +642,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          24.758970494572793,
-          -55.085968502208495
+          81.28385676774116,
+          -31.376344862991324
         ]
       }
     },
@@ -653,10 +653,10 @@
         "norad_id": 43055,
         "name": "GSAT0215 (GALILEO 19)",
         "group": "galileo",
-        "lat": -21.047251053185995,
-        "lon": -148.96021493781913,
-        "alt_km": 23221.461882405813,
-        "timestamp": "2025-12-14T18:52:55.766374+00:00",
+        "lat": 16.229794917305043,
+        "lon": -121.71391831482839,
+        "alt_km": 23217.038948719135,
+        "timestamp": "2025-12-14T20:40:32.034564+00:00",
         "meta_object_name": "GSAT0215 (GALILEO 19)",
         "meta_object_id": "2017-079A",
         "meta_epoch": "2025-12-11T21:30:24.060384",
@@ -680,8 +680,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -148.96021493781913,
-          -21.047251053185995
+          -121.71391831482839,
+          16.229794917305043
         ]
       }
     },
@@ -691,10 +691,10 @@
         "norad_id": 43056,
         "name": "GSAT0216 (GALILEO 20)",
         "group": "galileo",
-        "lat": 20.04754058128742,
-        "lon": 31.86277561843676,
-        "alt_km": 23226.53357914414,
-        "timestamp": "2025-12-14T18:52:55.766385+00:00",
+        "lat": -17.220837259553353,
+        "lon": 59.05565342103332,
+        "alt_km": 23228.574360633585,
+        "timestamp": "2025-12-14T20:40:32.034575+00:00",
         "meta_object_name": "GSAT0216 (GALILEO 20)",
         "meta_object_id": "2017-079B",
         "meta_epoch": "2025-12-13T08:39:13.176288",
@@ -718,8 +718,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          31.86277561843676,
-          20.04754058128742
+          59.05565342103332,
+          -17.220837259553353
         ]
       }
     },
@@ -729,10 +729,10 @@
         "norad_id": 43057,
         "name": "GSAT0217 (GALILEO 21)",
         "group": "galileo",
-        "lat": 16.168844700973043,
-        "lon": -121.76027002026228,
-        "alt_km": 23213.416131588234,
-        "timestamp": "2025-12-14T18:52:55.766397+00:00",
+        "lat": 48.41547824453864,
+        "lon": -81.68689691088193,
+        "alt_km": 23214.933905876376,
+        "timestamp": "2025-12-14T20:40:32.034586+00:00",
         "meta_object_name": "GSAT0217 (GALILEO 21)",
         "meta_object_id": "2017-079C",
         "meta_epoch": "2025-12-13T13:57:02.142720",
@@ -756,8 +756,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -121.76027002026228,
-          16.168844700973043
+          -81.68689691088193,
+          48.41547824453864
         ]
       }
     },
@@ -767,10 +767,10 @@
         "norad_id": 43058,
         "name": "GSAT0218 (GALILEO 22)",
         "group": "galileo",
-        "lat": -47.919590187026444,
-        "lon": 97.07497079949157,
-        "alt_km": 23223.60017300386,
-        "timestamp": "2025-12-14T18:52:55.766408+00:00",
+        "lat": -50.16910330922759,
+        "lon": 169.9435477206152,
+        "alt_km": 23219.669318624317,
+        "timestamp": "2025-12-14T20:40:32.034597+00:00",
         "meta_object_name": "GSAT0218 (GALILEO 22)",
         "meta_object_id": "2017-079D",
         "meta_epoch": "2025-12-12T15:04:31.769472",
@@ -794,8 +794,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          97.07497079949157,
-          -47.919590187026444
+          169.9435477206152,
+          -50.16910330922759
         ]
       }
     },
@@ -805,10 +805,10 @@
         "norad_id": 43564,
         "name": "GSAT0221 (GALILEO 25)",
         "group": "galileo",
-        "lat": -43.84294678923197,
-        "lon": -51.46376829782593,
-        "alt_km": 23208.517059797105,
-        "timestamp": "2025-12-14T18:52:55.766419+00:00",
+        "lat": -8.053153186568682,
+        "lon": -18.470554224382735,
+        "alt_km": 23215.489167833504,
+        "timestamp": "2025-12-14T20:40:32.034608+00:00",
         "meta_object_name": "GSAT0221 (GALILEO 25)",
         "meta_object_id": "2018-060A",
         "meta_epoch": "2025-12-13T16:53:40.160256",
@@ -832,8 +832,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -51.46376829782593,
-          -43.84294678923197
+          -18.470554224382735,
+          -8.053153186568682
         ]
       }
     },
@@ -843,10 +843,10 @@
         "norad_id": 43565,
         "name": "GSAT0222 (GALILEO 26)",
         "group": "galileo",
-        "lat": 8.524097173049274,
-        "lon": 161.22419878366244,
-        "alt_km": 23222.371339162222,
-        "timestamp": "2025-12-14T18:52:55.766431+00:00",
+        "lat": -29.39301840725891,
+        "lon": -171.9604327933716,
+        "alt_km": 23213.568392248013,
+        "timestamp": "2025-12-14T20:40:32.034620+00:00",
         "meta_object_name": "GSAT0222 (GALILEO 26)",
         "meta_object_id": "2018-060B",
         "meta_epoch": "2025-12-11T13:50:46.646592",
@@ -870,8 +870,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          161.22419878366244,
-          8.524097173049274
+          -171.9604327933716,
+          -29.39301840725891
         ]
       }
     },
@@ -881,10 +881,10 @@
         "norad_id": 43566,
         "name": "GSAT0219 (GALILEO 23)",
         "group": "galileo",
-        "lat": 28.214218957518426,
-        "lon": 6.986095962767167,
-        "alt_km": 23223.62166459893,
-        "timestamp": "2025-12-14T18:52:55.766442+00:00",
+        "lat": 55.89920125451571,
+        "lon": 58.83836013987873,
+        "alt_km": 23230.91843248598,
+        "timestamp": "2025-12-14T20:40:32.034631+00:00",
         "meta_object_name": "GSAT0219 (GALILEO 23)",
         "meta_object_id": "2018-060C",
         "meta_epoch": "2025-12-12T23:18:35.949024",
@@ -908,8 +908,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.986095962767167,
-          28.214218957518426
+          58.83836013987873,
+          55.89920125451571
         ]
       }
     },
@@ -919,35 +919,35 @@
         "norad_id": 43567,
         "name": "GSAT0220 (GALILEO 24)",
         "group": "galileo",
-        "lat": -55.481967557876516,
-        "lon": -123.72912254279646,
-        "alt_km": 23211.548359088796,
-        "timestamp": "2025-12-14T18:52:55.766453+00:00",
+        "lat": -43.88449915006637,
+        "lon": -51.523221243078844,
+        "alt_km": 23209.997064339903,
+        "timestamp": "2025-12-14T20:40:32.034642+00:00",
         "meta_object_name": "GSAT0220 (GALILEO 24)",
         "meta_object_id": "2018-060D",
-        "meta_epoch": "2025-12-10T20:18:00.212256",
-        "meta_mean_motion": 1.70475727,
-        "meta_eccentricity": 0.0006125,
-        "meta_inclination": 57.2305,
-        "meta_ra_of_asc_node": 346.8727,
-        "meta_arg_of_pericenter": 283.9956,
-        "meta_mean_anomaly": 75.9532,
+        "meta_epoch": "2025-12-13T18:41:25.404000",
+        "meta_mean_motion": 1.70475925,
+        "meta_eccentricity": 0.00061008,
+        "meta_inclination": 57.2299,
+        "meta_ra_of_asc_node": 346.7937,
+        "meta_arg_of_pericenter": 285.541,
+        "meta_mean_anomaly": 74.4106,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 43567,
         "meta_element_set_no": 999,
-        "meta_rev_at_epoch": 4596,
+        "meta_rev_at_epoch": 4601,
         "meta_bstar": 0,
-        "meta_mean_motion_dot": -8.7e-07,
+        "meta_mean_motion_dot": -8.5e-07,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 43567U 18060D   25344.84583579 -.00000087  00000+0  00000+0 0  9991",
-        "tle_line2": "2 43567  57.2305 346.8727 0006125 283.9956  75.9532  1.70475727 45967"
+        "tle_line1": "1 43567U 18060D   25347.77876625 -.00000085  00000+0  00000+0 0  9991",
+        "tle_line2": "2 43567  57.2299 346.7937 0006100 285.5410  74.4106  1.70475925 46015"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -123.72912254279646,
-          -55.481967557876516
+          -51.523221243078844,
+          -43.88449915006637
         ]
       }
     },
@@ -957,10 +957,10 @@
         "norad_id": 49809,
         "name": "GSAT0223 (GALILEO 27)",
         "group": "galileo",
-        "lat": -8.927444113569566,
-        "lon": -19.154212938830838,
-        "alt_km": 23225.260046700674,
-        "timestamp": "2025-12-14T18:52:55.766464+00:00",
+        "lat": 28.985120011265952,
+        "lon": 7.57184260189388,
+        "alt_km": 23229.53185167992,
+        "timestamp": "2025-12-14T20:40:32.034653+00:00",
         "meta_object_name": "GSAT0223 (GALILEO 27)",
         "meta_object_id": "2021-116A",
         "meta_epoch": "2025-12-10T02:39:25.687008",
@@ -984,8 +984,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -19.154212938830838,
-          -8.927444113569566
+          7.57184260189388,
+          28.985120011265952
         ]
       }
     },
@@ -995,35 +995,35 @@
         "norad_id": 49810,
         "name": "GSAT0224 (GALILEO 28)",
         "group": "galileo",
-        "lat": 55.33138087399562,
-        "lon": 97.93818204873646,
-        "alt_km": 23226.062954963767,
-        "timestamp": "2025-12-14T18:52:55.766475+00:00",
+        "lat": 26.636393403189984,
+        "lon": 147.7944938228099,
+        "alt_km": 23222.466781252493,
+        "timestamp": "2025-12-14T20:40:32.034664+00:00",
         "meta_object_name": "GSAT0224 (GALILEO 28)",
         "meta_object_id": "2021-116B",
-        "meta_epoch": "2025-12-13T17:44:11.129280",
-        "meta_mean_motion": 1.70476102,
-        "meta_eccentricity": 0.00038364,
+        "meta_epoch": "2025-12-14T00:56:09.559392",
+        "meta_mean_motion": 1.70476108,
+        "meta_eccentricity": 0.00038616,
         "meta_inclination": 57.22,
-        "meta_ra_of_asc_node": 346.684,
-        "meta_arg_of_pericenter": 258.6964,
-        "meta_mean_anomaly": 280.205,
+        "meta_ra_of_asc_node": 346.6758,
+        "meta_arg_of_pericenter": 256.6425,
+        "meta_mean_anomaly": 106.3645,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 49810,
         "meta_element_set_no": 999,
-        "meta_rev_at_epoch": 2504,
+        "meta_rev_at_epoch": 2505,
         "meta_bstar": 0,
         "meta_mean_motion_dot": -8.5e-07,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 49810U 21116B   25347.73901770 -.00000085  00000+0  00000+0 0  9990",
-        "tle_line2": "2 49810  57.2200 346.6840 0003836 258.6964 280.2050  1.70476102 25047"
+        "tle_line1": "1 49810U 21116B   25348.03899953 -.00000085  00000+0  00000+0 0  9993",
+        "tle_line2": "2 49810  57.2200 346.6758 0003861 256.6425 106.3645  1.70476108 25058"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          97.93818204873646,
-          55.33138087399562
+          147.7944938228099,
+          26.636393403189984
         ]
       }
     },
@@ -1033,35 +1033,35 @@
         "norad_id": 59598,
         "name": "GSAT0225 (GALILEO 29)",
         "group": "galileo",
-        "lat": 54.76444215183532,
-        "lon": -156.05881550699968,
-        "alt_km": 23214.891979551656,
-        "timestamp": "2025-12-14T18:52:55.766487+00:00",
+        "lat": 31.53015071004779,
+        "lon": -99.20973325347381,
+        "alt_km": 23213.383843381464,
+        "timestamp": "2025-12-14T20:40:32.034675+00:00",
         "meta_object_name": "GSAT0225 (GALILEO 29)",
         "meta_object_id": "2024-079A",
-        "meta_epoch": "2025-12-10T12:47:07.958400",
-        "meta_mean_motion": 1.70474727,
-        "meta_eccentricity": 0.00020453,
-        "meta_inclination": 55.0006,
-        "meta_ra_of_asc_node": 106.3566,
-        "meta_arg_of_pericenter": 176.2356,
-        "meta_mean_anomaly": 187.363,
+        "meta_epoch": "2025-12-13T14:17:14.853120",
+        "meta_mean_motion": 1.7047497,
+        "meta_eccentricity": 0.00020845,
+        "meta_inclination": 55.0023,
+        "meta_ra_of_asc_node": 106.2711,
+        "meta_arg_of_pericenter": 178.8578,
+        "meta_mean_anomaly": 264.3288,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 59598,
         "meta_element_set_no": 999,
-        "meta_rev_at_epoch": 1010,
+        "meta_rev_at_epoch": 1015,
         "meta_bstar": 0,
-        "meta_mean_motion_dot": 1e-07,
+        "meta_mean_motion_dot": -1e-08,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 59598U 24079A   25344.53273100  .00000010  00000+0  00000+0 0  9996",
-        "tle_line2": "2 59598  55.0006 106.3566 0002045 176.2356 187.3630  1.70474727 10101"
+        "tle_line1": "1 59598U 24079A   25347.59531080 -.00000001  00000+0  00000+0 0  9990",
+        "tle_line2": "2 59598  55.0023 106.2711 0002084 178.8578 264.3288  1.70474970 10158"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -156.05881550699968,
-          54.76444215183532
+          -99.20973325347381,
+          31.53015071004779
         ]
       }
     },
@@ -1071,10 +1071,10 @@
         "norad_id": 59600,
         "name": "GSAT0227 (GALILEO 30)",
         "group": "galileo",
-        "lat": -14.762878390632146,
-        "lon": 95.59242480641592,
-        "alt_km": 23230.727225713574,
-        "timestamp": "2025-12-14T18:52:55.766498+00:00",
+        "lat": 22.406853148169137,
+        "lon": 122.99869581772357,
+        "alt_km": 23218.817860748753,
+        "timestamp": "2025-12-14T20:40:32.034686+00:00",
         "meta_object_name": "GSAT0227 (GALILEO 30)",
         "meta_object_id": "2024-079C",
         "meta_epoch": "2025-12-08T22:48:42.234912",
@@ -1098,8 +1098,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          95.59242480641592,
-          -14.762878390632146
+          122.99869581772357,
+          22.406853148169137
         ]
       }
     },
@@ -1109,10 +1109,10 @@
         "norad_id": 61182,
         "name": "GSAT0232 (GALILEO 32)",
         "group": "galileo",
-        "lat": 3.004127808352275,
-        "lon": 44.29538094084109,
-        "alt_km": 23217.415480669955,
-        "timestamp": "2025-12-14T18:52:55.766510+00:00",
+        "lat": -33.508634649273,
+        "lon": 73.72379795962843,
+        "alt_km": 23220.746432114513,
+        "timestamp": "2025-12-14T20:40:32.034697+00:00",
         "meta_object_name": "GSAT0232 (GALILEO 32)",
         "meta_object_id": "2024-167A",
         "meta_epoch": "2025-12-12T10:51:18.741600",
@@ -1136,8 +1136,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.29538094084109,
-          3.004127808352275
+          73.72379795962843,
+          -33.508634649273
         ]
       }
     },
@@ -1147,10 +1147,10 @@
         "norad_id": 61183,
         "name": "GSAT0226 (GALILEO 31)",
         "group": "galileo",
-        "lat": -50.981126910110824,
-        "lon": 167.49712210364694,
-        "alt_km": 23230.3415721045,
-        "timestamp": "2025-12-14T18:52:55.766524+00:00",
+        "lat": -20.459123412342905,
+        "lon": -148.61557508484435,
+        "alt_km": 23226.87699736287,
+        "timestamp": "2025-12-14T20:40:32.034709+00:00",
         "meta_object_name": "GSAT0226 (GALILEO 31)",
         "meta_object_id": "2024-167B",
         "meta_epoch": "2025-12-12T20:26:08.685024",
@@ -1174,8 +1174,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          167.49712210364694,
-          -50.981126910110824
+          -148.61557508484435,
+          -20.459123412342905
         ]
       }
     }
