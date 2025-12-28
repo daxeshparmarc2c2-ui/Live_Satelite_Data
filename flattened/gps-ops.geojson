@@ -7,15 +7,15 @@
         "norad_id": 24876,
         "name": "GPS BIIR-2  (PRN 13)",
         "group": "gps-ops",
-        "lat": 55.91537412600103,
-        "lon": -165.4587422753068,
-        "alt_km": 19958.770232916806,
-        "timestamp": "2025-12-28T07:27:18.724011+00:00",
+        "lat": 42.86667832499018,
+        "lon": -113.64647002440731,
+        "alt_km": 20078.237276545184,
+        "timestamp": "2025-12-28T08:36:35.048288+00:00",
         "meta_object_name": "GPS BIIR-2  (PRN 13)",
         "meta_object_id": "1997-035A",
-        "meta_epoch": "2025-12-27T16:33:45.624960",
+        "meta_epoch": "2025-12-27T16:33:45.624096",
         "meta_mean_motion": 2.00563656,
-        "meta_eccentricity": 0.00968723,
+        "meta_eccentricity": 0.0096872,
         "meta_inclination": 55.9021,
         "meta_ra_of_asc_node": 105.2841,
         "meta_arg_of_pericenter": 56.9081,
@@ -28,14 +28,14 @@
         "meta_bstar": 0,
         "meta_mean_motion_dot": 1.5e-07,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 24876U 97035A   25361.69011140  .00000015  00000+0  00000+0 0  9994",
+        "tle_line1": "1 24876U 97035A   25361.69011139  .00000015  00000+0  00000+0 0  9992",
         "tle_line2": "2 24876  55.9021 105.2841 0096872  56.9081 304.0177  2.00563656208514"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -165.4587422753068,
-          55.91537412600103
+          -113.64647002440731,
+          42.86667832499018
         ]
       }
     },
@@ -45,35 +45,35 @@
         "norad_id": 26360,
         "name": "GPS BIIR-4  (PRN 20)",
         "group": "gps-ops",
-        "lat": -0.5684823750512985,
-        "lon": -153.3831121467039,
-        "alt_km": 20134.726651214125,
-        "timestamp": "2025-12-28T07:27:18.724042+00:00",
+        "lat": -28.50625737908044,
+        "lon": -131.4710574074539,
+        "alt_km": 20094.09723426449,
+        "timestamp": "2025-12-28T08:36:35.048341+00:00",
         "meta_object_name": "GPS BIIR-4  (PRN 20)",
         "meta_object_id": "2000-025A",
-        "meta_epoch": "2025-12-27T19:06:17.735040",
-        "meta_mean_motion": 2.0056628,
-        "meta_eccentricity": 0.0038901,
-        "meta_inclination": 55.0542,
-        "meta_ra_of_asc_node": 26.229,
-        "meta_arg_of_pericenter": 243.4297,
-        "meta_mean_anomaly": 286.0924,
+        "meta_epoch": "2025-12-28T04:23:07.618848",
+        "meta_mean_motion": 2.0056624,
+        "meta_eccentricity": 0.00389,
+        "meta_inclination": 55.0544,
+        "meta_ra_of_asc_node": 26.2134,
+        "meta_arg_of_pericenter": 243.458,
+        "meta_mean_anomaly": 205.276,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 26360,
         "meta_element_set_no": 999,
-        "meta_rev_at_epoch": 18783,
+        "meta_rev_at_epoch": 18784,
         "meta_bstar": 0,
         "meta_mean_motion_dot": -5.6e-07,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 26360U 00025A   25361.79603860 -.00000056  00000+0  00000+0 0  9990",
-        "tle_line2": "2 26360  55.0542  26.2290 0038901 243.4297 286.0924  2.00566280187830"
+        "tle_line1": "1 26360U 00025A   25362.18272707 -.00000056  00000+0  00000+0 0  9996",
+        "tle_line2": "2 26360  55.0544  26.2134 0038900 243.4580 205.2760  2.00566240187841"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -153.3831121467039,
-          -0.5684823750512985
+          -131.4710574074539,
+          -28.50625737908044
         ]
       }
     },
@@ -83,10 +83,10 @@
         "norad_id": 26407,
         "name": "GPS BIIR-5  (PRN 22)",
         "group": "gps-ops",
-        "lat": 17.96355671988252,
-        "lon": -124.85739535741673,
-        "alt_km": 20118.593637657814,
-        "timestamp": "2025-12-28T07:27:18.724055+00:00",
+        "lat": 43.186352948707345,
+        "lon": -96.72584217639007,
+        "alt_km": 20312.135757822183,
+        "timestamp": "2025-12-28T08:36:35.048355+00:00",
         "meta_object_name": "GPS BIIR-5  (PRN 22)",
         "meta_object_id": "2000-040A",
         "meta_epoch": "2025-12-27T11:36:30.034080",
@@ -110,8 +110,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -124.85739535741673,
-          17.96355671988252
+          -96.72584217639007,
+          43.186352948707345
         ]
       }
     },
@@ -121,35 +121,35 @@
         "norad_id": 27663,
         "name": "GPS BIIR-8  (PRN 16)",
         "group": "gps-ops",
-        "lat": 17.498170804059047,
-        "lon": 28.973058088607953,
-        "alt_km": 20285.240302924038,
-        "timestamp": "2025-12-28T07:27:18.724067+00:00",
+        "lat": -10.308212505151614,
+        "lon": 49.10859374542562,
+        "alt_km": 20484.777534092016,
+        "timestamp": "2025-12-28T08:36:35.048368+00:00",
         "meta_object_name": "GPS BIIR-8  (PRN 16)",
         "meta_object_id": "2003-005A",
-        "meta_epoch": "2025-12-27T08:26:38.747904",
-        "meta_mean_motion": 2.00570012,
-        "meta_eccentricity": 0.01479411,
-        "meta_inclination": 54.9202,
-        "meta_ra_of_asc_node": 221.7969,
-        "meta_arg_of_pericenter": 52.0116,
-        "meta_mean_anomaly": 132.4993,
+        "meta_epoch": "2025-12-28T03:07:37.062048",
+        "meta_mean_motion": 2.00569958,
+        "meta_eccentricity": 0.0147969,
+        "meta_inclination": 54.9201,
+        "meta_ra_of_asc_node": 221.7659,
+        "meta_arg_of_pericenter": 52.0245,
+        "meta_mean_anomaly": 334.5886,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 27663,
         "meta_element_set_no": 999,
-        "meta_rev_at_epoch": 16786,
+        "meta_rev_at_epoch": 16788,
         "meta_bstar": 0,
-        "meta_mean_motion_dot": 8e-07,
+        "meta_mean_motion_dot": 8.7e-07,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 27663U 03005A   25361.35183736  .00000080  00000+0  00000+0 0  9991",
-        "tle_line2": "2 27663  54.9202 221.7969 0147941  52.0116 132.4993  2.00570012167861"
+        "tle_line1": "1 27663U 03005A   25362.13029007  .00000087  00000+0  00000+0 0  9995",
+        "tle_line2": "2 27663  54.9201 221.7659 0147969  52.0245 334.5886  2.00569958167884"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          28.973058088607953,
-          17.498170804059047
+          49.10859374542562,
+          -10.308212505151614
         ]
       }
     },
@@ -159,10 +159,10 @@
         "norad_id": 28190,
         "name": "GPS BIIR-11 (PRN 19)",
         "group": "gps-ops",
-        "lat": -34.94670476391756,
-        "lon": -106.72608876465262,
-        "alt_km": 20430.284255924387,
-        "timestamp": "2025-12-28T07:27:18.724079+00:00",
+        "lat": -8.468202828579683,
+        "lon": -83.40535348931887,
+        "alt_km": 20472.639104299156,
+        "timestamp": "2025-12-28T08:36:35.048381+00:00",
         "meta_object_name": "GPS BIIR-11 (PRN 19)",
         "meta_object_id": "2004-009A",
         "meta_epoch": "2025-12-27T16:28:56.277408",
@@ -186,8 +186,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -106.72608876465262,
-          -34.94670476391756
+          -83.40535348931887,
+          -8.468202828579683
         ]
       }
     },
@@ -197,10 +197,10 @@
         "norad_id": 28474,
         "name": "GPS BIIR-13 (PRN 02)",
         "group": "gps-ops",
-        "lat": 14.194324451668013,
-        "lon": -18.119570784140894,
-        "alt_km": 19999.62178302969,
-        "timestamp": "2025-12-28T07:27:18.724090+00:00",
+        "lat": 40.49070924365122,
+        "lon": 8.12024086431559,
+        "alt_km": 20266.846216564598,
+        "timestamp": "2025-12-28T08:36:35.048392+00:00",
         "meta_object_name": "GPS BIIR-13 (PRN 02)",
         "meta_object_id": "2004-045A",
         "meta_epoch": "2025-12-26T11:00:01.330272",
@@ -224,8 +224,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -18.119570784140894,
-          14.194324451668013
+          8.12024086431559,
+          40.49070924365122
         ]
       }
     },
@@ -235,10 +235,10 @@
         "norad_id": 28874,
         "name": "GPS BIIRM-1 (PRN 17)",
         "group": "gps-ops",
-        "lat": -19.541500483226994,
-        "lon": -94.30430458005348,
-        "alt_km": 19922.55996144597,
-        "timestamp": "2025-12-28T07:27:18.724102+00:00",
+        "lat": 9.087110297724847,
+        "lon": -73.51366274066265,
+        "alt_km": 20098.13123176353,
+        "timestamp": "2025-12-28T08:36:35.048404+00:00",
         "meta_object_name": "GPS BIIRM-1 (PRN 17)",
         "meta_object_id": "2005-038A",
         "meta_epoch": "2025-12-27T11:43:07.333248",
@@ -262,8 +262,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -94.30430458005348,
-          -19.541500483226994
+          -73.51366274066265,
+          9.087110297724847
         ]
       }
     },
@@ -273,35 +273,35 @@
         "norad_id": 29486,
         "name": "GPS BIIRM-2 (PRN 31)",
         "group": "gps-ops",
-        "lat": -43.00827139666798,
-        "lon": 19.4912629119649,
-        "alt_km": 20472.005703142055,
-        "timestamp": "2025-12-28T07:27:18.724113+00:00",
+        "lat": -54.670029213385945,
+        "lon": 69.43552059907269,
+        "alt_km": 20410.69561123509,
+        "timestamp": "2025-12-28T08:36:35.048415+00:00",
         "meta_object_name": "GPS BIIRM-2 (PRN 31)",
         "meta_object_id": "2006-042A",
-        "meta_epoch": "2025-12-26T12:05:34.202112",
-        "meta_mean_motion": 2.00553566,
-        "meta_eccentricity": 0.010727,
-        "meta_inclination": 54.6956,
-        "meta_ra_of_asc_node": 158.1947,
-        "meta_arg_of_pericenter": 52.2681,
-        "meta_mean_anomaly": 319.984,
+        "meta_epoch": "2025-12-28T02:14:37.566240",
+        "meta_mean_motion": 2.00553477,
+        "meta_eccentricity": 0.0107267,
+        "meta_inclination": 54.6958,
+        "meta_ra_of_asc_node": 158.1317,
+        "meta_arg_of_pericenter": 52.3008,
+        "meta_mean_anomaly": 27.6866,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 29486,
         "meta_element_set_no": 999,
-        "meta_rev_at_epoch": 14093,
+        "meta_rev_at_epoch": 14096,
         "meta_bstar": 0,
-        "meta_mean_motion_dot": 1.08e-06,
+        "meta_mean_motion_dot": 1.1e-06,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 29486U 06042A   25360.50386808  .00000108  00000+0  00000+0 0  9992",
-        "tle_line2": "2 29486  54.6956 158.1947 0107270  52.2681 319.9840  2.00553566140935"
+        "tle_line1": "1 29486U 06042A   25362.09349035  .00000110  00000+0  00000+0 0  9992",
+        "tle_line2": "2 29486  54.6958 158.1317 0107267  52.3008  27.6866  2.00553477140963"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          19.4912629119649,
-          -43.00827139666798
+          69.43552059907269,
+          -54.670029213385945
         ]
       }
     },
@@ -311,35 +311,35 @@
         "norad_id": 29601,
         "name": "GPS BIIRM-3 (PRN 12)",
         "group": "gps-ops",
-        "lat": -47.89197791590012,
-        "lon": 169.89939033205604,
-        "alt_km": 20393.54194485489,
-        "timestamp": "2025-12-28T07:27:18.724123+00:00",
+        "lat": -24.689179005346197,
+        "lon": -158.0201017108298,
+        "alt_km": 20293.47154548562,
+        "timestamp": "2025-12-28T08:36:35.048426+00:00",
         "meta_object_name": "GPS BIIRM-3 (PRN 12)",
         "meta_object_id": "2006-052A",
-        "meta_epoch": "2025-12-25T21:48:25.793568",
-        "meta_mean_motion": 2.00574428,
-        "meta_eccentricity": 0.00879901,
-        "meta_inclination": 54.968,
-        "meta_ra_of_asc_node": 220.8755,
-        "meta_arg_of_pericenter": 87.5984,
-        "meta_mean_anomaly": 273.4866,
+        "meta_epoch": "2025-12-27T21:40:04.874016",
+        "meta_mean_motion": 2.00574534,
+        "meta_eccentricity": 0.0087989,
+        "meta_inclination": 54.9677,
+        "meta_ra_of_asc_node": 220.7962,
+        "meta_arg_of_pericenter": 87.6165,
+        "meta_mean_anomaly": 273.467,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 29601,
         "meta_element_set_no": 999,
-        "meta_rev_at_epoch": 13993,
+        "meta_rev_at_epoch": 13997,
         "meta_bstar": 0,
-        "meta_mean_motion_dot": 7.2e-07,
+        "meta_mean_motion_dot": 8.7e-07,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 29601U 06052A   25359.90863187  .00000072  00000+0  00000+0 0  9994",
-        "tle_line2": "2 29601  54.9680 220.8755 0087990  87.5984 273.4866  2.00574428139938"
+        "tle_line1": "1 29601U 06052A   25361.90283419  .00000087  00000+0  00000+0 0  9997",
+        "tle_line2": "2 29601  54.9677 220.7962 0087989  87.6165 273.4670  2.00574534139978"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          169.89939033205604,
-          -47.89197791590012
+          -158.0201017108298,
+          -24.689179005346197
         ]
       }
     },
@@ -349,10 +349,10 @@
         "norad_id": 32260,
         "name": "GPS BIIRM-4 (PRN 15)",
         "group": "gps-ops",
-        "lat": 51.26097006576995,
-        "lon": 152.1010616163273,
-        "alt_km": 19748.04559948845,
-        "timestamp": "2025-12-28T07:27:18.724134+00:00",
+        "lat": 49.238531188676056,
+        "lon": -150.37677128613396,
+        "alt_km": 19780.620250791646,
+        "timestamp": "2025-12-28T08:36:35.048437+00:00",
         "meta_object_name": "GPS BIIRM-4 (PRN 15)",
         "meta_object_id": "2007-047A",
         "meta_epoch": "2025-12-23T05:22:00.882048",
@@ -376,8 +376,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          152.1010616163273,
-          51.26097006576995
+          -150.37677128613396,
+          49.238531188676056
         ]
       }
     },
@@ -387,10 +387,10 @@
         "norad_id": 32384,
         "name": "GPS BIIRM-5 (PRN 29)",
         "group": "gps-ops",
-        "lat": -19.67352577205877,
-        "lon": 115.40919873418062,
-        "alt_km": 20123.858346651807,
-        "timestamp": "2025-12-28T07:27:18.724145+00:00",
+        "lat": -44.752433874849295,
+        "lon": 144.59319367472204,
+        "alt_km": 20169.16357754709,
+        "timestamp": "2025-12-28T08:36:35.048449+00:00",
         "meta_object_name": "GPS BIIRM-5 (PRN 29)",
         "meta_object_id": "2007-062A",
         "meta_epoch": "2025-12-26T06:34:08.123232",
@@ -414,8 +414,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          115.40919873418062,
-          -19.67352577205877
+          144.59319367472204,
+          -44.752433874849295
         ]
       }
     },
@@ -425,10 +425,10 @@
         "norad_id": 32711,
         "name": "GPS BIIRM-6 (PRN 07)",
         "group": "gps-ops",
-        "lat": 40.75026843520315,
-        "lon": -61.2460498306321,
-        "alt_km": 20425.936589688197,
-        "timestamp": "2025-12-28T07:27:18.724155+00:00",
+        "lat": 15.239973070155413,
+        "lon": -34.48149488836267,
+        "alt_km": 20113.449788395268,
+        "timestamp": "2025-12-28T08:36:35.048460+00:00",
         "meta_object_name": "GPS BIIRM-6 (PRN 07)",
         "meta_object_id": "2008-012A",
         "meta_epoch": "2025-12-26T15:12:37.851552",
@@ -452,8 +452,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -61.2460498306321,
-          40.75026843520315
+          -34.48149488836267,
+          15.239973070155413
         ]
       }
     },
@@ -463,10 +463,10 @@
         "norad_id": 35752,
         "name": "GPS BIIRM-8 (PRN 05)",
         "group": "gps-ops",
-        "lat": 25.280375809364294,
-        "lon": -164.32276210829096,
-        "alt_km": 20125.603293698718,
-        "timestamp": "2025-12-28T07:27:18.724165+00:00",
+        "lat": -3.158651081036961,
+        "lon": -143.6932773331853,
+        "alt_km": 20210.88315050705,
+        "timestamp": "2025-12-28T08:36:35.048470+00:00",
         "meta_object_name": "GPS BIIRM-8 (PRN 05)",
         "meta_object_id": "2009-043A",
         "meta_epoch": "2025-12-26T02:26:22.079616",
@@ -490,8 +490,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -164.32276210829096,
-          25.280375809364294
+          -143.6932773331853,
+          -3.158651081036961
         ]
       }
     },
@@ -501,15 +501,15 @@
         "norad_id": 36585,
         "name": "GPS BIIF-1  (PRN 25)",
         "group": "gps-ops",
-        "lat": -54.07084841043044,
-        "lon": 118.29328014022325,
-        "alt_km": 20503.582967285605,
-        "timestamp": "2025-12-28T07:27:18.724175+00:00",
+        "lat": -44.76756907602312,
+        "lon": 169.9592098430711,
+        "alt_km": 20380.34946536457,
+        "timestamp": "2025-12-28T08:36:35.048481+00:00",
         "meta_object_name": "GPS BIIF-1  (PRN 25)",
         "meta_object_id": "2010-022A",
         "meta_epoch": "2025-12-27T23:39:34.375392",
         "meta_mean_motion": 2.00553903,
-        "meta_eccentricity": 0.01266673,
+        "meta_eccentricity": 0.0126667,
         "meta_inclination": 54.2979,
         "meta_ra_of_asc_node": 215.4589,
         "meta_arg_of_pericenter": 65.2652,
@@ -528,8 +528,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          118.29328014022325,
-          -54.07084841043044
+          169.9592098430711,
+          -44.76756907602312
         ]
       }
     },
@@ -539,35 +539,35 @@
         "norad_id": 38833,
         "name": "GPS BIIF-3  (PRN 24)",
         "group": "gps-ops",
-        "lat": 2.20952677389278,
-        "lon": 152.22398141144956,
-        "alt_km": 19952.518403019305,
-        "timestamp": "2025-12-28T07:27:18.724186+00:00",
+        "lat": 29.960530794157894,
+        "lon": 175.79123633753946,
+        "alt_km": 19756.13462727873,
+        "timestamp": "2025-12-28T08:36:35.048491+00:00",
         "meta_object_name": "GPS BIIF-3  (PRN 24)",
         "meta_object_id": "2012-053A",
-        "meta_epoch": "2025-12-26T07:30:08.502624",
-        "meta_mean_motion": 2.00565043,
-        "meta_eccentricity": 0.0176105,
-        "meta_inclination": 53.56,
-        "meta_ra_of_asc_node": 150.6829,
-        "meta_arg_of_pericenter": 64.189,
-        "meta_mean_anomaly": 297.6002,
+        "meta_epoch": "2025-12-27T19:23:58.670016",
+        "meta_mean_motion": 2.00565034,
+        "meta_eccentricity": 0.0176115,
+        "meta_inclination": 53.5602,
+        "meta_ra_of_asc_node": 150.6216,
+        "meta_arg_of_pericenter": 64.2017,
+        "meta_mean_anomaly": 297.5901,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 38833,
         "meta_element_set_no": 999,
-        "meta_rev_at_epoch": 9597,
+        "meta_rev_at_epoch": 9600,
         "meta_bstar": 0,
         "meta_mean_motion_dot": 9.8e-07,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 38833U 12053A   25360.31259841  .00000098  00000+0  00000+0 0  9990",
-        "tle_line2": "2 38833  53.5600 150.6829 0176105  64.1890 297.6002  2.00565043 95976"
+        "tle_line1": "1 38833U 12053A   25361.80831794  .00000098  00000+0  00000+0 0  9998",
+        "tle_line2": "2 38833  53.5602 150.6216 0176115  64.2017 297.5901  2.00565034 96003"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          152.22398141144956,
-          2.20952677389278
+          175.79123633753946,
+          29.960530794157894
         ]
       }
     },
@@ -577,35 +577,35 @@
         "norad_id": 39166,
         "name": "GPS BIIF-4  (PRN 27)",
         "group": "gps-ops",
-        "lat": 52.55165091605282,
-        "lon": 28.117057286392924,
-        "alt_km": 19958.682858946697,
-        "timestamp": "2025-12-28T07:27:18.724196+00:00",
+        "lat": 32.842695178913935,
+        "lon": 68.683333585683,
+        "alt_km": 20169.945189016238,
+        "timestamp": "2025-12-28T08:36:35.048501+00:00",
         "meta_object_name": "GPS BIIF-4  (PRN 27)",
         "meta_object_id": "2013-023A",
-        "meta_epoch": "2025-12-26T04:14:33.249408",
-        "meta_mean_motion": 2.00564526,
-        "meta_eccentricity": 0.0138718,
-        "meta_inclination": 54.6404,
-        "meta_ra_of_asc_node": 276.0219,
-        "meta_arg_of_pericenter": 48.7908,
-        "meta_mean_anomaly": 312.4421,
+        "meta_epoch": "2025-12-27T16:08:23.889408",
+        "meta_mean_motion": 2.00564481,
+        "meta_eccentricity": 0.0138811,
+        "meta_inclination": 54.6391,
+        "meta_ra_of_asc_node": 275.961,
+        "meta_arg_of_pericenter": 48.8144,
+        "meta_mean_anomaly": 312.4161,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 39166,
         "meta_element_set_no": 999,
-        "meta_rev_at_epoch": 9241,
+        "meta_rev_at_epoch": 9244,
         "meta_bstar": 0,
-        "meta_mean_motion_dot": -2.2e-07,
+        "meta_mean_motion_dot": -2.6e-07,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 39166U 13023A   25360.17677372 -.00000022  00000+0  00000+0 0  9993",
-        "tle_line2": "2 39166  54.6404 276.0219 0138718  48.7908 312.4421  2.00564526 92414"
+        "tle_line1": "1 39166U 13023A   25361.67249872 -.00000026  00000+0  00000+0 0  9993",
+        "tle_line2": "2 39166  54.6391 275.9610 0138811  48.8144 312.4161  2.00564481 92443"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          28.117057286392924,
-          52.55165091605282
+          68.683333585683,
+          32.842695178913935
         ]
       }
     },
@@ -615,10 +615,10 @@
         "norad_id": 39533,
         "name": "GPS BIIF-5  (PRN 30)",
         "group": "gps-ops",
-        "lat": 51.539374235081006,
-        "lon": -91.95591977407545,
-        "alt_km": 20290.361948519527,
-        "timestamp": "2025-12-28T07:27:18.724206+00:00",
+        "lat": 32.626615771434984,
+        "lon": -51.895701620440214,
+        "alt_km": 20170.88998082305,
+        "timestamp": "2025-12-28T08:36:35.048512+00:00",
         "meta_object_name": "GPS BIIF-5  (PRN 30)",
         "meta_object_id": "2014-008A",
         "meta_epoch": "2025-12-23T16:16:25.020768",
@@ -642,8 +642,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -91.95591977407545,
-          51.539374235081006
+          -51.895701620440214,
+          32.626615771434984
         ]
       }
     },
@@ -653,35 +653,35 @@
         "norad_id": 39741,
         "name": "GPS BIIF-6  (PRN 06)",
         "group": "gps-ops",
-        "lat": -55.17037944581907,
-        "lon": -130.2523744932745,
-        "alt_km": 20135.308262743005,
-        "timestamp": "2025-12-28T07:27:18.724216+00:00",
+        "lat": -49.398207302764774,
+        "lon": -72.21281974878463,
+        "alt_km": 20092.632605622384,
+        "timestamp": "2025-12-28T08:36:35.048522+00:00",
         "meta_object_name": "GPS BIIF-6  (PRN 06)",
         "meta_object_id": "2014-026A",
-        "meta_epoch": "2025-12-26T22:52:18.642720",
-        "meta_mean_motion": 2.00560233,
-        "meta_eccentricity": 0.0039524,
-        "meta_inclination": 56.578,
-        "meta_ra_of_asc_node": 338.2238,
-        "meta_arg_of_pericenter": 319.4951,
-        "meta_mean_anomaly": 40.2191,
+        "meta_epoch": "2025-12-27T22:48:15.379200",
+        "meta_mean_motion": 2.00560115,
+        "meta_eccentricity": 0.0039551,
+        "meta_inclination": 56.5776,
+        "meta_ra_of_asc_node": 338.185,
+        "meta_arg_of_pericenter": 319.5542,
+        "meta_mean_anomaly": 40.1597,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 39741,
         "meta_element_set_no": 999,
-        "meta_rev_at_epoch": 8508,
+        "meta_rev_at_epoch": 8510,
         "meta_bstar": 0,
-        "meta_mean_motion_dot": -5.7e-07,
+        "meta_mean_motion_dot": -6e-07,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 39741U 14026A   25360.95299355 -.00000057  00000+0  00000+0 0  9991",
-        "tle_line2": "2 39741  56.5780 338.2238 0039524 319.4951  40.2191  2.00560233 85080"
+        "tle_line1": "1 39741U 14026A   25361.95017800 -.00000060  00000+0  00000+0 0  9999",
+        "tle_line2": "2 39741  56.5776 338.1850 0039551 319.5542  40.1597  2.00560115 85102"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -130.2523744932745,
-          -55.17037944581907
+          -72.21281974878463,
+          -49.398207302764774
         ]
       }
     },
@@ -691,35 +691,35 @@
         "norad_id": 40105,
         "name": "GPS BIIF-7  (PRN 09)",
         "group": "gps-ops",
-        "lat": -15.159094973868841,
-        "lon": -73.88846460593368,
-        "alt_km": 20165.80116110336,
-        "timestamp": "2025-12-28T07:27:18.724226+00:00",
+        "lat": -41.18598704742677,
+        "lon": -47.356623814111984,
+        "alt_km": 20219.437862267772,
+        "timestamp": "2025-12-28T08:36:35.048533+00:00",
         "meta_object_name": "GPS BIIF-7  (PRN 09)",
         "meta_object_id": "2014-045A",
-        "meta_epoch": "2025-12-23T13:11:32.096256",
-        "meta_mean_motion": 2.00573211,
-        "meta_eccentricity": 0.00324114,
-        "meta_inclination": 55.2352,
-        "meta_ra_of_asc_node": 95.4677,
-        "meta_arg_of_pericenter": 120.1575,
-        "meta_mean_anomaly": 240.1743,
+        "meta_epoch": "2025-12-28T00:52:48.620640",
+        "meta_mean_motion": 2.00573395,
+        "meta_eccentricity": 0.0032287,
+        "meta_inclination": 55.2378,
+        "meta_ra_of_asc_node": 95.2885,
+        "meta_arg_of_pericenter": 120.219,
+        "meta_mean_anomaly": 240.1132,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 40105,
         "meta_element_set_no": 999,
-        "meta_rev_at_epoch": 8255,
+        "meta_rev_at_epoch": 8264,
         "meta_bstar": 0,
-        "meta_mean_motion_dot": 8e-08,
+        "meta_mean_motion_dot": -6e-08,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 40105U 14045A   25357.54967704  .00000008  00000+0  00000+0 0  9994",
-        "tle_line2": "2 40105  55.2352  95.4677 0032411 120.1575 240.1743  2.00573211 82556"
+        "tle_line1": "1 40105U 14045A   25362.03667385 -.00000006  00000+0  00000+0 0  9995",
+        "tle_line2": "2 40105  55.2378  95.2885 0032287 120.2190 240.1132  2.00573395 82643"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.88846460593368,
-          -15.159094973868841
+          -47.356623814111984,
+          -41.18598704742677
         ]
       }
     },
@@ -729,10 +729,10 @@
         "norad_id": 40294,
         "name": "GPS BIIF-8  (PRN 03)",
         "group": "gps-ops",
-        "lat": -53.70358726424957,
-        "lon": -25.15514959812813,
-        "alt_km": 20317.082971351567,
-        "timestamp": "2025-12-28T07:27:18.724236+00:00",
+        "lat": -32.39399530775646,
+        "lon": 13.090694469001292,
+        "alt_km": 20237.020282704165,
+        "timestamp": "2025-12-28T08:36:35.048543+00:00",
         "meta_object_name": "GPS BIIF-8  (PRN 03)",
         "meta_object_id": "2014-068A",
         "meta_epoch": "2025-12-27T09:59:59.352288",
@@ -756,8 +756,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -25.15514959812813,
-          -53.70358726424957
+          13.090694469001292,
+          -32.39399530775646
         ]
       }
     },
@@ -767,35 +767,35 @@
         "norad_id": 40534,
         "name": "GPS BIIF-9  (PRN 26)",
         "group": "gps-ops",
-        "lat": -10.40885931465608,
-        "lon": 39.16012577402279,
-        "alt_km": 20440.680228676218,
-        "timestamp": "2025-12-28T07:27:18.724246+00:00",
+        "lat": -35.87086433014446,
+        "lon": 64.02968929001277,
+        "alt_km": 20469.851182743223,
+        "timestamp": "2025-12-28T08:36:35.048553+00:00",
         "meta_object_name": "GPS BIIF-9  (PRN 26)",
         "meta_object_id": "2015-013A",
-        "meta_epoch": "2025-12-26T13:11:10.214592",
-        "meta_mean_motion": 2.00561683,
-        "meta_eccentricity": 0.010755,
-        "meta_inclination": 53.1959,
-        "meta_ra_of_asc_node": 211.3182,
-        "meta_arg_of_pericenter": 38.8079,
-        "meta_mean_anomaly": 322.028,
+        "meta_epoch": "2025-12-28T01:05:02.236992",
+        "meta_mean_motion": 2.00561596,
+        "meta_eccentricity": 0.0107604,
+        "meta_inclination": 53.1958,
+        "meta_ra_of_asc_node": 211.2562,
+        "meta_arg_of_pericenter": 38.8417,
+        "meta_mean_anomaly": 321.9962,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 40534,
         "meta_element_set_no": 999,
-        "meta_rev_at_epoch": 7836,
+        "meta_rev_at_epoch": 7839,
         "meta_bstar": 0,
-        "meta_mean_motion_dot": 8.8e-07,
+        "meta_mean_motion_dot": 1.01e-06,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 40534U 15013A   25360.54942378  .00000088  00000+0  00000+0 0  9998",
-        "tle_line2": "2 40534  53.1959 211.3182 0107550  38.8079 322.0280  2.00561683 78363"
+        "tle_line1": "1 40534U 15013A   25362.04516478  .00000101  00000+0  00000+0 0  9999",
+        "tle_line2": "2 40534  53.1958 211.2562 0107604  38.8417 321.9962  2.00561596 78390"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          39.16012577402279,
-          -10.40885931465608
+          64.02968929001277,
+          -35.87086433014446
         ]
       }
     },
@@ -805,10 +805,10 @@
         "norad_id": 40730,
         "name": "GPS BIIF-10 (PRN 08)",
         "group": "gps-ops",
-        "lat": 52.10804935454539,
-        "lon": -17.60040419386108,
-        "alt_km": 19981.953739622033,
-        "timestamp": "2025-12-28T07:27:18.724256+00:00",
+        "lat": 48.751351435193186,
+        "lon": 38.59649299262489,
+        "alt_km": 20145.74577027621,
+        "timestamp": "2025-12-28T08:36:35.048564+00:00",
         "meta_object_name": "GPS BIIF-10 (PRN 08)",
         "meta_object_id": "2015-033A",
         "meta_epoch": "2025-12-26T05:05:23.462304",
@@ -832,8 +832,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -17.60040419386108,
-          52.10804935454539
+          38.59649299262489,
+          48.751351435193186
         ]
       }
     },
@@ -843,15 +843,15 @@
         "norad_id": 41019,
         "name": "GPS BIIF-11 (PRN 10)",
         "group": "gps-ops",
-        "lat": 26.202831263895742,
-        "lon": 56.17112367679448,
-        "alt_km": 20458.825418396897,
-        "timestamp": "2025-12-28T07:27:18.724267+00:00",
+        "lat": 49.79571542350844,
+        "lon": 88.04258223192052,
+        "alt_km": 20460.86680827967,
+        "timestamp": "2025-12-28T08:36:35.048574+00:00",
         "meta_object_name": "GPS BIIF-11 (PRN 10)",
         "meta_object_id": "2015-062A",
         "meta_epoch": "2025-12-27T18:24:44.008128",
         "meta_mean_motion": 2.00566979,
-        "meta_eccentricity": 0.01111616,
+        "meta_eccentricity": 0.0111162,
         "meta_inclination": 56.8431,
         "meta_ra_of_asc_node": 37.4211,
         "meta_arg_of_pericenter": 230.3326,
@@ -865,13 +865,13 @@
         "meta_mean_motion_dot": -5.1e-07,
         "meta_mean_motion_ddot": 0,
         "tle_line1": "1 41019U 15062A   25361.76717602 -.00000051  00000+0  00000+0 0  9997",
-        "tle_line2": "2 41019  56.8431  37.4211 0111161 230.3326 128.7393  2.00566979 74392"
+        "tle_line2": "2 41019  56.8431  37.4211 0111162 230.3326 128.7393  2.00566979 74393"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          56.17112367679448,
-          26.202831263895742
+          88.04258223192052,
+          49.79571542350844
         ]
       }
     },
@@ -881,10 +881,10 @@
         "norad_id": 41328,
         "name": "GPS BIIF-12 (PRN 32)",
         "group": "gps-ops",
-        "lat": -22.23835895393473,
-        "lon": 79.87844763978725,
-        "alt_km": 20177.845405036947,
-        "timestamp": "2025-12-28T07:27:18.724277+00:00",
+        "lat": 5.9235097022657115,
+        "lon": 100.33925855303676,
+        "alt_km": 20315.855891759362,
+        "timestamp": "2025-12-28T08:36:35.048584+00:00",
         "meta_object_name": "GPS BIIF-12 (PRN 32)",
         "meta_object_id": "2016-007A",
         "meta_epoch": "2025-12-27T08:26:09.961152",
@@ -908,8 +908,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          79.87844763978725,
-          -22.23835895393473
+          100.33925855303676,
+          5.9235097022657115
         ]
       }
     },
@@ -919,10 +919,10 @@
         "norad_id": 43873,
         "name": "GPS BIII-1  (PRN 04)",
         "group": "gps-ops",
-        "lat": -36.4761559979809,
-        "lon": -50.643461392152645,
-        "alt_km": 20101.244091220025,
-        "timestamp": "2025-12-28T07:27:18.724287+00:00",
+        "lat": -54.573737103116,
+        "lon": -6.737082073036525,
+        "alt_km": 20146.918284130978,
+        "timestamp": "2025-12-28T08:36:35.048594+00:00",
         "meta_object_name": "GPS BIII-1  (PRN 04)",
         "meta_object_id": "2018-109A",
         "meta_epoch": "2025-12-27T12:20:00.261888",
@@ -946,8 +946,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -50.643461392152645,
-          -36.4761559979809
+          -6.737082073036525,
+          -54.573737103116
         ]
       }
     },
@@ -957,10 +957,10 @@
         "norad_id": 44506,
         "name": "GPS BIII-2  (PRN 18)",
         "group": "gps-ops",
-        "lat": 43.94371852205541,
-        "lon": 116.83014515125059,
-        "alt_km": 20138.39916125003,
-        "timestamp": "2025-12-28T07:27:18.724297+00:00",
+        "lat": 18.175202092314045,
+        "lon": 144.98352903553578,
+        "alt_km": 20063.674488797915,
+        "timestamp": "2025-12-28T08:36:35.048605+00:00",
         "meta_object_name": "GPS BIII-2  (PRN 18)",
         "meta_object_id": "2019-056A",
         "meta_epoch": "2025-12-27T20:30:37.485792",
@@ -984,8 +984,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          116.83014515125059,
-          43.94371852205541
+          144.98352903553578,
+          18.175202092314045
         ]
       }
     },
@@ -995,15 +995,15 @@
         "norad_id": 45854,
         "name": "GPS BIII-3  (PRN 23)",
         "group": "gps-ops",
-        "lat": 50.048229032205384,
-        "lon": 87.64591674899751,
-        "alt_km": 20294.474407232537,
-        "timestamp": "2025-12-28T07:27:18.724307+00:00",
+        "lat": 54.9111965910422,
+        "lon": 145.49551330275844,
+        "alt_km": 20210.601068387386,
+        "timestamp": "2025-12-28T08:36:35.048615+00:00",
         "meta_object_name": "GPS BIII-3  (PRN 23)",
         "meta_object_id": "2020-041A",
         "meta_epoch": "2025-12-27T23:49:42.352320",
         "meta_mean_motion": 2.00561379,
-        "meta_eccentricity": 0.00607104,
+        "meta_eccentricity": 0.006071,
         "meta_inclination": 56.5574,
         "meta_ra_of_asc_node": 35.5922,
         "meta_arg_of_pericenter": 203.866,
@@ -1022,8 +1022,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          87.64591674899751,
-          50.048229032205384
+          145.49551330275844,
+          54.9111965910422
         ]
       }
     },
@@ -1033,10 +1033,10 @@
         "norad_id": 46826,
         "name": "GPS BIII-4  (PRN 14)",
         "group": "gps-ops",
-        "lat": 30.178668557586573,
-        "lon": -117.28771242046261,
-        "alt_km": 20344.910588233983,
-        "timestamp": "2025-12-28T07:27:18.724317+00:00",
+        "lat": 50.60513033846793,
+        "lon": -80.06925301899348,
+        "alt_km": 20288.258081996908,
+        "timestamp": "2025-12-28T08:36:35.048626+00:00",
         "meta_object_name": "GPS BIII-4  (PRN 14)",
         "meta_object_id": "2020-078A",
         "meta_epoch": "2025-12-16T01:06:13.902336",
@@ -1060,8 +1060,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.28771242046261,
-          30.178668557586573
+          -80.06925301899348,
+          50.60513033846793
         ]
       }
     },
@@ -1071,10 +1071,10 @@
         "norad_id": 48859,
         "name": "GPS BIII-5  (PRN 11)",
         "group": "gps-ops",
-        "lat": -34.183644622256224,
-        "lon": -172.562529775352,
-        "alt_km": 20122.952310304256,
-        "timestamp": "2025-12-28T07:27:18.724328+00:00",
+        "lat": -53.48578045960565,
+        "lon": -131.07566171715683,
+        "alt_km": 20129.006295947675,
+        "timestamp": "2025-12-28T08:36:35.048636+00:00",
         "meta_object_name": "GPS BIII-5  (PRN 11)",
         "meta_object_id": "2021-054A",
         "meta_epoch": "2025-12-08T04:14:32.423424",
@@ -1098,8 +1098,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -172.562529775352,
-          -34.183644622256224
+          -131.07566171715683,
+          -53.48578045960565
         ]
       }
     },
@@ -1109,10 +1109,10 @@
         "norad_id": 55268,
         "name": "GPS BIII-6  (PRN 28)",
         "group": "gps-ops",
-        "lat": -54.86112881782886,
-        "lon": 57.763759057425474,
-        "alt_km": 20188.85925015039,
-        "timestamp": "2025-12-28T07:27:18.724338+00:00",
+        "lat": -44.99339079702699,
+        "lon": 110.97985204065716,
+        "alt_km": 20182.562116542314,
+        "timestamp": "2025-12-28T08:36:35.048647+00:00",
         "meta_object_name": "GPS BIII-6  (PRN 28)",
         "meta_object_id": "2023-009A",
         "meta_epoch": "2025-12-22T10:59:58.065216",
@@ -1136,8 +1136,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          57.763759057425474,
-          -54.86112881782886
+          110.97985204065716,
+          -44.99339079702699
         ]
       }
     },
@@ -1147,10 +1147,10 @@
         "norad_id": 62339,
         "name": "GPS BIII-7  (PRN 01)",
         "group": "gps-ops",
-        "lat": -13.203313655957341,
-        "lon": -28.38757007927919,
-        "alt_km": 20149.513030773607,
-        "timestamp": "2025-12-28T07:27:18.724348+00:00",
+        "lat": 15.13853280157187,
+        "lon": -7.944754984374395,
+        "alt_km": 20151.07678373174,
+        "timestamp": "2025-12-28T08:36:35.048660+00:00",
         "meta_object_name": "GPS BIII-7  (PRN 01)",
         "meta_object_id": "2024-242A",
         "meta_epoch": "2025-12-27T14:02:44.321280",
@@ -1174,8 +1174,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -28.38757007927919,
-          -13.203313655957341
+          -7.944754984374395,
+          15.13853280157187
         ]
       }
     },
@@ -1185,35 +1185,35 @@
         "norad_id": 64202,
         "name": "GPS BIII-8  (PRN 21)",
         "group": "gps-ops",
-        "lat": 6.003373395598355,
-        "lon": -146.17728043485408,
-        "alt_km": 20194.15802649504,
-        "timestamp": "2025-12-28T07:27:18.724359+00:00",
+        "lat": -22.165739510670793,
+        "lon": -125.47204088701511,
+        "alt_km": 20189.724758197983,
+        "timestamp": "2025-12-28T08:36:35.048671+00:00",
         "meta_object_name": "GPS BIII-8  (PRN 21)",
         "meta_object_id": "2025-116A",
-        "meta_epoch": "2025-12-26T01:49:27.319296",
-        "meta_mean_motion": 2.00557298,
-        "meta_eccentricity": 0.00059923,
-        "meta_inclination": 55.1151,
-        "meta_ra_of_asc_node": 38.103,
-        "meta_arg_of_pericenter": 311.0999,
-        "meta_mean_anomaly": 48.1681,
+        "meta_epoch": "2025-12-28T04:53:28.543776",
+        "meta_mean_motion": 2.00557029,
+        "meta_eccentricity": 0.0006077,
+        "meta_inclination": 55.1169,
+        "meta_ra_of_asc_node": 38.017,
+        "meta_arg_of_pericenter": 311.5811,
+        "meta_mean_anomaly": 144.0093,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 64202,
         "meta_element_set_no": 999,
-        "meta_rev_at_epoch": 439,
+        "meta_rev_at_epoch": 444,
         "meta_bstar": 0,
-        "meta_mean_motion_dot": -5.1e-07,
+        "meta_mean_motion_dot": -5.4e-07,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 64202U 25116A   25360.07601064 -.00000051  00000+0  00000+0 0  9994",
-        "tle_line2": "2 64202  55.1151  38.1030 0005992 311.0999  48.1681  2.00557298  4398"
+        "tle_line1": "1 64202U 25116A   25362.20380259 -.00000054  00000+0  00000+0 0  9994",
+        "tle_line2": "2 64202  55.1169  38.0170 0006077 311.5811 144.0093  2.00557029  4445"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -146.17728043485408,
-          6.003373395598355
+          -125.47204088701511,
+          -22.165739510670793
         ]
       }
     }
