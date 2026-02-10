@@ -7,10 +7,10 @@
         "norad_id": 36828,
         "name": "BEIDOU-2 IGSO-1 (C06)",
         "group": "beidou",
-        "lat": 52.94401717393734,
-        "lon": -123.9199474919116,
-        "alt_km": 35950.80564682657,
-        "timestamp": "2026-02-09T23:48:15.946467+00:00",
+        "lat": 37.0076092528016,
+        "lon": -48.66423019950796,
+        "alt_km": 35766.56953621976,
+        "timestamp": "2026-02-10T03:20:10.075773+00:00",
         "meta_object_name": "BEIDOU-2 IGSO-1 (C06)",
         "meta_object_id": "2010-036A",
         "meta_epoch": "2026-02-08T19:27:01.799136",
@@ -34,8 +34,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -123.9199474919116,
-          52.94401717393734
+          -48.66423019950796,
+          37.0076092528016
         ]
       }
     },
@@ -45,19 +45,19 @@
         "norad_id": 37210,
         "name": "BEIDOU-2 G4 (C04)",
         "group": "beidou",
-        "lat": -2.456162689926773,
-        "lon": -62.923557287505275,
-        "alt_km": 35747.71882493978,
-        "timestamp": "2026-02-09T23:48:15.946490+00:00",
+        "lat": -3.289445196084951,
+        "lon": -9.669323146608818,
+        "alt_km": 35774.52602391627,
+        "timestamp": "2026-02-10T03:20:10.075801+00:00",
         "meta_object_name": "BEIDOU-2 G4 (C04)",
         "meta_object_id": "2010-057A",
-        "meta_epoch": "2026-02-09T13:57:23.411808",
-        "meta_mean_motion": 1.00273538,
-        "meta_eccentricity": 0.00096686,
-        "meta_inclination": 3.3297,
-        "meta_ra_of_asc_node": 69.6914,
-        "meta_arg_of_pericenter": 206.7179,
-        "meta_mean_anomaly": 232.5273,
+        "meta_epoch": "2026-02-09T19:05:33.066240",
+        "meta_mean_motion": 1.00273537,
+        "meta_eccentricity": 0.0009655,
+        "meta_inclination": 3.3301,
+        "meta_ra_of_asc_node": 69.6898,
+        "meta_arg_of_pericenter": 206.7599,
+        "meta_mean_anomaly": 309.7397,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 37210,
@@ -66,14 +66,14 @@
         "meta_bstar": 0,
         "meta_mean_motion_dot": -1.06e-06,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 37210U 10057A   26040.58152097 -.00000106  00000+0  00000+0 0  9991",
-        "tle_line2": "2 37210   3.3297  69.6914 0009668 206.7179 232.5273  1.00273538 56010"
+        "tle_line1": "1 37210U 10057A   26040.79552160 -.00000106  00000+0  00000+0 0  9999",
+        "tle_line2": "2 37210   3.3301  69.6898 0009655 206.7599 309.7397  1.00273537 56012"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -62.923557287505275,
-          -2.456162689926773
+          -9.669323146608818,
+          -3.289445196084951
         ]
       }
     },
@@ -83,15 +83,15 @@
         "norad_id": 37256,
         "name": "BEIDOU-2 IGSO-2 (C07)",
         "group": "beidou",
-        "lat": -20.22034280850411,
-        "lon": -106.0925337150836,
-        "alt_km": 35882.52351406642,
-        "timestamp": "2026-02-09T23:48:15.946505+00:00",
+        "lat": 18.160220732338864,
+        "lon": -69.22681312565116,
+        "alt_km": 35981.85892557256,
+        "timestamp": "2026-02-10T03:20:10.075816+00:00",
         "meta_object_name": "BEIDOU-2 IGSO-2 (C07)",
         "meta_object_id": "2010-068A",
         "meta_epoch": "2026-02-09T13:42:32.334912",
         "meta_mean_motion": 1.00267171,
-        "meta_eccentricity": 0.00470507,
+        "meta_eccentricity": 0.0047051,
         "meta_inclination": 47.7725,
         "meta_ra_of_asc_node": 273.4136,
         "meta_arg_of_pericenter": 214.4052,
@@ -105,13 +105,13 @@
         "meta_mean_motion_dot": -1.64e-06,
         "meta_mean_motion_ddot": 0,
         "tle_line1": "1 37256U 10068A   26040.57120758 -.00000164  00000+0  00000+0 0  9995",
-        "tle_line2": "2 37256  47.7725 273.4136 0047050 214.4052 325.5199  1.00267171 55512"
+        "tle_line2": "2 37256  47.7725 273.4136 0047051 214.4052 325.5199  1.00267171 55513"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -106.0925337150836,
-          -20.22034280850411
+          -69.22681312565116,
+          18.160220732338864
         ]
       }
     },
@@ -121,35 +121,35 @@
         "norad_id": 37384,
         "name": "BEIDOU-2 IGSO-3 (C08)",
         "group": "beidou",
-        "lat": -18.183688709117526,
-        "lon": -128.68533124172774,
-        "alt_km": 35655.737516415895,
-        "timestamp": "2026-02-09T23:48:15.946518+00:00",
+        "lat": -58.254558013291664,
+        "lon": -80.18840677000541,
+        "alt_km": 35734.582111354495,
+        "timestamp": "2026-02-10T03:20:10.075829+00:00",
         "meta_object_name": "BEIDOU-2 IGSO-3 (C08)",
         "meta_object_id": "2011-013A",
-        "meta_epoch": "2026-02-07T22:48:38.924064",
-        "meta_mean_motion": 1.00257115,
-        "meta_eccentricity": 0.0033273,
-        "meta_inclination": 62.2257,
-        "meta_ra_of_asc_node": 41.3671,
-        "meta_arg_of_pericenter": 190.4773,
-        "meta_mean_anomaly": 353.3,
+        "meta_epoch": "2026-02-09T10:16:44.555808",
+        "meta_mean_motion": 1.00256816,
+        "meta_eccentricity": 0.0033282,
+        "meta_inclination": 62.2276,
+        "meta_ra_of_asc_node": 41.3533,
+        "meta_arg_of_pericenter": 190.419,
+        "meta_mean_anomaly": 166.7485,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 37384,
         "meta_element_set_no": 999,
-        "meta_rev_at_epoch": 5436,
+        "meta_rev_at_epoch": 5437,
         "meta_bstar": 0,
-        "meta_mean_motion_dot": -1.52e-06,
+        "meta_mean_motion_dot": -1.46e-06,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 37384U 11013A   26038.95045051 -.00000152  00000+0  00000+0 0  9996",
-        "tle_line2": "2 37384  62.2257  41.3671 0033273 190.4773 353.3000  1.00257115 54366"
+        "tle_line1": "1 37384U 11013A   26040.42829347 -.00000146  00000+0  00000+0 0  9992",
+        "tle_line2": "2 37384  62.2276  41.3533 0033282 190.4190 166.7485  1.00256816 54378"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -128.68533124172774,
-          -18.183688709117526
+          -80.18840677000541,
+          -58.254558013291664
         ]
       }
     },
@@ -159,10 +159,10 @@
         "norad_id": 37763,
         "name": "BEIDOU-2 IGSO-4 (C09)",
         "group": "beidou",
-        "lat": 47.58111592762625,
-        "lon": -142.16967879822195,
-        "alt_km": 36404.50759566844,
-        "timestamp": "2026-02-09T23:48:15.946531+00:00",
+        "lat": 46.663732745613636,
+        "lon": -62.02450281205525,
+        "alt_km": 36031.93125280355,
+        "timestamp": "2026-02-10T03:20:10.075842+00:00",
         "meta_object_name": "BEIDOU-2 IGSO-4 (C09)",
         "meta_object_id": "2011-038A",
         "meta_epoch": "2026-02-09T07:14:40.359264",
@@ -186,8 +186,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -142.16967879822195,
-          47.58111592762625
+          -62.02450281205525,
+          46.663732745613636
         ]
       }
     },
@@ -197,10 +197,10 @@
         "norad_id": 37948,
         "name": "BEIDOU-2 IGSO-5 (C10)",
         "group": "beidou",
-        "lat": -28.294481028356056,
-        "lon": -115.95196158537476,
-        "alt_km": 35853.299092152214,
-        "timestamp": "2026-02-09T23:48:15.946543+00:00",
+        "lat": 9.447379450760904,
+        "lon": -78.19452287134546,
+        "alt_km": 36184.80647376207,
+        "timestamp": "2026-02-10T03:20:10.075876+00:00",
         "meta_object_name": "BEIDOU-2 IGSO-5 (C10)",
         "meta_object_id": "2011-073A",
         "meta_epoch": "2026-02-05T17:43:06.631680",
@@ -224,8 +224,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -115.95196158537476,
-          -28.294481028356056
+          -78.19452287134546,
+          9.447379450760904
         ]
       }
     },
@@ -235,35 +235,35 @@
         "norad_id": 38091,
         "name": "BEIDOU-2 G5 (C05)",
         "group": "beidou",
-        "lat": 2.6763217127632832,
-        "lon": -164.26538609071935,
-        "alt_km": 35817.109686776705,
-        "timestamp": "2026-02-09T23:48:15.946557+00:00",
+        "lat": 0.103876631599108,
+        "lon": -111.19665645851691,
+        "alt_km": 35764.042887128126,
+        "timestamp": "2026-02-10T03:20:10.075890+00:00",
         "meta_object_name": "BEIDOU-2 G5 (C05)",
         "meta_object_id": "2012-008A",
-        "meta_epoch": "2026-02-09T13:28:33.675168",
-        "meta_mean_motion": 1.00270083,
-        "meta_eccentricity": 0.00142088,
-        "meta_inclination": 3.2552,
-        "meta_ra_of_asc_node": 70.4579,
-        "meta_arg_of_pericenter": 246.2448,
-        "meta_mean_anomaly": 83.7566,
+        "meta_epoch": "2026-02-09T20:19:18.496704",
+        "meta_mean_motion": 1.00270244,
+        "meta_eccentricity": 0.0014185,
+        "meta_inclination": 3.2559,
+        "meta_ra_of_asc_node": 70.456,
+        "meta_arg_of_pericenter": 246.4777,
+        "meta_mean_anomaly": 186.4925,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 38091,
         "meta_element_set_no": 999,
-        "meta_rev_at_epoch": 5108,
+        "meta_rev_at_epoch": 5109,
         "meta_bstar": 0,
         "meta_mean_motion_dot": 6.4e-07,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 38091U 12008A   26040.56150087  .00000064  00000+0  00000+0 0  9994",
-        "tle_line2": "2 38091   3.2552  70.4579 0014208 246.2448  83.7566  1.00270083 51087"
+        "tle_line1": "1 38091U 12008A   26040.84674186  .00000064  00000+0  00000+0 0  9996",
+        "tle_line2": "2 38091   3.2559  70.4560 0014185 246.4777 186.4925  1.00270244 51095"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -164.26538609071935,
-          2.6763217127632832
+          -111.19665645851691,
+          0.103876631599108
         ]
       }
     },
@@ -273,10 +273,10 @@
         "norad_id": 38250,
         "name": "BEIDOU-2 M3 (C11)",
         "group": "beidou",
-        "lat": 33.36798725525731,
-        "lon": -24.330105210501436,
-        "alt_km": 21557.354156170273,
-        "timestamp": "2026-02-09T23:48:15.946569+00:00",
+        "lat": 32.18811033586601,
+        "lon": 103.91984915573441,
+        "alt_km": 21570.955789482363,
+        "timestamp": "2026-02-10T03:20:10.075902+00:00",
         "meta_object_name": "BEIDOU-2 M3 (C11)",
         "meta_object_id": "2012-018A",
         "meta_epoch": "2026-02-08T20:32:20.336352",
@@ -300,8 +300,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -24.330105210501436,
-          33.36798725525731
+          103.91984915573441,
+          32.18811033586601
         ]
       }
     },
@@ -311,10 +311,10 @@
         "norad_id": 38251,
         "name": "BEIDOU-2 M4 (C12)",
         "group": "beidou",
-        "lat": 55.672921562684714,
-        "lon": 33.234364227546585,
-        "alt_km": 21557.436607912095,
-        "timestamp": "2026-02-09T23:48:15.946581+00:00",
+        "lat": -4.610074530495964,
+        "lon": 131.53211279335835,
+        "alt_km": 21535.421116897218,
+        "timestamp": "2026-02-10T03:20:10.075913+00:00",
         "meta_object_name": "BEIDOU-2 M4 (C12)",
         "meta_object_id": "2012-018B",
         "meta_epoch": "2026-02-08T06:01:22.694304",
@@ -338,8 +338,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          33.234364227546585,
-          55.672921562684714
+          131.53211279335835,
+          -4.610074530495964
         ]
       }
     },
@@ -349,15 +349,15 @@
         "norad_id": 38775,
         "name": "BEIDOU-2 M6 (C14)",
         "group": "beidou",
-        "lat": -54.820871969575926,
-        "lon": -3.264520509589191,
-        "alt_km": 21515.06586009901,
-        "timestamp": "2026-02-09T23:48:15.946592+00:00",
+        "lat": 16.575353203962273,
+        "lon": 78.50253437722498,
+        "alt_km": 21497.634942229968,
+        "timestamp": "2026-02-10T03:20:10.075925+00:00",
         "meta_object_name": "BEIDOU-2 M6 (C14)",
         "meta_object_id": "2012-050B",
         "meta_epoch": "2026-02-09T00:50:49.617600",
         "meta_mean_motion": 1.86231032,
-        "meta_eccentricity": 0.00132682,
+        "meta_eccentricity": 0.0013268,
         "meta_inclination": 56.4304,
         "meta_ra_of_asc_node": 67.1318,
         "meta_arg_of_pericenter": 340.5167,
@@ -376,8 +376,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.264520509589191,
-          -54.820871969575926
+          78.50253437722498,
+          16.575353203962273
         ]
       }
     },
@@ -387,35 +387,35 @@
         "norad_id": 38953,
         "name": "BEIDOU-2 G6 (C02)",
         "group": "beidou",
-        "lat": 2.2946394669256267,
-        "lon": -138.82411686177082,
-        "alt_km": 35821.83724673202,
-        "timestamp": "2026-02-09T23:48:15.946604+00:00",
+        "lat": -1.3477061200317528,
+        "lon": -85.87534865908329,
+        "alt_km": 35792.620941882495,
+        "timestamp": "2026-02-10T03:20:10.075937+00:00",
         "meta_object_name": "BEIDOU-2 G6 (C02)",
         "meta_object_id": "2012-059A",
-        "meta_epoch": "2026-02-09T13:35:47.981184",
-        "meta_mean_motion": 1.00274019,
-        "meta_eccentricity": 0.00098234,
-        "meta_inclination": 4.0979,
-        "meta_ra_of_asc_node": 74.9111,
-        "meta_arg_of_pericenter": 298.8455,
-        "meta_mean_anomaly": 53.8401,
+        "meta_epoch": "2026-02-09T17:01:13.295424",
+        "meta_mean_motion": 1.00274015,
+        "meta_eccentricity": 0.0009846,
+        "meta_inclination": 4.0983,
+        "meta_ra_of_asc_node": 74.9094,
+        "meta_arg_of_pericenter": 299.2058,
+        "meta_mean_anomaly": 104.9788,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 38953,
         "meta_element_set_no": 999,
-        "meta_rev_at_epoch": 4862,
+        "meta_rev_at_epoch": 4863,
         "meta_bstar": 0,
         "meta_mean_motion_dot": -1.7e-06,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 38953U 12059A   26040.56652756 -.00000170  00000+0  00000+0 0  9996",
-        "tle_line2": "2 38953   4.0979  74.9111 0009823 298.8455  53.8401  1.00274019 48620"
+        "tle_line1": "1 38953U 12059A   26040.70918166 -.00000170  00000+0  00000+0 0  9992",
+        "tle_line2": "2 38953   4.0983  74.9094 0009846 299.2058 104.9788  1.00274015 48637"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -138.82411686177082,
-          2.2946394669256267
+          -85.87534865908329,
+          -1.3477061200317528
         ]
       }
     },
@@ -425,35 +425,35 @@
         "norad_id": 40549,
         "name": "BEIDOU-3S IGSO-1S (C31)",
         "group": "beidou",
-        "lat": -42.68359471301768,
-        "lon": -115.07173863586918,
-        "alt_km": 35827.04112469542,
-        "timestamp": "2026-02-09T23:48:15.946616+00:00",
+        "lat": -7.79749781682348,
+        "lon": -69.70797472767951,
+        "alt_km": 35924.688859460766,
+        "timestamp": "2026-02-10T03:20:10.075950+00:00",
         "meta_object_name": "BEIDOU-3S IGSO-1S (C31)",
         "meta_object_id": "2015-019A",
-        "meta_epoch": "2026-01-27T13:54:45.681696",
-        "meta_mean_motion": 1.0028218,
-        "meta_eccentricity": 0.00359462,
-        "meta_inclination": 49.4603,
-        "meta_ra_of_asc_node": 297.1615,
-        "meta_arg_of_pericenter": 192.2184,
-        "meta_mean_anomaly": 302.2696,
+        "meta_epoch": "2026-02-07T17:54:28.218816",
+        "meta_mean_motion": 1.00279018,
+        "meta_eccentricity": 0.0035445,
+        "meta_inclination": 49.4373,
+        "meta_ra_of_asc_node": 297.0241,
+        "meta_arg_of_pericenter": 191.8149,
+        "meta_mean_anomaly": 13.9716,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 40549,
         "meta_element_set_no": 999,
-        "meta_rev_at_epoch": 3966,
+        "meta_rev_at_epoch": 3977,
         "meta_bstar": 0,
-        "meta_mean_motion_dot": -1.8e-06,
+        "meta_mean_motion_dot": -1.74e-06,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 40549U 15019A   26027.57969539 -.00000180  00000+0  00000+0 0  9996",
-        "tle_line2": "2 40549  49.4603 297.1615 0035946 192.2184 302.2696  1.00282180 39669"
+        "tle_line1": "1 40549U 15019A   26038.74615994 -.00000174  00000+0  00000+0 0  9993",
+        "tle_line2": "2 40549  49.4373 297.0241 0035445 191.8149  13.9716  1.00279018 39774"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -115.07173863586918,
-          -42.68359471301768
+          -69.70797472767951,
+          -7.79749781682348
         ]
       }
     },
@@ -463,10 +463,10 @@
         "norad_id": 40748,
         "name": "BEIDOU-3S M2S (C58)",
         "group": "beidou",
-        "lat": -38.80622505355493,
-        "lon": -87.84239267005239,
-        "alt_km": 21509.43212163295,
-        "timestamp": "2026-02-09T23:48:15.946630+00:00",
+        "lat": 38.02683246443101,
+        "lon": -20.364424803662974,
+        "alt_km": 21541.51768478974,
+        "timestamp": "2026-02-10T03:20:10.075965+00:00",
         "meta_object_name": "BEIDOU-3S M2S (C58)",
         "meta_object_id": "2015-037A",
         "meta_epoch": "2026-02-08T23:48:57.724128",
@@ -490,8 +490,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.84239267005239,
-          -38.80622505355493
+          -20.364424803662974,
+          38.02683246443101
         ]
       }
     },
@@ -501,19 +501,19 @@
         "norad_id": 40749,
         "name": "BEIDOU-3S M1S (C57)",
         "group": "beidou",
-        "lat": 15.644831102408078,
-        "lon": 115.11136025294353,
-        "alt_km": 21533.277870223228,
-        "timestamp": "2026-02-09T23:48:15.946641+00:00",
+        "lat": -53.60852087449699,
+        "lon": -161.72196895007835,
+        "alt_km": 21537.922448902216,
+        "timestamp": "2026-02-10T03:20:10.075976+00:00",
         "meta_object_name": "BEIDOU-3S M1S (C57)",
         "meta_object_id": "2015-037B",
-        "meta_epoch": "2026-02-08T03:23:51.163296",
-        "meta_mean_motion": 1.86254142,
-        "meta_eccentricity": 0.0004389,
+        "meta_epoch": "2026-02-08T03:23:51.061344",
+        "meta_mean_motion": 1.86254165,
+        "meta_eccentricity": 0.0004371,
         "meta_inclination": 54.9813,
         "meta_ra_of_asc_node": 306.4799,
-        "meta_arg_of_pericenter": 21.1943,
-        "meta_mean_anomaly": 338.8691,
+        "meta_arg_of_pericenter": 20.9652,
+        "meta_mean_anomaly": 339.0979,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 40749,
@@ -522,14 +522,14 @@
         "meta_bstar": 0,
         "meta_mean_motion_dot": -8.5e-07,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 40749U 15037B   26039.14156439 -.00000085  00000+0  00000+0 0  9995",
-        "tle_line2": "2 40749  54.9813 306.4799 0004389  21.1943 338.8691  1.86254142 71726"
+        "tle_line1": "1 40749U 15037B   26039.14156321 -.00000085  00000+0  00000+0 0  9995",
+        "tle_line2": "2 40749  54.9813 306.4799 0004371  20.9652 339.0979  1.86254165 71728"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          115.11136025294353,
-          15.644831102408078
+          -161.72196895007835,
+          -53.60852087449699
         ]
       }
     },
@@ -539,10 +539,10 @@
         "norad_id": 40938,
         "name": "BEIDOU-3S IGSO-2S (C56)",
         "group": "beidou",
-        "lat": -21.879234677439914,
-        "lon": -119.80759808972678,
-        "alt_km": 36002.78849402789,
-        "timestamp": "2026-02-09T23:48:15.946652+00:00",
+        "lat": 17.323904635988892,
+        "lon": -84.15760437962487,
+        "alt_km": 36040.57683769249,
+        "timestamp": "2026-02-10T03:20:10.075988+00:00",
         "meta_object_name": "BEIDOU-3S IGSO-2S (C56)",
         "meta_object_id": "2015-053A",
         "meta_epoch": "2026-01-27T16:14:57.122592",
@@ -566,8 +566,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.80759808972678,
-          -21.879234677439914
+          -84.15760437962487,
+          17.323904635988892
         ]
       }
     },
@@ -577,10 +577,10 @@
         "norad_id": 41434,
         "name": "BEIDOU-2 IGSO-6 (C13)",
         "group": "beidou",
-        "lat": -11.074918235324631,
-        "lon": -134.22521291835085,
-        "alt_km": 35590.03301680974,
-        "timestamp": "2026-02-09T23:48:15.946666+00:00",
+        "lat": -52.61234119395045,
+        "lon": -91.6897142733925,
+        "alt_km": 35541.39292372246,
+        "timestamp": "2026-02-10T03:20:10.076001+00:00",
         "meta_object_name": "BEIDOU-2 IGSO-6 (C13)",
         "meta_object_id": "2016-021A",
         "meta_epoch": "2026-02-08T17:09:25.479072",
@@ -604,8 +604,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -134.22521291835085,
-          -11.074918235324631
+          -91.6897142733925,
+          -52.61234119395045
         ]
       }
     },
@@ -615,19 +615,19 @@
         "norad_id": 41586,
         "name": "BEIDOU-2 G7 (C03)",
         "group": "beidou",
-        "lat": 0.03177287045123824,
-        "lon": -112.34267271201723,
-        "alt_km": 35814.49124379612,
-        "timestamp": "2026-02-09T23:48:15.946678+00:00",
+        "lat": -1.512316994577559,
+        "lon": -59.30067575413016,
+        "alt_km": 35804.46788463026,
+        "timestamp": "2026-02-10T03:20:10.076017+00:00",
         "meta_object_name": "BEIDOU-2 G7 (C03)",
         "meta_object_id": "2016-037A",
-        "meta_epoch": "2026-02-09T13:43:17.262912",
-        "meta_mean_motion": 1.00268507,
-        "meta_eccentricity": 0.00065275,
-        "meta_inclination": 1.9005,
-        "meta_ra_of_asc_node": 68.3415,
-        "meta_arg_of_pericenter": 0.7817,
-        "meta_mean_anomaly": 26.8531,
+        "meta_epoch": "2026-02-09T20:34:09.573600",
+        "meta_mean_motion": 1.0026836,
+        "meta_eccentricity": 0.000656,
+        "meta_inclination": 1.901,
+        "meta_ra_of_asc_node": 68.3414,
+        "meta_arg_of_pericenter": 0.8021,
+        "meta_mean_anomaly": 129.829,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 41586,
@@ -636,14 +636,14 @@
         "meta_bstar": 0,
         "meta_mean_motion_dot": -3.46e-06,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 41586U 16037A   26040.57172758 -.00000346  00000+0  00000+0 0  9997",
-        "tle_line2": "2 41586   1.9005  68.3415 0006527   0.7817  26.8531  1.00268507  5617"
+        "tle_line1": "1 41586U 16037A   26040.85705525 -.00000346  00000+0  00000+0 0  9992",
+        "tle_line2": "2 41586   1.9010  68.3414 0006560   0.8021 129.8290  1.00268360  5610"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -112.34267271201723,
-          0.03177287045123824
+          -59.30067575413016,
+          -1.512316994577559
         ]
       }
     },
@@ -653,10 +653,10 @@
         "norad_id": 43001,
         "name": "BEIDOU-3 M1 (C19)",
         "group": "beidou",
-        "lat": 54.88581867380744,
-        "lon": 137.14891480151556,
-        "alt_km": 21543.942070016128,
-        "timestamp": "2026-02-09T23:48:15.946690+00:00",
+        "lat": 2.449334265215946,
+        "lon": -114.33935099692422,
+        "alt_km": 21548.679108554832,
+        "timestamp": "2026-02-10T03:20:10.076041+00:00",
         "meta_object_name": "BEIDOU-3 M1 (C19)",
         "meta_object_id": "2017-069A",
         "meta_epoch": "2026-02-08T19:13:04.957248",
@@ -680,8 +680,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          137.14891480151556,
-          54.88581867380744
+          -114.33935099692422,
+          2.449334265215946
         ]
       }
     },
@@ -691,10 +691,10 @@
         "norad_id": 43002,
         "name": "BEIDOU-3 M2 (C20)",
         "group": "beidou",
-        "lat": 46.366653038088536,
-        "lon": -156.50866336294206,
-        "alt_km": 21544.873752829648,
-        "timestamp": "2026-02-09T23:48:15.946701+00:00",
+        "lat": -31.20585423787865,
+        "lon": -89.11052589534508,
+        "alt_km": 21539.75943344868,
+        "timestamp": "2026-02-10T03:20:10.076063+00:00",
         "meta_object_name": "BEIDOU-3 M2 (C20)",
         "meta_object_id": "2017-069B",
         "meta_epoch": "2026-02-09T06:37:40.700064",
@@ -718,8 +718,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -156.50866336294206,
-          46.366653038088536
+          -89.11052589534508,
+          -31.20585423787865
         ]
       }
     },
@@ -729,10 +729,10 @@
         "norad_id": 43107,
         "name": "BEIDOU-3 M7 (C27)",
         "group": "beidou",
-        "lat": -48.670195665165785,
-        "lon": -107.57719476756662,
-        "alt_km": 21541.48329369379,
-        "timestamp": "2026-02-09T23:48:15.946711+00:00",
+        "lat": 25.006141766602365,
+        "lon": -33.77877579929185,
+        "alt_km": 21515.421116685215,
+        "timestamp": "2026-02-10T03:20:10.076076+00:00",
         "meta_object_name": "BEIDOU-3 M7 (C27)",
         "meta_object_id": "2018-003A",
         "meta_epoch": "2026-02-09T00:26:34.285632",
@@ -756,8 +756,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -107.57719476756662,
-          -48.670195665165785
+          -33.77877579929185,
+          25.006141766602365
         ]
       }
     },
@@ -767,10 +767,10 @@
         "norad_id": 43108,
         "name": "BEIDOU-3 M8 (C28)",
         "group": "beidou",
-        "lat": -24.59594005522064,
-        "lon": -72.35474037453568,
-        "alt_km": 21523.384057535644,
-        "timestamp": "2026-02-09T23:48:15.946723+00:00",
+        "lat": 48.92289959869944,
+        "lon": 1.81425396045432,
+        "alt_km": 21529.63337179641,
+        "timestamp": "2026-02-10T03:20:10.076087+00:00",
         "meta_object_name": "BEIDOU-3 M8 (C28)",
         "meta_object_id": "2018-003B",
         "meta_epoch": "2026-02-08T23:07:54.500736",
@@ -794,8 +794,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -72.35474037453568,
-          -24.59594005522064
+          1.81425396045432,
+          48.92289959869944
         ]
       }
     },
@@ -805,10 +805,10 @@
         "norad_id": 43207,
         "name": "BEIDOU-3 M4 (C22)",
         "group": "beidou",
-        "lat": 26.897149896450237,
-        "lon": 86.95034309510748,
-        "alt_km": 21512.80034597064,
-        "timestamp": "2026-02-09T23:48:15.946734+00:00",
+        "lat": 38.637513236131596,
+        "lon": -144.5612310374946,
+        "alt_km": 21536.462230674544,
+        "timestamp": "2026-02-10T03:20:10.076099+00:00",
         "meta_object_name": "BEIDOU-3 M4 (C22)",
         "meta_object_id": "2018-018A",
         "meta_epoch": "2026-02-09T09:44:35.418336",
@@ -832,8 +832,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          86.95034309510748,
-          26.897149896450237
+          -144.5612310374946,
+          38.637513236131596
         ]
       }
     },
@@ -843,35 +843,35 @@
         "norad_id": 43208,
         "name": "BEIDOU-3 M3 (C21)",
         "group": "beidou",
-        "lat": -9.796081977507052,
-        "lon": 60.800313071427304,
-        "alt_km": 21507.925997278733,
-        "timestamp": "2026-02-09T23:48:15.946745+00:00",
+        "lat": 56.40171058953909,
+        "lon": 151.80689880338252,
+        "alt_km": 21538.65552208809,
+        "timestamp": "2026-02-10T03:20:10.076110+00:00",
         "meta_object_name": "BEIDOU-3 M3 (C21)",
         "meta_object_id": "2018-018B",
-        "meta_epoch": "2026-02-07T20:40:39.048384",
-        "meta_mean_motion": 1.86231392,
-        "meta_eccentricity": 0.00092156,
-        "meta_inclination": 56.5359,
-        "meta_ra_of_asc_node": 67.4167,
-        "meta_arg_of_pericenter": 315.6849,
-        "meta_mean_anomaly": 44.2951,
+        "meta_epoch": "2026-02-09T11:20:17.613312",
+        "meta_mean_motion": 1.86231382,
+        "meta_eccentricity": 0.0009254,
+        "meta_inclination": 56.5373,
+        "meta_ra_of_asc_node": 67.3635,
+        "meta_arg_of_pericenter": 315.4639,
+        "meta_mean_anomaly": 44.5159,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 43208,
         "meta_element_set_no": 999,
-        "meta_rev_at_epoch": 5433,
+        "meta_rev_at_epoch": 5436,
         "meta_bstar": 0,
-        "meta_mean_motion_dot": -5.1e-07,
+        "meta_mean_motion_dot": -4.3e-07,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 43208U 18018B   26038.86156306 -.00000051  00000+0  00000+0 0  9994",
-        "tle_line2": "2 43208  56.5359  67.4167 0009215 315.6849  44.2951  1.86231392 54331"
+        "tle_line1": "1 43208U 18018B   26040.47242608 -.00000043  00000+0  00000+0 0  9996",
+        "tle_line2": "2 43208  56.5373  67.3635 0009254 315.4639  44.5159  1.86231382 54369"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          60.800313071427304,
-          -9.796081977507052
+          151.80689880338252,
+          56.40171058953909
         ]
       }
     },
@@ -881,10 +881,10 @@
         "norad_id": 43245,
         "name": "BEIDOU-3 M9 (C29)",
         "group": "beidou",
-        "lat": -18.41018851658428,
-        "lon": 138.23419046525214,
-        "alt_km": 21533.142018299717,
-        "timestamp": "2026-02-09T23:48:15.946756+00:00",
+        "lat": -43.835786317099824,
+        "lon": -99.18287980102424,
+        "alt_km": 21531.37510601944,
+        "timestamp": "2026-02-10T03:20:10.076122+00:00",
         "meta_object_name": "BEIDOU-3 M9 (C29)",
         "meta_object_id": "2018-029A",
         "meta_epoch": "2026-02-08T14:46:09.097248",
@@ -908,8 +908,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          138.23419046525214,
-          -18.41018851658428
+          -99.18287980102424,
+          -43.835786317099824
         ]
       }
     },
@@ -919,10 +919,10 @@
         "norad_id": 43246,
         "name": "BEIDOU-3 M10 (C30)",
         "group": "beidou",
-        "lat": -48.12012294132988,
-        "lon": 177.64887225069916,
-        "alt_km": 21542.7804578861,
-        "timestamp": "2026-02-09T23:48:15.946767+00:00",
+        "lat": -12.075807744414005,
+        "lon": -64.40849257755133,
+        "alt_km": 21518.098445689953,
+        "timestamp": "2026-02-10T03:20:10.076133+00:00",
         "meta_object_name": "BEIDOU-3 M10 (C30)",
         "meta_object_id": "2018-029B",
         "meta_epoch": "2026-02-09T02:05:45.470976",
@@ -946,8 +946,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          177.64887225069916,
-          -48.12012294132988
+          -64.40849257755133,
+          -12.075807744414005
         ]
       }
     },
@@ -957,19 +957,19 @@
         "norad_id": 43539,
         "name": "BEIDOU-2 IGSO-7 (C16)",
         "group": "beidou",
-        "lat": 54.76129984530514,
-        "lon": -116.31713410554363,
-        "alt_km": 36141.42504227833,
-        "timestamp": "2026-02-09T23:48:15.946778+00:00",
+        "lat": 34.40048623690684,
+        "lon": -44.239040599288536,
+        "alt_km": 35843.510603514456,
+        "timestamp": "2026-02-10T03:20:10.076145+00:00",
         "meta_object_name": "BEIDOU-2 IGSO-7 (C16)",
         "meta_object_id": "2018-057A",
-        "meta_epoch": "2026-02-08T15:05:06.213696",
-        "meta_mean_motion": 1.00290549,
-        "meta_eccentricity": 0.0098529,
-        "meta_inclination": 55.1882,
-        "meta_ra_of_asc_node": 164.1829,
-        "meta_arg_of_pericenter": 236.3354,
-        "meta_mean_anomaly": 75.8467,
+        "meta_epoch": "2026-02-08T17:34:28.318944",
+        "meta_mean_motion": 1.00290489,
+        "meta_eccentricity": 0.0098524,
+        "meta_inclination": 55.1883,
+        "meta_ra_of_asc_node": 164.1822,
+        "meta_arg_of_pericenter": 236.3469,
+        "meta_mean_anomaly": 113.2865,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 43539,
@@ -978,14 +978,14 @@
         "meta_bstar": 0,
         "meta_mean_motion_dot": -1.18e-06,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 43539U 18057A   26039.62854414 -.00000118  00000+0  00000+0 0  9998",
-        "tle_line2": "2 43539  55.1882 164.1829 0098529 236.3354  75.8467  1.00290549 27832"
+        "tle_line1": "1 43539U 18057A   26039.73227221 -.00000118  00000+0  00000+0 0  9990",
+        "tle_line2": "2 43539  55.1883 164.1822 0098524 236.3469 113.2865  1.00290489 27830"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.31713410554363,
-          54.76129984530514
+          -44.239040599288536,
+          34.40048623690684
         ]
       }
     },
@@ -995,10 +995,10 @@
         "norad_id": 43581,
         "name": "BEIDOU-3 M5 (C23)",
         "group": "beidou",
-        "lat": 53.63459364785524,
-        "lon": -72.98820612303444,
-        "alt_km": 21524.579325478182,
-        "timestamp": "2026-02-09T23:48:15.946790+00:00",
+        "lat": -11.932641026323381,
+        "lon": 15.419178749636314,
+        "alt_km": 21533.588312982047,
+        "timestamp": "2026-02-10T03:20:10.076156+00:00",
         "meta_object_name": "BEIDOU-3 M5 (C23)",
         "meta_object_id": "2018-062A",
         "meta_epoch": "2026-02-09T07:28:37.977888",
@@ -1022,8 +1022,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -72.98820612303444,
-          53.63459364785524
+          15.419178749636314,
+          -11.932641026323381
         ]
       }
     },
@@ -1033,10 +1033,10 @@
         "norad_id": 43582,
         "name": "BEIDOU-3 M6 (C24)",
         "group": "beidou",
-        "lat": -6.6776494199223535,
-        "lon": 11.473206525222773,
-        "alt_km": 21544.578888107455,
-        "timestamp": "2026-02-09T23:48:15.946801+00:00",
+        "lat": -50.84951910583836,
+        "lon": 123.77927027808758,
+        "alt_km": 21544.338397309373,
+        "timestamp": "2026-02-10T03:20:10.076167+00:00",
         "meta_object_name": "BEIDOU-3 M6 (C24)",
         "meta_object_id": "2018-062B",
         "meta_epoch": "2026-02-07T00:38:12.019200",
@@ -1060,8 +1060,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          11.473206525222773,
-          -6.6776494199223535
+          123.77927027808758,
+          -50.84951910583836
         ]
       }
     },
@@ -1071,10 +1071,10 @@
         "norad_id": 43602,
         "name": "BEIDOU-3 M12 (C26)",
         "group": "beidou",
-        "lat": -38.046273090062165,
-        "lon": 39.7347015266467,
-        "alt_km": 21557.653737560508,
-        "timestamp": "2026-02-09T23:48:15.946812+00:00",
+        "lat": -25.444795196879564,
+        "lon": 165.25640714135994,
+        "alt_km": 21524.682714625716,
+        "timestamp": "2026-02-10T03:20:10.076179+00:00",
         "meta_object_name": "BEIDOU-3 M12 (C26)",
         "meta_object_id": "2018-067A",
         "meta_epoch": "2026-02-08T00:55:56.640864",
@@ -1098,8 +1098,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          39.7347015266467,
-          -38.046273090062165
+          165.25640714135994,
+          -25.444795196879564
         ]
       }
     },
@@ -1109,35 +1109,35 @@
         "norad_id": 43603,
         "name": "BEIDOU-3 M11 (C25)",
         "group": "beidou",
-        "lat": 31.97978358049181,
-        "lon": -21.477881917759365,
-        "alt_km": 21527.61295030534,
-        "timestamp": "2026-02-09T23:48:15.946824+00:00",
+        "lat": -43.31942873314056,
+        "lon": 48.1986849394731,
+        "alt_km": 21547.34306234,
+        "timestamp": "2026-02-10T03:20:10.076190+00:00",
         "meta_object_name": "BEIDOU-3 M11 (C25)",
         "meta_object_id": "2018-067B",
-        "meta_epoch": "2026-02-08T17:03:05.952384",
-        "meta_mean_motion": 1.86227206,
-        "meta_eccentricity": 0.00053459,
-        "meta_inclination": 54.1814,
-        "meta_ra_of_asc_node": 185.3598,
-        "meta_arg_of_pericenter": 37.155,
-        "meta_mean_anomaly": 322.845,
+        "meta_epoch": "2026-02-09T18:49:32.668896",
+        "meta_mean_motion": 1.86227251,
+        "meta_eccentricity": 0.0005335,
+        "meta_inclination": 54.1813,
+        "meta_ra_of_asc_node": 185.3233,
+        "meta_arg_of_pericenter": 37.0262,
+        "meta_mean_anomaly": 322.9747,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 43603,
         "meta_element_set_no": 999,
-        "meta_rev_at_epoch": 5075,
+        "meta_rev_at_epoch": 5077,
         "meta_bstar": 0,
-        "meta_mean_motion_dot": 5.6e-07,
+        "meta_mean_motion_dot": 5.1e-07,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 43603U 18067B   26039.71048556  .00000056  00000+0  00000+0 0  9993",
-        "tle_line2": "2 43603  54.1814 185.3598 0005345  37.1550 322.8450  1.86227206 50753"
+        "tle_line1": "1 43603U 18067B   26040.78440589  .00000051  00000+0  00000+0 0  9999",
+        "tle_line2": "2 43603  54.1813 185.3233 0005335  37.0262 322.9747  1.86227251 50778"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -21.477881917759365,
-          31.97978358049181
+          48.1986849394731,
+          -43.31942873314056
         ]
       }
     },
@@ -1147,10 +1147,10 @@
         "norad_id": 43622,
         "name": "BEIDOU-3 M13 (C32)",
         "group": "beidou",
-        "lat": 9.65589944928964,
-        "lon": -119.5998331293457,
-        "alt_km": 21543.771484320714,
-        "timestamp": "2026-02-09T23:48:15.946835+00:00",
+        "lat": -56.38395597053057,
+        "lon": -28.487564338909856,
+        "alt_km": 21515.219794030738,
+        "timestamp": "2026-02-10T03:20:10.076202+00:00",
         "meta_object_name": "BEIDOU-3 M13 (C32)",
         "meta_object_id": "2018-072A",
         "meta_epoch": "2026-02-09T04:53:09.266208",
@@ -1174,8 +1174,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.5998331293457,
-          9.65589944928964
+          -28.487564338909856,
+          -56.38395597053057
         ]
       }
     },
@@ -1185,10 +1185,10 @@
         "norad_id": 43623,
         "name": "BEIDOU-3 M14 (C33)",
         "group": "beidou",
-        "lat": -54.83741005098156,
-        "lon": -43.162763372917794,
-        "alt_km": 21527.661242775543,
-        "timestamp": "2026-02-09T23:48:15.946846+00:00",
+        "lat": -2.2101025628128217,
+        "lon": 65.39227824474781,
+        "alt_km": 21515.294467019263,
+        "timestamp": "2026-02-10T03:20:10.076214+00:00",
         "meta_object_name": "BEIDOU-3 M14 (C33)",
         "meta_object_id": "2018-072B",
         "meta_epoch": "2026-02-09T01:39:25.263360",
@@ -1212,8 +1212,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -43.162763372917794,
-          -54.83741005098156
+          65.39227824474781,
+          -2.2101025628128217
         ]
       }
     },
@@ -1223,10 +1223,10 @@
         "norad_id": 43647,
         "name": "BEIDOU-3 M16 (C35)",
         "group": "beidou",
-        "lat": 21.197251755979718,
-        "lon": 108.22338065248694,
-        "alt_km": 21539.034333858275,
-        "timestamp": "2026-02-09T23:48:15.946857+00:00",
+        "lat": -50.50496416531299,
+        "lon": -174.5610670921958,
+        "alt_km": 21549.80934563637,
+        "timestamp": "2026-02-10T03:20:10.076225+00:00",
         "meta_object_name": "BEIDOU-3 M16 (C35)",
         "meta_object_id": "2018-078A",
         "meta_epoch": "2026-02-08T03:39:15.378912",
@@ -1250,8 +1250,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          108.22338065248694,
-          21.197251755979718
+          -174.5610670921958,
+          -50.50496416531299
         ]
       }
     },
@@ -1261,35 +1261,35 @@
         "norad_id": 43648,
         "name": "BEIDOU-3 M15 (C34)",
         "group": "beidou",
-        "lat": 48.1931807112695,
-        "lon": -1.830461697423628,
-        "alt_km": 21511.060743987313,
-        "timestamp": "2026-02-09T23:48:15.946868+00:00",
+        "lat": 11.745126760867466,
+        "lon": 115.83059475070922,
+        "alt_km": 21536.30757569499,
+        "timestamp": "2026-02-10T03:20:10.076237+00:00",
         "meta_object_name": "BEIDOU-3 M15 (C34)",
         "meta_object_id": "2018-078B",
-        "meta_epoch": "2026-02-08T06:45:25.068096",
-        "meta_mean_motion": 1.86232086,
-        "meta_eccentricity": 0.00049108,
-        "meta_inclination": 54.2025,
-        "meta_ra_of_asc_node": 304.5077,
-        "meta_arg_of_pericenter": 31.0038,
-        "meta_mean_anomaly": 329.0721,
+        "meta_epoch": "2026-02-09T08:31:49.903680",
+        "meta_mean_motion": 1.86232179,
+        "meta_eccentricity": 0.000502,
+        "meta_inclination": 54.2015,
+        "meta_ra_of_asc_node": 304.4699,
+        "meta_arg_of_pericenter": 31.8742,
+        "meta_mean_anomaly": 328.203,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 43648,
         "meta_element_set_no": 999,
-        "meta_rev_at_epoch": 4977,
+        "meta_rev_at_epoch": 4979,
         "meta_bstar": 0,
-        "meta_mean_motion_dot": -8.2e-07,
+        "meta_mean_motion_dot": -7.6e-07,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 43648U 18078B   26039.28154014 -.00000082  00000+0  00000+0 0  9993",
-        "tle_line2": "2 43648  54.2025 304.5077 0004910  31.0038 329.0721  1.86232086 49777"
+        "tle_line1": "1 43648U 18078B   26040.35543870 -.00000076  00000+0  00000+0 0  9998",
+        "tle_line2": "2 43648  54.2015 304.4699 0005020  31.8742 328.2030  1.86232179 49797"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.830461697423628,
-          48.1931807112695
+          115.83059475070922,
+          11.745126760867466
         ]
       }
     },
@@ -1299,19 +1299,19 @@
         "norad_id": 43683,
         "name": "BEIDOU-3 G1 (C59)",
         "group": "beidou",
-        "lat": 0.18899808055623776,
-        "lon": -82.78193069757522,
-        "alt_km": 35791.347183762606,
-        "timestamp": "2026-02-09T23:48:15.946880+00:00",
+        "lat": -2.099309961748162,
+        "lon": -29.714273524144073,
+        "alt_km": 35792.22811923965,
+        "timestamp": "2026-02-10T03:20:10.076249+00:00",
         "meta_object_name": "BEIDOU-3 G1 (C59)",
         "meta_object_id": "2018-085A",
-        "meta_epoch": "2026-02-09T13:51:46.450080",
-        "meta_mean_motion": 1.00270497,
-        "meta_eccentricity": 0.00013694,
-        "meta_inclination": 2.754,
-        "meta_ra_of_asc_node": 101.1158,
-        "meta_arg_of_pericenter": 28.6829,
-        "meta_mean_anomaly": 357.8517,
+        "meta_epoch": "2026-02-09T20:42:31.273344",
+        "meta_mean_motion": 1.00270392,
+        "meta_eccentricity": 0.0001381,
+        "meta_inclination": 2.7547,
+        "meta_ra_of_asc_node": 101.1096,
+        "meta_arg_of_pericenter": 27.894,
+        "meta_mean_anomaly": 101.6137,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 43683,
@@ -1320,14 +1320,14 @@
         "meta_bstar": 0,
         "meta_mean_motion_dot": -2.72e-06,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 43683U 18085A   26040.57762095 -.00000272  00000+0  00000+0 0  9999",
-        "tle_line2": "2 43683   2.7540 101.1158 0001369  28.6829 357.8517  1.00270497 26784"
+        "tle_line1": "1 43683U 18085A   26040.86286196 -.00000272  00000+0  00000+0 0  9994",
+        "tle_line2": "2 43683   2.7547 101.1096 0001381  27.8940 101.6137  1.00270392 26788"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -82.78193069757522,
-          0.18899808055623776
+          -29.714273524144073,
+          -2.099309961748162
         ]
       }
     },
@@ -1337,10 +1337,10 @@
         "norad_id": 43706,
         "name": "BEIDOU-3 M17 (C36)",
         "group": "beidou",
-        "lat": -31.47242049133034,
-        "lon": 160.3724930288342,
-        "alt_km": 21515.413500969997,
-        "timestamp": "2026-02-09T23:48:15.946891+00:00",
+        "lat": 43.801828245037115,
+        "lon": -129.57735725450402,
+        "alt_km": 21531.020939776645,
+        "timestamp": "2026-02-10T03:20:10.076260+00:00",
         "meta_object_name": "BEIDOU-3 M17 (C36)",
         "meta_object_id": "2018-093A",
         "meta_epoch": "2026-02-08T09:57:42.830784",
@@ -1364,8 +1364,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          160.3724930288342,
-          -31.47242049133034
+          -129.57735725450402,
+          43.801828245037115
         ]
       }
     },
@@ -1375,10 +1375,10 @@
         "norad_id": 43707,
         "name": "BEIDOU-3 M18 (C37)",
         "group": "beidou",
-        "lat": 40.00050359093174,
-        "lon": -136.114872404554,
-        "alt_km": 21516.426669609533,
-        "timestamp": "2026-02-09T23:48:15.946902+00:00",
+        "lat": 23.065501432309,
+        "lon": -11.315629305526702,
+        "alt_km": 21541.604623703297,
+        "timestamp": "2026-02-10T03:20:10.076272+00:00",
         "meta_object_name": "BEIDOU-3 M18 (C37)",
         "meta_object_id": "2018-093B",
         "meta_epoch": "2026-02-08T20:09:16.808832",
@@ -1402,8 +1402,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -136.114872404554,
-          40.00050359093174
+          -11.315629305526702,
+          23.065501432309
         ]
       }
     },
@@ -1413,35 +1413,35 @@
         "norad_id": 44204,
         "name": "BEIDOU-3 IGSO-1 (C38)",
         "group": "beidou",
-        "lat": -31.221159365959775,
-        "lon": -119.23481848504969,
-        "alt_km": 35682.66205162286,
-        "timestamp": "2026-02-09T23:48:15.946914+00:00",
+        "lat": -58.47769098646306,
+        "lon": -49.42953584691291,
+        "alt_km": 35699.58024641103,
+        "timestamp": "2026-02-10T03:20:10.076283+00:00",
         "meta_object_name": "BEIDOU-3 IGSO-1 (C38)",
         "meta_object_id": "2019-023A",
-        "meta_epoch": "2026-01-28T22:31:51.687552",
-        "meta_mean_motion": 1.00280229,
-        "meta_eccentricity": 0.00265152,
-        "meta_inclination": 58.5016,
-        "meta_ra_of_asc_node": 39.082,
-        "meta_arg_of_pericenter": 234.9304,
-        "meta_mean_anomaly": 311.3857,
+        "meta_epoch": "2026-02-08T21:20:38.774688",
+        "meta_mean_motion": 1.00278099,
+        "meta_eccentricity": 0.0026611,
+        "meta_inclination": 58.5188,
+        "meta_ra_of_asc_node": 38.9674,
+        "meta_arg_of_pericenter": 235.322,
+        "meta_mean_anomaly": 304.211,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 44204,
         "meta_element_set_no": 999,
-        "meta_rev_at_epoch": 581,
+        "meta_rev_at_epoch": 592,
         "meta_bstar": 0,
-        "meta_mean_motion_dot": -1.94e-06,
+        "meta_mean_motion_dot": -1.93e-06,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 44204U 19023A   26028.93879268 -.00000194  00000+0  00000+0 0  9992",
-        "tle_line2": "2 44204  58.5016  39.0820 0026515 234.9304 311.3857  1.00280229  5813"
+        "tle_line1": "1 44204U 19023A   26039.88933767 -.00000193  00000+0  00000+0 0  9992",
+        "tle_line2": "2 44204  58.5188  38.9674 0026611 235.3220 304.2110  1.00278099  5924"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.23481848504969,
-          -31.221159365959775
+          -49.42953584691291,
+          -58.47769098646306
         ]
       }
     },
@@ -1451,19 +1451,19 @@
         "norad_id": 44231,
         "name": "BEIDOU-2 G8 (C01)",
         "group": "beidou",
-        "lat": -0.8161795095158413,
-        "lon": -78.44816017505455,
-        "alt_km": 35765.12341450564,
-        "timestamp": "2026-02-09T23:48:15.946928+00:00",
+        "lat": -1.798125858603831,
+        "lon": -25.240744767853673,
+        "alt_km": 35747.33214802943,
+        "timestamp": "2026-02-10T03:20:10.076295+00:00",
         "meta_object_name": "BEIDOU-2 G8 (C01)",
         "meta_object_id": "2019-027A",
-        "meta_epoch": "2026-02-09T13:53:01.330368",
-        "meta_mean_motion": 1.00275478,
-        "meta_eccentricity": 0.00090274,
-        "meta_inclination": 1.8102,
-        "meta_ra_of_asc_node": 74.7981,
-        "meta_arg_of_pericenter": 265.2562,
-        "meta_mean_anomaly": 152.3487,
+        "meta_epoch": "2026-02-09T20:43:46.152768",
+        "meta_mean_motion": 1.00275372,
+        "meta_eccentricity": 0.0009026,
+        "meta_inclination": 1.8108,
+        "meta_ra_of_asc_node": 74.7953,
+        "meta_arg_of_pericenter": 265.3847,
+        "meta_mean_anomaly": 255.1949,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 44231,
@@ -1472,14 +1472,14 @@
         "meta_bstar": 0,
         "meta_mean_motion_dot": -2.4e-06,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 44231U 19027A   26040.57848762 -.00000240  00000+0  00000+0 0  9997",
-        "tle_line2": "2 44231   1.8102  74.7981 0009027 265.2562 152.3487  1.00275478 24808"
+        "tle_line1": "1 44231U 19027A   26040.86372862 -.00000240  00000+0  00000+0 0  9992",
+        "tle_line2": "2 44231   1.8108  74.7953 0009026 265.3847 255.1949  1.00275372 24807"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -78.44816017505455,
-          -0.8161795095158413
+          -25.240744767853673,
+          -1.798125858603831
         ]
       }
     },
@@ -1489,10 +1489,10 @@
         "norad_id": 44337,
         "name": "BEIDOU-3 IGSO-2 (C39)",
         "group": "beidou",
-        "lat": 55.083842705636656,
-        "lon": -103.36916077698054,
-        "alt_km": 35843.3752817468,
-        "timestamp": "2026-02-09T23:48:15.946940+00:00",
+        "lat": 26.615553549807984,
+        "lon": -40.355125077577284,
+        "alt_km": 35702.526733696424,
+        "timestamp": "2026-02-10T03:20:10.076307+00:00",
         "meta_object_name": "BEIDOU-3 IGSO-2 (C39)",
         "meta_object_id": "2019-035A",
         "meta_epoch": "2026-02-08T19:01:33.872160",
@@ -1516,8 +1516,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -103.36916077698054,
-          55.083842705636656
+          -40.355125077577284,
+          26.615553549807984
         ]
       }
     },
@@ -1527,10 +1527,10 @@
         "norad_id": 44542,
         "name": "BEIDOU-3 M24 (C46)",
         "group": "beidou",
-        "lat": 4.29916511490522,
-        "lon": -169.9051548080583,
-        "alt_km": 21504.12746963036,
-        "timestamp": "2026-02-09T23:48:15.946952+00:00",
+        "lat": 52.04666291037385,
+        "lon": -59.63228883241013,
+        "alt_km": 21517.439708019825,
+        "timestamp": "2026-02-10T03:20:10.076319+00:00",
         "meta_object_name": "BEIDOU-3 M24 (C46)",
         "meta_object_id": "2019-061A",
         "meta_epoch": "2026-02-09T10:43:42.400128",
@@ -1554,8 +1554,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -169.9051548080583,
-          4.29916511490522
+          -59.63228883241013,
+          52.04666291037385
         ]
       }
     },
@@ -1565,10 +1565,10 @@
         "norad_id": 44543,
         "name": "BEIDOU-3 M23 (C45)",
         "group": "beidou",
-        "lat": -53.684529159522654,
-        "lon": 110.01327380875517,
-        "alt_km": 21537.861319284755,
-        "timestamp": "2026-02-09T23:48:15.946994+00:00",
+        "lat": 13.246861509826953,
+        "lon": -163.3228053924776,
+        "alt_km": 21511.673767528944,
+        "timestamp": "2026-02-10T03:20:10.076331+00:00",
         "meta_object_name": "BEIDOU-3 M23 (C45)",
         "meta_object_id": "2019-061B",
         "meta_epoch": "2026-02-09T07:10:24.458880",
@@ -1592,8 +1592,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          110.01327380875517,
-          -53.684529159522654
+          -163.3228053924776,
+          13.246861509826953
         ]
       }
     },
@@ -1603,35 +1603,35 @@
         "norad_id": 44709,
         "name": "BEIDOU-3 IGSO-3 (C40)",
         "group": "beidou",
-        "lat": -58.287352696013336,
-        "lon": -152.7298840981885,
-        "alt_km": 47561.80978407904,
-        "timestamp": "2026-02-09T23:48:15.947018+00:00",
+        "lat": 22.10774346618531,
+        "lon": -61.182011728953185,
+        "alt_km": 35944.61257712478,
+        "timestamp": "2026-02-10T03:20:10.076342+00:00",
         "meta_object_name": "BEIDOU-3 IGSO-3 (C40)",
         "meta_object_id": "2019-073A",
-        "meta_epoch": "2026-02-08T06:24:11.914848",
-        "meta_mean_motion": 1.00277091,
-        "meta_eccentricity": 0.32947895,
-        "meta_inclination": 59.033,
-        "meta_ra_of_asc_node": 283.41,
-        "meta_arg_of_pericenter": 74.3258,
-        "meta_mean_anomaly": 319.185,
+        "meta_epoch": "2026-02-09T01:34:12.592128",
+        "meta_mean_motion": 1.00276646,
+        "meta_eccentricity": 0.0040216,
+        "meta_inclination": 55.0176,
+        "meta_ra_of_asc_node": 282.2853,
+        "meta_arg_of_pericenter": 189.6233,
+        "meta_mean_anomaly": 170.3819,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 44709,
         "meta_element_set_no": 999,
-        "meta_rev_at_epoch": 2316,
+        "meta_rev_at_epoch": 2317,
         "meta_bstar": 0,
-        "meta_mean_motion_dot": -2.4e-07,
+        "meta_mean_motion_dot": -1.64e-06,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 44709U 19073A   26039.26680457 -.00000024  00000+0  00000+0 0  9997",
-        "tle_line2": "2 44709  59.0330 283.4100 3294789  74.3258 319.1850  1.00277091 23161"
+        "tle_line1": "1 44709U 19073A   26040.06542352 -.00000164  00000+0  00000+0 0  9993",
+        "tle_line2": "2 44709  55.0176 282.2853 0040216 189.6233 170.3819  1.00276646 23179"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -152.7298840981885,
-          -58.287352696013336
+          -61.182011728953185,
+          22.10774346618531
         ]
       }
     },
@@ -1641,10 +1641,10 @@
         "norad_id": 44793,
         "name": "BEIDOU-3 M22 (C44)",
         "group": "beidou",
-        "lat": 48.20235543011276,
-        "lon": 70.14255595228542,
-        "alt_km": 21519.381597901287,
-        "timestamp": "2026-02-09T23:48:15.947033+00:00",
+        "lat": -25.070953118929765,
+        "lon": 144.12994909917776,
+        "alt_km": 21550.54999670797,
+        "timestamp": "2026-02-10T03:20:10.076354+00:00",
         "meta_object_name": "BEIDOU-3 M22 (C44)",
         "meta_object_id": "2019-078A",
         "meta_epoch": "2026-02-04T10:53:54.690144",
@@ -1668,8 +1668,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          70.14255595228542,
-          48.20235543011276
+          144.12994909917776,
+          -25.070953118929765
         ]
       }
     },
@@ -1679,10 +1679,10 @@
         "norad_id": 44794,
         "name": "BEIDOU-3 M21 (C43)",
         "group": "beidou",
-        "lat": 15.774596785995845,
-        "lon": -43.89559090916162,
-        "alt_km": 21512.549325613192,
-        "timestamp": "2026-02-09T23:48:15.947046+00:00",
+        "lat": 45.40643849162847,
+        "lon": 76.88522636424749,
+        "alt_km": 21523.73040171392,
+        "timestamp": "2026-02-10T03:20:10.076365+00:00",
         "meta_object_name": "BEIDOU-3 M21 (C43)",
         "meta_object_id": "2019-078B",
         "meta_epoch": "2026-02-08T21:19:42.496320",
@@ -1706,8 +1706,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -43.89559090916162,
-          15.774596785995845
+          76.88522636424749,
+          45.40643849162847
         ]
       }
     },
@@ -1717,10 +1717,10 @@
         "norad_id": 44864,
         "name": "BEIDOU-3 M19 (C41)",
         "group": "beidou",
-        "lat": -29.120495240263082,
-        "lon": -91.30209377954245,
-        "alt_km": 21515.23031493343,
-        "timestamp": "2026-02-09T23:48:15.947058+00:00",
+        "lat": -36.33493978846048,
+        "lon": 37.7865735498997,
+        "alt_km": 21481.832197870637,
+        "timestamp": "2026-02-10T03:20:10.076377+00:00",
         "meta_object_name": "BEIDOU-3 M19 (C41)",
         "meta_object_id": "2019-090A",
         "meta_epoch": "2026-02-09T05:40:23.054880",
@@ -1744,8 +1744,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -91.30209377954245,
-          -29.120495240263082
+          37.7865735498997,
+          -36.33493978846048
         ]
       }
     },
@@ -1755,10 +1755,10 @@
         "norad_id": 44865,
         "name": "BEIDOU-3 M20 (C42)",
         "group": "beidou",
-        "lat": -42.68330092039916,
-        "lon": 29.310159614554628,
-        "alt_km": 21484.94822060199,
-        "timestamp": "2026-02-09T23:48:15.947069+00:00",
+        "lat": 35.64741669388839,
+        "lon": 95.44952052546438,
+        "alt_km": 21535.41071057377,
+        "timestamp": "2026-02-10T03:20:10.076388+00:00",
         "meta_object_name": "BEIDOU-3 M20 (C42)",
         "meta_object_id": "2019-090B",
         "meta_epoch": "2026-02-09T02:14:40.574688",
@@ -1782,8 +1782,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          29.310159614554628,
-          -42.68330092039916
+          95.44952052546438,
+          35.64741669388839
         ]
       }
     },
@@ -1793,19 +1793,19 @@
         "norad_id": 45344,
         "name": "BEIDOU-3 G2 (C60)",
         "group": "beidou",
-        "lat": 0.3777374185335349,
-        "lon": -142.83613335636156,
-        "alt_km": 35790.651817088496,
-        "timestamp": "2026-02-09T23:48:15.947081+00:00",
+        "lat": -1.8462641921239749,
+        "lon": -89.75365124894178,
+        "alt_km": 35781.58911727829,
+        "timestamp": "2026-02-10T03:20:10.076400+00:00",
         "meta_object_name": "BEIDOU-3 G2 (C60)",
         "meta_object_id": "2020-017A",
-        "meta_epoch": "2026-02-09T13:34:40.589184",
-        "meta_mean_motion": 1.00271974,
-        "meta_eccentricity": 0.00025135,
-        "meta_inclination": 2.6091,
-        "meta_ra_of_asc_node": 45.158,
-        "meta_arg_of_pericenter": 288.1009,
-        "meta_mean_anomaly": 90.0807,
+        "meta_epoch": "2026-02-09T20:25:25.410720",
+        "meta_mean_motion": 1.00271987,
+        "meta_eccentricity": 0.0002507,
+        "meta_inclination": 2.6095,
+        "meta_ra_of_asc_node": 45.1594,
+        "meta_arg_of_pericenter": 289.0245,
+        "meta_mean_anomaly": 192.1243,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 45344,
@@ -1814,14 +1814,14 @@
         "meta_bstar": 0,
         "meta_mean_motion_dot": -1.33e-06,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 45344U 20017A   26040.56574756 -.00000133  00000+0  00000+0 0  9993",
-        "tle_line2": "2 45344   2.6091  45.1580 0002513 288.1009  90.0807  1.00271974 21987"
+        "tle_line1": "1 45344U 20017A   26040.85098855 -.00000133  00000+0  00000+0 0  9996",
+        "tle_line2": "2 45344   2.6095  45.1594 0002507 289.0245 192.1243  1.00271987 21983"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -142.83613335636156,
-          0.3777374185335349
+          -89.75365124894178,
+          -1.8462641921239749
         ]
       }
     },
@@ -1831,10 +1831,10 @@
         "norad_id": 45807,
         "name": "BEIDOU-3 G3 (C61)",
         "group": "beidou",
-        "lat": -0.012850190566610895,
-        "lon": -112.36868416368326,
-        "alt_km": 35798.698906535494,
-        "timestamp": "2026-02-09T23:48:15.947093+00:00",
+        "lat": -1.7267680732068749,
+        "lon": -59.28025117244231,
+        "alt_km": 35782.430390213456,
+        "timestamp": "2026-02-10T03:20:10.076412+00:00",
         "meta_object_name": "BEIDOU-3 G3 (C61)",
         "meta_object_id": "2020-040A",
         "meta_epoch": "2026-02-09T13:43:17.262912",
@@ -1858,8 +1858,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -112.36868416368326,
-          -0.012850190566610895
+          -59.28025117244231,
+          -1.7267680732068749
         ]
       }
     },
@@ -1869,35 +1869,35 @@
         "norad_id": 56564,
         "name": "BEIDOU-3 G4 (C62)",
         "group": "beidou",
-        "lat": -0.13569727834898457,
-        "lon": -62.859587496667245,
-        "alt_km": 35793.04420863062,
-        "timestamp": "2026-02-09T23:48:15.947105+00:00",
+        "lat": 0.44847840294184055,
+        "lon": -9.75874734364611,
+        "alt_km": 35791.18483784147,
+        "timestamp": "2026-02-10T03:20:10.076424+00:00",
         "meta_object_name": "BEIDOU-3 G4 (C62)",
         "meta_object_id": "2023-066A",
-        "meta_epoch": "2026-02-09T13:57:23.411808",
-        "meta_mean_motion": 1.002734,
-        "meta_eccentricity": 0.00017811,
-        "meta_inclination": 0.6921,
-        "meta_ra_of_asc_node": 307.8403,
-        "meta_arg_of_pericenter": 180.6408,
-        "meta_mean_anomaly": 20.5027,
+        "meta_epoch": "2026-02-09T19:53:38.534208",
+        "meta_mean_motion": 1.0027339,
+        "meta_eccentricity": 0.0001787,
+        "meta_inclination": 0.6915,
+        "meta_ra_of_asc_node": 307.8533,
+        "meta_arg_of_pericenter": 180.1484,
+        "meta_mean_anomaly": 110.2905,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 56564,
         "meta_element_set_no": 999,
         "meta_rev_at_epoch": 1011,
         "meta_bstar": 0,
-        "meta_mean_motion_dot": -1.03e-06,
+        "meta_mean_motion_dot": -1.02e-06,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 56564U 23066A   26040.58152097 -.00000103  00000+0  00000+0 0  9995",
-        "tle_line2": "2 56564   0.6921 307.8403 0001781 180.6408  20.5027  1.00273400 10111"
+        "tle_line1": "1 56564U 23066A   26040.82891822 -.00000102  00000+0  00000+0 0  9997",
+        "tle_line2": "2 56564   0.6915 307.8533 0001787 180.1484 110.2905  1.00273390 10113"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -62.859587496667245,
-          -0.13569727834898457
+          -9.75874734364611,
+          0.44847840294184055
         ]
       }
     },
@@ -1907,35 +1907,35 @@
         "norad_id": 58654,
         "name": "BEIDOU-3 M28 (C50)",
         "group": "beidou",
-        "lat": -26.333865295283644,
-        "lon": 46.81356235987415,
-        "alt_km": 21521.18353288461,
-        "timestamp": "2026-02-09T23:48:15.947116+00:00",
+        "lat": 49.02523435592961,
+        "lon": 118.56162506189717,
+        "alt_km": 21530.81119479519,
+        "timestamp": "2026-02-10T03:20:10.076436+00:00",
         "meta_object_name": "BEIDOU-3 M28 (C50)",
         "meta_object_id": "2023-207A",
-        "meta_epoch": "2026-02-08T23:11:37.353120",
-        "meta_mean_motion": 1.8622983,
-        "meta_eccentricity": 0.0004519,
-        "meta_inclination": 55.6375,
-        "meta_ra_of_asc_node": 66.6289,
-        "meta_arg_of_pericenter": 293.375,
-        "meta_mean_anomaly": 66.63,
+        "meta_epoch": "2026-02-09T12:04:50.551968",
+        "meta_mean_motion": 1.86229833,
+        "meta_eccentricity": 0.0004524,
+        "meta_inclination": 55.638,
+        "meta_ra_of_asc_node": 66.6107,
+        "meta_arg_of_pericenter": 294.2745,
+        "meta_mean_anomaly": 65.7313,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 58654,
         "meta_element_set_no": 999,
-        "meta_rev_at_epoch": 1445,
+        "meta_rev_at_epoch": 1446,
         "meta_bstar": 0,
-        "meta_mean_motion_dot": -4.9e-07,
+        "meta_mean_motion_dot": -4.6e-07,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 58654U 23207A   26039.96640455 -.00000049  00000+0  00000+0 0  9993",
-        "tle_line2": "2 58654  55.6375  66.6289 0004519 293.3750  66.6300  1.86229830 14450"
+        "tle_line1": "1 58654U 23207A   26040.50336287 -.00000046  00000+0  00000+0 0  9997",
+        "tle_line2": "2 58654  55.6380  66.6107 0004524 294.2745  65.7313  1.86229833 14463"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          46.81356235987415,
-          -26.333865295283644
+          118.56162506189717,
+          49.02523435592961
         ]
       }
     },
@@ -1945,19 +1945,19 @@
         "norad_id": 58655,
         "name": "BEIDOU-3 M26 (C48)",
         "group": "beidou",
-        "lat": 53.45478553339278,
-        "lon": 179.24335388282222,
-        "alt_km": 21537.31774669078,
-        "timestamp": "2026-02-09T23:48:15.947127+00:00",
+        "lat": -17.910726685844914,
+        "lon": -100.64282412597454,
+        "alt_km": 21527.645342189346,
+        "timestamp": "2026-02-10T03:20:10.076446+00:00",
         "meta_object_name": "BEIDOU-3 M26 (C48)",
         "meta_object_id": "2023-207B",
-        "meta_epoch": "2026-02-09T07:13:11.412192",
-        "meta_mean_motion": 1.86229722,
-        "meta_eccentricity": 0.00055059,
+        "meta_epoch": "2026-02-09T07:13:11.437248",
+        "meta_mean_motion": 1.86229726,
+        "meta_eccentricity": 0.0005516,
         "meta_inclination": 55.6397,
         "meta_ra_of_asc_node": 66.6038,
-        "meta_arg_of_pericenter": 280.3098,
-        "meta_mean_anomaly": 79.681,
+        "meta_arg_of_pericenter": 280.4998,
+        "meta_mean_anomaly": 79.4909,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 58655,
@@ -1966,14 +1966,14 @@
         "meta_bstar": 0,
         "meta_mean_motion_dot": -4.7e-07,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 58655U 23207B   26040.30082653 -.00000047  00000+0  00000+0 0  9992",
-        "tle_line2": "2 58655  55.6397  66.6038 0005505 280.3098  79.6810  1.86229722 14443"
+        "tle_line1": "1 58655U 23207B   26040.30082682 -.00000047  00000+0  00000+0 0  9994",
+        "tle_line2": "2 58655  55.6397  66.6038 0005516 280.4998  79.4909  1.86229726 14446"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          179.24335388282222,
-          53.45478553339278
+          -100.64282412597454,
+          -17.910726685844914
         ]
       }
     },
@@ -1983,10 +1983,10 @@
         "norad_id": 61186,
         "name": "BEIDOU-3 M25 (C47)",
         "group": "beidou",
-        "lat": -31.713453588016122,
-        "lon": 152.7216418674578,
-        "alt_km": 21532.97624170612,
-        "timestamp": "2026-02-09T23:48:15.947139+00:00",
+        "lat": -32.446041679224926,
+        "lon": -80.1941552364074,
+        "alt_km": 21518.98328741049,
+        "timestamp": "2026-02-10T03:20:10.076458+00:00",
         "meta_object_name": "BEIDOU-3 M25 (C47)",
         "meta_object_id": "2024-168B",
         "meta_epoch": "2026-02-09T07:04:49.830816",
@@ -2010,8 +2010,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          152.7216418674578,
-          -31.713453588016122
+          -80.1941552364074,
+          -32.446041679224926
         ]
       }
     },
@@ -2021,10 +2021,10 @@
         "norad_id": 61187,
         "name": "BEIDOU-3 M27 (C49)",
         "group": "beidou",
-        "lat": -3.961689349676672,
-        "lon": -56.16685986077417,
-        "alt_km": 21520.905697642072,
-        "timestamp": "2026-02-09T23:48:15.947150+00:00",
+        "lat": 54.41153915350898,
+        "lon": 43.300095702167745,
+        "alt_km": 21521.130412771327,
+        "timestamp": "2026-02-10T03:20:10.076469+00:00",
         "meta_object_name": "BEIDOU-3 M27 (C49)",
         "meta_object_id": "2024-168C",
         "meta_epoch": "2026-02-09T03:29:25.213344",
@@ -2048,8 +2048,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -56.16685986077417,
-          -3.961689349676672
+          43.300095702167745,
+          54.41153915350898
         ]
       }
     }
