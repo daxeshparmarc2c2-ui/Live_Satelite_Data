@@ -7,10 +7,10 @@
         "norad_id": 25544,
         "name": "ISS (ZARYA)",
         "group": "stations",
-        "lat": 5.6721199455619855,
-        "lon": -23.073028528062597,
-        "alt_km": 416.4490646611557,
-        "timestamp": "2026-02-19T15:58:47.732193+00:00",
+        "lat": 50.390303023346604,
+        "lon": -125.59616020130129,
+        "alt_km": 407.55427098304153,
+        "timestamp": "2026-02-19T17:07:41.372814+00:00",
         "meta_object_name": "ISS (ZARYA)",
         "meta_object_id": "1998-067A",
         "meta_epoch": "2026-02-18T19:06:21.339648",
@@ -34,8 +34,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -23.073028528062597,
-          5.6721199455619855
+          -125.59616020130129,
+          50.390303023346604
         ]
       }
     },
@@ -45,17 +45,17 @@
         "norad_id": 48274,
         "name": "CSS (TIANHE)",
         "group": "stations",
-        "lat": 2.8942267166851687,
-        "lon": -38.953613393430516,
-        "alt_km": 389.5456606266589,
-        "timestamp": "2026-02-19T15:58:47.732222+00:00",
+        "lat": -41.3505558764816,
+        "lon": -127.80427349266455,
+        "alt_km": 392.8950494035362,
+        "timestamp": "2026-02-19T17:07:41.372864+00:00",
         "meta_object_name": "CSS (TIANHE)",
         "meta_object_id": "2021-035A",
         "meta_epoch": "2026-02-19T05:12:18.808704",
         "meta_mean_motion": 15.59868728,
-        "meta_eccentricity": 0.00044524,
+        "meta_eccentricity": 0.0004452,
         "meta_inclination": 41.4677,
-        "meta_ra_of_asc_node": 320.4938,
+        "meta_ra_of_asc_node": 320.4937,
         "meta_arg_of_pericenter": 142.8604,
         "meta_mean_anomaly": 217.2543,
         "meta_ephemeris_type": 0,
@@ -63,17 +63,17 @@
         "meta_norad_cat_id": 48274,
         "meta_element_set_no": 999,
         "meta_rev_at_epoch": 27472,
-        "meta_bstar": 0.00030289814,
+        "meta_bstar": 0.0003029,
         "meta_mean_motion_dot": 0.00024817,
         "meta_mean_motion_ddot": 0,
         "tle_line1": "1 48274U 21035A   26050.21688436  .00024817  00000+0  30290-3 0  9995",
-        "tle_line2": "2 48274  41.4677 320.4938 0004452 142.8604 217.2543 15.59868728274720"
+        "tle_line2": "2 48274  41.4677 320.4937 0004452 142.8604 217.2543 15.59868728274729"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -38.953613393430516,
-          2.8942267166851687
+          -127.80427349266455,
+          -41.3505558764816
         ]
       }
     },
@@ -83,10 +83,10 @@
         "norad_id": 49044,
         "name": "ISS (NAUKA)",
         "group": "stations",
-        "lat": 5.672117722048017,
-        "lon": -23.07302674611797,
-        "alt_km": 416.449065284437,
-        "timestamp": "2026-02-19T15:58:47.732237+00:00",
+        "lat": 50.39030399204201,
+        "lon": -125.59615367263567,
+        "alt_km": 407.5542705228463,
+        "timestamp": "2026-02-19T17:07:41.372880+00:00",
         "meta_object_name": "ISS (NAUKA)",
         "meta_object_id": "2021-066A",
         "meta_epoch": "2026-02-18T19:06:21.339648",
@@ -110,8 +110,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -23.07302674611797,
-          5.672117722048017
+          -125.59615367263567,
+          50.39030399204201
         ]
       }
     },
@@ -121,15 +121,15 @@
         "norad_id": 49271,
         "name": "FREGAT DEB",
         "group": "stations",
-        "lat": -17.472995119271424,
-        "lon": -170.8242688951973,
-        "alt_km": 2254.8922487576137,
-        "timestamp": "2026-02-19T15:58:47.732250+00:00",
+        "lat": 44.93120016769544,
+        "lon": 46.75702292975119,
+        "alt_km": 955.6564684243958,
+        "timestamp": "2026-02-19T17:07:41.372894+00:00",
         "meta_object_name": "FREGAT DEB",
         "meta_object_id": "2011-037PF",
         "meta_epoch": "2026-02-19T05:13:19.630848",
         "meta_mean_motion": 12.38977397,
-        "meta_eccentricity": 0.09434732,
+        "meta_eccentricity": 0.0943473,
         "meta_inclination": 51.6519,
         "meta_ra_of_asc_node": 356.0885,
         "meta_arg_of_pericenter": 16.9489,
@@ -139,7 +139,7 @@
         "meta_norad_cat_id": 49271,
         "meta_element_set_no": 999,
         "meta_rev_at_epoch": 21040,
-        "meta_bstar": 0.052269669,
+        "meta_bstar": 0.05227,
         "meta_mean_motion_dot": 0.00033465,
         "meta_mean_motion_ddot": 0,
         "tle_line1": "1 49271U 11037PF  26050.21758832  .00033465  00000+0  52270-1 0  9991",
@@ -148,8 +148,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -170.8242688951973,
-          -17.472995119271424
+          46.75702292975119,
+          44.93120016769544
         ]
       }
     },
@@ -159,10 +159,10 @@
         "norad_id": 53239,
         "name": "CSS (WENTIAN)",
         "group": "stations",
-        "lat": 2.894228436174316,
-        "lon": -38.95361144091889,
-        "alt_km": 389.54566030816113,
-        "timestamp": "2026-02-19T15:58:47.732262+00:00",
+        "lat": -41.35055573137944,
+        "lon": -127.80416995377641,
+        "alt_km": 392.89504950908486,
+        "timestamp": "2026-02-19T17:07:41.372905+00:00",
         "meta_object_name": "CSS (WENTIAN)",
         "meta_object_id": "2022-085A",
         "meta_epoch": "2026-02-19T05:12:18.808704",
@@ -186,8 +186,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -38.95361144091889,
-          2.894228436174316
+          -127.80416995377641,
+          -41.35055573137944
         ]
       }
     },
@@ -197,10 +197,10 @@
         "norad_id": 54216,
         "name": "CSS (MENGTIAN)",
         "group": "stations",
-        "lat": 2.8942289090336994,
-        "lon": -38.95361090397831,
-        "alt_km": 389.5456602205768,
-        "timestamp": "2026-02-19T15:58:47.732273+00:00",
+        "lat": -41.350555688910475,
+        "lon": -127.80416891800424,
+        "alt_km": 392.89504953997766,
+        "timestamp": "2026-02-19T17:07:41.372917+00:00",
         "meta_object_name": "CSS (MENGTIAN)",
         "meta_object_id": "2022-143A",
         "meta_epoch": "2026-02-19T05:12:18.808704",
@@ -224,8 +224,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -38.95361090397831,
-          2.8942289090336994
+          -127.80416891800424,
+          -41.350555688910475
         ]
       }
     },
@@ -235,10 +235,10 @@
         "norad_id": 64751,
         "name": "PROGRESS-MS 31",
         "group": "stations",
-        "lat": 5.67211534693421,
-        "lon": -23.073024842679928,
-        "alt_km": 416.4490659502162,
-        "timestamp": "2026-02-19T15:58:47.732284+00:00",
+        "lat": 50.39030468187019,
+        "lon": -125.59614902343505,
+        "alt_km": 407.5542701951308,
+        "timestamp": "2026-02-19T17:07:41.372927+00:00",
         "meta_object_name": "PROGRESS-MS 31",
         "meta_object_id": "2025-146A",
         "meta_epoch": "2026-02-18T19:06:21.339648",
@@ -262,8 +262,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -23.073024842679928,
-          5.67211534693421
+          -125.59614902343505,
+          50.39030468187019
         ]
       }
     },
@@ -273,10 +273,10 @@
         "norad_id": 64786,
         "name": "TIANZHOU-9",
         "group": "stations",
-        "lat": 2.8942298117652525,
-        "lon": -38.95360987890999,
-        "alt_km": 389.5456600533644,
-        "timestamp": "2026-02-19T15:58:47.732294+00:00",
+        "lat": -41.35055561812886,
+        "lon": -127.80416719171691,
+        "alt_km": 392.89504959146416,
+        "timestamp": "2026-02-19T17:07:41.372937+00:00",
         "meta_object_name": "TIANZHOU-9",
         "meta_object_id": "2025-149A",
         "meta_epoch": "2026-02-19T05:12:18.808704",
@@ -300,8 +300,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -38.95360987890999,
-          2.8942298117652525
+          -127.80416719171691,
+          -41.35055561812886
         ]
       }
     },
@@ -311,10 +311,10 @@
         "norad_id": 65304,
         "name": "DRAGON CRS-33",
         "group": "stations",
-        "lat": 5.672114336246223,
-        "lon": -23.073024032705305,
-        "alt_km": 416.4490662335229,
-        "timestamp": "2026-02-19T15:58:47.732304+00:00",
+        "lat": 50.39030499009102,
+        "lon": -125.59614694613418,
+        "alt_km": 407.554270048704,
+        "timestamp": "2026-02-19T17:07:41.372948+00:00",
         "meta_object_name": "DRAGON CRS-33",
         "meta_object_id": "2025-186A",
         "meta_epoch": "2026-02-18T19:06:21.339648",
@@ -338,8 +338,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -23.073024032705305,
-          5.672114336246223
+          -125.59614694613418,
+          50.39030499009102
         ]
       }
     },
@@ -349,10 +349,10 @@
         "norad_id": 65586,
         "name": "PROGRESS-MS 32",
         "group": "stations",
-        "lat": 5.672113679297985,
-        "lon": -23.0730235062209,
-        "alt_km": 416.44906641767466,
-        "timestamp": "2026-02-19T15:58:47.732317+00:00",
+        "lat": 50.390305166217615,
+        "lon": -125.59614575910209,
+        "alt_km": 407.5542699650332,
+        "timestamp": "2026-02-19T17:07:41.372960+00:00",
         "meta_object_name": "PROGRESS-MS 32",
         "meta_object_id": "2025-204A",
         "meta_epoch": "2026-02-18T19:06:21.339648",
@@ -376,8 +376,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -23.0730235062209,
-          5.672113679297985
+          -125.59614575910209,
+          50.390305166217615
         ]
       }
     },
@@ -387,10 +387,10 @@
         "norad_id": 65616,
         "name": "CYGNUS NG-23",
         "group": "stations",
-        "lat": 5.672113123420905,
-        "lon": -23.0730230607359,
-        "alt_km": 416.44906657349657,
-        "timestamp": "2026-02-19T15:58:47.732328+00:00",
+        "lat": 50.390305327666496,
+        "lon": -125.59614467099273,
+        "alt_km": 407.55426988833096,
+        "timestamp": "2026-02-19T17:07:41.372971+00:00",
         "meta_object_name": "CYGNUS NG-23",
         "meta_object_id": "2025-208A",
         "meta_epoch": "2026-02-18T19:06:21.339648",
@@ -414,8 +414,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -23.0730230607359,
-          5.672113123420905
+          -125.59614467099273,
+          50.390305327666496
         ]
       }
     },
@@ -425,35 +425,35 @@
         "norad_id": 65731,
         "name": "ISS OBJECT XK",
         "group": "stations",
-        "lat": -27.50950709922797,
-        "lon": 117.90815842899704,
-        "alt_km": 297.42888184863114,
-        "timestamp": "2026-02-19T15:58:47.732341+00:00",
+        "lat": -41.83108454199637,
+        "lon": 7.221556407905553,
+        "alt_km": 303.8264863978775,
+        "timestamp": "2026-02-19T17:07:41.372984+00:00",
         "meta_object_name": "ISS OBJECT XK",
         "meta_object_id": "1998-067XK",
-        "meta_epoch": "2026-02-19T07:05:19.801248",
-        "meta_mean_motion": 15.91323264,
-        "meta_eccentricity": 0.00067069,
-        "meta_inclination": 51.6213,
-        "meta_ra_of_asc_node": 144.2397,
-        "meta_arg_of_pericenter": 351.2261,
-        "meta_mean_anomaly": 8.8626,
+        "meta_epoch": "2026-02-19T11:36:36.240192",
+        "meta_mean_motion": 15.91460611,
+        "meta_eccentricity": 0.0006703,
+        "meta_inclination": 51.6214,
+        "meta_ra_of_asc_node": 143.247,
+        "meta_arg_of_pericenter": 351.956,
+        "meta_mean_anomaly": 8.1338,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 65731,
         "meta_element_set_no": 999,
-        "meta_rev_at_epoch": 2395,
-        "meta_bstar": 0.0010636992,
-        "meta_mean_motion_dot": 0.00347088,
-        "meta_mean_motion_ddot": 5.63841e-05,
-        "tle_line1": "1 65731U 98067XK  26050.29536807  .00347088  56384-4  10637-2 0  9994",
-        "tle_line2": "2 65731  51.6213 144.2397 0006706 351.2261   8.8626 15.91323264 23956"
+        "meta_rev_at_epoch": 2398,
+        "meta_bstar": 0.0010663,
+        "meta_mean_motion_dot": 0.00350441,
+        "meta_mean_motion_ddot": 5.7367e-05,
+        "tle_line1": "1 65731U 98067XK  26050.48375278  .00350441  57367-4  10663-2 0  9996",
+        "tle_line2": "2 65731  51.6214 143.2470 0006703 351.9560   8.1338 15.91460611 23988"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          117.90815842899704,
-          -27.50950709922797
+          7.221556407905553,
+          -41.83108454199637
         ]
       }
     },
@@ -463,10 +463,10 @@
         "norad_id": 65941,
         "name": "YOTSUBA-KULOVER",
         "group": "stations",
-        "lat": 41.34438837889286,
-        "lon": -73.93314886188104,
-        "alt_km": 345.1465379644578,
-        "timestamp": "2026-02-19T15:58:47.732352+00:00",
+        "lat": 25.79141800885974,
+        "lon": 172.54715349212947,
+        "alt_km": 342.8142265346887,
+        "timestamp": "2026-02-19T17:07:41.372996+00:00",
         "meta_object_name": "YOTSUBA-KULOVER",
         "meta_object_id": "1998-067XN",
         "meta_epoch": "2026-02-19T06:19:06.874464",
@@ -490,8 +490,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.93314886188104,
-          41.34438837889286
+          172.54715349212947,
+          25.79141800885974
         ]
       }
     },
@@ -501,10 +501,10 @@
         "norad_id": 65942,
         "name": "BOTAN",
         "group": "stations",
-        "lat": 35.3808263496139,
-        "lon": 179.36075317311543,
-        "alt_km": 283.04350349552897,
-        "timestamp": "2026-02-19T15:58:47.732363+00:00",
+        "lat": -28.698958440691925,
+        "lon": 119.12358241208466,
+        "alt_km": 289.0770376856708,
+        "timestamp": "2026-02-19T17:07:41.373007+00:00",
         "meta_object_name": "BOTAN",
         "meta_object_id": "1998-067XP",
         "meta_epoch": "2026-02-19T06:45:08.497440",
@@ -528,8 +528,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          179.36075317311543,
-          35.3808263496139
+          119.12358241208466,
+          -28.698958440691925
         ]
       }
     },
@@ -539,10 +539,10 @@
         "norad_id": 65943,
         "name": "E-KAGAKU-1",
         "group": "stations",
-        "lat": 46.259658154352564,
-        "lon": -85.58464586734388,
-        "alt_km": 344.0520563692062,
-        "timestamp": "2026-02-19T15:58:47.732374+00:00",
+        "lat": 18.52801740663821,
+        "lon": 165.46547687570603,
+        "alt_km": 343.4197310632753,
+        "timestamp": "2026-02-19T17:07:41.373017+00:00",
         "meta_object_name": "E-KAGAKU-1",
         "meta_object_id": "1998-067XQ",
         "meta_epoch": "2026-02-19T06:21:31.953024",
@@ -566,8 +566,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -85.58464586734388,
-          46.259658154352564
+          165.46547687570603,
+          18.52801740663821
         ]
       }
     },
@@ -577,35 +577,35 @@
         "norad_id": 66052,
         "name": "HRC MONOBLOCK CAMERA",
         "group": "stations",
-        "lat": 51.309094991886205,
-        "lon": -105.26005749477075,
-        "alt_km": 379.3640826637147,
-        "timestamp": "2026-02-19T15:58:47.732384+00:00",
+        "lat": 3.130915261218658,
+        "lon": 158.60022612058373,
+        "alt_km": 385.6696039371582,
+        "timestamp": "2026-02-19T17:07:41.373027+00:00",
         "meta_object_name": "HRC MONOBLOCK CAMERA",
         "meta_object_id": "1998-067XR",
-        "meta_epoch": "2026-02-18T13:26:27.313440",
-        "meta_mean_motion": 15.60157442,
-        "meta_eccentricity": 0.0002376,
-        "meta_inclination": 51.6293,
-        "meta_ra_of_asc_node": 161.9215,
-        "meta_arg_of_pericenter": 19.2804,
-        "meta_mean_anomaly": 340.8278,
+        "meta_epoch": "2026-02-19T10:57:44.378496",
+        "meta_mean_motion": 15.60233204,
+        "meta_eccentricity": 0.0002466,
+        "meta_inclination": 51.6291,
+        "meta_ra_of_asc_node": 157.4096,
+        "meta_arg_of_pericenter": 22.2007,
+        "meta_mean_anomaly": 337.9093,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 66052,
         "meta_element_set_no": 999,
-        "meta_rev_at_epoch": 1940,
-        "meta_bstar": 0.0005155,
-        "meta_mean_motion_dot": 0.00042458,
+        "meta_rev_at_epoch": 1954,
+        "meta_bstar": 0.00050518,
+        "meta_mean_motion_dot": 0.00041717,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 66052U 98067XR  26049.56003835  .00042458  00000+0  51550-3 0  9991",
-        "tle_line2": "2 66052  51.6293 161.9215 0002376  19.2804 340.8278 15.60157442 19405"
+        "tle_line1": "1 66052U 98067XR  26050.45676364  .00041717  00000+0  50518-3 0  9994",
+        "tle_line2": "2 66052  51.6291 157.4096 0002466  22.2007 337.9093 15.60233204 19547"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -105.26005749477075,
-          51.309094991886205
+          158.60022612058373,
+          3.130915261218658
         ]
       }
     },
@@ -615,10 +615,10 @@
         "norad_id": 66174,
         "name": "HTV-X1",
         "group": "stations",
-        "lat": 5.672109737619118,
-        "lon": -23.07302034732324,
-        "alt_km": 416.4490675225852,
-        "timestamp": "2026-02-19T15:58:47.732395+00:00",
+        "lat": 50.39030631103782,
+        "lon": -125.59613804340994,
+        "alt_km": 407.55426942116264,
+        "timestamp": "2026-02-19T17:07:41.373038+00:00",
         "meta_object_name": "HTV-X1",
         "meta_object_id": "2025-241A",
         "meta_epoch": "2026-02-18T19:06:21.339648",
@@ -642,8 +642,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -23.07302034732324,
-          5.672109737619118
+          -125.59613804340994,
+          50.39030631103782
         ]
       }
     },
@@ -653,10 +653,10 @@
         "norad_id": 66515,
         "name": "SZ-21 MODULE",
         "group": "stations",
-        "lat": 6.1545249633320465,
-        "lon": -38.79951822880512,
-        "alt_km": 365.45397136477186,
-        "timestamp": "2026-02-19T15:58:47.732406+00:00",
+        "lat": -40.74671729334113,
+        "lon": -123.35396933436427,
+        "alt_km": 369.14679856362363,
+        "timestamp": "2026-02-19T17:07:41.373048+00:00",
         "meta_object_name": "SZ-21 MODULE",
         "meta_object_id": "2025-246C",
         "meta_epoch": "2026-02-19T02:10:29.836704",
@@ -680,8 +680,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -38.79951822880512,
-          6.1545249633320465
+          -123.35396933436427,
+          -40.74671729334113
         ]
       }
     },
@@ -691,10 +691,10 @@
         "norad_id": 66645,
         "name": "SHENZHOU-22",
         "group": "stations",
-        "lat": 2.8942350562053156,
-        "lon": -38.953603923751494,
-        "alt_km": 389.54565908194854,
-        "timestamp": "2026-02-19T15:58:47.732416+00:00",
+        "lat": -41.35055518636054,
+        "lon": -127.80415666136788,
+        "alt_km": 392.8950499055336,
+        "timestamp": "2026-02-19T17:07:41.373059+00:00",
         "meta_object_name": "SHENZHOU-22",
         "meta_object_id": "2025-272A",
         "meta_epoch": "2026-02-19T05:12:18.808704",
@@ -718,8 +718,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -38.953603923751494,
-          2.8942350562053156
+          -127.80415666136788,
+          -41.35055518636054
         ]
       }
     },
@@ -729,10 +729,10 @@
         "norad_id": 66664,
         "name": "SOYUZ-MS 28",
         "group": "stations",
-        "lat": 5.672108120519107,
-        "lon": -23.073019051364426,
-        "alt_km": 416.4490679758801,
-        "timestamp": "2026-02-19T15:58:47.732427+00:00",
+        "lat": 50.3903067660308,
+        "lon": -125.59613497691353,
+        "alt_km": 407.5542692050085,
+        "timestamp": "2026-02-19T17:07:41.373069+00:00",
         "meta_object_name": "SOYUZ-MS 28",
         "meta_object_id": "2025-275A",
         "meta_epoch": "2026-02-18T19:06:21.339648",
@@ -756,8 +756,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -23.073019051364426,
-          5.672108120519107
+          -125.59613497691353,
+          50.3903067660308
         ]
       }
     },
@@ -767,35 +767,35 @@
         "norad_id": 66906,
         "name": "DUPLEX",
         "group": "stations",
-        "lat": 14.837187689135044,
-        "lon": 171.630044960873,
-        "alt_km": 400.2831092602564,
-        "timestamp": "2026-02-19T15:58:47.732437+00:00",
+        "lat": -48.5069013856646,
+        "lon": 95.66753512137225,
+        "alt_km": 407.69416880379686,
+        "timestamp": "2026-02-19T17:07:41.373079+00:00",
         "meta_object_name": "DUPLEX",
         "meta_object_id": "1998-067XS",
-        "meta_epoch": "2026-02-19T06:38:37.076064",
-        "meta_mean_motion": 15.54931591,
-        "meta_eccentricity": 0.00015771,
+        "meta_epoch": "2026-02-19T11:16:15.503232",
+        "meta_mean_motion": 15.54942449,
+        "meta_eccentricity": 0.0001556,
         "meta_inclination": 51.6295,
-        "meta_ra_of_asc_node": 161.457,
-        "meta_arg_of_pericenter": 72.7851,
-        "meta_mean_anomaly": 287.3313,
+        "meta_ra_of_asc_node": 160.4944,
+        "meta_arg_of_pericenter": 74.2872,
+        "meta_mean_anomaly": 285.829,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 66906,
         "meta_element_set_no": 999,
-        "meta_rev_at_epoch": 1226,
-        "meta_bstar": 0.00045875173,
-        "meta_mean_motion_dot": 0.00030912,
+        "meta_rev_at_epoch": 1229,
+        "meta_bstar": 0.0004569,
+        "meta_mean_motion_dot": 0.00030797,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 66906U 98067XS  26050.27681801  .00030912  00000+0  45875-3 0  9999",
-        "tle_line2": "2 66906  51.6295 161.4570 0001577  72.7851 287.3313 15.54931591 12262"
+        "tle_line1": "1 66906U 98067XS  26050.46962388  .00030797  00000+0  45690-3 0  9998",
+        "tle_line2": "2 66906  51.6295 160.4944 0001556  74.2872 285.8290 15.54942449 12297"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          171.630044960873,
-          14.837187689135044
+          95.66753512137225,
+          -48.5069013856646
         ]
       }
     },
@@ -805,35 +805,35 @@
         "norad_id": 66907,
         "name": "ISS OBJECT XT",
         "group": "stations",
-        "lat": 39.848912830626546,
-        "lon": -161.41477637940298,
-        "alt_km": 369.97256153472335,
-        "timestamp": "2026-02-19T15:58:47.732448+00:00",
+        "lat": -27.195188794787423,
+        "lon": 132.91744562402695,
+        "alt_km": 377.169509390621,
+        "timestamp": "2026-02-19T17:07:41.373090+00:00",
         "meta_object_name": "ISS OBJECT XT",
         "meta_object_id": "1998-067XT",
-        "meta_epoch": "2026-02-18T13:40:37.986240",
-        "meta_mean_motion": 15.63890097,
-        "meta_eccentricity": 0.0002932,
-        "meta_inclination": 51.6274,
-        "meta_ra_of_asc_node": 162.7319,
-        "meta_arg_of_pericenter": 333.2736,
-        "meta_mean_anomaly": 26.8107,
+        "meta_epoch": "2026-02-19T08:04:46.528032",
+        "meta_mean_motion": 15.64050709,
+        "meta_eccentricity": 0.0003165,
+        "meta_inclination": 51.6269,
+        "meta_ra_of_asc_node": 158.8527,
+        "meta_arg_of_pericenter": 339.0139,
+        "meta_mean_anomaly": 21.0725,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 66907,
         "meta_element_set_no": 999,
-        "meta_rev_at_epoch": 1218,
-        "meta_bstar": 0.0011094,
-        "meta_mean_motion_dot": 0.00107239,
+        "meta_rev_at_epoch": 1230,
+        "meta_bstar": 0.0010883,
+        "meta_mean_motion_dot": 0.00105849,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 66907U 98067XT  26049.56988410  .00107239  00000+0  11094-2 0  9998",
-        "tle_line2": "2 66907  51.6274 162.7319 0002932 333.2736  26.8107 15.63890097 12181"
+        "tle_line1": "1 66907U 98067XT  26050.33664963  .00105849  00000+0  10883-2 0  9999",
+        "tle_line2": "2 66907  51.6269 158.8527 0003165 339.0139  21.0725 15.64050709 12308"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -161.41477637940298,
-          39.848912830626546
+          132.91744562402695,
+          -27.195188794787423
         ]
       }
     },
@@ -843,35 +843,35 @@
         "norad_id": 66908,
         "name": "ISS OBJECT XU",
         "group": "stations",
-        "lat": 42.55100245791049,
-        "lon": -156.1606239660679,
-        "alt_km": 369.41997306217854,
-        "timestamp": "2026-02-19T15:58:47.732458+00:00",
+        "lat": -23.698992874705322,
+        "lon": 136.5763912325194,
+        "alt_km": 376.82659228280136,
+        "timestamp": "2026-02-19T17:07:41.373100+00:00",
         "meta_object_name": "ISS OBJECT XU",
         "meta_object_id": "1998-067XU",
-        "meta_epoch": "2026-02-18T13:39:27.506304",
-        "meta_mean_motion": 15.63937528,
-        "meta_eccentricity": 0.0002823,
-        "meta_inclination": 51.6269,
-        "meta_ra_of_asc_node": 162.7238,
-        "meta_arg_of_pericenter": 338.4343,
-        "meta_mean_anomaly": 21.6532,
+        "meta_epoch": "2026-02-19T08:03:33.810336",
+        "meta_mean_motion": 15.64105787,
+        "meta_eccentricity": 0.0003046,
+        "meta_inclination": 51.6265,
+        "meta_ra_of_asc_node": 158.8444,
+        "meta_arg_of_pericenter": 343.8401,
+        "meta_mean_anomaly": 16.2496,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 66908,
         "meta_element_set_no": 999,
-        "meta_rev_at_epoch": 1218,
-        "meta_bstar": 0.0011124,
-        "meta_mean_motion_dot": 0.00107743,
+        "meta_rev_at_epoch": 1230,
+        "meta_bstar": 0.0011017,
+        "meta_mean_motion_dot": 0.0010741,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 66908U 98067XU  26049.56906836  .00107743  00000+0  11124-2 0  9995",
-        "tle_line2": "2 66908  51.6269 162.7238 0002823 338.4343  21.6532 15.63937528 12182"
+        "tle_line1": "1 66908U 98067XU  26050.33580799  .00107410  00000+0  11017-2 0  9990",
+        "tle_line2": "2 66908  51.6265 158.8444 0003046 343.8401  16.2496 15.64105787 12304"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -156.1606239660679,
-          42.55100245791049
+          136.5763912325194,
+          -23.698992874705322
         ]
       }
     },
@@ -881,35 +881,35 @@
         "norad_id": 66909,
         "name": "SILVERSAT",
         "group": "stations",
-        "lat": -51.359716134678074,
-        "lon": 59.12126896660176,
-        "alt_km": 374.1963901536592,
-        "timestamp": "2026-02-19T15:58:47.732468+00:00",
+        "lat": 3.70424282136542,
+        "lon": -26.436924320391824,
+        "alt_km": 373.1019452641058,
+        "timestamp": "2026-02-19T17:07:41.373110+00:00",
         "meta_object_name": "SILVERSAT",
         "meta_object_id": "1998-067XV",
-        "meta_epoch": "2026-02-19T07:11:37.232736",
-        "meta_mean_motion": 15.6589627,
-        "meta_eccentricity": 0.00038814,
-        "meta_inclination": 51.6279,
-        "meta_ra_of_asc_node": 158.6053,
-        "meta_arg_of_pericenter": 336.4094,
-        "meta_mean_anomaly": 23.6723,
+        "meta_epoch": "2026-02-19T11:47:18.665664",
+        "meta_mean_motion": 15.65947896,
+        "meta_eccentricity": 0.0003875,
+        "meta_inclination": 51.628,
+        "meta_ra_of_asc_node": 157.6333,
+        "meta_arg_of_pericenter": 337.7125,
+        "meta_mean_anomaly": 22.3701,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 66909,
         "meta_element_set_no": 999,
-        "meta_rev_at_epoch": 1230,
-        "meta_bstar": 0.0012174754,
-        "meta_mean_motion_dot": 0.00127892,
+        "meta_rev_at_epoch": 1233,
+        "meta_bstar": 0.0012062,
+        "meta_mean_motion_dot": 0.00126951,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 66909U 98067XV  26050.29973649  .00127892  00000+0  12175-2 0  9998",
-        "tle_line2": "2 66909  51.6279 158.6053 0003881 336.4094  23.6723 15.65896270 12307"
+        "tle_line1": "1 66909U 98067XV  26050.49118826  .00126951  00000+0  12062-2 0  9998",
+        "tle_line2": "2 66909  51.6280 157.6333 0003875 337.7125  22.3701 15.65947896 12337"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          59.12126896660176,
-          -51.359716134678074
+          -26.436924320391824,
+          3.70424282136542
         ]
       }
     },
@@ -919,35 +919,35 @@
         "norad_id": 66910,
         "name": "ISS OBJECT XW",
         "group": "stations",
-        "lat": 47.571847411937554,
-        "lon": -83.04162368835686,
-        "alt_km": 370.7317240838829,
-        "timestamp": "2026-02-19T15:58:47.732479+00:00",
+        "lat": 14.875174720099164,
+        "lon": 168.97347978599296,
+        "alt_km": 372.7477580167888,
+        "timestamp": "2026-02-19T17:07:41.373120+00:00",
         "meta_object_name": "ISS OBJECT XW",
         "meta_object_id": "1998-067XW",
-        "meta_epoch": "2026-02-18T13:26:26.280096",
-        "meta_mean_motion": 15.636983,
-        "meta_eccentricity": 0.0003095,
-        "meta_inclination": 51.6268,
-        "meta_ra_of_asc_node": 162.6597,
-        "meta_arg_of_pericenter": 350.8549,
-        "meta_mean_anomaly": 9.2388,
+        "meta_epoch": "2026-02-19T10:54:44.886816",
+        "meta_mean_motion": 15.63889811,
+        "meta_eccentricity": 0.000347,
+        "meta_inclination": 51.6266,
+        "meta_ra_of_asc_node": 158.1343,
+        "meta_arg_of_pericenter": 354.9224,
+        "meta_mean_anomaly": 5.1735,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 66910,
         "meta_element_set_no": 999,
-        "meta_rev_at_epoch": 1218,
-        "meta_bstar": 0.00097013,
-        "meta_mean_motion_dot": 0.00092839,
+        "meta_rev_at_epoch": 1232,
+        "meta_bstar": 0.0010519,
+        "meta_mean_motion_dot": 0.00101593,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 66910U 98067XW  26049.56002639  .00092839  00000+0  97013-3 0  9997",
-        "tle_line2": "2 66910  51.6268 162.6597 0003095 350.8549   9.2388 15.63698300 12182"
+        "tle_line1": "1 66910U 98067XW  26050.45468619  .00101593  00000+0  10519-2 0  9994",
+        "tle_line2": "2 66910  51.6266 158.1343 0003470 354.9224   5.1735 15.63889811 12327"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -83.04162368835686,
-          47.571847411937554
+          168.97347978599296,
+          14.875174720099164
         ]
       }
     },
@@ -957,35 +957,35 @@
         "norad_id": 66911,
         "name": "ISS OBJECT XX",
         "group": "stations",
-        "lat": 35.77530535947647,
-        "lon": -58.56028794053628,
-        "alt_km": 363.3917619270678,
-        "timestamp": "2026-02-19T15:58:47.732492+00:00",
+        "lat": 31.516771409203777,
+        "lon": -174.90513365748967,
+        "alt_km": 359.17026635404545,
+        "timestamp": "2026-02-19T17:07:41.373134+00:00",
         "meta_object_name": "ISS OBJECT XX",
         "meta_object_id": "1998-067XX",
-        "meta_epoch": "2026-02-18T13:24:36.908928",
-        "meta_mean_motion": 15.67383765,
-        "meta_eccentricity": 0.0005006,
-        "meta_inclination": 51.6247,
-        "meta_ra_of_asc_node": 161.8963,
-        "meta_arg_of_pericenter": 344.8616,
-        "meta_mean_anomaly": 15.2229,
+        "meta_epoch": "2026-02-19T12:21:39.663360",
+        "meta_mean_motion": 15.67669065,
+        "meta_eccentricity": 0.0005194,
+        "meta_inclination": 51.6244,
+        "meta_ra_of_asc_node": 157.0316,
+        "meta_arg_of_pericenter": 349.8357,
+        "meta_mean_anomaly": 10.2534,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 66911,
         "meta_element_set_no": 999,
-        "meta_rev_at_epoch": 1218,
-        "meta_bstar": 0.0013339,
-        "meta_mean_motion_dot": 0.00149293,
+        "meta_rev_at_epoch": 1233,
+        "meta_bstar": 0.0013523,
+        "meta_mean_motion_dot": 0.00153219,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 66911U 98067XX  26049.55876052  .00149293  00000+0  13339-2 0  9990",
-        "tle_line2": "2 66911  51.6247 161.8963 0005006 344.8616  15.2229 15.67383765 12181"
+        "tle_line1": "1 66911U 98067XX  26050.51504240  .00153219  00000+0  13523-2 0  9993",
+        "tle_line2": "2 66911  51.6244 157.0316 0005194 349.8357  10.2534 15.67669065 12333"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.56028794053628,
-          35.77530535947647
+          -174.90513365748967,
+          31.516771409203777
         ]
       }
     },
@@ -995,35 +995,35 @@
         "norad_id": 66912,
         "name": "ISS OBJECT XY",
         "group": "stations",
-        "lat": -5.9454302959444965,
-        "lon": 153.33423720194583,
-        "alt_km": 387.04740548880636,
-        "timestamp": "2026-02-19T15:58:47.732503+00:00",
+        "lat": -50.81292662398301,
+        "lon": 54.22314994194456,
+        "alt_km": 391.14543193270765,
+        "timestamp": "2026-02-19T17:07:41.373144+00:00",
         "meta_object_name": "ISS OBJECT XY",
         "meta_object_id": "1998-067XY",
-        "meta_epoch": "2026-02-18T13:52:55.811136",
-        "meta_mean_motion": 15.60296153,
-        "meta_eccentricity": 0.0001202,
-        "meta_inclination": 51.6296,
-        "meta_ra_of_asc_node": 163.5426,
-        "meta_arg_of_pericenter": 358.6455,
-        "meta_mean_anomaly": 1.4535,
+        "meta_epoch": "2026-02-19T08:19:38.159616",
+        "meta_mean_motion": 15.6040481,
+        "meta_eccentricity": 0.0001445,
+        "meta_inclination": 51.6294,
+        "meta_ra_of_asc_node": 159.6758,
+        "meta_arg_of_pericenter": 3.3383,
+        "meta_mean_anomaly": 356.762,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 66912,
         "meta_element_set_no": 999,
-        "meta_rev_at_epoch": 1216,
-        "meta_bstar": 0.00083509,
-        "meta_mean_motion_dot": 0.00069706,
+        "meta_rev_at_epoch": 1228,
+        "meta_bstar": 0.00081983,
+        "meta_mean_motion_dot": 0.00068701,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 66912U 98067XY  26049.57842374  .00069706  00000+0  83509-3 0  9990",
-        "tle_line2": "2 66912  51.6296 163.5426 0001202 358.6455   1.4535 15.60296153 12169"
+        "tle_line1": "1 66912U 98067XY  26050.34696944  .00068701  00000+0  81983-3 0  9995",
+        "tle_line2": "2 66912  51.6294 159.6758 0001445   3.3383 356.7620 15.60404810 12289"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          153.33423720194583,
-          -5.9454302959444965
+          54.22314994194456,
+          -50.81292662398301
         ]
       }
     },
@@ -1033,35 +1033,35 @@
         "norad_id": 67683,
         "name": "ISS OBJECT XZ",
         "group": "stations",
-        "lat": -43.18204344334048,
-        "lon": 29.32877527465688,
-        "alt_km": 422.8451814940172,
-        "timestamp": "2026-02-19T15:58:47.732516+00:00",
+        "lat": 24.565978175094862,
+        "lon": -40.16850616181462,
+        "alt_km": 406.31418202145596,
+        "timestamp": "2026-02-19T17:07:41.373154+00:00",
         "meta_object_name": "ISS OBJECT XZ",
         "meta_object_id": "1998-067XZ",
-        "meta_epoch": "2026-02-18T12:38:46.736448",
-        "meta_mean_motion": 15.50249343,
-        "meta_eccentricity": 0.0010346,
-        "meta_inclination": 51.6321,
-        "meta_ra_of_asc_node": 166.9465,
-        "meta_arg_of_pericenter": 123.4884,
-        "meta_mean_anomaly": 236.7095,
+        "meta_epoch": "2026-02-19T11:51:09.091872",
+        "meta_mean_motion": 15.50315047,
+        "meta_eccentricity": 0.0010275,
+        "meta_inclination": 51.6324,
+        "meta_ra_of_asc_node": 162.1537,
+        "meta_arg_of_pericenter": 126.2091,
+        "meta_mean_anomaly": 233.985,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 67683,
         "meta_element_set_no": 999,
-        "meta_rev_at_epoch": 181,
-        "meta_bstar": 0.00060893,
-        "meta_mean_motion_dot": 0.00034822,
+        "meta_rev_at_epoch": 196,
+        "meta_bstar": 0.00057836,
+        "meta_mean_motion_dot": 0.0003312,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 67683U 98067XZ  26049.52692982  .00034822  00000+0  60893-3 0  9991",
-        "tle_line2": "2 67683  51.6321 166.9465 0010346 123.4884 236.7095 15.50249343  1819"
+        "tle_line1": "1 67683U 98067XZ  26050.49385523  .00033120  00000+0  57836-3 0  9992",
+        "tle_line2": "2 67683  51.6324 162.1537 0010275 126.2091 233.9850 15.50315047  1961"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          29.32877527465688,
-          -43.18204344334048
+          -40.16850616181462,
+          24.565978175094862
         ]
       }
     },
@@ -1071,35 +1071,35 @@
         "norad_id": 67684,
         "name": "GXIBA-1",
         "group": "stations",
-        "lat": -50.88719875300196,
-        "lon": 84.20647921275939,
-        "alt_km": 424.4346033393331,
-        "timestamp": "2026-02-19T15:58:47.732527+00:00",
+        "lat": -4.4945525438623735,
+        "lon": -15.443857402648732,
+        "alt_km": 410.46508723142415,
+        "timestamp": "2026-02-19T17:07:41.373165+00:00",
         "meta_object_name": "GXIBA-1",
         "meta_object_id": "1998-067YA",
-        "meta_epoch": "2026-02-18T14:03:04.874112",
-        "meta_mean_motion": 15.51346875,
-        "meta_eccentricity": 0.0011884,
-        "meta_inclination": 51.6317,
-        "meta_ra_of_asc_node": 166.588,
-        "meta_arg_of_pericenter": 116.3562,
-        "meta_mean_anomaly": 243.8649,
+        "meta_epoch": "2026-02-19T11:41:41.266752",
+        "meta_mean_motion": 15.51462651,
+        "meta_eccentricity": 0.0011778,
+        "meta_inclination": 51.6314,
+        "meta_ra_of_asc_node": 162.1104,
+        "meta_arg_of_pericenter": 118.4667,
+        "meta_mean_anomaly": 241.751,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 67684,
         "meta_element_set_no": 999,
-        "meta_rev_at_epoch": 182,
-        "meta_bstar": 0.0010466,
-        "meta_mean_motion_dot": 0.00062858,
+        "meta_rev_at_epoch": 196,
+        "meta_bstar": 0.00099383,
+        "meta_mean_motion_dot": 0.00059891,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 67684U 98067YA  26049.58547308  .00062858  00000+0  10466-2 0  9999",
-        "tle_line2": "2 67684  51.6317 166.5880 0011884 116.3562 243.8649 15.51346875  1828"
+        "tle_line1": "1 67684U 98067YA  26050.48728318  .00059891  00000+0  99383-3 0  9991",
+        "tle_line2": "2 67684  51.6314 162.1104 0011778 118.4667 241.7510 15.51462651  1967"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          84.20647921275939,
-          -50.88719875300196
+          -15.443857402648732,
+          -4.4945525438623735
         ]
       }
     },
@@ -1109,35 +1109,35 @@
         "norad_id": 67685,
         "name": "CORAL",
         "group": "stations",
-        "lat": -46.5518288877055,
-        "lon": 38.04292353077182,
-        "alt_km": 424.3084834663514,
-        "timestamp": "2026-02-19T15:58:47.732537+00:00",
+        "lat": 19.2781396743098,
+        "lon": -35.03948815090535,
+        "alt_km": 406.0546410146808,
+        "timestamp": "2026-02-19T17:07:41.373179+00:00",
         "meta_object_name": "CORAL",
         "meta_object_id": "1998-067YB",
-        "meta_epoch": "2026-02-18T14:09:59.270112",
-        "meta_mean_motion": 15.50440945,
-        "meta_eccentricity": 0.0012245,
-        "meta_inclination": 51.6318,
-        "meta_ra_of_asc_node": 166.6193,
-        "meta_arg_of_pericenter": 119.6221,
-        "meta_mean_anomaly": 240.5989,
+        "meta_epoch": "2026-02-19T07:10:56.242848",
+        "meta_mean_motion": 15.50497404,
+        "meta_eccentricity": 0.0012198,
+        "meta_inclination": 51.6319,
+        "meta_ra_of_asc_node": 163.1038,
+        "meta_arg_of_pericenter": 121.723,
+        "meta_mean_anomaly": 238.4949,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 67685,
         "meta_element_set_no": 999,
-        "meta_rev_at_epoch": 182,
-        "meta_bstar": 0.0006882,
-        "meta_mean_motion_dot": 0.00039745,
+        "meta_rev_at_epoch": 193,
+        "meta_bstar": 0.00065731,
+        "meta_mean_motion_dot": 0.00038008,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 67685U 98067YB  26049.59026933  .00039745  00000+0  68820-3 0  9994",
-        "tle_line2": "2 67685  51.6318 166.6193 0012245 119.6221 240.5989 15.50440945  1821"
+        "tle_line1": "1 67685U 98067YB  26050.29926207  .00038008  00000+0  65731-3 0  9995",
+        "tle_line2": "2 67685  51.6319 163.1038 0012198 121.7230 238.4949 15.50497404  1939"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          38.04292353077182,
-          -46.5518288877055
+          -35.03948815090535,
+          19.2781396743098
         ]
       }
     },
@@ -1147,35 +1147,35 @@
         "norad_id": 67686,
         "name": "ISS OBJECT YC",
         "group": "stations",
-        "lat": -49.10454950453726,
-        "lon": 47.43641698187482,
-        "alt_km": 423.9853121446913,
-        "timestamp": "2026-02-19T15:58:47.732548+00:00",
+        "lat": 13.98022988703623,
+        "lon": -30.339897135383328,
+        "alt_km": 411.15649495600974,
+        "timestamp": "2026-02-19T17:07:41.373189+00:00",
         "meta_object_name": "ISS OBJECT YC",
         "meta_object_id": "1998-067YC",
-        "meta_epoch": "2026-02-18T12:35:37.355424",
-        "meta_mean_motion": 15.50655569,
-        "meta_eccentricity": 0.0007806,
+        "meta_epoch": "2026-02-19T11:47:37.292640",
+        "meta_mean_motion": 15.50743125,
+        "meta_eccentricity": 0.0007795,
         "meta_inclination": 51.6328,
-        "meta_ra_of_asc_node": 166.9334,
-        "meta_arg_of_pericenter": 91.825,
-        "meta_mean_anomaly": 268.3633,
+        "meta_ra_of_asc_node": 162.1384,
+        "meta_arg_of_pericenter": 94.3577,
+        "meta_mean_anomaly": 265.8303,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 67686,
         "meta_element_set_no": 999,
-        "meta_rev_at_epoch": 181,
-        "meta_bstar": 0.00075108,
-        "meta_mean_motion_dot": 0.000437,
+        "meta_rev_at_epoch": 196,
+        "meta_bstar": 0.00071316,
+        "meta_mean_motion_dot": 0.00041589,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 67686U 98067YC  26049.52473791  .00043700  00000+0  75108-3 0  9999",
-        "tle_line2": "2 67686  51.6328 166.9334 0007806  91.8250 268.3633 15.50655569  1816"
+        "tle_line1": "1 67686U 98067YC  26050.49140385  .00041589  00000+0  71316-3 0  9997",
+        "tle_line2": "2 67686  51.6328 162.1384 0007795  94.3577 265.8303 15.50743125  1964"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          47.43641698187482,
-          -49.10454950453726
+          -30.339897135383328,
+          13.98022988703623
         ]
       }
     },
@@ -1185,35 +1185,35 @@
         "norad_id": 67687,
         "name": "LEOPARD",
         "group": "stations",
-        "lat": -45.19385035927876,
-        "lon": 34.19515535273634,
-        "alt_km": 424.2842913762179,
-        "timestamp": "2026-02-19T15:58:47.732558+00:00",
+        "lat": 21.4968771995436,
+        "lon": -37.125681196148676,
+        "alt_km": 409.8773785017611,
+        "timestamp": "2026-02-19T17:07:41.373199+00:00",
         "meta_object_name": "LEOPARD",
         "meta_object_id": "1998-067YD",
-        "meta_epoch": "2026-02-19T07:11:39.735744",
-        "meta_mean_motion": 15.50418855,
-        "meta_eccentricity": 0.00078072,
-        "meta_inclination": 51.6326,
-        "meta_ra_of_asc_node": 163.1085,
-        "meta_arg_of_pericenter": 96.4151,
-        "meta_mean_anomaly": 263.7728,
+        "meta_epoch": "2026-02-19T11:50:06.656640",
+        "meta_mean_motion": 15.50433274,
+        "meta_eccentricity": 0.0007831,
+        "meta_inclination": 51.6323,
+        "meta_ra_of_asc_node": 162.1494,
+        "meta_arg_of_pericenter": 96.8673,
+        "meta_mean_anomaly": 263.3207,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 67687,
         "meta_element_set_no": 999,
-        "meta_rev_at_epoch": 185,
-        "meta_bstar": 0.00064842468,
-        "meta_mean_motion_dot": 0.00037315,
+        "meta_rev_at_epoch": 188,
+        "meta_bstar": 0.0006428,
+        "meta_mean_motion_dot": 0.00037005,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 67687U 98067YD  26050.29976546  .00037315  00000+0  64842-3 0  9990",
-        "tle_line2": "2 67687  51.6326 163.1085 0007807  96.4151 263.7728 15.50418855  1852"
+        "tle_line1": "1 67687U 98067YD  26050.49313260  .00037005  00000+0  64280-3 0  9992",
+        "tle_line2": "2 67687  51.6323 162.1494 0007831  96.8673 263.3207 15.50433274  1885"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.19515535273634,
-          -45.19385035927876
+          -37.125681196148676,
+          21.4968771995436
         ]
       }
     },
@@ -1223,35 +1223,35 @@
         "norad_id": 67688,
         "name": "ISS OBJECT YE",
         "group": "stations",
-        "lat": -48.161457290658284,
-        "lon": 43.51134044815763,
-        "alt_km": 424.11137697358663,
-        "timestamp": "2026-02-19T15:58:47.732569+00:00",
+        "lat": 16.123668782372103,
+        "lon": -32.19808090659837,
+        "alt_km": 410.9037212554904,
+        "timestamp": "2026-02-19T17:07:41.373209+00:00",
         "meta_object_name": "ISS OBJECT YE",
         "meta_object_id": "1998-067YE",
-        "meta_epoch": "2026-02-19T07:09:54.450432",
-        "meta_mean_motion": 15.50621471,
-        "meta_eccentricity": 0.00077032,
-        "meta_inclination": 51.6328,
-        "meta_ra_of_asc_node": 163.0998,
-        "meta_arg_of_pericenter": 94.554,
-        "meta_mean_anomaly": 265.6329,
+        "meta_epoch": "2026-02-19T11:48:19.181088",
+        "meta_mean_motion": 15.5063734,
+        "meta_eccentricity": 0.0007716,
+        "meta_inclination": 51.633,
+        "meta_ra_of_asc_node": 162.1416,
+        "meta_arg_of_pericenter": 94.6161,
+        "meta_mean_anomaly": 265.5709,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 67688,
         "meta_element_set_no": 999,
-        "meta_rev_at_epoch": 185,
-        "meta_bstar": 0.00070639642,
-        "meta_mean_motion_dot": 0.00041007,
+        "meta_rev_at_epoch": 188,
+        "meta_bstar": 0.00069998,
+        "meta_mean_motion_dot": 0.00040652,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 67688U 98067YE  26050.29854688  .00041007  00000+0  70640-3 0  9999",
-        "tle_line2": "2 67688  51.6328 163.0998 0007703  94.5540 265.6329 15.50621471  1851"
+        "tle_line1": "1 67688U 98067YE  26050.49188867  .00040652  00000+0  69998-3 0  9999",
+        "tle_line2": "2 67688  51.6330 162.1416 0007716  94.6161 265.5709 15.50637340  1889"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          43.51134044815763,
-          -48.161457290658284
+          -32.19808090659837,
+          16.123668782372103
         ]
       }
     },
@@ -1261,10 +1261,10 @@
         "norad_id": 67796,
         "name": "CREW DRAGON 12",
         "group": "stations",
-        "lat": 5.672099277004499,
-        "lon": -23.073011964090796,
-        "alt_km": 416.4490704548434,
-        "timestamp": "2026-02-19T15:58:47.732602+00:00",
+        "lat": 50.3903090263157,
+        "lon": -125.59611974336102,
+        "alt_km": 407.5542681312181,
+        "timestamp": "2026-02-19T17:07:41.373223+00:00",
         "meta_object_name": "CREW DRAGON 12",
         "meta_object_id": "2026-031A",
         "meta_epoch": "2026-02-18T19:06:21.339648",
@@ -1288,8 +1288,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -23.073011964090796,
-          5.672099277004499
+          -125.59611974336102,
+          50.3903090263157
         ]
       }
     }
