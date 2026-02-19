@@ -7,10 +7,10 @@
         "norad_id": 26766,
         "name": "INTELSAT 10 (IS-10)",
         "group": "intelsat",
-        "lat": -0.8087390709389697,
-        "lon": -114.15772304675826,
-        "alt_km": 36124.38038089025,
-        "timestamp": "2026-02-19T17:07:42.317062+00:00",
+        "lat": -4.8671178351542945,
+        "lon": -85.99358701401628,
+        "alt_km": 36114.72901637866,
+        "timestamp": "2026-02-19T19:02:22.649989+00:00",
         "meta_object_name": "INTELSAT 10 (IS-10)",
         "meta_object_id": "2001-019A",
         "meta_epoch": "2026-02-19T05:22:07.802688",
@@ -34,8 +34,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -114.15772304675826,
-          -0.8087390709389697
+          -85.99358701401628,
+          -4.8671178351542945
         ]
       }
     },
@@ -45,19 +45,19 @@
         "norad_id": 26900,
         "name": "INTELSAT 902 (IS-902)",
         "group": "intelsat",
-        "lat": -5.678180823147165,
-        "lon": -3.4411604785738916,
-        "alt_km": 35768.89624936142,
-        "timestamp": "2026-02-19T17:07:42.317088+00:00",
+        "lat": -4.341418809557309,
+        "lon": 25.40759041255134,
+        "alt_km": 35774.23359399316,
+        "timestamp": "2026-02-19T19:02:22.650013+00:00",
         "meta_object_name": "INTELSAT 902 (IS-902)",
         "meta_object_id": "2001-039A",
-        "meta_epoch": "2026-02-19T10:52:17.112576",
-        "meta_mean_motion": 1.00272363,
-        "meta_eccentricity": 0.0004505,
-        "meta_inclination": 5.8202,
-        "meta_ra_of_asc_node": 73.2272,
-        "meta_arg_of_pericenter": 262.08,
-        "meta_mean_anomaly": 287.044,
+        "meta_epoch": "2026-02-19T12:34:52.280544",
+        "meta_mean_motion": 1.0027233,
+        "meta_eccentricity": 0.00045036,
+        "meta_inclination": 5.8203,
+        "meta_ra_of_asc_node": 73.2263,
+        "meta_arg_of_pericenter": 262.1735,
+        "meta_mean_anomaly": 312.6683,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 26900,
@@ -66,14 +66,14 @@
         "meta_bstar": 0,
         "meta_mean_motion_dot": -2.77e-06,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 26900U 01039A   26050.45297584 -.00000277  00000+0  00000+0 0  9992",
-        "tle_line2": "2 26900   5.8202  73.2272 0004505 262.0800 287.0440  1.00272363 89513"
+        "tle_line1": "1 26900U 01039A   26050.52421621 -.00000277  00000+0  00000+0 0  9991",
+        "tle_line2": "2 26900   5.8203  73.2263 0004503 262.1735 312.6683  1.00272330 89518"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.4411604785738916,
-          -5.678180823147165
+          25.40759041255134,
+          -4.341418809557309
         ]
       }
     },
@@ -83,15 +83,15 @@
         "norad_id": 27380,
         "name": "INTELSAT 904 (IS-904)",
         "group": "intelsat",
-        "lat": -5.47542965845665,
-        "lon": 15.261784101815657,
-        "alt_km": 35763.91850464859,
-        "timestamp": "2026-02-19T17:07:42.317105+00:00",
+        "lat": -2.999442963099202,
+        "lon": 44.012240759204076,
+        "alt_km": 35767.644949374015,
+        "timestamp": "2026-02-19T19:02:22.650028+00:00",
         "meta_object_name": "INTELSAT 904 (IS-904)",
         "meta_object_id": "2002-007A",
-        "meta_epoch": "2026-02-19T09:14:52.022112",
+        "meta_epoch": "2026-02-19T09:14:52.022976",
         "meta_mean_motion": 1.002732,
-        "meta_eccentricity": 0.0005367,
+        "meta_eccentricity": 0.00053668,
         "meta_inclination": 6.6241,
         "meta_ra_of_asc_node": 70.6029,
         "meta_arg_of_pericenter": 298.1276,
@@ -104,14 +104,14 @@
         "meta_bstar": 0,
         "meta_mean_motion_dot": -2.19e-06,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 27380U 02007A   26050.38532433 -.00000219  00000+0  00000+0 0  9994",
-        "tle_line2": "2 27380   6.6241  70.6029 0005367 298.1276 247.8012  1.00273200 50588"
+        "tle_line1": "1 27380U 02007A   26050.38532434 -.00000219  00000+0  00000+0 0  9995",
+        "tle_line2": "2 27380   6.6241  70.6029 0005366 298.1276 247.8012  1.00273200 50587"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.261784101815657,
-          -5.47542965845665
+          44.012240759204076,
+          -2.999442963099202
         ]
       }
     },
@@ -121,19 +121,19 @@
         "norad_id": 27426,
         "name": "DIRECTV 5 (TEMPO 1)",
         "group": "intelsat",
-        "lat": -2.9088616675409456,
-        "lon": -63.63266487336119,
-        "alt_km": 35775.54108292938,
-        "timestamp": "2026-02-19T17:07:42.317118+00:00",
+        "lat": -4.2568515944557,
+        "lon": -34.84316311184026,
+        "alt_km": 35772.421866389144,
+        "timestamp": "2026-02-19T19:02:22.650042+00:00",
         "meta_object_name": "DIRECTV 5 (TEMPO 1)",
         "meta_object_id": "2002-023A",
-        "meta_epoch": "2026-02-19T05:26:58.865280",
-        "meta_mean_motion": 1.00272072,
-        "meta_eccentricity": 0.0003412,
-        "meta_inclination": 4.5748,
-        "meta_ra_of_asc_node": 76.7967,
-        "meta_arg_of_pericenter": 261.1625,
-        "meta_mean_anomaly": 142.8485,
+        "meta_epoch": "2026-02-19T14:00:34.081920",
+        "meta_mean_motion": 1.0027204,
+        "meta_eccentricity": 0.00034271,
+        "meta_inclination": 4.5757,
+        "meta_ra_of_asc_node": 76.7919,
+        "meta_arg_of_pericenter": 261.551,
+        "meta_mean_anomaly": 271.2135,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 27426,
@@ -142,14 +142,14 @@
         "meta_bstar": 0,
         "meta_mean_motion_dot": -5.1e-07,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 27426U 02023A   26050.22707020 -.00000051  00000+0  00000+0 0  9996",
-        "tle_line2": "2 27426   4.5748  76.7967 0003412 261.1625 142.8485  1.00272072 86946"
+        "tle_line1": "1 27426U 02023A   26050.58372780 -.00000051  00000+0  00000+0 0  9996",
+        "tle_line2": "2 27426   4.5757  76.7919 0003427 261.5510 271.2135  1.00272040 86940"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -63.63266487336119,
-          -2.9088616675409456
+          -34.84316311184026,
+          -4.2568515944557
         ]
       }
     },
@@ -159,19 +159,19 @@
         "norad_id": 27438,
         "name": "INTELSAT 905 (IS-905)",
         "group": "intelsat",
-        "lat": -1.9869627338348566,
-        "lon": -90.73677644974264,
-        "alt_km": 35780.49590768544,
-        "timestamp": "2026-02-19T17:07:42.317131+00:00",
+        "lat": -4.699008692990521,
+        "lon": -62.055432773966324,
+        "alt_km": 35776.27398451787,
+        "timestamp": "2026-02-19T19:02:22.650054+00:00",
         "meta_object_name": "INTELSAT 905 (IS-905)",
         "meta_object_id": "2002-027A",
-        "meta_epoch": "2026-02-19T05:19:22.096128",
-        "meta_mean_motion": 1.00273039,
-        "meta_eccentricity": 0.0002861,
-        "meta_inclination": 6.4553,
-        "meta_ra_of_asc_node": 71.2268,
-        "meta_arg_of_pericenter": 261.3889,
-        "meta_mean_anomaly": 119.1996,
+        "meta_epoch": "2026-02-19T13:52:49.823616",
+        "meta_mean_motion": 1.00273137,
+        "meta_eccentricity": 0.00028758,
+        "meta_inclination": 6.4563,
+        "meta_ra_of_asc_node": 71.2223,
+        "meta_arg_of_pericenter": 261.4817,
+        "meta_mean_anomaly": 247.83,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 27438,
@@ -180,14 +180,14 @@
         "meta_bstar": 0,
         "meta_mean_motion_dot": 1.01e-06,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 27438U 02027A   26050.22178352  .00000101  00000+0  00000+0 0  9998",
-        "tle_line2": "2 27438   6.4553  71.2268 0002861 261.3889 119.1996  1.00273039 50184"
+        "tle_line1": "1 27438U 02027A   26050.57835444  .00000101  00000+0  00000+0 0  9998",
+        "tle_line2": "2 27438   6.4563  71.2223 0002875 261.4817 247.8300  1.00273137 50180"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.73677644974264,
-          -1.9869627338348566
+          -62.055432773966324,
+          -4.699008692990521
         ]
       }
     },
@@ -197,10 +197,10 @@
         "norad_id": 27445,
         "name": "GALAXY 3C (G-3C)",
         "group": "intelsat",
-        "lat": -2.7048242170249805,
-        "lon": -48.29624124905262,
-        "alt_km": 35790.19278049643,
-        "timestamp": "2026-02-19T17:07:42.317145+00:00",
+        "lat": -3.3974216262446135,
+        "lon": -19.521599140783813,
+        "alt_km": 35789.68972544599,
+        "timestamp": "2026-02-19T19:02:22.650067+00:00",
         "meta_object_name": "GALAXY 3C (G-3C)",
         "meta_object_id": "2002-030A",
         "meta_epoch": "2026-02-19T02:29:59.835264",
@@ -224,8 +224,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -48.29624124905262,
-          -2.7048242170249805
+          -19.521599140783813,
+          -3.3974216262446135
         ]
       }
     },
@@ -235,10 +235,10 @@
         "norad_id": 27513,
         "name": "INTELSAT 906 (IS-906)",
         "group": "intelsat",
-        "lat": 3.247532660670781,
-        "lon": 110.62045668811894,
-        "alt_km": 35800.04280113351,
-        "timestamp": "2026-02-19T17:07:42.317158+00:00",
+        "lat": 4.989638798840085,
+        "lon": 139.37107655816192,
+        "alt_km": 35800.60267758996,
+        "timestamp": "2026-02-19T19:02:22.650079+00:00",
         "meta_object_name": "INTELSAT 906 (IS-906)",
         "meta_object_id": "2002-041A",
         "meta_epoch": "2026-02-19T02:51:21.287232",
@@ -262,8 +262,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          110.62045668811894,
-          3.247532660670781
+          139.37107655816192,
+          4.989638798840085
         ]
       }
     },
@@ -273,19 +273,19 @@
         "norad_id": 27954,
         "name": "GALAXY 13 (HORIZONS-1)",
         "group": "intelsat",
-        "lat": 0.1939293283463674,
-        "lon": -103.46233598968111,
-        "alt_km": 35783.63217313149,
-        "timestamp": "2026-02-19T17:07:42.317170+00:00",
+        "lat": -0.3662605120475723,
+        "lon": -74.71494210618144,
+        "alt_km": 35779.68891109814,
+        "timestamp": "2026-02-19T19:02:22.650092+00:00",
         "meta_object_name": "GALAXY 13 (HORIZONS-1)",
         "meta_object_id": "2003-044A",
-        "meta_epoch": "2026-02-19T11:18:38.599776",
-        "meta_mean_motion": 1.00272349,
-        "meta_eccentricity": 0.0002172,
-        "meta_inclination": 1.114,
-        "meta_ra_of_asc_node": 85.516,
-        "meta_arg_of_pericenter": 246.9577,
-        "meta_mean_anomaly": 196.5624,
+        "meta_epoch": "2026-02-19T12:06:25.007040",
+        "meta_mean_motion": 1.00272364,
+        "meta_eccentricity": 0.00021713,
+        "meta_inclination": 1.1141,
+        "meta_ra_of_asc_node": 85.5156,
+        "meta_arg_of_pericenter": 247.0318,
+        "meta_mean_anomaly": 208.465,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 27954,
@@ -294,14 +294,14 @@
         "meta_bstar": 0,
         "meta_mean_motion_dot": 1.38e-06,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 27954U 03044A   26050.47128009  .00000138  00000+0  00000+0 0  9992",
-        "tle_line2": "2 27954   1.1140  85.5160 0002172 246.9577 196.5624  1.00272349 45395"
+        "tle_line1": "1 27954U 03044A   26050.50445610  .00000138  00000+0  00000+0 0  9996",
+        "tle_line2": "2 27954   1.1141  85.5156 0002171 247.0318 208.4650  1.00272364 45394"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -103.46233598968111,
-          0.1939293283463674
+          -74.71494210618144,
+          -0.3662605120475723
         ]
       }
     },
@@ -311,15 +311,15 @@
         "norad_id": 28358,
         "name": "INTELSAT 10-02",
         "group": "intelsat",
-        "lat": -0.03146123620259983,
-        "lon": 45.625638338333644,
-        "alt_km": 35784.58573510016,
-        "timestamp": "2026-02-19T17:07:42.317182+00:00",
+        "lat": -0.02512025437335734,
+        "lon": 74.37271512372514,
+        "alt_km": 35786.492517499384,
+        "timestamp": "2026-02-19T19:02:22.650104+00:00",
         "meta_object_name": "INTELSAT 10-02",
         "meta_object_id": "2004-022A",
         "meta_epoch": "2026-02-19T09:23:36.185856",
         "meta_mean_motion": 1.00273004,
-        "meta_eccentricity": 9.1e-05,
+        "meta_eccentricity": 9.097e-05,
         "meta_inclination": 0.0068,
         "meta_ra_of_asc_node": 123.9681,
         "meta_arg_of_pericenter": 208.9832,
@@ -333,13 +333,13 @@
         "meta_mean_motion_dot": -5e-08,
         "meta_mean_motion_ddot": 0,
         "tle_line1": "1 28358U 04022A   26050.39139104 -.00000005  00000+0  00000+0 0  9991",
-        "tle_line2": "2 28358   0.0068 123.9681 0000910 208.9832 316.2994  1.00273004 79371"
+        "tle_line2": "2 28358   0.0068 123.9681 0000909 208.9832 316.2994  1.00273004 79379"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          45.625638338333644,
-          -0.03146123620259983
+          74.37271512372514,
+          -0.02512025437335734
         ]
       }
     },
@@ -349,19 +349,19 @@
         "norad_id": 28659,
         "name": "DIRECTV 8",
         "group": "intelsat",
-        "lat": 0.006084014134825364,
-        "lon": -72.50554125911782,
-        "alt_km": 35778.756296856634,
-        "timestamp": "2026-02-19T17:07:42.317194+00:00",
+        "lat": -0.012260390617105479,
+        "lon": -43.74572611169685,
+        "alt_km": 35774.193983454265,
+        "timestamp": "2026-02-19T19:02:22.650116+00:00",
         "meta_object_name": "DIRECTV 8",
         "meta_object_id": "2005-019A",
-        "meta_epoch": "2026-02-19T10:32:37.068288",
-        "meta_mean_motion": 1.00271804,
-        "meta_eccentricity": 0.0003187,
-        "meta_inclination": 0.0151,
-        "meta_ra_of_asc_node": 108.7966,
-        "meta_arg_of_pericenter": 236.0703,
-        "meta_mean_anomaly": 203.5958,
+        "meta_epoch": "2026-02-19T12:15:16.658208",
+        "meta_mean_motion": 1.00271806,
+        "meta_eccentricity": 0.00031901,
+        "meta_inclination": 0.0144,
+        "meta_ra_of_asc_node": 110.0917,
+        "meta_arg_of_pericenter": 234.8284,
+        "meta_mean_anomaly": 229.2779,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 28659,
@@ -370,14 +370,14 @@
         "meta_bstar": 0,
         "meta_mean_motion_dot": 7e-08,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 28659U 05019A   26050.43931792  .00000007  00000+0  00000+0 0  9991",
-        "tle_line2": "2 28659   0.0151 108.7966 0003187 236.0703 203.5958  1.00271804 75890"
+        "tle_line1": "1 28659U 05019A   26050.51060947  .00000007  00000+0  00000+0 0  9995",
+        "tle_line2": "2 28659   0.0144 110.0917 0003190 234.8284 229.2779  1.00271806 75896"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -72.50554125911782,
-          0.006084014134825364
+          -43.74572611169685,
+          -0.012260390617105479
         ]
       }
     },
@@ -387,10 +387,10 @@
         "norad_id": 28702,
         "name": "GALAXY 28 (G-28)",
         "group": "intelsat",
-        "lat": -2.493496139512783,
-        "lon": 24.886509682547512,
-        "alt_km": 35723.18565254171,
-        "timestamp": "2026-02-19T17:07:42.317207+00:00",
+        "lat": -1.3729637300699578,
+        "lon": 53.691901642376344,
+        "alt_km": 35727.256695490396,
+        "timestamp": "2026-02-19T19:02:22.650128+00:00",
         "meta_object_name": "GALAXY 28 (G-28)",
         "meta_object_id": "2005-022A",
         "meta_epoch": "2026-02-12T07:49:11.331840",
@@ -414,8 +414,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          24.886509682547512,
-          -2.493496139512783
+          53.691901642376344,
+          -1.3729637300699578
         ]
       }
     },
@@ -425,19 +425,19 @@
         "norad_id": 29236,
         "name": "GALAXY 16 (G-16)",
         "group": "intelsat",
-        "lat": 0.0270077676710507,
-        "lon": -52.437933071463554,
-        "alt_km": 35775.819025732904,
-        "timestamp": "2026-02-19T17:07:42.317225+00:00",
+        "lat": 0.009495106602624544,
+        "lon": -23.676814582913728,
+        "alt_km": 35775.0607320107,
+        "timestamp": "2026-02-19T19:02:22.650141+00:00",
         "meta_object_name": "GALAXY 16 (G-16)",
         "meta_object_id": "2006-023A",
-        "meta_epoch": "2026-02-19T10:38:21.518304",
-        "meta_mean_motion": 1.00271624,
-        "meta_eccentricity": 0.0002632,
+        "meta_epoch": "2026-02-19T14:03:41.283072",
+        "meta_mean_motion": 1.00271579,
+        "meta_eccentricity": 0.00026313,
         "meta_inclination": 0.0299,
-        "meta_ra_of_asc_node": 193.8791,
-        "meta_arg_of_pericenter": 136.0651,
-        "meta_mean_anomaly": 240.0061,
+        "meta_ra_of_asc_node": 193.1671,
+        "meta_arg_of_pericenter": 136.9732,
+        "meta_mean_anomaly": 291.2828,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 29236,
@@ -446,14 +446,14 @@
         "meta_bstar": 0,
         "meta_mean_motion_dot": -1.21e-06,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 29236U 06023A   26050.44330461 -.00000121  00000+0  00000+0 0  9994",
-        "tle_line2": "2 29236   0.0299 193.8791 0002632 136.0651 240.0061  1.00271624 71797"
+        "tle_line1": "1 29236U 06023A   26050.58589448 -.00000121  00000+0  00000+0 0  9990",
+        "tle_line2": "2 29236   0.0299 193.1671 0002631 136.9732 291.2828  1.00271579 71793"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -52.437933071463554,
-          0.0270077676710507
+          -23.676814582913728,
+          0.009495106602624544
         ]
       }
     },
@@ -463,19 +463,19 @@
         "norad_id": 29494,
         "name": "DIRECTV 9S",
         "group": "intelsat",
-        "lat": -1.438553463361348,
-        "lon": -54.647677365118284,
-        "alt_km": 35774.75661047074,
-        "timestamp": "2026-02-19T17:07:42.317238+00:00",
+        "lat": -2.0175520644075746,
+        "lon": -25.876885900222465,
+        "alt_km": 35773.655022583225,
+        "timestamp": "2026-02-19T19:02:22.650152+00:00",
         "meta_object_name": "DIRECTV 9S",
         "meta_object_id": "2006-043A",
-        "meta_epoch": "2026-02-19T10:37:44.078592",
-        "meta_mean_motion": 1.00271761,
-        "meta_eccentricity": 0.0003005,
-        "meta_inclination": 2.1151,
-        "meta_ra_of_asc_node": 82.388,
-        "meta_arg_of_pericenter": 248.1274,
-        "meta_mean_anomaly": 237.0942,
+        "meta_epoch": "2026-02-19T12:20:23.667648",
+        "meta_mean_motion": 1.00271762,
+        "meta_eccentricity": 0.00030047,
+        "meta_inclination": 2.1152,
+        "meta_ra_of_asc_node": 82.3869,
+        "meta_arg_of_pericenter": 248.0542,
+        "meta_mean_anomaly": 262.9038,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 29494,
@@ -484,14 +484,14 @@
         "meta_bstar": 0,
         "meta_mean_motion_dot": -1.07e-06,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 29494U 06043A   26050.44287128 -.00000107  00000+0  00000+0 0  9997",
-        "tle_line2": "2 29494   2.1151  82.3880 0003005 248.1274 237.0942  1.00271761 50204"
+        "tle_line1": "1 29494U 06043A   26050.51416282 -.00000107  00000+0  00000+0 0  9990",
+        "tle_line2": "2 29494   2.1152  82.3869 0003004 248.0542 262.9038  1.00271762 50202"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -54.647677365118284,
-          -1.438553463361348
+          -25.876885900222465,
+          -2.0175520644075746
         ]
       }
     },
@@ -501,19 +501,19 @@
         "norad_id": 31307,
         "name": "GALAXY 17 (G-17)",
         "group": "intelsat",
-        "lat": -2.3204162857035673,
-        "lon": -38.437897141069165,
-        "alt_km": 35772.800423385124,
-        "timestamp": "2026-02-19T17:07:42.317250+00:00",
+        "lat": -2.685798149052867,
+        "lon": -9.648169062881111,
+        "alt_km": 35774.42022762214,
+        "timestamp": "2026-02-19T19:02:22.650164+00:00",
         "meta_object_name": "GALAXY 17 (G-17)",
         "meta_object_id": "2007-016B",
-        "meta_epoch": "2026-02-19T10:42:21.137472",
-        "meta_mean_motion": 1.00271711,
-        "meta_eccentricity": 0.0003217,
-        "meta_inclination": 2.6717,
-        "meta_ra_of_asc_node": 81.4268,
-        "meta_arg_of_pericenter": 241.0727,
-        "meta_mean_anomaly": 262.4721,
+        "meta_epoch": "2026-02-19T12:25:00.725664",
+        "meta_mean_motion": 1.00271699,
+        "meta_eccentricity": 0.00032166,
+        "meta_inclination": 2.6718,
+        "meta_ra_of_asc_node": 81.4254,
+        "meta_arg_of_pericenter": 241.0814,
+        "meta_mean_anomaly": 288.2001,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 31307,
@@ -522,14 +522,14 @@
         "meta_bstar": 0,
         "meta_mean_motion_dot": -2e-06,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 31307U 07016B   26050.44607798 -.00000200  00000+0  00000+0 0  9997",
-        "tle_line2": "2 31307   2.6717  81.4268 0003217 241.0727 262.4721  1.00271711 68620"
+        "tle_line1": "1 31307U 07016B   26050.51736951 -.00000200  00000+0  00000+0 0  9999",
+        "tle_line2": "2 31307   2.6718  81.4254 0003216 241.0814 288.2001  1.00271699 68624"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -38.437897141069165,
-          -2.3204162857035673
+          -9.648169062881111,
+          -2.685798149052867
         ]
       }
     },
@@ -539,35 +539,35 @@
         "norad_id": 31862,
         "name": "DIRECTV 10",
         "group": "intelsat",
-        "lat": 0.116125508216258,
-        "lon": -175.3296871190951,
-        "alt_km": 36363.14229350146,
-        "timestamp": "2026-02-19T17:07:42.317262+00:00",
+        "lat": 0.11750231629744985,
+        "lon": -147.17148295766336,
+        "alt_km": 36361.16588382366,
+        "timestamp": "2026-02-19T19:02:22.650176+00:00",
         "meta_object_name": "DIRECTV 10",
         "meta_object_id": "2007-032A",
-        "meta_epoch": "2026-02-19T11:46:19.433280",
-        "meta_mean_motion": 0.98339161,
-        "meta_eccentricity": 0.0006199,
-        "meta_inclination": 0.0968,
-        "meta_ra_of_asc_node": 106.1775,
-        "meta_arg_of_pericenter": 264.0149,
-        "meta_mean_anomaly": 95.4386,
+        "meta_epoch": "2026-02-19T13:28:54.600384",
+        "meta_mean_motion": 0.98339129,
+        "meta_eccentricity": 0.00062003,
+        "meta_inclination": 0.097,
+        "meta_ra_of_asc_node": 106.1154,
+        "meta_arg_of_pericenter": 264.0615,
+        "meta_mean_anomaly": 120.6752,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 31862,
         "meta_element_set_no": 999,
         "meta_rev_at_epoch": 4441,
         "meta_bstar": 0,
-        "meta_mean_motion_dot": -1.9e-06,
+        "meta_mean_motion_dot": -1.89e-06,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 31862U 07032A   26050.49050270 -.00000190  00000+0  00000+0 0  9991",
-        "tle_line2": "2 31862   0.0968 106.1775 0006199 264.0149  95.4386  0.98339161 44411"
+        "tle_line1": "1 31862U 07032A   26050.56174306 -.00000189  00000+0  00000+0 0  9994",
+        "tle_line2": "2 31862   0.0970 106.1154 0006200 264.0615 120.6752  0.98339129 44418"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -175.3296871190951,
-          0.116125508216258
+          -147.17148295766336,
+          0.11750231629744985
         ]
       }
     },
@@ -577,35 +577,35 @@
         "norad_id": 32253,
         "name": "INTELSAT 11 (IS-11)",
         "group": "intelsat",
-        "lat": -3.044591587900698,
-        "lon": -30.962943584887523,
-        "alt_km": 36116.82938009414,
-        "timestamp": "2026-02-19T17:07:42.317275+00:00",
+        "lat": -3.2468555214072046,
+        "lon": -2.510552365108599,
+        "alt_km": 36128.10858006945,
+        "timestamp": "2026-02-19T19:02:22.650188+00:00",
         "meta_object_name": "INTELSAT 11 (IS-11)",
         "meta_object_id": "2007-044B",
-        "meta_epoch": "2026-02-19T10:44:43.409760",
-        "meta_mean_motion": 0.99048459,
-        "meta_eccentricity": 0.0005975,
-        "meta_inclination": 3.2568,
-        "meta_ra_of_asc_node": 80.1372,
-        "meta_arg_of_pericenter": 198.1912,
-        "meta_mean_anomaly": 315.8357,
+        "meta_epoch": "2026-02-19T12:27:22.998816",
+        "meta_mean_motion": 0.99048419,
+        "meta_eccentricity": 0.00059743,
+        "meta_inclination": 3.257,
+        "meta_ra_of_asc_node": 80.1362,
+        "meta_arg_of_pericenter": 198.1993,
+        "meta_mean_anomaly": 341.2497,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 32253,
         "meta_element_set_no": 999,
         "meta_rev_at_epoch": 6728,
         "meta_bstar": 0,
-        "meta_mean_motion_dot": -8.6e-07,
+        "meta_mean_motion_dot": -8.5e-07,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 32253U 07044B   26050.44772465 -.00000086  00000+0  00000+0 0  9995",
-        "tle_line2": "2 32253   3.2568  80.1372 0005975 198.1912 315.8357  0.99048459 67282"
+        "tle_line1": "1 32253U 07044B   26050.51901619 -.00000085  00000+0  00000+0 0  9997",
+        "tle_line2": "2 32253   3.2570  80.1362 0005974 198.1993 341.2497  0.99048419 67286"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -30.962943584887523,
-          -3.044591587900698
+          -2.510552365108599,
+          -3.2468555214072046
         ]
       }
     },
@@ -615,19 +615,19 @@
         "norad_id": 32388,
         "name": "HORIZONS-2",
         "group": "intelsat",
-        "lat": -2.1752804756310744,
-        "lon": -27.215250615363118,
-        "alt_km": 35773.608191088744,
-        "timestamp": "2026-02-19T17:07:42.317286+00:00",
+        "lat": -2.2842728507991357,
+        "lon": 1.5686810283389199,
+        "alt_km": 35776.37617353616,
+        "timestamp": "2026-02-19T19:02:22.650199+00:00",
         "meta_object_name": "HORIZONS-2",
         "meta_object_id": "2007-063B",
-        "meta_epoch": "2026-02-19T10:45:28.337760",
-        "meta_mean_motion": 1.00272035,
-        "meta_eccentricity": 0.0003056,
-        "meta_inclination": 2.2967,
-        "meta_ra_of_asc_node": 82.1382,
-        "meta_arg_of_pericenter": 239.7267,
-        "meta_mean_anomaly": 275.091,
+        "meta_epoch": "2026-02-19T12:28:07.926816",
+        "meta_mean_motion": 1.00272,
+        "meta_eccentricity": 0.00030549,
+        "meta_inclination": 2.2969,
+        "meta_ra_of_asc_node": 82.137,
+        "meta_arg_of_pericenter": 239.7397,
+        "meta_mean_anomaly": 300.8145,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 32388,
@@ -636,14 +636,14 @@
         "meta_bstar": 0,
         "meta_mean_motion_dot": -2.48e-06,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 32388U 07063B   26050.44824465 -.00000248  00000+0  00000+0 0  9993",
-        "tle_line2": "2 32388   2.2967  82.1382 0003056 239.7267 275.0910  1.00272035 66631"
+        "tle_line1": "1 32388U 07063B   26050.51953619 -.00000248  00000+0  00000+0 0  9995",
+        "tle_line2": "2 32388   2.2969  82.1370 0003054 239.7397 300.8145  1.00272000 66631"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -27.215250615363118,
-          -2.1752804756310744
+          1.5686810283389199,
+          -2.2842728507991357
         ]
       }
     },
@@ -653,10 +653,10 @@
         "norad_id": 32729,
         "name": "DIRECTV 11",
         "group": "intelsat",
-        "lat": 0.012862200085830472,
-        "lon": -52.5997659696145,
-        "alt_km": 35786.08019701676,
-        "timestamp": "2026-02-19T17:07:42.317298+00:00",
+        "lat": 0.0048209271040188335,
+        "lon": -23.852954287911192,
+        "alt_km": 35785.66723502811,
+        "timestamp": "2026-02-19T19:02:22.650211+00:00",
         "meta_object_name": "DIRECTV 11",
         "meta_object_id": "2008-013A",
         "meta_epoch": "2026-02-19T05:30:13.553856",
@@ -680,8 +680,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -52.5997659696145,
-          0.012862200085830472
+          -23.852954287911192,
+          0.0048209271040188335
         ]
       }
     },
@@ -691,19 +691,19 @@
         "norad_id": 32951,
         "name": "GALAXY 18 (G-18)",
         "group": "intelsat",
-        "lat": 0.023935848762434316,
-        "lon": -76.41809785936435,
-        "alt_km": 35778.79074089226,
-        "timestamp": "2026-02-19T17:07:42.317310+00:00",
+        "lat": 0.0027493562219466595,
+        "lon": -47.65934142095904,
+        "alt_km": 35775.282922114115,
+        "timestamp": "2026-02-19T19:02:22.650222+00:00",
         "meta_object_name": "GALAXY 18 (G-18)",
         "meta_object_id": "2008-024A",
-        "meta_epoch": "2026-02-19T10:31:29.676288",
-        "meta_mean_motion": 1.00269819,
-        "meta_eccentricity": 0.0002904,
-        "meta_inclination": 0.0204,
-        "meta_ra_of_asc_node": 139.5758,
-        "meta_arg_of_pericenter": 194.57,
-        "meta_mean_anomaly": 210.1197,
+        "meta_epoch": "2026-02-19T12:14:09.266208",
+        "meta_mean_motion": 1.00269608,
+        "meta_eccentricity": 0.00028992,
+        "meta_inclination": 0.0205,
+        "meta_ra_of_asc_node": 139.4783,
+        "meta_arg_of_pericenter": 194.8638,
+        "meta_mean_anomaly": 235.6579,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 32951,
@@ -712,14 +712,14 @@
         "meta_bstar": 0,
         "meta_mean_motion_dot": 0,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 32951U 08024A   26050.43853792  .00000000  00000+0  00000+0 0  9996",
-        "tle_line2": "2 32951   0.0204 139.5758 0002904 194.5700 210.1197  1.00269819 44675"
+        "tle_line1": "1 32951U 08024A   26050.50982947  .00000000  00000+0  00000+0 0  9999",
+        "tle_line2": "2 32951   0.0205 139.4783 0002899 194.8638 235.6579  1.00269608 44671"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -76.41809785936435,
-          0.023935848762434316
+          -47.65934142095904,
+          0.0027493562219466595
         ]
       }
     },
@@ -729,15 +729,15 @@
         "norad_id": 33153,
         "name": "INTELSAT 25 (IS-25)",
         "group": "intelsat",
-        "lat": -2.2275335073176823,
-        "lon": 15.149601162827329,
-        "alt_km": 35777.32774763963,
-        "timestamp": "2026-02-19T17:07:42.317322+00:00",
+        "lat": -1.5008944509788698,
+        "lon": 43.90931233261869,
+        "alt_km": 35785.3663966167,
+        "timestamp": "2026-02-19T19:02:22.650234+00:00",
         "meta_object_name": "INTELSAT 25 (IS-25)",
         "meta_object_id": "2008-034A",
         "meta_epoch": "2026-02-19T10:57:31.612032",
         "meta_mean_motion": 1.00270975,
-        "meta_eccentricity": 0.000407,
+        "meta_eccentricity": 0.00040704,
         "meta_inclination": 2.4021,
         "meta_ra_of_asc_node": 81.8045,
         "meta_arg_of_pericenter": 235.8025,
@@ -756,8 +756,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.149601162827329,
-          -2.2275335073176823
+          43.90931233261869,
+          -1.5008944509788698
         ]
       }
     },
@@ -767,19 +767,19 @@
         "norad_id": 33376,
         "name": "GALAXY 19 (G-19)",
         "group": "intelsat",
-        "lat": 0.03806396402188343,
-        "lon": -50.428261532292396,
-        "alt_km": 35775.19338959575,
-        "timestamp": "2026-02-19T17:07:42.317333+00:00",
+        "lat": 0.03754123447292682,
+        "lon": -21.66580351117673,
+        "alt_km": 35774.05283419308,
+        "timestamp": "2026-02-19T19:02:22.650246+00:00",
         "meta_object_name": "GALAXY 19 (G-19)",
         "meta_object_id": "2008-045A",
-        "meta_epoch": "2026-02-19T10:38:51.470592",
-        "meta_mean_motion": 1.00271681,
-        "meta_eccentricity": 0.0002852,
-        "meta_inclination": 0.0588,
-        "meta_ra_of_asc_node": 269.8153,
-        "meta_arg_of_pericenter": 65.1435,
-        "meta_mean_anomaly": 237.1287,
+        "meta_epoch": "2026-02-19T12:21:31.061376",
+        "meta_mean_motion": 1.0027166,
+        "meta_eccentricity": 0.00028534,
+        "meta_inclination": 0.0587,
+        "meta_ra_of_asc_node": 269.8548,
+        "meta_arg_of_pericenter": 65.1872,
+        "meta_mean_anomaly": 262.7808,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 33376,
@@ -788,14 +788,14 @@
         "meta_bstar": 0,
         "meta_mean_motion_dot": -1.33e-06,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 33376U 08045A   26050.44365128 -.00000133  00000+0  00000+0 0  9991",
-        "tle_line2": "2 33376   0.0588 269.8153 0002852  65.1435 237.1287  1.00271681 63724"
+        "tle_line1": "1 33376U 08045A   26050.51494284 -.00000133  00000+0  00000+0 0  9995",
+        "tle_line2": "2 33376   0.0587 269.8548 0002853  65.1872 262.7808  1.00271660 63727"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -50.428261532292396,
-          0.03806396402188343
+          -21.66580351117673,
+          0.03754123447292682
         ]
       }
     },
@@ -805,10 +805,10 @@
         "norad_id": 35493,
         "name": "FM-5",
         "group": "intelsat",
-        "lat": 0.019643325220449027,
-        "lon": -39.5701944103418,
-        "alt_km": 35787.3178275359,
-        "timestamp": "2026-02-19T17:07:42.317346+00:00",
+        "lat": 0.01125542157245115,
+        "lon": -10.825983621569588,
+        "alt_km": 35788.424617228055,
+        "timestamp": "2026-02-19T19:02:22.650258+00:00",
         "meta_object_name": "FM-5",
         "meta_object_id": "2009-034A",
         "meta_epoch": "2026-02-19T02:08:25.401696",
@@ -832,8 +832,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -39.5701944103418,
-          0.019643325220449027
+          -10.825983621569588,
+          0.01125542157245115
         ]
       }
     },
@@ -843,15 +843,15 @@
         "norad_id": 36097,
         "name": "INTELSAT 14 (IS-14)",
         "group": "intelsat",
-        "lat": -0.035277848654064525,
-        "lon": 1.5843235639088582,
-        "alt_km": 35776.4094539131,
-        "timestamp": "2026-02-19T17:07:42.317358+00:00",
+        "lat": -0.03611460062383294,
+        "lon": 30.34182300405292,
+        "alt_km": 35779.612946996356,
+        "timestamp": "2026-02-19T19:02:22.650285+00:00",
         "meta_object_name": "INTELSAT 14 (IS-14)",
         "meta_object_id": "2009-064A",
-        "meta_epoch": "2026-02-19T10:53:39.482016",
+        "meta_epoch": "2026-02-19T10:53:39.482880",
         "meta_mean_motion": 1.00273896,
-        "meta_eccentricity": 0.0002379,
+        "meta_eccentricity": 0.00023794,
         "meta_inclination": 0.0158,
         "meta_ra_of_asc_node": 95.0886,
         "meta_arg_of_pericenter": 241.2521,
@@ -864,14 +864,14 @@
         "meta_bstar": 0,
         "meta_mean_motion_dot": -2.68e-06,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 36097U 09064A   26050.45392919 -.00000268  00000+0  00000+0 0  9994",
+        "tle_line1": "1 36097U 09064A   26050.45392920 -.00000268  00000+0  00000+0 0  9996",
         "tle_line2": "2 36097   0.0158  95.0886 0002379 241.2521 291.4419  1.00273896 59421"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          1.5843235639088582,
-          -0.035277848654064525
+          30.34182300405292,
+          -0.03611460062383294
         ]
       }
     },
@@ -881,19 +881,19 @@
         "norad_id": 36106,
         "name": "INTELSAT 15 (IS-15)",
         "group": "intelsat",
-        "lat": -0.0034155691135140873,
-        "lon": 131.75807917988652,
-        "alt_km": 35795.70610642136,
-        "timestamp": "2026-02-19T17:07:42.317371+00:00",
+        "lat": 0.01638882931291194,
+        "lon": 160.49141798251438,
+        "alt_km": 35796.03317770416,
+        "timestamp": "2026-02-19T19:02:22.650300+00:00",
         "meta_object_name": "INTELSAT 15 (IS-15)",
         "meta_object_id": "2009-067A",
-        "meta_epoch": "2026-02-19T11:30:50.916672",
-        "meta_mean_motion": 1.00270252,
-        "meta_eccentricity": 0.0002275,
+        "meta_epoch": "2026-02-19T13:13:33.572064",
+        "meta_mean_motion": 1.00270206,
+        "meta_eccentricity": 0.00022815,
         "meta_inclination": 0.0164,
-        "meta_ra_of_asc_node": 141.266,
-        "meta_arg_of_pericenter": 188.3101,
-        "meta_mean_anomaly": 77.7103,
+        "meta_ra_of_asc_node": 141.2705,
+        "meta_arg_of_pericenter": 188.3674,
+        "meta_mean_anomaly": 103.3965,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 36106,
@@ -902,14 +902,14 @@
         "meta_bstar": 0,
         "meta_mean_motion_dot": 0,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 36106U 09067A   26050.47975598  .00000000  00000+0  00000+0 0  9993",
-        "tle_line2": "2 36106   0.0164 141.2660 0002275 188.3101  77.7103  1.00270252 40049"
+        "tle_line1": "1 36106U 09067A   26050.55108301  .00000000  00000+0  00000+0 0  9992",
+        "tle_line2": "2 36106   0.0164 141.2705 0002281 188.3674 103.3965  1.00270206 40042"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          131.75807917988652,
-          -0.0034155691135140873
+          160.49141798251438,
+          0.01638882931291194
         ]
       }
     },
@@ -919,19 +919,19 @@
         "norad_id": 36131,
         "name": "DIRECTV 12",
         "group": "intelsat",
-        "lat": -0.0009020676693012399,
-        "lon": -56.132843715773646,
-        "alt_km": 35786.97639472272,
-        "timestamp": "2026-02-19T17:07:42.317382+00:00",
+        "lat": 0.00504166059968413,
+        "lon": -27.387560951558388,
+        "alt_km": 35786.40419294313,
+        "timestamp": "2026-02-19T19:02:22.650312+00:00",
         "meta_object_name": "DIRECTV 12",
         "meta_object_id": "2009-075A",
-        "meta_epoch": "2026-02-19T12:19:53.715360",
-        "meta_mean_motion": 1.00270351,
-        "meta_eccentricity": 2.68e-05,
-        "meta_inclination": 0.0156,
-        "meta_ra_of_asc_node": 311.4508,
-        "meta_arg_of_pericenter": 108.1469,
-        "meta_mean_anomaly": 172.1035,
+        "meta_epoch": "2026-02-19T14:02:41.379360",
+        "meta_mean_motion": 1.00270416,
+        "meta_eccentricity": 2.841e-05,
+        "meta_inclination": 0.0088,
+        "meta_ra_of_asc_node": 320.6307,
+        "meta_arg_of_pericenter": 98.8537,
+        "meta_mean_anomaly": 197.9851,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 36131,
@@ -940,14 +940,14 @@
         "meta_bstar": 0,
         "meta_mean_motion_dot": -9.8e-07,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 36131U 09075A   26050.51381615 -.00000098  00000+0  00000+0 0  9994",
-        "tle_line2": "2 36131   0.0156 311.4508 0000268 108.1469 172.1035  1.00270351 45372"
+        "tle_line1": "1 36131U 09075A   26050.58520115 -.00000098  00000+0  00000+0 0  9991",
+        "tle_line2": "2 36131   0.0088 320.6307 0000284  98.8537 197.9851  1.00270416 45377"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -56.132843715773646,
-          -0.0009020676693012399
+          -27.387560951558388,
+          0.00504166059968413
         ]
       }
     },
@@ -957,19 +957,19 @@
         "norad_id": 36397,
         "name": "INTELSAT 16 (IS-16)",
         "group": "intelsat",
-        "lat": -0.025000453317313747,
-        "lon": -29.59276255387621,
-        "alt_km": 35777.78541827119,
-        "timestamp": "2026-02-19T17:07:42.317394+00:00",
+        "lat": -0.04117439350621247,
+        "lon": -0.8344575655676433,
+        "alt_km": 35778.98458350529,
+        "timestamp": "2026-02-19T19:02:22.650324+00:00",
         "meta_object_name": "INTELSAT 16 (IS-16)",
         "meta_object_id": "2010-006A",
-        "meta_epoch": "2026-02-19T10:44:50.897184",
-        "meta_mean_motion": 1.00270105,
-        "meta_eccentricity": 0.0002076,
-        "meta_inclination": 0.0233,
-        "meta_ra_of_asc_node": 113.5283,
-        "meta_arg_of_pericenter": 216.0584,
-        "meta_mean_anomaly": 264.8253,
+        "meta_epoch": "2026-02-19T12:27:30.487104",
+        "meta_mean_motion": 1.00270122,
+        "meta_eccentricity": 0.00020811,
+        "meta_inclination": 0.0232,
+        "meta_ra_of_asc_node": 113.3839,
+        "meta_arg_of_pericenter": 215.2148,
+        "meta_mean_anomaly": 291.5486,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 36397,
@@ -978,14 +978,14 @@
         "meta_bstar": 0,
         "meta_mean_motion_dot": 0,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 36397U 10006A   26050.44781131  .00000000  00000+0  00000+0 0  9995",
-        "tle_line2": "2 36397   0.0233 113.5283 0002076 216.0584 264.8253  1.00270105 58472"
+        "tle_line1": "1 36397U 10006A   26050.51910286  .00000000  00000+0  00000+0 0  9998",
+        "tle_line2": "2 36397   0.0232 113.3839 0002081 215.2148 291.5486  1.00270122 58473"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -29.59276255387621,
-          -0.025000453317313747
+          -0.8344575655676433,
+          -0.04117439350621247
         ]
       }
     },
@@ -995,19 +995,19 @@
         "norad_id": 37185,
         "name": "XM-5",
         "group": "intelsat",
-        "lat": 0.03185525900192726,
-        "lon": -68.58971294325964,
-        "alt_km": 35792.89963121789,
-        "timestamp": "2026-02-19T17:07:42.317406+00:00",
+        "lat": 0.042856105769930306,
+        "lon": -39.857869605590864,
+        "alt_km": 35797.509218495696,
+        "timestamp": "2026-02-19T19:02:22.650336+00:00",
         "meta_object_name": "XM-5",
         "meta_object_id": "2010-053A",
-        "meta_epoch": "2026-02-19T10:54:38.791296",
-        "meta_mean_motion": 1.0027458,
-        "meta_eccentricity": 0.0003104,
+        "meta_epoch": "2026-02-19T12:16:24.051072",
+        "meta_mean_motion": 1.00273782,
+        "meta_eccentricity": 0.00031319,
         "meta_inclination": 0.0655,
-        "meta_ra_of_asc_node": 275.0371,
-        "meta_arg_of_pericenter": 251.1286,
-        "meta_mean_anomaly": 31.6724,
+        "meta_ra_of_asc_node": 275.108,
+        "meta_arg_of_pericenter": 250.3659,
+        "meta_mean_anomaly": 52.8585,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 37185,
@@ -1016,14 +1016,14 @@
         "meta_bstar": 0,
         "meta_mean_motion_dot": -1.8e-07,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 37185U 10053A   26050.45461564 -.00000018  00000+0  00000+0 0  9999",
-        "tle_line2": "2 37185   0.0655 275.0371 0003104 251.1286  31.6724  1.00274580 56304"
+        "tle_line1": "1 37185U 10053A   26050.51138948 -.00000018  00000+0  00000+0 0  9993",
+        "tle_line2": "2 37185   0.0655 275.1080 0003131 250.3659  52.8585  1.00273782 56300"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -68.58971294325964,
-          0.03185525900192726
+          -39.857869605590864,
+          0.042856105769930306
         ]
       }
     },
@@ -1033,19 +1033,19 @@
         "norad_id": 37238,
         "name": "INTELSAT 17 (IS-17)",
         "group": "intelsat",
-        "lat": -0.023620961662695207,
-        "lon": 112.59883447382892,
-        "alt_km": 35792.80943785975,
-        "timestamp": "2026-02-19T17:07:42.317418+00:00",
+        "lat": -0.010356806849626095,
+        "lon": 141.3335499358877,
+        "alt_km": 35796.26833268768,
+        "timestamp": "2026-02-19T19:02:22.650348+00:00",
         "meta_object_name": "INTELSAT 17 (IS-17)",
         "meta_object_id": "2010-065B",
-        "meta_epoch": "2026-02-19T11:25:21.444096",
-        "meta_mean_motion": 1.00272572,
-        "meta_eccentricity": 0.0002686,
-        "meta_inclination": 0.018,
-        "meta_ra_of_asc_node": 183.8188,
-        "meta_arg_of_pericenter": 161.2336,
-        "meta_mean_anomaly": 41.6797,
+        "meta_epoch": "2026-02-19T13:08:04.098624",
+        "meta_mean_motion": 1.00272582,
+        "meta_eccentricity": 0.0002687,
+        "meta_inclination": 0.0179,
+        "meta_ra_of_asc_node": 183.0511,
+        "meta_arg_of_pericenter": 162.1708,
+        "meta_mean_anomaly": 67.2585,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 37238,
@@ -1054,14 +1054,14 @@
         "meta_bstar": 0,
         "meta_mean_motion_dot": 4e-08,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 37238U 10065B   26050.47594264  .00000004  00000+0  00000+0 0  9991",
-        "tle_line2": "2 37238   0.0180 183.8188 0002686 161.2336  41.6797  1.00272572 52068"
+        "tle_line1": "1 37238U 10065B   26050.54726966  .00000004  00000+0  00000+0 0  9995",
+        "tle_line2": "2 37238   0.0179 183.0511 0002687 162.1708  67.2585  1.00272582 52062"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          112.59883447382892,
-          -0.023620961662695207
+          141.3335499358877,
+          -0.010356806849626095
         ]
       }
     },
@@ -1071,15 +1071,15 @@
         "norad_id": 37392,
         "name": "INTELSAT 28 (IS-28)",
         "group": "intelsat",
-        "lat": -1.4250976749372035,
-        "lon": 14.925901272218116,
-        "alt_km": 35773.913022441506,
-        "timestamp": "2026-02-19T17:07:42.317430+00:00",
+        "lat": -0.9991687052922904,
+        "lon": 43.68715935339695,
+        "alt_km": 35781.9943039773,
+        "timestamp": "2026-02-19T19:02:22.650360+00:00",
         "meta_object_name": "INTELSAT 28 (IS-28)",
         "meta_object_id": "2011-016A",
         "meta_epoch": "2026-02-19T10:57:31.612032",
         "meta_mean_motion": 1.00271997,
-        "meta_eccentricity": 0.0004356,
+        "meta_eccentricity": 0.00043561,
         "meta_inclination": 1.5,
         "meta_ra_of_asc_node": 84.1864,
         "meta_arg_of_pericenter": 242.5274,
@@ -1098,8 +1098,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.925901272218116,
-          -1.4250976749372035
+          43.68715935339695,
+          -0.9991687052922904
         ]
       }
     },
@@ -1109,15 +1109,15 @@
         "norad_id": 37834,
         "name": "INTELSAT 18 (IS-18)",
         "group": "intelsat",
-        "lat": 0.0042384226778598945,
-        "lon": -133.4456061311953,
-        "alt_km": 35788.27991165084,
-        "timestamp": "2026-02-19T17:07:42.317441+00:00",
+        "lat": 0.017824617744010392,
+        "lon": -104.69960179070173,
+        "alt_km": 35784.399009157634,
+        "timestamp": "2026-02-19T19:02:22.650371+00:00",
         "meta_object_name": "INTELSAT 18 (IS-18)",
         "meta_object_id": "2011-056A",
-        "meta_epoch": "2026-02-19T11:57:55.819872",
+        "meta_epoch": "2026-02-19T11:57:55.820736",
         "meta_mean_motion": 1.00272608,
-        "meta_eccentricity": 0.0001845,
+        "meta_eccentricity": 0.00018452,
         "meta_inclination": 0.0505,
         "meta_ra_of_asc_node": 273.4953,
         "meta_arg_of_pericenter": 61.3129,
@@ -1130,14 +1130,14 @@
         "meta_bstar": 0,
         "meta_mean_motion_dot": 5.8e-07,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 37834U 11056A   26050.49856273  .00000058  00000+0  00000+0 0  9996",
+        "tle_line1": "1 37834U 11056A   26050.49856274  .00000058  00000+0  00000+0 0  9997",
         "tle_line2": "2 37834   0.0505 273.4953 0001845  61.3129 174.0896  1.00272608 52637"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -133.4456061311953,
-          0.0042384226778598945
+          -104.69960179070173,
+          0.017824617744010392
         ]
       }
     },
@@ -1147,19 +1147,19 @@
         "norad_id": 38098,
         "name": "INTELSAT 22 (IS-22)",
         "group": "intelsat",
-        "lat": -0.012262569932708817,
-        "lon": 118.69072698937529,
-        "alt_km": 35791.05350798808,
-        "timestamp": "2026-02-19T17:07:42.317453+00:00",
+        "lat": 0.00698903792474947,
+        "lon": 147.4293968117398,
+        "alt_km": 35792.58067302396,
+        "timestamp": "2026-02-19T19:02:22.650383+00:00",
         "meta_object_name": "INTELSAT 22 (IS-22)",
         "meta_object_id": "2012-011A",
-        "meta_epoch": "2026-02-19T11:27:06.276672",
-        "meta_mean_motion": 1.00272252,
-        "meta_eccentricity": 0.0001607,
-        "meta_inclination": 0.0079,
-        "meta_ra_of_asc_node": 187.2776,
-        "meta_arg_of_pericenter": 152.9759,
-        "meta_mean_anomaly": 53.021,
+        "meta_epoch": "2026-02-19T13:09:48.931200",
+        "meta_mean_motion": 1.00272255,
+        "meta_eccentricity": 0.0001606,
+        "meta_inclination": 0.0039,
+        "meta_ra_of_asc_node": 136.777,
+        "meta_arg_of_pericenter": 203.6726,
+        "meta_mean_anomaly": 78.5733,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 38098,
@@ -1168,14 +1168,14 @@
         "meta_bstar": 0,
         "meta_mean_motion_dot": -5.3e-07,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 38098U 12011A   26050.47715598 -.00000053  00000+0  00000+0 0  9999",
-        "tle_line2": "2 38098   0.0079 187.2776 0001607 152.9759  53.0210  1.00272252  6004"
+        "tle_line1": "1 38098U 12011A   26050.54848300 -.00000053  00000+0  00000+0 0  9995",
+        "tle_line2": "2 38098   0.0039 136.7770 0001606 203.6726  78.5733  1.00272255  6005"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          118.69072698937529,
-          -0.012262569932708817
+          147.4293968117398,
+          0.00698903792474947
         ]
       }
     },
@@ -1185,19 +1185,19 @@
         "norad_id": 38356,
         "name": "INTELSAT 19 (IS-19)",
         "group": "intelsat",
-        "lat": 0.05016027395424867,
-        "lon": -147.41570917588263,
-        "alt_km": 35793.263088933294,
-        "timestamp": "2026-02-19T17:07:42.317465+00:00",
+        "lat": 0.045417443246599326,
+        "lon": -118.67434920251105,
+        "alt_km": 35787.26844884269,
+        "timestamp": "2026-02-19T19:02:22.650396+00:00",
         "meta_object_name": "INTELSAT 19 (IS-19)",
         "meta_object_id": "2012-030A",
-        "meta_epoch": "2026-02-19T10:11:16.615104",
-        "meta_mean_motion": 1.00270361,
-        "meta_eccentricity": 0.0003007,
-        "meta_inclination": 0.0252,
-        "meta_ra_of_asc_node": 125.5757,
-        "meta_arg_of_pericenter": 209.2575,
-        "meta_mean_anomaly": 133.3695,
+        "meta_epoch": "2026-02-19T13:05:38.763456",
+        "meta_mean_motion": 1.00270392,
+        "meta_eccentricity": 0.00030174,
+        "meta_inclination": 0.0253,
+        "meta_ra_of_asc_node": 124.7267,
+        "meta_arg_of_pericenter": 210.2542,
+        "meta_mean_anomaly": 176.9335,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 38356,
@@ -1206,14 +1206,14 @@
         "meta_bstar": 0,
         "meta_mean_motion_dot": 0,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 38356U 12030A   26050.42449786  .00000000  00000+0  00000+0 0  9996",
-        "tle_line2": "2 38356   0.0252 125.5757 0003007 209.2575 133.3695  1.00270361 49270"
+        "tle_line1": "1 38356U 12030A   26050.54558754  .00000000  00000+0  00000+0 0  9995",
+        "tle_line2": "2 38356   0.0253 124.7267 0003017 210.2542 176.9335  1.00270392 49273"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -147.41570917588263,
-          0.05016027395424867
+          -118.67434920251105,
+          0.045417443246599326
         ]
       }
     },
@@ -1223,19 +1223,19 @@
         "norad_id": 38740,
         "name": "INTELSAT 20 (IS-20)",
         "group": "intelsat",
-        "lat": -0.00821652559405626,
-        "lon": 115.04754616969082,
-        "alt_km": 35779.20795718752,
-        "timestamp": "2026-02-19T17:07:42.317477+00:00",
+        "lat": 0.01387477659613884,
+        "lon": 143.80580135766743,
+        "alt_km": 35775.93368801151,
+        "timestamp": "2026-02-19T19:02:22.650409+00:00",
         "meta_object_name": "INTELSAT 20 (IS-20)",
         "meta_object_id": "2012-043A",
-        "meta_epoch": "2026-02-19T11:26:06.372096",
-        "meta_mean_motion": 1.00272462,
-        "meta_eccentricity": 0.0002556,
+        "meta_epoch": "2026-02-19T13:08:49.026624",
+        "meta_mean_motion": 1.0027248,
+        "meta_eccentricity": 0.00025535,
         "meta_inclination": 0.0197,
-        "meta_ra_of_asc_node": 123.9346,
-        "meta_arg_of_pericenter": 43.1787,
-        "meta_mean_anomaly": 222.303,
+        "meta_ra_of_asc_node": 123.7307,
+        "meta_arg_of_pericenter": 43.3299,
+        "meta_mean_anomaly": 248.1039,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 38740,
@@ -1244,14 +1244,14 @@
         "meta_bstar": 0,
         "meta_mean_motion_dot": -1.9e-07,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 38740U 12043A   26050.47646264 -.00000019  00000+0  00000+0 0  9993",
-        "tle_line2": "2 38740   0.0197 123.9346 0002556  43.1787 222.3030  1.00272462 49567"
+        "tle_line1": "1 38740U 12043A   26050.54778966 -.00000019  00000+0  00000+0 0  9996",
+        "tle_line2": "2 38740   0.0197 123.7307 0002553  43.3299 248.1039  1.00272480 49564"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          115.04754616969082,
-          -0.00821652559405626
+          143.80580135766743,
+          0.01387477659613884
         ]
       }
     },
@@ -1261,19 +1261,19 @@
         "norad_id": 38749,
         "name": "INTELSAT 21 (IS-21)",
         "group": "intelsat",
-        "lat": 0.0405597217346073,
-        "lon": -11.424894943181929,
-        "alt_km": 35780.694794731295,
-        "timestamp": "2026-02-19T17:07:42.317489+00:00",
+        "lat": 0.029327729939151517,
+        "lon": 17.327022140151637,
+        "alt_km": 35784.23069418277,
+        "timestamp": "2026-02-19T19:02:22.650421+00:00",
         "meta_object_name": "INTELSAT 21 (IS-21)",
         "meta_object_id": "2012-045A",
-        "meta_epoch": "2026-02-19T10:50:02.329440",
-        "meta_mean_motion": 1.00267284,
-        "meta_eccentricity": 0.0002062,
-        "meta_inclination": 0.0632,
-        "meta_ra_of_asc_node": 272.7092,
-        "meta_arg_of_pericenter": 35.5736,
-        "meta_mean_anomaly": 305.5858,
+        "meta_epoch": "2026-02-19T12:32:30.008256",
+        "meta_mean_motion": 1.00267244,
+        "meta_eccentricity": 0.00020609,
+        "meta_inclination": 0.0631,
+        "meta_ra_of_asc_node": 272.7784,
+        "meta_arg_of_pericenter": 35.5412,
+        "meta_mean_anomaly": 331.2333,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 38749,
@@ -1282,14 +1282,14 @@
         "meta_bstar": 0,
         "meta_mean_motion_dot": -2.79e-06,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 38749U 12045A   26050.45141585 -.00000279  00000+0  00000+0 0  9996",
-        "tle_line2": "2 38749   0.0632 272.7092 0002062  35.5736 305.5858  1.00267284 49346"
+        "tle_line1": "1 38749U 12045A   26050.52256954 -.00000279  00000+0  00000+0 0  9991",
+        "tle_line2": "2 38749   0.0631 272.7784 0002060  35.5412 331.2333  1.00267244 49342"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -11.424894943181929,
-          0.0405597217346073
+          17.327022140151637,
+          0.029327729939151517
         ]
       }
     },
@@ -1299,19 +1299,19 @@
         "norad_id": 38867,
         "name": "INTELSAT 23 (IS-23)",
         "group": "intelsat",
-        "lat": 0.0389207180256896,
-        "lon": -6.404544865638384,
-        "alt_km": 35781.54810748023,
-        "timestamp": "2026-02-19T17:07:42.317501+00:00",
+        "lat": 0.023852044960737815,
+        "lon": 22.34713323416609,
+        "alt_km": 35783.72813263398,
+        "timestamp": "2026-02-19T19:02:22.650439+00:00",
         "meta_object_name": "INTELSAT 23 (IS-23)",
         "meta_object_id": "2012-057A",
-        "meta_epoch": "2026-02-19T10:51:24.698016",
-        "meta_mean_motion": 1.00269491,
-        "meta_eccentricity": 0.0001431,
-        "meta_inclination": 0.0634,
-        "meta_ra_of_asc_node": 266.4695,
-        "meta_arg_of_pericenter": 56.16,
-        "meta_mean_anomaly": 296.6083,
+        "meta_epoch": "2026-02-19T12:34:07.353408",
+        "meta_mean_motion": 1.00269481,
+        "meta_eccentricity": 0.00014346,
+        "meta_inclination": 0.0633,
+        "meta_ra_of_asc_node": 266.4924,
+        "meta_arg_of_pericenter": 55.6656,
+        "meta_mean_anomaly": 322.8273,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 38867,
@@ -1320,14 +1320,14 @@
         "meta_bstar": 0,
         "meta_mean_motion_dot": -2.79e-06,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 38867U 12057A   26050.45236919 -.00000279  00000+0  00000+0 0  9996",
-        "tle_line2": "2 38867   0.0634 266.4695 0001431  56.1600 296.6083  1.00269491 48774"
+        "tle_line1": "1 38867U 12057A   26050.52369622 -.00000279  00000+0  00000+0 0  9992",
+        "tle_line2": "2 38867   0.0633 266.4924 0001434  55.6656 322.8273  1.00269481 48778"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -6.404544865638384,
-          0.0389207180256896
+          22.34713323416609,
+          0.023852044960737815
         ]
       }
     },
@@ -1337,35 +1337,35 @@
         "norad_id": 39360,
         "name": "FM-6",
         "group": "intelsat",
-        "lat": 0.007306540057366746,
-        "lon": -69.59911350336414,
-        "alt_km": 35796.08037816531,
-        "timestamp": "2026-02-19T17:07:42.317512+00:00",
+        "lat": -0.01817281829034608,
+        "lon": -40.83889445611338,
+        "alt_km": 35794.38153480539,
+        "timestamp": "2026-02-19T19:02:22.650451+00:00",
         "meta_object_name": "FM-6",
         "meta_object_id": "2013-058A",
-        "meta_epoch": "2026-02-19T09:07:38.777088",
-        "meta_mean_motion": 1.00260634,
-        "meta_eccentricity": 0.0003118,
-        "meta_inclination": 0.0261,
-        "meta_ra_of_asc_node": 113.8298,
-        "meta_arg_of_pericenter": 55.3082,
-        "meta_mean_anomaly": 0.882,
+        "meta_epoch": "2026-02-19T14:24:27.736128",
+        "meta_mean_motion": 1.00273463,
+        "meta_eccentricity": 0.0002782,
+        "meta_inclination": 0.0271,
+        "meta_ra_of_asc_node": 113.1079,
+        "meta_arg_of_pericenter": 68.0748,
+        "meta_mean_anomaly": 68.2668,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 39360,
         "meta_element_set_no": 999,
         "meta_rev_at_epoch": 4489,
         "meta_bstar": 0,
-        "meta_mean_motion_dot": -9e-08,
+        "meta_mean_motion_dot": -1.1e-07,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 39360U 13058A   26050.38030992 -.00000009  00000+0  00000+0 0  9993",
-        "tle_line2": "2 39360   0.0261 113.8298 0003118  55.3082   0.8820  1.00260634 44895"
+        "tle_line1": "1 39360U 13058A   26050.60032102 -.00000011  00000+0  00000+0 0  9996",
+        "tle_line2": "2 39360   0.0271 113.1079 0002782  68.0748  68.2668  1.00273463 44894"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -69.59911350336414,
-          0.007306540057366746
+          -40.83889445611338,
+          -0.01817281829034608
         ]
       }
     },
@@ -1375,35 +1375,35 @@
         "norad_id": 40271,
         "name": "INTELSAT 30 (IS-30)",
         "group": "intelsat",
-        "lat": -0.01581138504463419,
-        "lon": -48.48212562836196,
-        "alt_km": 35793.853005922145,
-        "timestamp": "2026-02-19T17:07:42.317524+00:00",
+        "lat": -0.025864052755176784,
+        "lon": -19.7368772919089,
+        "alt_km": 35790.132598946024,
+        "timestamp": "2026-02-19T19:02:22.650463+00:00",
         "meta_object_name": "INTELSAT 30 (IS-30)",
         "meta_object_id": "2014-062A",
-        "meta_epoch": "2026-02-19T10:39:28.912032",
-        "meta_mean_motion": 1.00266843,
-        "meta_eccentricity": 0.0001547,
+        "meta_epoch": "2026-02-19T12:22:08.501088",
+        "meta_mean_motion": 1.00271165,
+        "meta_eccentricity": 0.00013576,
         "meta_inclination": 0.0144,
-        "meta_ra_of_asc_node": 75.1344,
-        "meta_arg_of_pericenter": 43.2287,
-        "meta_mean_anomaly": 95.8217,
+        "meta_ra_of_asc_node": 75.905,
+        "meta_arg_of_pericenter": 36.4715,
+        "meta_mean_anomaly": 127.5457,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 40271,
         "meta_element_set_no": 999,
         "meta_rev_at_epoch": 561,
         "meta_bstar": 0,
-        "meta_mean_motion_dot": -1.44e-06,
+        "meta_mean_motion_dot": -1.45e-06,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 40271U 14062A   26050.44408463 -.00000144  00000+0  00000+0 0  9991",
-        "tle_line2": "2 40271   0.0144  75.1344 0001547  43.2287  95.8217  1.00266843  5616"
+        "tle_line1": "1 40271U 14062A   26050.51537617 -.00000145  00000+0  00000+0 0  9994",
+        "tle_line2": "2 40271   0.0144  75.9050 0001357  36.4715 127.5457  1.00271165  5619"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -48.48212562836196,
-          -0.01581138504463419
+          -19.7368772919089,
+          -0.025864052755176784
         ]
       }
     },
@@ -1413,19 +1413,19 @@
         "norad_id": 40333,
         "name": "DIRECTV 14",
         "group": "intelsat",
-        "lat": -0.003867829429058256,
-        "lon": -52.61615870969112,
-        "alt_km": 35788.021434429524,
-        "timestamp": "2026-02-19T17:07:42.317536+00:00",
+        "lat": -0.026633488058677737,
+        "lon": -23.87037867490428,
+        "alt_km": 35788.54329442377,
+        "timestamp": "2026-02-19T19:02:22.650474+00:00",
         "meta_object_name": "DIRECTV 14",
         "meta_object_id": "2014-078B",
-        "meta_epoch": "2026-02-19T09:40:38.810208",
-        "meta_mean_motion": 1.00269313,
-        "meta_eccentricity": 5.49e-05,
-        "meta_inclination": 0.0243,
-        "meta_ra_of_asc_node": 119.9302,
-        "meta_arg_of_pericenter": 65.5227,
-        "meta_mean_anomaly": 9.8375,
+        "meta_epoch": "2026-02-19T14:03:41.283072",
+        "meta_mean_motion": 1.00269842,
+        "meta_eccentricity": 5.434e-05,
+        "meta_inclination": 0.0239,
+        "meta_ra_of_asc_node": 119.5588,
+        "meta_arg_of_pericenter": 70.6392,
+        "meta_mean_anomaly": 71.0327,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 40333,
@@ -1434,14 +1434,14 @@
         "meta_bstar": 0,
         "meta_mean_motion_dot": 0,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 40333U 14078B   26050.40322697  .00000000  00000+0  00000+0 0  9997",
-        "tle_line2": "2 40333   0.0243 119.9302 0000549  65.5227   9.8375  1.00269313 40869"
+        "tle_line1": "1 40333U 14078B   26050.58589448  .00000000  00000+0  00000+0 0  9995",
+        "tle_line2": "2 40333   0.0239 119.5588 0000543  70.6392  71.0327  1.00269842 40865"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -52.61615870969112,
-          -0.003867829429058256
+          -23.87037867490428,
+          -0.026633488058677737
         ]
       }
     },
@@ -1451,19 +1451,19 @@
         "norad_id": 40663,
         "name": "DIRECTV 15",
         "group": "intelsat",
-        "lat": -0.00945960197842101,
-        "lon": -56.30631553582954,
-        "alt_km": 35787.60760278628,
-        "timestamp": "2026-02-19T17:07:42.317547+00:00",
+        "lat": -0.027648391199823156,
+        "lon": -27.56198823659462,
+        "alt_km": 35788.298644104856,
+        "timestamp": "2026-02-19T19:02:22.650486+00:00",
         "meta_object_name": "DIRECTV 15",
         "meta_object_id": "2015-026A",
-        "meta_epoch": "2026-02-19T10:37:14.126304",
-        "meta_mean_motion": 1.00268844,
-        "meta_eccentricity": 4.15e-05,
-        "meta_inclination": 0.0193,
-        "meta_ra_of_asc_node": 99.7802,
-        "meta_arg_of_pericenter": 90.8498,
-        "meta_mean_anomaly": 15.1572,
+        "meta_epoch": "2026-02-19T14:02:33.891072",
+        "meta_mean_motion": 1.00268852,
+        "meta_eccentricity": 4.216e-05,
+        "meta_inclination": 0.0196,
+        "meta_ra_of_asc_node": 99.6016,
+        "meta_arg_of_pericenter": 91.8796,
+        "meta_mean_anomaly": 65.7775,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 40663,
@@ -1472,14 +1472,14 @@
         "meta_bstar": 0,
         "meta_mean_motion_dot": -9.6e-07,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 40663U 15026A   26050.44252461 -.00000096  00000+0  00000+0 0  9998",
-        "tle_line2": "2 40663   0.0193  99.7802 0000415  90.8498  15.1572  1.00268844 39283"
+        "tle_line1": "1 40663U 15026A   26050.58511448 -.00000096  00000+0  00000+0 0  9996",
+        "tle_line2": "2 40663   0.0196  99.6016 0000421  91.8796  65.7775  1.00268852 39286"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -56.30631553582954,
-          -0.00945960197842101
+          -27.56198823659462,
+          -0.027648391199823156
         ]
       }
     },
@@ -1489,15 +1489,15 @@
         "norad_id": 40664,
         "name": "SKY MEXICO-1",
         "group": "intelsat",
-        "lat": -0.022003564298435915,
-        "lon": -32.195822592279214,
-        "alt_km": 35778.33140440542,
-        "timestamp": "2026-02-19T17:07:42.317558+00:00",
+        "lat": -0.037346471787025354,
+        "lon": -3.4382521163235995,
+        "alt_km": 35778.19722348835,
+        "timestamp": "2026-02-19T19:02:22.650497+00:00",
         "meta_object_name": "SKY MEXICO-1",
         "meta_object_id": "2015-026B",
-        "meta_epoch": "2026-02-19T09:24:38.693664",
+        "meta_epoch": "2026-02-19T09:24:38.694528",
         "meta_mean_motion": 1.0026976,
-        "meta_eccentricity": 0.0002054,
+        "meta_eccentricity": 0.00020538,
         "meta_inclination": 0.0194,
         "meta_ra_of_asc_node": 111.0648,
         "meta_arg_of_pericenter": 233.1933,
@@ -1510,14 +1510,14 @@
         "meta_bstar": 0,
         "meta_mean_motion_dot": -2.29e-06,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 40664U 15026B   26050.39211451 -.00000229  00000+0  00000+0 0  9995",
-        "tle_line2": "2 40664   0.0194 111.0648 0002054 233.1933 227.4528  1.00269760 39274"
+        "tle_line1": "1 40664U 15026B   26050.39211452 -.00000229  00000+0  00000+0 0  9996",
+        "tle_line2": "2 40664   0.0194 111.0648 0002053 233.1933 227.4528  1.00269760 39273"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -32.195822592279214,
-          -0.022003564298435915
+          -3.4382521163235995,
+          -0.037346471787025354
         ]
       }
     },
@@ -1527,18 +1527,18 @@
         "norad_id": 40874,
         "name": "INTELSAT 34 (IS-34)",
         "group": "intelsat",
-        "lat": -0.021035662716677596,
-        "lon": -8.897623123596608,
-        "alt_km": 35787.2238379606,
-        "timestamp": "2026-02-19T17:07:42.317569+00:00",
+        "lat": -0.03329241485523561,
+        "lon": 19.84789554725166,
+        "alt_km": 35787.36393948667,
+        "timestamp": "2026-02-19T19:02:22.650522+00:00",
         "meta_object_name": "INTELSAT 34 (IS-34)",
         "meta_object_id": "2015-039A",
         "meta_epoch": "2026-02-19T10:50:39.770016",
         "meta_mean_motion": 1.00266666,
-        "meta_eccentricity": 8.9e-06,
+        "meta_eccentricity": 8.94e-06,
         "meta_inclination": 0.0131,
-        "meta_ra_of_asc_node": 142.1332,
-        "meta_arg_of_pericenter": 179.3516,
+        "meta_ra_of_asc_node": 142.1333,
+        "meta_arg_of_pericenter": 179.3517,
         "meta_mean_anomaly": 295.083,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
@@ -1549,13 +1549,13 @@
         "meta_mean_motion_dot": 0,
         "meta_mean_motion_ddot": 0,
         "tle_line1": "1 40874U 15039A   26050.45184919  .00000000  00000+0  00000+0 0  9993",
-        "tle_line2": "2 40874   0.0131 142.1332 0000089 179.3516 295.0830  1.00266666 38444"
+        "tle_line2": "2 40874   0.0131 142.1333 0000089 179.3517 295.0830  1.00266666 38446"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -8.897623123596608,
-          -0.021035662716677596
+          19.84789554725166,
+          -0.03329241485523561
         ]
       }
     },
@@ -1565,15 +1565,15 @@
         "norad_id": 41581,
         "name": "INTELSAT 31 (IS-31)",
         "group": "intelsat",
-        "lat": 0.019310353166594366,
-        "lon": -48.46337769023426,
-        "alt_km": 35785.47509392592,
-        "timestamp": "2026-02-19T17:07:42.317581+00:00",
+        "lat": 0.011553963035296213,
+        "lon": -19.718810965694544,
+        "alt_km": 35789.30615832239,
+        "timestamp": "2026-02-19T19:02:22.650535+00:00",
         "meta_object_name": "INTELSAT 31 (IS-31)",
         "meta_object_id": "2016-035A",
         "meta_epoch": "2026-02-19T09:32:38.624928",
         "meta_mean_motion": 1.00272534,
-        "meta_eccentricity": 0.0001873,
+        "meta_eccentricity": 0.00018734,
         "meta_inclination": 0.0412,
         "meta_ra_of_asc_node": 265.5951,
         "meta_arg_of_pericenter": 319.0879,
@@ -1592,8 +1592,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -48.46337769023426,
-          0.019310353166594366
+          -19.718810965694544,
+          0.011553963035296213
         ]
       }
     },
@@ -1603,15 +1603,15 @@
         "norad_id": 41747,
         "name": "INTELSAT 36 (IS-36)",
         "group": "intelsat",
-        "lat": 0.008390957648600945,
-        "lon": 115.08276693773547,
-        "alt_km": 35790.23472876767,
-        "timestamp": "2026-02-19T17:07:42.317593+00:00",
+        "lat": 0.02199370598666282,
+        "lon": 143.82308682043148,
+        "alt_km": 35790.71006083771,
+        "timestamp": "2026-02-19T19:02:22.650547+00:00",
         "meta_object_name": "INTELSAT 36 (IS-36)",
         "meta_object_id": "2016-053A",
         "meta_epoch": "2026-02-19T09:43:26.783904",
         "meta_mean_motion": 1.00271971,
-        "meta_eccentricity": 0.000111,
+        "meta_eccentricity": 0.00011097,
         "meta_inclination": 0.0155,
         "meta_ra_of_asc_node": 77.5602,
         "meta_arg_of_pericenter": 243.7682,
@@ -1625,13 +1625,13 @@
         "meta_mean_motion_dot": -1.9e-07,
         "meta_mean_motion_ddot": 0,
         "tle_line1": "1 41747U 16053A   26050.40517111 -.00000019  00000+0  00000+0 0  9990",
-        "tle_line2": "2 41747   0.0155  77.5602 0001110 243.7682  42.3594  1.00271971 34774"
+        "tle_line2": "2 41747   0.0155  77.5602 0001109 243.7682  42.3594  1.00271971 34772"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          115.08276693773547,
-          0.008390957648600945
+          143.82308682043148,
+          0.02199370598666282
         ]
       }
     },
@@ -1641,19 +1641,19 @@
         "norad_id": 41945,
         "name": "INTELSAT 32E (IS-32E)",
         "group": "intelsat",
-        "lat": -0.03203988498518189,
-        "lon": 3.418210953798488,
-        "alt_km": 35784.3885783267,
-        "timestamp": "2026-02-19T17:07:42.317604+00:00",
+        "lat": -0.03482434434561485,
+        "lon": 32.16018231134671,
+        "alt_km": 35786.25967986664,
+        "timestamp": "2026-02-19T19:02:22.650559+00:00",
         "meta_object_name": "INTELSAT 32E (IS-32E)",
         "meta_object_id": "2017-007B",
-        "meta_epoch": "2026-02-19T10:54:16.923456",
-        "meta_mean_motion": 1.00274813,
-        "meta_eccentricity": 2.86e-05,
-        "meta_inclination": 0.0113,
-        "meta_ra_of_asc_node": 106.6434,
-        "meta_arg_of_pericenter": 213.1179,
-        "meta_mean_anomaly": 310.0202,
+        "meta_epoch": "2026-02-19T12:36:52.089696",
+        "meta_mean_motion": 1.00272144,
+        "meta_eccentricity": 2.125e-05,
+        "meta_inclination": 0.0129,
+        "meta_ra_of_asc_node": 101.8802,
+        "meta_arg_of_pericenter": 184.1835,
+        "meta_mean_anomaly": 9.4325,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 41945,
@@ -1662,14 +1662,14 @@
         "meta_bstar": 0,
         "meta_mean_motion_dot": -2.63e-06,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 41945U 17007B   26050.45436254 -.00000263  00000+0  00000+0 0  9994",
-        "tle_line2": "2 41945   0.0113 106.6434 0000286 213.1179 310.0202  1.00274813 33048"
+        "tle_line1": "1 41945U 17007B   26050.52560289 -.00000263  00000+0  00000+0 0  9998",
+        "tle_line2": "2 41945   0.0129 101.8802 0000212 184.1835   9.4325  1.00272144 33046"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          3.418210953798488,
-          -0.03203988498518189
+          32.16018231134671,
+          -0.03482434434561485
         ]
       }
     },
@@ -1679,10 +1679,10 @@
         "norad_id": 42818,
         "name": "INTELSAT 35E (IS-35E)",
         "group": "intelsat",
-        "lat": 0.0055811396561629215,
-        "lon": 12.09634261112633,
-        "alt_km": 35777.141599900366,
-        "timestamp": "2026-02-19T17:07:42.317615+00:00",
+        "lat": -0.0070029345868556124,
+        "lon": 40.852333108116056,
+        "alt_km": 35781.43610047432,
+        "timestamp": "2026-02-19T19:02:22.650570+00:00",
         "meta_object_name": "INTELSAT 35E (IS-35E)",
         "meta_object_id": "2017-041A",
         "meta_epoch": "2026-02-19T01:54:38.674656",
@@ -1706,8 +1706,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          12.09634261112633,
-          0.0055811396561629215
+          40.852333108116056,
+          -0.0070029345868556124
         ]
       }
     },
@@ -1717,15 +1717,15 @@
         "norad_id": 42950,
         "name": "INTELSAT 37E (IS-37E)",
         "group": "intelsat",
-        "lat": -0.04618406279086935,
-        "lon": 28.62370435313031,
-        "alt_km": 35782.7343617198,
-        "timestamp": "2026-02-19T17:07:42.317627+00:00",
+        "lat": -0.04594023786376356,
+        "lon": 57.37159346762906,
+        "alt_km": 35787.622049183265,
+        "timestamp": "2026-02-19T19:02:22.650582+00:00",
         "meta_object_name": "INTELSAT 37E (IS-37E)",
         "meta_object_id": "2017-059A",
         "meta_epoch": "2026-02-19T09:18:44.152128",
         "meta_mean_motion": 1.0027028,
-        "meta_eccentricity": 0.0002346,
+        "meta_eccentricity": 0.00023463,
         "meta_inclination": 0.0225,
         "meta_ra_of_asc_node": 133.9912,
         "meta_arg_of_pericenter": 186.9213,
@@ -1744,8 +1744,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          28.62370435313031,
-          -0.04618406279086935
+          57.37159346762906,
+          -0.04594023786376356
         ]
       }
     },
@@ -1755,15 +1755,15 @@
         "norad_id": 43632,
         "name": "AZERSPACE 2 (IS-38)",
         "group": "intelsat",
-        "lat": -0.02331003004431141,
-        "lon": 91.70511067249981,
-        "alt_km": 35788.75560256901,
-        "timestamp": "2026-02-19T17:07:42.317639+00:00",
+        "lat": -0.002632675625875819,
+        "lon": 120.44643309320074,
+        "alt_km": 35790.79323036858,
+        "timestamp": "2026-02-19T19:02:22.650594+00:00",
         "meta_object_name": "AZERSPACE 2 (IS-38)",
         "meta_object_id": "2018-074A",
-        "meta_epoch": "2026-02-19T11:19:29.504928",
+        "meta_epoch": "2026-02-19T11:19:29.505792",
         "meta_mean_motion": 1.00271539,
-        "meta_eccentricity": 0.000132,
+        "meta_eccentricity": 0.00013203,
         "meta_inclination": 0.0191,
         "meta_ra_of_asc_node": 120.9512,
         "meta_arg_of_pericenter": 212.7426,
@@ -1776,14 +1776,14 @@
         "meta_bstar": 0,
         "meta_mean_motion_dot": 1.42e-06,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 43632U 18074A   26050.47186927  .00000142  00000+0  00000+0 0  9990",
+        "tle_line1": "1 43632U 18074A   26050.47186928  .00000142  00000+0  00000+0 0  9991",
         "tle_line2": "2 43632   0.0191 120.9512 0001320 212.7426  30.6861  1.00271539 27260"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          91.70511067249981,
-          -0.02331003004431141
+          120.44643309320074,
+          -0.002632675625875819
         ]
       }
     },
@@ -1793,35 +1793,35 @@
         "norad_id": 43633,
         "name": "HORIZONS-3E",
         "group": "intelsat",
-        "lat": 0.003867568277270885,
-        "lon": -144.43062873597444,
-        "alt_km": 35787.8204812426,
-        "timestamp": "2026-02-19T17:07:42.317650+00:00",
+        "lat": 0.006880178352928223,
+        "lon": -115.68332808928243,
+        "alt_km": 35786.09882803614,
+        "timestamp": "2026-02-19T19:02:22.650606+00:00",
         "meta_object_name": "HORIZONS-3E",
         "meta_object_id": "2018-074B",
-        "meta_epoch": "2026-02-19T10:12:01.543104",
-        "meta_mean_motion": 1.00269904,
-        "meta_eccentricity": 6.46e-05,
-        "meta_inclination": 0.0476,
-        "meta_ra_of_asc_node": 284.8425,
-        "meta_arg_of_pericenter": 47.1488,
-        "meta_mean_anomaly": 139.3619,
+        "meta_epoch": "2026-02-19T13:05:38.763456",
+        "meta_mean_motion": 1.00270683,
+        "meta_eccentricity": 6.109e-05,
+        "meta_inclination": 0.0319,
+        "meta_ra_of_asc_node": 298.5284,
+        "meta_arg_of_pericenter": 29.3955,
+        "meta_mean_anomaly": 186.9535,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 43633,
         "meta_element_set_no": 999,
         "meta_rev_at_epoch": 2716,
         "meta_bstar": 0,
-        "meta_mean_motion_dot": -2.6e-07,
+        "meta_mean_motion_dot": -2.5e-07,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 43633U 18074B   26050.42501786 -.00000026  00000+0  00000+0 0  9992",
-        "tle_line2": "2 43633   0.0476 284.8425 0000646  47.1488 139.3619  1.00269904 27168"
+        "tle_line1": "1 43633U 18074B   26050.54558754 -.00000025  00000+0  00000+0 0  9991",
+        "tle_line2": "2 43633   0.0319 298.5284 0000610  29.3955 186.9535  1.00270683 27162"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -144.43062873597444,
-          0.003867568277270885
+          -115.68332808928243,
+          0.006880178352928223
         ]
       }
     },
@@ -1831,19 +1831,19 @@
         "norad_id": 44333,
         "name": "AT&T T-16",
         "group": "intelsat",
-        "lat": -0.014069003992112795,
-        "lon": -54.291174513984686,
-        "alt_km": 35788.807476584414,
-        "timestamp": "2026-02-19T17:07:42.317662+00:00",
+        "lat": -0.032815329377080406,
+        "lon": -25.548807352418795,
+        "alt_km": 35789.141751343384,
+        "timestamp": "2026-02-19T19:02:22.650617+00:00",
         "meta_object_name": "AT&T T-16",
         "meta_object_id": "2019-034A",
-        "meta_epoch": "2026-02-19T10:37:44.078592",
-        "meta_mean_motion": 1.00271194,
-        "meta_eccentricity": 6.81e-05,
-        "meta_inclination": 0.0237,
-        "meta_ra_of_asc_node": 96.0777,
-        "meta_arg_of_pericenter": 57.5497,
-        "meta_mean_anomaly": 54.2985,
+        "meta_epoch": "2026-02-19T12:20:31.155936",
+        "meta_mean_motion": 1.00271175,
+        "meta_eccentricity": 6.793e-05,
+        "meta_inclination": 0.0238,
+        "meta_ra_of_asc_node": 96.027,
+        "meta_arg_of_pericenter": 57.4138,
+        "meta_mean_anomaly": 80.2514,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 44333,
@@ -1852,14 +1852,14 @@
         "meta_bstar": 0,
         "meta_mean_motion_dot": -1.09e-06,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 44333U 19034A   26050.44287128 -.00000109  00000+0  00000+0 0  9992",
-        "tle_line2": "2 44333   0.0237  96.0777 0000681  57.5497  54.2985  1.00271194 24452"
+        "tle_line1": "1 44333U 19034A   26050.51424949 -.00000109  00000+0  00000+0 0  9994",
+        "tle_line2": "2 44333   0.0238  96.0270 0000679  57.4138  80.2514  1.00271175 24455"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -54.291174513984686,
-          -0.014069003992112795
+          -25.548807352418795,
+          -0.032815329377080406
         ]
       }
     },
@@ -1869,15 +1869,15 @@
         "norad_id": 44476,
         "name": "INTELSAT 39 (IS-39)",
         "group": "intelsat",
-        "lat": -0.0087535707378414,
-        "lon": 108.51311504970406,
-        "alt_km": 35784.035988921845,
-        "timestamp": "2026-02-19T17:07:42.317673+00:00",
+        "lat": 0.012774885235480756,
+        "lon": 137.26308564403345,
+        "alt_km": 35783.196074101026,
+        "timestamp": "2026-02-19T19:02:22.650628+00:00",
         "meta_object_name": "INTELSAT 39 (IS-39)",
         "meta_object_id": "2019-049B",
-        "meta_epoch": "2026-02-19T09:41:19.485600",
+        "meta_epoch": "2026-02-19T09:41:19.487328",
         "meta_mean_motion": 1.00270846,
-        "meta_eccentricity": 7.69e-05,
+        "meta_eccentricity": 7.694e-05,
         "meta_inclination": 0.019,
         "meta_ra_of_asc_node": 115.233,
         "meta_arg_of_pericenter": 38.6127,
@@ -1890,14 +1890,14 @@
         "meta_bstar": 0,
         "meta_mean_motion_dot": 3.9e-07,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 44476U 19049B   26050.40369775  .00000039  00000+0  00000+0 0  9992",
+        "tle_line1": "1 44476U 19049B   26050.40369777  .00000039  00000+0  00000+0 0  9994",
         "tle_line2": "2 44476   0.0190 115.2330 0000769  38.6127 202.7538  1.00270846 23944"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          108.51311504970406,
-          -0.0087535707378414
+          137.26308564403345,
+          0.012774885235480756
         ]
       }
     },
@@ -1907,19 +1907,19 @@
         "norad_id": 46114,
         "name": "GALAXY 30 (G-30)",
         "group": "intelsat",
-        "lat": 0.023912529606174304,
-        "lon": -78.4130247429855,
-        "alt_km": 35781.908240088465,
-        "timestamp": "2026-02-19T17:07:42.317685+00:00",
+        "lat": 0.00267377111966041,
+        "lon": -49.6584837856978,
+        "alt_km": 35779.23552239436,
+        "timestamp": "2026-02-19T19:02:22.650639+00:00",
         "meta_object_name": "GALAXY 30 (G-30)",
         "meta_object_id": "2020-056C",
-        "meta_epoch": "2026-02-19T11:02:38.739840",
-        "meta_mean_motion": 1.00269444,
-        "meta_eccentricity": 0.0001943,
-        "meta_inclination": 0.0203,
-        "meta_ra_of_asc_node": 136.286,
-        "meta_arg_of_pericenter": 199.5962,
-        "meta_mean_anomaly": 214.19,
+        "meta_epoch": "2026-02-19T13:56:19.488768",
+        "meta_mean_motion": 1.00269489,
+        "meta_eccentricity": 0.00019491,
+        "meta_inclination": 0.0204,
+        "meta_ra_of_asc_node": 136.2407,
+        "meta_arg_of_pericenter": 199.2762,
+        "meta_mean_anomaly": 258.0931,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 46114,
@@ -1928,14 +1928,14 @@
         "meta_bstar": 0,
         "meta_mean_motion_dot": 0,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 46114U 20056C   26050.46017060  .00000000  00000+0  00000+0 0  9994",
-        "tle_line2": "2 46114   0.0203 136.2860 0001943 199.5962 214.1900  1.00269444 20118"
+        "tle_line1": "1 46114U 20056C   26050.58078112  .00000000  00000+0  00000+0 0  9992",
+        "tle_line2": "2 46114   0.0204 136.2407 0001949 199.2762 258.0931  1.00269489 20117"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -78.4130247429855,
-          0.023912529606174304
+          -49.6584837856978,
+          0.00267377111966041
         ]
       }
     },
@@ -1945,18 +1945,18 @@
         "norad_id": 54026,
         "name": "GALAXY 33 (G-33)",
         "group": "intelsat",
-        "lat": 0.02355888216005199,
-        "lon": -86.4053538058054,
-        "alt_km": 35781.961728461785,
-        "timestamp": "2026-02-19T17:07:42.317730+00:00",
+        "lat": 0.0042733279039680215,
+        "lon": -57.651304255390784,
+        "alt_km": 35779.61499853543,
+        "timestamp": "2026-02-19T19:02:22.650651+00:00",
         "meta_object_name": "GALAXY 33 (G-33)",
         "meta_object_id": "2022-128A",
-        "meta_epoch": "2026-02-19T10:22:38.815680",
+        "meta_epoch": "2026-02-19T10:22:38.817408",
         "meta_mean_motion": 1.00270536,
-        "meta_eccentricity": 0.0001765,
+        "meta_eccentricity": 0.00017646,
         "meta_inclination": 0.0165,
         "meta_ra_of_asc_node": 127.7122,
-        "meta_arg_of_pericenter": 199.3955,
+        "meta_arg_of_pericenter": 199.3956,
         "meta_mean_anomaly": 204.9424,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
@@ -1966,14 +1966,14 @@
         "meta_bstar": 0,
         "meta_mean_motion_dot": 0,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 54026U 22128A   26050.43239370  .00000000  00000+0  00000+0 0  9994",
-        "tle_line2": "2 54026   0.0165 127.7122 0001765 199.3955 204.9424  1.00270536 12566"
+        "tle_line1": "1 54026U 22128A   26050.43239372  .00000000  00000+0  00000+0 0  9996",
+        "tle_line2": "2 54026   0.0165 127.7122 0001764 199.3956 204.9424  1.00270536 12566"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -86.4053538058054,
-          0.02355888216005199
+          -57.651304255390784,
+          0.0042733279039680215
         ]
       }
     },
@@ -1983,15 +1983,15 @@
         "norad_id": 54027,
         "name": "GALAXY 34 (G-34)",
         "group": "intelsat",
-        "lat": 0.009103206171528318,
-        "lon": -82.44253747627731,
-        "alt_km": 35782.22791233114,
-        "timestamp": "2026-02-19T17:07:42.317757+00:00",
+        "lat": -0.009462564375603878,
+        "lon": -53.6895497150508,
+        "alt_km": 35780.45021679846,
+        "timestamp": "2026-02-19T19:02:22.650662+00:00",
         "meta_object_name": "GALAXY 34 (G-34)",
         "meta_object_id": "2022-128B",
         "meta_epoch": "2026-02-19T09:15:38.468160",
         "meta_mean_motion": 1.00272403,
-        "meta_eccentricity": 0.0001391,
+        "meta_eccentricity": 0.00013911,
         "meta_inclination": 0.0151,
         "meta_ra_of_asc_node": 100.4671,
         "meta_arg_of_pericenter": 228.7491,
@@ -2010,8 +2010,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -82.44253747627731,
-          0.009103206171528318
+          -53.6895497150508,
+          -0.009462564375603878
         ]
       }
     },
@@ -2021,19 +2021,19 @@
         "norad_id": 54243,
         "name": "GALAXY 31 (G-31)",
         "group": "intelsat",
-        "lat": 0.022488734374675086,
-        "lon": -74.42976081143453,
-        "alt_km": 35782.67754157722,
-        "timestamp": "2026-02-19T17:07:42.317772+00:00",
+        "lat": 0.011025672424191415,
+        "lon": -45.67744550550366,
+        "alt_km": 35780.730719240746,
+        "timestamp": "2026-02-19T19:02:22.650674+00:00",
         "meta_object_name": "GALAXY 31 (G-31)",
         "meta_object_id": "2022-153A",
-        "meta_epoch": "2026-02-19T11:02:38.739840",
-        "meta_mean_motion": 1.00271307,
-        "meta_eccentricity": 0.0001417,
-        "meta_inclination": 0.0136,
-        "meta_ra_of_asc_node": 180.0831,
-        "meta_arg_of_pericenter": 159.6396,
-        "meta_mean_anomaly": 214.3261,
+        "meta_epoch": "2026-02-19T12:14:46.705920",
+        "meta_mean_motion": 1.00271218,
+        "meta_eccentricity": 0.00014302,
+        "meta_inclination": 0.0135,
+        "meta_ra_of_asc_node": 179.4219,
+        "meta_arg_of_pericenter": 159.8933,
+        "meta_mean_anomaly": 232.8159,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 54243,
@@ -2042,14 +2042,14 @@
         "meta_bstar": 0,
         "meta_mean_motion_dot": 1.9e-07,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 54243U 22153A   26050.46017060  .00000019  00000+0  00000+0 0  9996",
-        "tle_line2": "2 54243   0.0136 180.0831 0001417 159.6396 214.3261  1.00271307  5952"
+        "tle_line1": "1 54243U 22153A   26050.51026280  .00000019  00000+0  00000+0 0  9996",
+        "tle_line2": "2 54243   0.0135 179.4219 0001430 159.8933 232.8159  1.00271218  5959"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -74.42976081143453,
-          0.022488734374675086
+          -45.67744550550366,
+          0.011025672424191415
         ]
       }
     },
@@ -2059,19 +2059,19 @@
         "norad_id": 54244,
         "name": "GALAXY 32 (G-32)",
         "group": "intelsat",
-        "lat": -0.017234215701956077,
-        "lon": -44.432841876939605,
-        "alt_km": 35775.409509866106,
-        "timestamp": "2026-02-19T17:07:42.317785+00:00",
+        "lat": -0.027898113202472017,
+        "lon": -15.670865712082657,
+        "alt_km": 35774.005275735115,
+        "timestamp": "2026-02-19T19:02:22.650686+00:00",
         "meta_object_name": "GALAXY 32 (G-32)",
         "meta_object_id": "2022-153B",
-        "meta_epoch": "2026-02-19T10:40:36.304032",
-        "meta_mean_motion": 1.00272548,
-        "meta_eccentricity": 0.0002805,
-        "meta_inclination": 0.014,
-        "meta_ra_of_asc_node": 82.6006,
-        "meta_arg_of_pericenter": 261.2541,
-        "meta_mean_anomaly": 234.6667,
+        "meta_epoch": "2026-02-19T12:23:15.893088",
+        "meta_mean_motion": 1.00272505,
+        "meta_eccentricity": 0.00028081,
+        "meta_inclination": 0.0142,
+        "meta_ra_of_asc_node": 82.6156,
+        "meta_arg_of_pericenter": 261.3891,
+        "meta_mean_anomaly": 260.252,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 54244,
@@ -2080,14 +2080,14 @@
         "meta_bstar": 0,
         "meta_mean_motion_dot": -1.69e-06,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 54244U 22153B   26050.44486463 -.00000169  00000+0  00000+0 0  9999",
-        "tle_line2": "2 54244   0.0140  82.6006 0002805 261.2541 234.6667  1.00272548 11964"
+        "tle_line1": "1 54244U 22153B   26050.51615617 -.00000169  00000+0  00000+0 0  9992",
+        "tle_line2": "2 54244   0.0142  82.6156 0002808 261.3891 260.2520  1.00272505 11960"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -44.432841876939605,
-          -0.017234215701956077
+          -15.670865712082657,
+          -0.027898113202472017
         ]
       }
     },
@@ -2097,19 +2097,19 @@
         "norad_id": 54741,
         "name": "GALAXY 35 (G-35)",
         "group": "intelsat",
-        "lat": 0.01366059671770256,
-        "lon": -46.51753336015515,
-        "alt_km": 35778.35081004746,
-        "timestamp": "2026-02-19T17:07:42.317797+00:00",
+        "lat": 0.0013182784368654303,
+        "lon": -17.76038402409394,
+        "alt_km": 35778.30805630407,
+        "timestamp": "2026-02-19T19:02:22.650698+00:00",
         "meta_object_name": "GALAXY 35 (G-35)",
         "meta_object_id": "2022-170A",
-        "meta_epoch": "2026-02-19T10:39:58.862592",
-        "meta_mean_motion": 1.00271619,
-        "meta_eccentricity": 0.0001904,
-        "meta_inclination": 0.0181,
-        "meta_ra_of_asc_node": 199.3556,
-        "meta_arg_of_pericenter": 129.2052,
-        "meta_mean_anomaly": 247.7108,
+        "meta_epoch": "2026-02-19T12:22:38.453376",
+        "meta_mean_motion": 1.00271595,
+        "meta_eccentricity": 0.00019047,
+        "meta_inclination": 0.0178,
+        "meta_ra_of_asc_node": 198.4769,
+        "meta_arg_of_pericenter": 130.1052,
+        "meta_mean_anomaly": 273.4246,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 54741,
@@ -2118,14 +2118,14 @@
         "meta_bstar": 0,
         "meta_mean_motion_dot": -1.57e-06,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 54741U 22170A   26050.44443128 -.00000157  00000+0  00000+0 0  9998",
-        "tle_line2": "2 54741   0.0181 199.3556 0001904 129.2052 247.7108  1.00271619 11712"
+        "tle_line1": "1 54741U 22170A   26050.51572284 -.00000157  00000+0  00000+0 0  9992",
+        "tle_line2": "2 54741   0.0178 198.4769 0001904 130.1052 273.4246  1.00271595 11717"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -46.51753336015515,
-          0.01366059671770256
+          -17.76038402409394,
+          0.0013182784368654303
         ]
       }
     },
@@ -2135,19 +2135,19 @@
         "norad_id": 54742,
         "name": "GALAXY 36 (G-36)",
         "group": "intelsat",
-        "lat": -0.003954990070780296,
-        "lon": -42.432065600410695,
-        "alt_km": 35783.768682496986,
-        "timestamp": "2026-02-19T17:07:42.317810+00:00",
+        "lat": -0.023210480043748823,
+        "lon": -13.681660979444976,
+        "alt_km": 35781.125060870356,
+        "timestamp": "2026-02-19T19:02:22.650709+00:00",
         "meta_object_name": "GALAXY 36 (G-36)",
         "meta_object_id": "2022-170B",
-        "meta_epoch": "2026-02-19T10:41:13.743744",
-        "meta_mean_motion": 1.00272775,
-        "meta_eccentricity": 0.0001619,
+        "meta_epoch": "2026-02-19T14:06:33.507648",
+        "meta_mean_motion": 1.00272325,
+        "meta_eccentricity": 0.00016158,
         "meta_inclination": 0.0165,
-        "meta_ra_of_asc_node": 134.0529,
-        "meta_arg_of_pericenter": 256.2462,
-        "meta_mean_anomaly": 190.3817,
+        "meta_ra_of_asc_node": 133.7711,
+        "meta_arg_of_pericenter": 257.5922,
+        "meta_mean_anomaly": 240.7903,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 54742,
@@ -2156,14 +2156,14 @@
         "meta_bstar": 0,
         "meta_mean_motion_dot": -1.8e-06,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 54742U 22170B   26050.44529796 -.00000180  00000+0  00000+0 0  9991",
-        "tle_line2": "2 54742   0.0165 134.0529 0001619 256.2462 190.3817  1.00272775 11590"
+        "tle_line1": "1 54742U 22170B   26050.58788782 -.00000180  00000+0  00000+0 0  9998",
+        "tle_line2": "2 54742   0.0165 133.7711 0001615 257.5922 240.7903  1.00272325 11597"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -42.432065600410695,
-          -0.003954990070780296
+          -13.681660979444976,
+          -0.023210480043748823
         ]
       }
     },
@@ -2173,19 +2173,19 @@
         "norad_id": 57493,
         "name": "GALAXY 37 (G-37)",
         "group": "intelsat",
-        "lat": 0.010467211707505275,
-        "lon": -80.43675592459853,
-        "alt_km": 35781.26482941816,
-        "timestamp": "2026-02-19T17:07:42.317822+00:00",
+        "lat": -0.01049654657802556,
+        "lon": -51.68179252591988,
+        "alt_km": 35778.628596298506,
+        "timestamp": "2026-02-19T19:02:22.650721+00:00",
         "meta_object_name": "GALAXY 37 (G-37)",
         "meta_object_id": "2023-112A",
-        "meta_epoch": "2026-02-19T11:02:38.739840",
-        "meta_mean_motion": 1.00271106,
-        "meta_eccentricity": 0.0001978,
-        "meta_inclination": 0.0195,
-        "meta_ra_of_asc_node": 105.211,
-        "meta_arg_of_pericenter": 227.8502,
-        "meta_mean_anomaly": 214.9859,
+        "meta_epoch": "2026-02-19T13:55:42.049056",
+        "meta_mean_motion": 1.00271129,
+        "meta_eccentricity": 0.00019803,
+        "meta_inclination": 0.0186,
+        "meta_ra_of_asc_node": 104.4717,
+        "meta_arg_of_pericenter": 228.5355,
+        "meta_mean_anomaly": 258.4218,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 57493,
@@ -2194,14 +2194,14 @@
         "meta_bstar": 0,
         "meta_mean_motion_dot": 5.4e-07,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 57493U 23112A   26050.46017060  .00000054  00000+0  00000+0 0  9991",
-        "tle_line2": "2 57493   0.0195 105.2110 0001978 227.8502 214.9859  1.00271106  9360"
+        "tle_line1": "1 57493U 23112A   26050.58034779  .00000054  00000+0  00000+0 0  9990",
+        "tle_line2": "2 57493   0.0186 104.4717 0001980 228.5355 258.4218  1.00271129  9368"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -80.43675592459853,
-          0.010467211707505275
+          -51.68179252591988,
+          -0.01049654657802556
         ]
       }
     }
