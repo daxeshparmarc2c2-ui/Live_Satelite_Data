@@ -7,10 +7,10 @@
         "norad_id": 28054,
         "name": "DMSP 5D-3 F16 (USA 172)",
         "group": "weather",
-        "lat": 13.080589949554629,
-        "lon": -103.56658871961105,
-        "alt_km": 841.5142798698607,
-        "timestamp": "2026-02-20T07:51:59.410777+00:00",
+        "lat": 21.959825988348157,
+        "lon": 70.70136651339266,
+        "alt_km": 844.16145492332,
+        "timestamp": "2026-02-20T08:53:04.371609+00:00",
         "meta_object_name": "DMSP 5D-3 F16 (USA 172)",
         "meta_object_id": "2003-048A",
         "meta_epoch": "2026-02-19T20:51:58.000320",
@@ -34,8 +34,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -103.56658871961105,
-          13.080589949554629
+          70.70136651339266,
+          21.959825988348157
         ]
       }
     },
@@ -45,10 +45,10 @@
         "norad_id": 28912,
         "name": "METEOSAT-9 (MSG-2)",
         "group": "weather",
-        "lat": -8.907523628354763,
-        "lon": -46.22944745137007,
-        "alt_km": 35781.71643564297,
-        "timestamp": "2026-02-20T07:51:59.410826+00:00",
+        "lat": -9.07208078612488,
+        "lon": -30.72371338421798,
+        "alt_km": 35783.55519004886,
+        "timestamp": "2026-02-20T08:53:04.371658+00:00",
         "meta_object_name": "METEOSAT-9 (MSG-2)",
         "meta_object_id": "2005-049B",
         "meta_epoch": "2026-02-19T18:07:38.489376",
@@ -72,8 +72,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -46.22944745137007,
-          -8.907523628354763
+          -30.72371338421798,
+          -9.07208078612488
         ]
       }
     },
@@ -83,10 +83,10 @@
         "norad_id": 29522,
         "name": "DMSP 5D-3 F17 (USA 191)",
         "group": "weather",
-        "lat": -49.28717336817623,
-        "lon": -130.02246643050592,
-        "alt_km": 856.7696086834103,
-        "timestamp": "2026-02-20T07:51:59.410845+00:00",
+        "lat": 80.41639321848835,
+        "lon": -5.354812508601185,
+        "alt_km": 830.1639476879009,
+        "timestamp": "2026-02-20T08:53:04.371675+00:00",
         "meta_object_name": "DMSP 5D-3 F17 (USA 191)",
         "meta_object_id": "2006-050A",
         "meta_epoch": "2026-02-19T22:17:50.682912",
@@ -110,8 +110,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -130.02246643050592,
-          -49.28717336817623
+          -5.354812508601185,
+          80.41639321848835
         ]
       }
     },
@@ -121,10 +121,10 @@
         "norad_id": 32958,
         "name": "FENGYUN 3A",
         "group": "weather",
-        "lat": 11.691551368278613,
-        "lon": -7.392205994239768,
-        "alt_km": 828.2650226831865,
-        "timestamp": "2026-02-20T07:51:59.410858+00:00",
+        "lat": -48.131796747295496,
+        "lon": 164.649234850937,
+        "alt_km": 837.860708840808,
+        "timestamp": "2026-02-20T08:53:04.371688+00:00",
         "meta_object_name": "FENGYUN 3A",
         "meta_object_id": "2008-026A",
         "meta_epoch": "2026-02-19T19:58:09.958944",
@@ -148,8 +148,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -7.392205994239768,
-          11.691551368278613
+          164.649234850937,
+          -48.131796747295496
         ]
       }
     },
@@ -159,19 +159,19 @@
         "norad_id": 35491,
         "name": "GOES 14",
         "group": "weather",
-        "lat": 0.7276838417674567,
-        "lon": 116.65449471477092,
-        "alt_km": 35830.85437965411,
-        "timestamp": "2026-02-20T07:51:59.410873+00:00",
+        "lat": 1.0175627274129873,
+        "lon": 131.94058571936512,
+        "alt_km": 35832.76604839621,
+        "timestamp": "2026-02-20T08:53:04.371702+00:00",
         "meta_object_name": "GOES 14",
         "meta_object_id": "2009-033A",
-        "meta_epoch": "2026-02-19T18:56:50.683200",
-        "meta_mean_motion": 1.00118212,
-        "meta_eccentricity": 0.00018516,
-        "meta_inclination": 1.3843,
-        "meta_ra_of_asc_node": 84.6244,
-        "meta_arg_of_pericenter": 288.8284,
-        "meta_mean_anomaly": 269.152,
+        "meta_epoch": "2026-02-20T03:30:16.459776",
+        "meta_mean_motion": 1.00118332,
+        "meta_eccentricity": 0.0001844,
+        "meta_inclination": 1.3852,
+        "meta_ra_of_asc_node": 84.6188,
+        "meta_arg_of_pericenter": 288.6919,
+        "meta_mean_anomaly": 37.8061,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 35491,
@@ -180,14 +180,14 @@
         "meta_bstar": 0,
         "meta_mean_motion_dot": 1.4e-06,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 35491U 09033A   26050.78947550  .00000140  00000+0  00000+0 0  9998",
-        "tle_line2": "2 35491   1.3843  84.6244 0001851 288.8284 269.1520  1.00118212  5417"
+        "tle_line1": "1 35491U 09033A   26051.14602384  .00000140  00000+0  00000+0 0  9992",
+        "tle_line2": "2 35491   1.3852  84.6188 0001844 288.6919  37.8061  1.00118332  5412"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          116.65449471477092,
-          0.7276838417674567
+          131.94058571936512,
+          1.0175627274129873
         ]
       }
     },
@@ -197,35 +197,35 @@
         "norad_id": 35951,
         "name": "DMSP 5D-3 F18 (USA 210)",
         "group": "weather",
-        "lat": 61.60394507767383,
-        "lon": 15.582839505455027,
-        "alt_km": 843.6645981602824,
-        "timestamp": "2026-02-20T07:51:59.410886+00:00",
+        "lat": -77.34594952959081,
+        "lon": 76.67992701659387,
+        "alt_km": 846.482545382697,
+        "timestamp": "2026-02-20T08:53:04.371714+00:00",
         "meta_object_name": "DMSP 5D-3 F18 (USA 210)",
         "meta_object_id": "2009-057A",
-        "meta_epoch": "2026-02-19T21:23:09.442464",
-        "meta_mean_motion": 14.14823308,
-        "meta_eccentricity": 0.00102473,
-        "meta_inclination": 98.8934,
-        "meta_ra_of_asc_node": 31.9837,
-        "meta_arg_of_pericenter": 220.7492,
-        "meta_mean_anomaly": 139.2915,
+        "meta_epoch": "2026-02-20T04:10:30.169920",
+        "meta_mean_motion": 14.14823455,
+        "meta_eccentricity": 0.0010253,
+        "meta_inclination": 98.8935,
+        "meta_ra_of_asc_node": 32.2655,
+        "meta_arg_of_pericenter": 219.8547,
+        "meta_mean_anomaly": 140.1874,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 35951,
         "meta_element_set_no": 999,
-        "meta_rev_at_epoch": 84300,
-        "meta_bstar": 0.00014515746,
-        "meta_mean_motion_dot": 2.35e-06,
+        "meta_rev_at_epoch": 84304,
+        "meta_bstar": 0.0001418,
+        "meta_mean_motion_dot": 2.29e-06,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 35951U 09057A   26050.89108151  .00000235  00000+0  14516-3 0  9999",
-        "tle_line2": "2 35951  98.8934  31.9837 0010247 220.7492 139.2915 14.14823308843006"
+        "tle_line1": "1 35951U 09057A   26051.17396030  .00000229  00000+0  14180-3 0  9996",
+        "tle_line2": "2 35951  98.8935  32.2655 0010253 219.8547 140.1874 14.14823455843048"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.582839505455027,
-          61.60394507767383
+          76.67992701659387,
+          -77.34594952959081
         ]
       }
     },
@@ -235,35 +235,35 @@
         "norad_id": 36411,
         "name": "EWS-G2 (GOES 15)",
         "group": "weather",
-        "lat": -0.8928470699056938,
-        "lon": -29.60509920786154,
-        "alt_km": 35766.37817560121,
-        "timestamp": "2026-02-20T07:51:59.410900+00:00",
+        "lat": -0.9764242810267286,
+        "lon": -14.277915796493485,
+        "alt_km": 35764.97904593751,
+        "timestamp": "2026-02-20T08:53:04.371727+00:00",
         "meta_object_name": "EWS-G2 (GOES 15)",
         "meta_object_id": "2010-008A",
-        "meta_epoch": "2026-02-19T21:40:27.497856",
-        "meta_mean_motion": 1.00362078,
-        "meta_eccentricity": 0.00015033,
-        "meta_inclination": 0.977,
-        "meta_ra_of_asc_node": 85.4382,
-        "meta_arg_of_pericenter": 34.7722,
-        "meta_mean_anomaly": 56.7386,
+        "meta_epoch": "2026-02-20T02:48:35.457120",
+        "meta_mean_motion": 1.00363027,
+        "meta_eccentricity": 0.0001442,
+        "meta_inclination": 0.9775,
+        "meta_ra_of_asc_node": 85.4309,
+        "meta_arg_of_pericenter": 35.5488,
+        "meta_mean_anomaly": 133.2844,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 36411,
         "meta_element_set_no": 999,
         "meta_rev_at_epoch": 5846,
         "meta_bstar": 0,
-        "meta_mean_motion_dot": 2.1e-07,
+        "meta_mean_motion_dot": 2e-07,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 36411U 10008A   26050.90309604  .00000021  00000+0  00000+0 0  9999",
-        "tle_line2": "2 36411   0.9770  85.4382 0001503  34.7722  56.7386  1.00362078 58469"
+        "tle_line1": "1 36411U 10008A   26051.11707705  .00000020  00000+0  00000+0 0  9996",
+        "tle_line2": "2 36411   0.9775  85.4309 0001442  35.5488 133.2844  1.00363027 58468"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -29.60509920786154,
-          -0.8928470699056938
+          -14.277915796493485,
+          -0.9764242810267286
         ]
       }
     },
@@ -273,15 +273,15 @@
         "norad_id": 36744,
         "name": "COMS 1",
         "group": "weather",
-        "lat": -2.9534483615973537,
-        "lon": 36.531936883584564,
-        "alt_km": 35784.20444651492,
-        "timestamp": "2026-02-20T07:51:59.410913+00:00",
+        "lat": -1.9474279669560284,
+        "lon": 51.82676493838366,
+        "alt_km": 35784.98239561111,
+        "timestamp": "2026-02-20T08:53:04.371739+00:00",
         "meta_object_name": "COMS 1",
         "meta_object_id": "2010-032A",
         "meta_epoch": "2026-02-19T21:59:18.192192",
         "meta_mean_motion": 1.00270267,
-        "meta_eccentricity": 9.704e-05,
+        "meta_eccentricity": 9.7e-05,
         "meta_inclination": 4.5032,
         "meta_ra_of_asc_node": 77.0672,
         "meta_arg_of_pericenter": 271.6366,
@@ -300,8 +300,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          36.531936883584564,
-          -2.9534483615973537
+          51.82676493838366,
+          -1.9474279669560284
         ]
       }
     },
@@ -311,35 +311,35 @@
         "norad_id": 37214,
         "name": "FENGYUN 3B",
         "group": "weather",
-        "lat": 28.68170222568604,
-        "lon": 91.79716274904985,
-        "alt_km": 851.215609992878,
-        "timestamp": "2026-02-20T07:51:59.410925+00:00",
+        "lat": -64.1132605462276,
+        "lon": -102.21350044389321,
+        "alt_km": 850.0471474292235,
+        "timestamp": "2026-02-20T08:53:04.371751+00:00",
         "meta_object_name": "FENGYUN 3B",
         "meta_object_id": "2010-059A",
-        "meta_epoch": "2026-02-19T23:47:40.382304",
-        "meta_mean_motion": 14.14812718,
-        "meta_eccentricity": 0.00224954,
-        "meta_inclination": 98.9799,
-        "meta_ra_of_asc_node": 96.4215,
-        "meta_arg_of_pericenter": 156.7063,
-        "meta_mean_anomaly": 320.5777,
+        "meta_epoch": "2026-02-20T04:42:30.060864",
+        "meta_mean_motion": 14.1481337,
+        "meta_eccentricity": 0.0022507,
+        "meta_inclination": 98.9798,
+        "meta_ra_of_asc_node": 96.6276,
+        "meta_arg_of_pericenter": 156.1694,
+        "meta_mean_anomaly": 283.3529,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 37214,
         "meta_element_set_no": 999,
-        "meta_rev_at_epoch": 79085,
-        "meta_bstar": 0.00012354073,
-        "meta_mean_motion_dot": 1.94e-06,
+        "meta_rev_at_epoch": 79088,
+        "meta_bstar": 0.00017957,
+        "meta_mean_motion_dot": 3.02e-06,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 37214U 10059A   26050.99143961  .00000194  00000+0  12354-3 0  9998",
-        "tle_line2": "2 37214  98.9799  96.4215 0022495 156.7063 320.5777 14.14812718790854"
+        "tle_line1": "1 37214U 10059A   26051.19618126  .00000302  00000+0  17957-3 0  9996",
+        "tle_line2": "2 37214  98.9798  96.6276 0022507 156.1694 283.3529 14.14813370790889"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          91.79716274904985,
-          28.68170222568604
+          -102.21350044389321,
+          -64.1132605462276
         ]
       }
     },
@@ -349,35 +349,35 @@
         "norad_id": 37849,
         "name": "SUOMI NPP",
         "group": "weather",
-        "lat": -28.677839972284644,
-        "lon": -2.0773667567153384,
-        "alt_km": 832.045113019256,
-        "timestamp": "2026-02-20T07:51:59.410937+00:00",
+        "lat": -7.7343349543159485,
+        "lon": 171.9093094825104,
+        "alt_km": 831.4516273900281,
+        "timestamp": "2026-02-20T08:53:04.371762+00:00",
         "meta_object_name": "SUOMI NPP",
         "meta_object_id": "2011-061A",
-        "meta_epoch": "2026-02-19T21:51:11.463840",
-        "meta_mean_motion": 14.19537981,
-        "meta_eccentricity": 9.876e-05,
+        "meta_epoch": "2026-02-20T02:55:41.192256",
+        "meta_mean_motion": 14.19538028,
+        "meta_eccentricity": 9.76e-05,
         "meta_inclination": 98.7849,
-        "meta_ra_of_asc_node": 352.6568,
-        "meta_arg_of_pericenter": 351.8653,
-        "meta_mean_anomaly": 8.2506,
+        "meta_ra_of_asc_node": 352.8666,
+        "meta_arg_of_pericenter": 351.5806,
+        "meta_mean_anomaly": 8.5354,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 37849,
         "meta_element_set_no": 999,
-        "meta_rev_at_epoch": 74180,
-        "meta_bstar": 5.3996813e-05,
+        "meta_rev_at_epoch": 74183,
+        "meta_bstar": 5.4224e-05,
         "meta_mean_motion_dot": 7e-07,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 37849U 11061A   26050.91054935  .00000070  00000+0  53997-4 0  9992",
-        "tle_line2": "2 37849  98.7849 352.6568 0000987 351.8653   8.2506 14.19537981741807"
+        "tle_line1": "1 37849U 11061A   26051.12200454  .00000070  00000+0  54224-4 0  9999",
+        "tle_line2": "2 37849  98.7849 352.8666 0000976 351.5806   8.5354 14.19538028741833"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.0773667567153384,
-          -28.677839972284644
+          171.9093094825104,
+          -7.7343349543159485
         ]
       }
     },
@@ -387,15 +387,15 @@
         "norad_id": 38552,
         "name": "METEOSAT-10 (MSG-3)",
         "group": "weather",
-        "lat": -1.962772065961282,
-        "lon": -91.72597714182442,
-        "alt_km": 35783.97752607612,
-        "timestamp": "2026-02-20T07:51:59.410964+00:00",
+        "lat": -2.931944558660709,
+        "lon": -76.42776199853195,
+        "alt_km": 35781.65101281917,
+        "timestamp": "2026-02-20T08:53:04.371774+00:00",
         "meta_object_name": "METEOSAT-10 (MSG-3)",
         "meta_object_id": "2012-035B",
-        "meta_epoch": "2026-02-19T21:22:44.197248",
+        "meta_epoch": "2026-02-19T21:22:44.196384",
         "meta_mean_motion": 1.00274729,
-        "meta_eccentricity": 0.00022683,
+        "meta_eccentricity": 0.0002268,
         "meta_inclination": 4.392,
         "meta_ra_of_asc_node": 61.513,
         "meta_arg_of_pericenter": 287.8607,
@@ -408,14 +408,14 @@
         "meta_bstar": 0,
         "meta_mean_motion_dot": 1e-08,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 38552U 12035B   26050.89078932  .00000001  00000+0  00000+0 0  9992",
+        "tle_line1": "1 38552U 12035B   26050.89078931  .00000001  00000+0  00000+0 0  9991",
         "tle_line2": "2 38552   4.3920  61.5130 0002268 287.8607 121.2303  1.00274729 49686"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -91.72597714182442,
-          -1.962772065961282
+          -76.42776199853195,
+          -2.931944558660709
         ]
       }
     },
@@ -425,35 +425,35 @@
         "norad_id": 38771,
         "name": "METOP-B",
         "group": "weather",
-        "lat": -61.442772003258646,
-        "lon": 121.34872197091957,
-        "alt_km": 826.8660022210943,
-        "timestamp": "2026-02-20T07:51:59.410978+00:00",
+        "lat": 25.25128928781684,
+        "lon": -70.76134174316934,
+        "alt_km": 820.8472427751312,
+        "timestamp": "2026-02-20T08:53:04.371785+00:00",
         "meta_object_name": "METOP-B",
         "meta_object_id": "2012-049A",
-        "meta_epoch": "2026-02-19T22:01:28.376256",
-        "meta_mean_motion": 14.21438348,
-        "meta_eccentricity": 0.00017106,
-        "meta_inclination": 98.6682,
-        "meta_ra_of_asc_node": 104.6683,
-        "meta_arg_of_pericenter": 350.3575,
-        "meta_mean_anomaly": 9.757,
+        "meta_epoch": "2026-02-20T03:05:33.727776",
+        "meta_mean_motion": 14.21438417,
+        "meta_eccentricity": 0.0001699,
+        "meta_inclination": 98.6681,
+        "meta_ra_of_asc_node": 104.8757,
+        "meta_arg_of_pericenter": 349.5122,
+        "meta_mean_anomaly": 10.6019,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 38771,
         "meta_element_set_no": 999,
-        "meta_rev_at_epoch": 69660,
-        "meta_bstar": 6.3886914e-05,
-        "meta_mean_motion_dot": 9.6e-07,
+        "meta_rev_at_epoch": 69663,
+        "meta_bstar": 6.2338e-05,
+        "meta_mean_motion_dot": 9.3e-07,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 38771U 12049A   26050.91768954  .00000096  00000+0  63887-4 0  9994",
-        "tle_line2": "2 38771  98.6682 104.6683 0001710 350.3575   9.7570 14.21438348696605"
+        "tle_line1": "1 38771U 12049A   26051.12886259  .00000093  00000+0  62338-4 0  9994",
+        "tle_line2": "2 38771  98.6681 104.8757 0001699 349.5122  10.6019 14.21438417696631"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          121.34872197091957,
-          -61.442772003258646
+          -70.76134174316934,
+          25.25128928781684
         ]
       }
     },
@@ -463,19 +463,19 @@
         "norad_id": 39216,
         "name": "INSAT-3D",
         "group": "weather",
-        "lat": -1.1972494291877929,
-        "lon": 37.76553366125785,
-        "alt_km": 35784.751559499855,
-        "timestamp": "2026-02-20T07:51:59.410990+00:00",
+        "lat": -0.8598238509324062,
+        "lon": 53.07677105668277,
+        "alt_km": 35787.144017444785,
+        "timestamp": "2026-02-20T08:53:04.371797+00:00",
         "meta_object_name": "INSAT-3D",
         "meta_object_id": "2013-038B",
-        "meta_epoch": "2026-02-19T21:59:40.657056",
-        "meta_mean_motion": 1.00274455,
-        "meta_eccentricity": 0.0002154,
-        "meta_inclination": 1.6213,
-        "meta_ra_of_asc_node": 84.1092,
-        "meta_arg_of_pericenter": 228.4791,
-        "meta_mean_anomaly": 296.6368,
+        "meta_epoch": "2026-02-19T23:42:23.309856",
+        "meta_mean_motion": 1.00274393,
+        "meta_eccentricity": 0.0002153,
+        "meta_inclination": 1.6215,
+        "meta_ra_of_asc_node": 84.1063,
+        "meta_arg_of_pericenter": 228.4985,
+        "meta_mean_anomaly": 322.3691,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 39216,
@@ -484,14 +484,14 @@
         "meta_bstar": 0,
         "meta_mean_motion_dot": -3.33e-06,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 39216U 13038B   26050.91644279 -.00000333  00000+0  00000+0 0  9999",
-        "tle_line2": "2 39216   1.6213  84.1092 0002154 228.4791 296.6368  1.00274455 45901"
+        "tle_line1": "1 39216U 13038B   26050.98776979 -.00000333  00000+0  00000+0 0  9999",
+        "tle_line2": "2 39216   1.6215  84.1063 0002153 228.4985 322.3691  1.00274393 45902"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          37.76553366125785,
-          -1.1972494291877929
+          53.07677105668277,
+          -0.8598238509324062
         ]
       }
     },
@@ -501,35 +501,35 @@
         "norad_id": 39260,
         "name": "FENGYUN 3C",
         "group": "weather",
-        "lat": -13.511886879922859,
-        "lon": -151.41104212657848,
-        "alt_km": 854.909520160224,
-        "timestamp": "2026-02-20T07:51:59.411002+00:00",
+        "lat": 48.95855546240194,
+        "lon": 20.81039137335619,
+        "alt_km": 827.8941787388358,
+        "timestamp": "2026-02-20T08:53:04.371808+00:00",
         "meta_object_name": "FENGYUN 3C",
         "meta_object_id": "2013-052A",
-        "meta_epoch": "2026-02-19T22:28:26.547168",
-        "meta_mean_motion": 14.15722398,
-        "meta_eccentricity": 0.00148123,
+        "meta_epoch": "2026-02-20T05:15:31.872096",
+        "meta_mean_motion": 14.15722436,
+        "meta_eccentricity": 0.00148,
         "meta_inclination": 98.4862,
-        "meta_ra_of_asc_node": 30.2723,
-        "meta_arg_of_pericenter": 5.5114,
-        "meta_mean_anomaly": 354.6221,
+        "meta_ra_of_asc_node": 30.5415,
+        "meta_arg_of_pericenter": 4.7342,
+        "meta_mean_anomaly": 355.397,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 39260,
         "meta_element_set_no": 999,
-        "meta_rev_at_epoch": 64197,
-        "meta_bstar": 6.870741e-05,
-        "meta_mean_motion_dot": 9.4e-07,
+        "meta_rev_at_epoch": 64201,
+        "meta_bstar": 6.6045e-05,
+        "meta_mean_motion_dot": 8.8e-07,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 39260U 13052A   26050.93641837  .00000094  00000+0  68707-4 0  9999",
-        "tle_line2": "2 39260  98.4862  30.2723 0014812   5.5114 354.6221 14.15722398641970"
+        "tle_line1": "1 39260U 13052A   26051.21911889  .00000088  00000+0  66045-4 0  9994",
+        "tle_line2": "2 39260  98.4862  30.5415 0014800   4.7342 355.3970 14.15722436642010"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -151.41104212657848,
-          -13.511886879922859
+          20.81039137335619,
+          48.95855546240194
         ]
       }
     },
@@ -539,35 +539,35 @@
         "norad_id": 40069,
         "name": "METEOR-M 2",
         "group": "weather",
-        "lat": 19.953303974559827,
-        "lon": -145.60723110714753,
-        "alt_km": 823.7362453533469,
-        "timestamp": "2026-02-20T07:51:59.411014+00:00",
+        "lat": 16.28661036314376,
+        "lon": 28.817558350424548,
+        "alt_km": 816.5884497627912,
+        "timestamp": "2026-02-20T08:53:04.371819+00:00",
         "meta_object_name": "METEOR-M 2",
         "meta_object_id": "2014-037A",
-        "meta_epoch": "2026-02-19T22:40:15.314016",
-        "meta_mean_motion": 14.21419885,
-        "meta_eccentricity": 0.00063793,
+        "meta_epoch": "2026-02-20T05:25:42.804768",
+        "meta_mean_motion": 14.21420627,
+        "meta_eccentricity": 0.0006403,
         "meta_inclination": 98.4996,
-        "meta_ra_of_asc_node": 30.9118,
-        "meta_arg_of_pericenter": 27.2068,
-        "meta_mean_anomaly": 332.9443,
+        "meta_ra_of_asc_node": 31.183,
+        "meta_arg_of_pericenter": 26.3859,
+        "meta_mean_anomaly": 333.7644,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 40069,
         "meta_element_set_no": 999,
-        "meta_rev_at_epoch": 60266,
-        "meta_bstar": -3.5442425e-05,
-        "meta_mean_motion_dot": -1.19e-06,
+        "meta_rev_at_epoch": 60270,
+        "meta_bstar": 7.8913e-05,
+        "meta_mean_motion_dot": 1.3e-06,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 40069U 14037A   26050.94462169 -.00000119  00000+0 -35442-4 0  9992",
-        "tle_line2": "2 40069  98.4996  30.9118 0006379  27.2068 332.9443 14.21419885602669"
+        "tle_line1": "1 40069U 14037A   26051.22618987  .00000130  00000+0  78913-4 0  9996",
+        "tle_line2": "2 40069  98.4996  31.1830 0006403  26.3859 333.7644 14.21420627602702"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -145.60723110714753,
-          19.953303974559827
+          28.817558350424548,
+          16.28661036314376
         ]
       }
     },
@@ -577,19 +577,19 @@
         "norad_id": 40267,
         "name": "HIMAWARI-8",
         "group": "weather",
-        "lat": -0.02087803665411643,
-        "lon": 48.92303703710354,
-        "alt_km": 35787.12240503024,
-        "timestamp": "2026-02-20T07:51:59.411026+00:00",
+        "lat": -0.023534693895549054,
+        "lon": 64.23453340194882,
+        "alt_km": 35787.75783650059,
+        "timestamp": "2026-02-20T08:53:04.371831+00:00",
         "meta_object_name": "HIMAWARI-8",
         "meta_object_id": "2014-060A",
-        "meta_epoch": "2026-02-19T22:02:47.858208",
-        "meta_mean_motion": 1.00269697,
-        "meta_eccentricity": 5.864e-05,
+        "meta_epoch": "2026-02-19T22:03:51.831360",
+        "meta_mean_motion": 1.00269696,
+        "meta_eccentricity": 5.86e-05,
         "meta_inclination": 0.0198,
-        "meta_ra_of_asc_node": 208.4206,
-        "meta_arg_of_pericenter": 100.8581,
-        "meta_mean_anomaly": 311.9199,
+        "meta_ra_of_asc_node": 208.4203,
+        "meta_arg_of_pericenter": 100.8796,
+        "meta_mean_anomaly": 312.1659,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 40267,
@@ -598,14 +598,14 @@
         "meta_bstar": 0,
         "meta_mean_motion_dot": -2.7e-06,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 40267U 14060A   26050.91860947 -.00000270  00000+0  00000+0 0  9995",
-        "tle_line2": "2 40267   0.0198 208.4206 0000586 100.8581 311.9199  1.00269697 41584"
+        "tle_line1": "1 40267U 14060A   26050.91934990 -.00000270  00000+0  00000+0 0  9995",
+        "tle_line2": "2 40267   0.0198 208.4203 0000586 100.8796 312.1659  1.00269696 41582"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          48.92303703710354,
-          -0.02087803665411643
+          64.23453340194882,
+          -0.023534693895549054
         ]
       }
     },
@@ -615,19 +615,19 @@
         "norad_id": 40367,
         "name": "FENGYUN 2G",
         "group": "weather",
-        "lat": -4.913665982414937,
-        "lon": 7.8157786487538985,
-        "alt_km": 35791.352114896916,
-        "timestamp": "2026-02-20T07:51:59.411038+00:00",
+        "lat": -4.180887355496043,
+        "lon": 23.154150438693872,
+        "alt_km": 35792.28010480557,
+        "timestamp": "2026-02-20T08:53:04.371843+00:00",
         "meta_object_name": "FENGYUN 2G",
         "meta_object_id": "2014-090A",
-        "meta_epoch": "2026-02-19T22:32:33.135360",
-        "meta_mean_motion": 1.00280117,
-        "meta_eccentricity": 0.00019447,
-        "meta_inclination": 5.34,
-        "meta_ra_of_asc_node": 74.2504,
-        "meta_arg_of_pericenter": 145.9146,
-        "meta_mean_anomaly": 7.2834,
+        "meta_epoch": "2026-02-20T01:16:29.288064",
+        "meta_mean_motion": 1.00280014,
+        "meta_eccentricity": 0.0001966,
+        "meta_inclination": 5.3403,
+        "meta_ra_of_asc_node": 74.2487,
+        "meta_arg_of_pericenter": 145.7284,
+        "meta_mean_anomaly": 48.5703,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 40367,
@@ -636,14 +636,14 @@
         "meta_bstar": 0,
         "meta_mean_motion_dot": -2.95e-06,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 40367U 14090A   26050.93927240 -.00000295  00000+0  00000+0 0  9998",
-        "tle_line2": "2 40367   5.3400  74.2504 0001944 145.9146   7.2834  1.00280117 40822"
+        "tle_line1": "1 40367U 14090A   26051.05311676 -.00000295  00000+0  00000+0 0  9992",
+        "tle_line2": "2 40367   5.3403  74.2487 0001966 145.7284  48.5703  1.00280014 40829"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          7.8157786487538985,
-          -4.913665982414937
+          23.154150438693872,
+          -4.180887355496043
         ]
       }
     },
@@ -653,19 +653,19 @@
         "norad_id": 40732,
         "name": "METEOSAT-11 (MSG-4)",
         "group": "weather",
-        "lat": -1.2616407306821236,
-        "lon": -82.21140171316438,
-        "alt_km": 35782.86850766582,
-        "timestamp": "2026-02-20T07:51:59.411051+00:00",
+        "lat": -1.9113183745922298,
+        "lon": -66.90405196378863,
+        "alt_km": 35782.084992814634,
+        "timestamp": "2026-02-20T08:53:04.371855+00:00",
         "meta_object_name": "METEOSAT-11 (MSG-4)",
         "meta_object_id": "2015-034A",
-        "meta_epoch": "2026-02-19T21:25:28.934400",
-        "meta_mean_motion": 1.00272343,
-        "meta_eccentricity": 0.0001177,
-        "meta_inclination": 2.9065,
-        "meta_ra_of_asc_node": 71.7585,
-        "meta_arg_of_pericenter": 256.2411,
-        "meta_mean_anomaly": 152.7555,
+        "meta_epoch": "2026-02-20T02:33:36.891936",
+        "meta_mean_motion": 1.00272412,
+        "meta_eccentricity": 0.0001173,
+        "meta_inclination": 2.907,
+        "meta_ra_of_asc_node": 71.7567,
+        "meta_arg_of_pericenter": 256.686,
+        "meta_mean_anomaly": 229.5571,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 40732,
@@ -674,14 +674,14 @@
         "meta_bstar": 0,
         "meta_mean_motion_dot": 7e-07,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 40732U 15034A   26050.89269600  .00000070  00000+0  00000+0 0  9997",
-        "tle_line2": "2 40732   2.9065  71.7585 0001177 256.2411 152.7555  1.00272343  6042"
+        "tle_line1": "1 40732U 15034A   26051.10667699  .00000070  00000+0  00000+0 0  9992",
+        "tle_line2": "2 40732   2.9070  71.7567 0001173 256.6860 229.5571  1.00272412  6044"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -82.21140171316438,
-          -1.2616407306821236
+          -66.90405196378863,
+          -1.9113183745922298
         ]
       }
     },
@@ -691,10 +691,10 @@
         "norad_id": 41105,
         "name": "ELEKTRO-L 2",
         "group": "weather",
-        "lat": -0.1767574859123457,
-        "lon": -106.24865125418881,
-        "alt_km": 35777.91253789304,
-        "timestamp": "2026-02-20T07:51:59.411063+00:00",
+        "lat": -1.8586089390012244,
+        "lon": -91.01896786005342,
+        "alt_km": 35775.5257874475,
+        "timestamp": "2026-02-20T08:53:04.371867+00:00",
         "meta_object_name": "ELEKTRO-L 2",
         "meta_object_id": "2015-074A",
         "meta_epoch": "2026-02-19T21:18:37.092384",
@@ -718,8 +718,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -106.24865125418881,
-          -0.1767574859123457
+          -91.01896786005342,
+          -1.8586089390012244
         ]
       }
     },
@@ -729,19 +729,19 @@
         "norad_id": 41752,
         "name": "INSAT-3DR",
         "group": "weather",
-        "lat": -0.09585164052924332,
-        "lon": -17.615783984896407,
-        "alt_km": 35760.048384863316,
-        "timestamp": "2026-02-20T07:51:59.411076+00:00",
+        "lat": -0.10512226324417798,
+        "lon": -2.289432131877938,
+        "alt_km": 35774.36013257521,
+        "timestamp": "2026-02-20T08:53:04.371879+00:00",
         "meta_object_name": "INSAT-3DR",
         "meta_object_id": "2016-054A",
-        "meta_epoch": "2026-02-19T21:07:38.667360",
-        "meta_mean_motion": 1.00271221,
-        "meta_eccentricity": 0.0013537,
-        "meta_inclination": 0.0878,
-        "meta_ra_of_asc_node": 92.165,
-        "meta_arg_of_pericenter": 187.2621,
-        "meta_mean_anomaly": 261.2736,
+        "meta_epoch": "2026-02-20T01:09:14.981184",
+        "meta_mean_motion": 1.00271207,
+        "meta_eccentricity": 0.0013544,
+        "meta_inclination": 0.0882,
+        "meta_ra_of_asc_node": 92.1465,
+        "meta_arg_of_pericenter": 187.2728,
+        "meta_mean_anomaly": 321.8478,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 41752,
@@ -750,14 +750,14 @@
         "meta_bstar": 0,
         "meta_mean_motion_dot": -7.1e-07,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 41752U 16054A   26050.88030865 -.00000071  00000+0  00000+0 0  9993",
-        "tle_line2": "2 41752   0.0878  92.1650 0013537 187.2621 261.2736  1.00271221 34643"
+        "tle_line1": "1 41752U 16054A   26051.04809006 -.00000071  00000+0  00000+0 0  9993",
+        "tle_line2": "2 41752   0.0882  92.1465 0013544 187.2728 321.8478  1.00271207 34648"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -17.615783984896407,
-          -0.09585164052924332
+          -2.289432131877938,
+          -0.10512226324417798
         ]
       }
     },
@@ -767,19 +767,19 @@
         "norad_id": 41836,
         "name": "HIMAWARI-9",
         "group": "weather",
-        "lat": -0.03189459219302181,
-        "lon": 49.042257201612344,
-        "alt_km": 35783.737832800325,
-        "timestamp": "2026-02-20T07:51:59.411088+00:00",
+        "lat": -0.03267540964856669,
+        "lon": 64.35600080813552,
+        "alt_km": 35784.910759076825,
+        "timestamp": "2026-02-20T08:53:04.371891+00:00",
         "meta_object_name": "HIMAWARI-9",
         "meta_object_id": "2016-064A",
-        "meta_epoch": "2026-02-19T22:02:55.345632",
-        "meta_mean_motion": 1.00270909,
-        "meta_eccentricity": 0.00011423,
-        "meta_inclination": 0.0134,
-        "meta_ra_of_asc_node": 167.2516,
-        "meta_arg_of_pericenter": 185.0617,
-        "meta_mean_anomaly": 269.0297,
+        "meta_epoch": "2026-02-19T23:45:37.999296",
+        "meta_mean_motion": 1.00270872,
+        "meta_eccentricity": 0.0001141,
+        "meta_inclination": 0.0133,
+        "meta_ra_of_asc_node": 167.0242,
+        "meta_arg_of_pericenter": 185.2772,
+        "meta_mean_anomaly": 294.7894,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 41836,
@@ -788,14 +788,14 @@
         "meta_bstar": 0,
         "meta_mean_motion_dot": -2.69e-06,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 41836U 16064A   26050.91869613 -.00000269  00000+0  00000+0 0  9991",
-        "tle_line2": "2 41836   0.0134 167.2516 0001142 185.0617 269.0297  1.00270909 34039"
+        "tle_line1": "1 41836U 16064A   26050.99002314 -.00000269  00000+0  00000+0 0  9996",
+        "tle_line2": "2 41836   0.0133 167.0242 0001141 185.2772 294.7894  1.00270872 34032"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          49.042257201612344,
-          -0.03189459219302181
+          64.35600080813552,
+          -0.03267540964856669
         ]
       }
     },
@@ -805,35 +805,35 @@
         "norad_id": 41866,
         "name": "GOES 16",
         "group": "weather",
-        "lat": 0.16112804498399597,
-        "lon": 163.55068433870326,
-        "alt_km": 35794.126270284934,
-        "timestamp": "2026-02-20T07:51:59.411101+00:00",
+        "lat": 0.17383468752794173,
+        "lon": 178.85821803908067,
+        "alt_km": 35791.77823416665,
+        "timestamp": "2026-02-20T08:53:04.371903+00:00",
         "meta_object_name": "GOES 16",
         "meta_object_id": "2016-071A",
-        "meta_epoch": "2026-02-19T20:52:54.557760",
-        "meta_mean_motion": 1.00271636,
-        "meta_eccentricity": 0.00026743,
-        "meta_inclination": 0.1561,
-        "meta_ra_of_asc_node": 92.5629,
-        "meta_arg_of_pericenter": 205.9823,
-        "meta_mean_anomaly": 59.7868,
+        "meta_epoch": "2026-02-20T03:43:37.678944",
+        "meta_mean_motion": 1.002716,
+        "meta_eccentricity": 0.0002685,
+        "meta_inclination": 0.1568,
+        "meta_ra_of_asc_node": 92.5263,
+        "meta_arg_of_pericenter": 206.0506,
+        "meta_mean_anomaly": 162.716,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 41866,
         "meta_element_set_no": 999,
-        "meta_rev_at_epoch": 3392,
+        "meta_rev_at_epoch": 3393,
         "meta_bstar": 0,
         "meta_mean_motion_dot": -8.5e-07,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 41866U 16071A   26050.87007590 -.00000085  00000+0  00000+0 0  9991",
-        "tle_line2": "2 41866   0.1561  92.5629 0002674 205.9823  59.7868  1.00271636 33927"
+        "tle_line1": "1 41866U 16071A   26051.15529721 -.00000085  00000+0  00000+0 0  9998",
+        "tle_line2": "2 41866   0.1568  92.5263 0002685 206.0506 162.7160  1.00271600 33932"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          163.55068433870326,
-          0.16112804498399597
+          178.85821803908067,
+          0.17383468752794173
         ]
       }
     },
@@ -843,19 +843,19 @@
         "norad_id": 41882,
         "name": "FENGYUN 4A",
         "group": "weather",
-        "lat": -1.5633988620784922,
-        "lon": 32.02267759646543,
-        "alt_km": 35813.372626621815,
-        "timestamp": "2026-02-20T07:51:59.411113+00:00",
+        "lat": -1.1638278677154217,
+        "lon": 47.314300458335424,
+        "alt_km": 35812.42945051977,
+        "timestamp": "2026-02-20T08:53:04.371915+00:00",
         "meta_object_name": "FENGYUN 4A",
         "meta_object_id": "2016-077A",
-        "meta_epoch": "2026-02-19T22:58:06.371616",
-        "meta_mean_motion": 1.00268695,
-        "meta_eccentricity": 0.00062188,
-        "meta_inclination": 2.022,
-        "meta_ra_of_asc_node": 81.613,
-        "meta_arg_of_pericenter": 130.4669,
-        "meta_mean_anomaly": 46.077,
+        "meta_epoch": "2026-02-20T01:35:38.524704",
+        "meta_mean_motion": 1.00268574,
+        "meta_eccentricity": 0.0006229,
+        "meta_inclination": 2.0223,
+        "meta_ra_of_asc_node": 81.6117,
+        "meta_arg_of_pericenter": 130.3844,
+        "meta_mean_anomaly": 85.651,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 41882,
@@ -864,14 +864,14 @@
         "meta_bstar": 0,
         "meta_mean_motion_dot": -3.51e-06,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 41882U 16077A   26050.95701819 -.00000351  00000+0  00000+0 0  9995",
-        "tle_line2": "2 41882   2.0220  81.6130 0006218 130.4669  46.0770  1.00268695 33755"
+        "tle_line1": "1 41882U 16077A   26051.06641811 -.00000351  00000+0  00000+0 0  9993",
+        "tle_line2": "2 41882   2.0223  81.6117 0006229 130.3844  85.6510  1.00268574 33756"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.02267759646543,
-          -1.5633988620784922
+          47.314300458335424,
+          -1.1638278677154217
         ]
       }
     },
@@ -881,35 +881,35 @@
         "norad_id": 41884,
         "name": "CYGFM05",
         "group": "weather",
-        "lat": -4.972932492668065,
-        "lon": -55.757778041232534,
-        "alt_km": 414.89879827858203,
-        "timestamp": "2026-02-20T07:51:59.411125+00:00",
+        "lat": -25.530164481130804,
+        "lon": 174.24798313873472,
+        "alt_km": 415.7709230775081,
+        "timestamp": "2026-02-20T08:53:04.371926+00:00",
         "meta_object_name": "CYGFM05",
         "meta_object_id": "2016-078A",
-        "meta_epoch": "2026-02-19T21:05:31.472736",
-        "meta_mean_motion": 15.51223643,
-        "meta_eccentricity": 0.00054289,
-        "meta_inclination": 34.9588,
-        "meta_ra_of_asc_node": 314.3452,
-        "meta_arg_of_pericenter": 115.5375,
-        "meta_mean_anomaly": 244.591,
+        "meta_epoch": "2026-02-20T03:16:12.946080",
+        "meta_mean_motion": 15.51234755,
+        "meta_eccentricity": 0.0005439,
+        "meta_inclination": 34.9587,
+        "meta_ra_of_asc_node": 312.6547,
+        "meta_arg_of_pericenter": 118.0514,
+        "meta_mean_anomaly": 242.0759,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 41884,
         "meta_element_set_no": 999,
-        "meta_rev_at_epoch": 51049,
-        "meta_bstar": 0.00033143833,
-        "meta_mean_motion_dot": 0.00020027,
+        "meta_rev_at_epoch": 51053,
+        "meta_bstar": 0.00033339,
+        "meta_mean_motion_dot": 0.00020154,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 41884U 16078A   26050.87883649  .00020027  00000+0  33144-3 0  9991",
-        "tle_line2": "2 41884  34.9588 314.3452 0005428 115.5375 244.5910 15.51223643510498"
+        "tle_line1": "1 41884U 16078A   26051.13626095  .00020154  00000+0  33339-3 0  9998",
+        "tle_line2": "2 41884  34.9587 312.6547 0005439 118.0514 242.0759 15.51234755510533"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -55.757778041232534,
-          -4.972932492668065
+          174.24798313873472,
+          -25.530164481130804
         ]
       }
     },
@@ -919,35 +919,35 @@
         "norad_id": 41885,
         "name": "CYGFM04",
         "group": "weather",
-        "lat": -27.106729314149973,
-        "lon": 151.23082364662082,
-        "alt_km": 405.2747173933076,
-        "timestamp": "2026-02-20T07:51:59.411136+00:00",
+        "lat": 32.44593366578796,
+        "lon": 38.15426037251838,
+        "alt_km": 396.3424329092268,
+        "timestamp": "2026-02-20T08:53:04.371936+00:00",
         "meta_object_name": "CYGFM04",
         "meta_object_id": "2016-078B",
-        "meta_epoch": "2026-02-19T21:37:15.265632",
-        "meta_mean_motion": 15.54162695,
-        "meta_eccentricity": 0.00047513,
-        "meta_inclination": 34.9326,
-        "meta_ra_of_asc_node": 286.8764,
-        "meta_arg_of_pericenter": 154.3662,
-        "meta_mean_anomaly": 205.7297,
+        "meta_epoch": "2026-02-20T00:42:14.918976",
+        "meta_mean_motion": 15.54168565,
+        "meta_eccentricity": 0.0004762,
+        "meta_inclination": 34.9327,
+        "meta_ra_of_asc_node": 286.0285,
+        "meta_arg_of_pericenter": 155.9236,
+        "meta_mean_anomaly": 204.171,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 41885,
         "meta_element_set_no": 999,
-        "meta_rev_at_epoch": 51069,
-        "meta_bstar": 0.00034456326,
-        "meta_mean_motion_dot": 0.00023173,
+        "meta_rev_at_epoch": 51071,
+        "meta_bstar": 0.00034192,
+        "meta_mean_motion_dot": 0.00023,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 41885U 16078B   26050.90087113  .00023173  00000+0  34456-3 0  9990",
-        "tle_line2": "2 41885  34.9326 286.8764 0004751 154.3662 205.7297 15.54162695510697"
+        "tle_line1": "1 41885U 16078B   26051.02933934  .00023000  00000+0  34192-3 0  9991",
+        "tle_line2": "2 41885  34.9327 286.0285 0004762 155.9236 204.1710 15.54168565510712"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.23082364662082,
-          -27.106729314149973
+          38.15426037251838,
+          32.44593366578796
         ]
       }
     },
@@ -957,35 +957,35 @@
         "norad_id": 41886,
         "name": "CYGFM02",
         "group": "weather",
-        "lat": -30.299752419366776,
-        "lon": -135.51695146790874,
-        "alt_km": 403.62451095531105,
-        "timestamp": "2026-02-20T07:51:59.411147+00:00",
+        "lat": 2.104533900212116,
+        "lon": 98.00512284129638,
+        "alt_km": 393.60248577750735,
+        "timestamp": "2026-02-20T08:53:04.371946+00:00",
         "meta_object_name": "CYGFM02",
         "meta_object_id": "2016-078C",
-        "meta_epoch": "2026-02-19T22:53:36.191904",
-        "meta_mean_motion": 15.56142387,
-        "meta_eccentricity": 0.00058415,
+        "meta_epoch": "2026-02-20T00:25:58.952352",
+        "meta_mean_motion": 15.56145584,
+        "meta_eccentricity": 0.000584,
         "meta_inclination": 34.9414,
-        "meta_ra_of_asc_node": 283.7772,
-        "meta_arg_of_pericenter": 154.8869,
-        "meta_mean_anomaly": 205.2139,
+        "meta_ra_of_asc_node": 283.3526,
+        "meta_arg_of_pericenter": 155.648,
+        "meta_mean_anomaly": 204.4521,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 41886,
         "meta_element_set_no": 999,
-        "meta_rev_at_epoch": 51084,
-        "meta_bstar": 0.0003597066,
-        "meta_mean_motion_dot": 0.00026046,
+        "meta_rev_at_epoch": 51085,
+        "meta_bstar": 0.00035861,
+        "meta_mean_motion_dot": 0.0002597,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 41886U 16078C   26050.95389111  .00026046  00000+0  35971-3 0  9994",
-        "tle_line2": "2 41886  34.9414 283.7772 0005841 154.8869 205.2139 15.56142387510841"
+        "tle_line1": "1 41886U 16078C   26051.01804343  .00025970  00000+0  35861-3 0  9994",
+        "tle_line2": "2 41886  34.9414 283.3526 0005840 155.6480 204.4521 15.56145584510850"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -135.51695146790874,
-          -30.299752419366776
+          98.00512284129638,
+          2.104533900212116
         ]
       }
     },
@@ -995,35 +995,35 @@
         "norad_id": 41887,
         "name": "CYGFM01",
         "group": "weather",
-        "lat": 4.210424367926729,
-        "lon": 127.22633032104544,
-        "alt_km": 408.69246355623545,
-        "timestamp": "2026-02-20T07:51:59.411158+00:00",
+        "lat": 25.912650079230687,
+        "lon": -2.90392737678369,
+        "alt_km": 405.0581397623946,
+        "timestamp": "2026-02-20T08:53:04.371957+00:00",
         "meta_object_name": "CYGFM01",
         "meta_object_id": "2016-078D",
-        "meta_epoch": "2026-02-19T21:51:44.409024",
-        "meta_mean_motion": 15.51634305,
-        "meta_eccentricity": 0.00052418,
+        "meta_epoch": "2026-02-20T02:29:41.080416",
+        "meta_mean_motion": 15.51643317,
+        "meta_eccentricity": 0.0005246,
         "meta_inclination": 34.9418,
-        "meta_ra_of_asc_node": 316.0188,
-        "meta_arg_of_pericenter": 104.1436,
-        "meta_mean_anomaly": 255.9869,
+        "meta_ra_of_asc_node": 314.7502,
+        "meta_arg_of_pericenter": 106.1798,
+        "meta_mean_anomaly": 253.9502,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 41887,
         "meta_element_set_no": 999,
-        "meta_rev_at_epoch": 51044,
-        "meta_bstar": 0.00033022864,
-        "meta_mean_motion_dot": 0.00020251,
+        "meta_rev_at_epoch": 51047,
+        "meta_bstar": 0.00034004,
+        "meta_mean_motion_dot": 0.00020863,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 41887U 16078D   26050.91093066  .00020251  00000+0  33023-3 0  9990",
-        "tle_line2": "2 41887  34.9418 316.0188 0005241 104.1436 255.9869 15.51634305510448"
+        "tle_line1": "1 41887U 16078D   26051.10394769  .00020863  00000+0  34004-3 0  9995",
+        "tle_line2": "2 41887  34.9418 314.7502 0005246 106.1798 253.9502 15.51643317510479"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          127.22633032104544,
-          4.210424367926729
+          -2.90392737678369,
+          25.912650079230687
         ]
       }
     },
@@ -1033,35 +1033,35 @@
         "norad_id": 41888,
         "name": "CYGFM08",
         "group": "weather",
-        "lat": -6.859707307332723,
-        "lon": 125.30235771675973,
-        "alt_km": 404.58921719943373,
-        "timestamp": "2026-02-20T07:51:59.411169+00:00",
+        "lat": 32.400646341182366,
+        "lon": 0.4548001087831603,
+        "alt_km": 400.1839928833879,
+        "timestamp": "2026-02-20T08:53:04.371967+00:00",
         "meta_object_name": "CYGFM08",
         "meta_object_id": "2016-078E",
-        "meta_epoch": "2026-02-19T21:47:18.513024",
-        "meta_mean_motion": 15.53076439,
-        "meta_eccentricity": 0.00067157,
+        "meta_epoch": "2026-02-20T02:24:59.674752",
+        "meta_mean_motion": 15.53085366,
+        "meta_eccentricity": 0.0006697,
         "meta_inclination": 34.9441,
-        "meta_ra_of_asc_node": 298.1476,
-        "meta_arg_of_pericenter": 136.577,
-        "meta_mean_anomaly": 223.5483,
+        "meta_ra_of_asc_node": 296.8778,
+        "meta_arg_of_pericenter": 138.1623,
+        "meta_mean_anomaly": 221.9613,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 41888,
         "meta_element_set_no": 999,
-        "meta_rev_at_epoch": 51068,
-        "meta_bstar": 0.00033450353,
-        "meta_mean_motion_dot": 0.00021625,
+        "meta_rev_at_epoch": 51071,
+        "meta_bstar": 0.00033858,
+        "meta_mean_motion_dot": 0.00021897,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 41888U 16078E   26050.90785316  .00021625  00000+0  33450-3 0  9996",
-        "tle_line2": "2 41888  34.9441 298.1476 0006715 136.5770 223.5483 15.53076439510681"
+        "tle_line1": "1 41888U 16078E   26051.10069068  .00021897  00000+0  33858-3 0  9991",
+        "tle_line2": "2 41888  34.9441 296.8778 0006697 138.1623 221.9613 15.53085366510715"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          125.30235771675973,
-          -6.859707307332723
+          0.4548001087831603,
+          32.400646341182366
         ]
       }
     },
@@ -1071,35 +1071,35 @@
         "norad_id": 41890,
         "name": "CYGFM07",
         "group": "weather",
-        "lat": -13.189212824848212,
-        "lon": -95.66682437714617,
-        "alt_km": 409.7188920356357,
-        "timestamp": "2026-02-20T07:51:59.411181+00:00",
+        "lat": -18.848049108235536,
+        "lon": 132.92796335254485,
+        "alt_km": 404.31071632095336,
+        "timestamp": "2026-02-20T08:53:04.371978+00:00",
         "meta_object_name": "CYGFM07",
         "meta_object_id": "2016-078G",
-        "meta_epoch": "2026-02-19T22:42:54.224352",
-        "meta_mean_motion": 15.53746215,
-        "meta_eccentricity": 0.00052939,
+        "meta_epoch": "2026-02-20T01:47:56.862816",
+        "meta_mean_motion": 15.5375192,
+        "meta_eccentricity": 0.0005314,
         "meta_inclination": 34.9455,
-        "meta_ra_of_asc_node": 286.4567,
-        "meta_arg_of_pericenter": 161.5563,
-        "meta_mean_anomaly": 198.5353,
+        "meta_ra_of_asc_node": 285.6091,
+        "meta_arg_of_pericenter": 163.192,
+        "meta_mean_anomaly": 196.898,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 41890,
         "meta_element_set_no": 999,
-        "meta_rev_at_epoch": 51071,
-        "meta_bstar": 0.00033643237,
-        "meta_mean_motion_dot": 0.00022282,
+        "meta_rev_at_epoch": 51073,
+        "meta_bstar": 0.00033541,
+        "meta_mean_motion_dot": 0.00022219,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 41890U 16078G   26050.94646093  .00022282  00000+0  33643-3 0  9995",
-        "tle_line2": "2 41890  34.9455 286.4567 0005293 161.5563 198.5353 15.53746215510715"
+        "tle_line1": "1 41890U 16078G   26051.07496369  .00022219  00000+0  33541-3 0  9996",
+        "tle_line2": "2 41890  34.9455 285.6091 0005314 163.1920 196.8980 15.53751920510735"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -95.66682437714617,
-          -13.189212824848212
+          132.92796335254485,
+          -18.848049108235536
         ]
       }
     },
@@ -1109,35 +1109,35 @@
         "norad_id": 41891,
         "name": "CYGFM03",
         "group": "weather",
-        "lat": 20.34468946515884,
-        "lon": 73.83389582887813,
-        "alt_km": 398.96914255610227,
-        "timestamp": "2026-02-20T07:51:59.411192+00:00",
+        "lat": 11.343739498537358,
+        "lon": -57.66719130838722,
+        "alt_km": 405.20531872438005,
+        "timestamp": "2026-02-20T08:53:04.371988+00:00",
         "meta_object_name": "CYGFM03",
         "meta_object_id": "2016-078H",
-        "meta_epoch": "2026-02-19T22:00:12.044448",
-        "meta_mean_motion": 15.53616482,
-        "meta_eccentricity": 0.00045098,
-        "meta_inclination": 34.9408,
-        "meta_ra_of_asc_node": 288.6232,
-        "meta_arg_of_pericenter": 141.374,
-        "meta_mean_anomaly": 218.7306,
+        "meta_epoch": "2026-02-20T01:05:15.609120",
+        "meta_mean_motion": 15.53622684,
+        "meta_eccentricity": 0.0004511,
+        "meta_inclination": 34.9409,
+        "meta_ra_of_asc_node": 287.7757,
+        "meta_arg_of_pericenter": 143.1282,
+        "meta_mean_anomaly": 216.9752,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 41891,
         "meta_element_set_no": 999,
-        "meta_rev_at_epoch": 51068,
-        "meta_bstar": 0.00033870422,
-        "meta_mean_motion_dot": 0.00022323,
+        "meta_rev_at_epoch": 51070,
+        "meta_bstar": 0.0003436,
+        "meta_mean_motion_dot": 0.00022653,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 41891U 16078H   26050.91680607  .00022323  00000+0  33870-3 0  9990",
-        "tle_line2": "2 41891  34.9408 288.6232 0004509 141.3740 218.7306 15.53616482510680"
+        "tle_line1": "1 41891U 16078H   26051.04531955  .00022653  00000+0  34360-3 0  9997",
+        "tle_line2": "2 41891  34.9409 287.7757 0004511 143.1282 216.9752 15.53622684510706"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          73.83389582887813,
-          20.34468946515884
+          -57.66719130838722,
+          11.343739498537358
         ]
       }
     },
@@ -1147,35 +1147,35 @@
         "norad_id": 43010,
         "name": "FENGYUN 3D",
         "group": "weather",
-        "lat": 32.41780960568986,
-        "lon": -150.504408691443,
-        "alt_km": 824.6949862878437,
-        "timestamp": "2026-02-20T07:51:59.411203+00:00",
+        "lat": 3.510007625152269,
+        "lon": 23.205431865328023,
+        "alt_km": 827.5342411908523,
+        "timestamp": "2026-02-20T08:53:04.371999+00:00",
         "meta_object_name": "FENGYUN 3D",
         "meta_object_id": "2017-072A",
-        "meta_epoch": "2026-02-19T22:43:09.397920",
-        "meta_mean_motion": 14.19709135,
-        "meta_eccentricity": 0.00022599,
-        "meta_inclination": 99,
-        "meta_ra_of_asc_node": 23.3319,
-        "meta_arg_of_pericenter": 46.0151,
-        "meta_mean_anomaly": 314.121,
+        "meta_epoch": "2026-02-20T05:29:05.995968",
+        "meta_mean_motion": 14.19709679,
+        "meta_eccentricity": 0.0002282,
+        "meta_inclination": 99.0001,
+        "meta_ra_of_asc_node": 23.6185,
+        "meta_arg_of_pericenter": 45.3737,
+        "meta_mean_anomaly": 314.7624,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 43010,
         "meta_element_set_no": 999,
-        "meta_rev_at_epoch": 42835,
-        "meta_bstar": -7.018837e-06,
-        "meta_mean_motion_dot": -6.1e-07,
+        "meta_rev_at_epoch": 42839,
+        "meta_bstar": 7.5873e-05,
+        "meta_mean_motion_dot": 1.14e-06,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 43010U 17072A   26050.94663655 -.00000061  00000+0 -70188-5 0  9999",
-        "tle_line2": "2 43010  99.0000  23.3319 0002259  46.0151 314.1210 14.19709135428358"
+        "tle_line1": "1 43010U 17072A   26051.22854162  .00000114  00000+0  75873-4 0  9998",
+        "tle_line2": "2 43010  99.0001  23.6185 0002282  45.3737 314.7624 14.19709679428393"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -150.504408691443,
-          32.41780960568986
+          23.205431865328023,
+          3.510007625152269
         ]
       }
     },
@@ -1185,35 +1185,35 @@
         "norad_id": 43013,
         "name": "NOAA 20 (JPSS-1)",
         "group": "weather",
-        "lat": -74.0622839488355,
-        "lon": 139.17916847021883,
-        "alt_km": 834.2804508560093,
-        "timestamp": "2026-02-20T07:51:59.411214+00:00",
+        "lat": 65.19212440214524,
+        "lon": -168.5648821943305,
+        "alt_km": 820.3532005516945,
+        "timestamp": "2026-02-20T08:53:04.372009+00:00",
         "meta_object_name": "NOAA 20 (JPSS-1)",
         "meta_object_id": "2017-073A",
-        "meta_epoch": "2026-02-19T22:12:10.819872",
-        "meta_mean_motion": 14.19531051,
-        "meta_eccentricity": 3.452e-05,
-        "meta_inclination": 98.7672,
-        "meta_ra_of_asc_node": 351.4912,
-        "meta_arg_of_pericenter": 155.2129,
-        "meta_mean_anomaly": 204.9064,
+        "meta_epoch": "2026-02-20T03:16:40.643328",
+        "meta_mean_motion": 14.19531093,
+        "meta_eccentricity": 3.54e-05,
+        "meta_inclination": 98.7673,
+        "meta_ra_of_asc_node": 351.7005,
+        "meta_arg_of_pericenter": 154.9412,
+        "meta_mean_anomaly": 205.1782,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 43013,
         "meta_element_set_no": 999,
-        "meta_rev_at_epoch": 42783,
-        "meta_bstar": 5.8545838e-05,
-        "meta_mean_motion_dot": 7.9e-07,
+        "meta_rev_at_epoch": 42786,
+        "meta_bstar": 5.7191e-05,
+        "meta_mean_motion_dot": 7.6e-07,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 43013U 17073A   26050.92512523  .00000079  00000+0  58546-4 0  9998",
-        "tle_line2": "2 43013  98.7672 351.4912 0000345 155.2129 204.9064 14.19531051427833"
+        "tle_line1": "1 43013U 17073A   26051.13658152  .00000076  00000+0  57191-4 0  9993",
+        "tle_line2": "2 43013  98.7673 351.7005 0000354 154.9412 205.1782 14.19531093427860"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.17916847021883,
-          -74.0622839488355
+          -168.5648821943305,
+          65.19212440214524
         ]
       }
     },
@@ -1223,35 +1223,35 @@
         "norad_id": 43226,
         "name": "GOES 17",
         "group": "weather",
-        "lat": 0.6516556178690253,
-        "lon": 178.76926300077602,
-        "alt_km": 35791.23668288165,
-        "timestamp": "2026-02-20T07:51:59.411226+00:00",
+        "lat": 0.630153599203585,
+        "lon": -165.92021487196146,
+        "alt_km": 35788.78563871589,
+        "timestamp": "2026-02-20T08:53:04.372021+00:00",
         "meta_object_name": "GOES 17",
         "meta_object_id": "2018-022A",
-        "meta_epoch": "2026-02-19T20:57:16.639200",
-        "meta_mean_motion": 1.00271952,
-        "meta_eccentricity": 0.00024018,
-        "meta_inclination": 0.6338,
-        "meta_ra_of_asc_node": 87.8847,
-        "meta_arg_of_pericenter": 211.8743,
-        "meta_mean_anomaly": 74.8887,
+        "meta_epoch": "2026-02-20T02:05:17.109312",
+        "meta_mean_motion": 1.00271885,
+        "meta_eccentricity": 0.0002411,
+        "meta_inclination": 0.6343,
+        "meta_ra_of_asc_node": 87.8773,
+        "meta_arg_of_pericenter": 211.8931,
+        "meta_mean_anomaly": 152.0904,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 43226,
         "meta_element_set_no": 999,
-        "meta_rev_at_epoch": 2924,
+        "meta_rev_at_epoch": 2925,
         "meta_bstar": 0,
         "meta_mean_motion_dot": -1.77e-06,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 43226U 18022A   26050.87310925 -.00000177  00000+0  00000+0 0  9992",
-        "tle_line2": "2 43226   0.6338  87.8847 0002401 211.8743  74.8887  1.00271952 29240"
+        "tle_line1": "1 43226U 18022A   26051.08700358 -.00000177  00000+0  00000+0 0  9999",
+        "tle_line2": "2 43226   0.6343  87.8773 0002411 211.8931 152.0904  1.00271885 29259"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          178.76926300077602,
-          0.6516556178690253
+          -165.92021487196146,
+          0.630153599203585
         ]
       }
     },
@@ -1261,19 +1261,19 @@
         "norad_id": 43491,
         "name": "FENGYUN 2H",
         "group": "weather",
-        "lat": -2.734321707414102,
-        "lon": -12.70451458356539,
-        "alt_km": 35787.02546069998,
-        "timestamp": "2026-02-20T07:51:59.411238+00:00",
+        "lat": -2.6833355062661033,
+        "lon": 2.62361298019661,
+        "alt_km": 35789.025583228824,
+        "timestamp": "2026-02-20T08:53:04.372033+00:00",
         "meta_object_name": "FENGYUN 2H",
         "meta_object_id": "2018-050A",
-        "meta_epoch": "2026-02-19T21:45:19.531584",
-        "meta_mean_motion": 1.00273788,
-        "meta_eccentricity": 0.00018118,
-        "meta_inclination": 2.7262,
-        "meta_ra_of_asc_node": 80.5324,
-        "meta_arg_of_pericenter": 168.1256,
-        "meta_mean_anomaly": 306.5213,
+        "meta_epoch": "2026-02-20T01:10:37.349760",
+        "meta_mean_motion": 1.00273781,
+        "meta_eccentricity": 0.0001821,
+        "meta_inclination": 2.7266,
+        "meta_ra_of_asc_node": 80.5303,
+        "meta_arg_of_pericenter": 167.7553,
+        "meta_mean_anomaly": 358.3595,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 43491,
@@ -1282,14 +1282,14 @@
         "meta_bstar": 0,
         "meta_mean_motion_dot": -1.21e-06,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 43491U 18050A   26050.90647606 -.00000121  00000+0  00000+0 0  9999",
-        "tle_line2": "2 43491   2.7262  80.5324 0001811 168.1256 306.5213  1.00273788 28268"
+        "tle_line1": "1 43491U 18050A   26051.04904340 -.00000121  00000+0  00000+0 0  9996",
+        "tle_line2": "2 43491   2.7266  80.5303 0001821 167.7553 358.3595  1.00273781 28266"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -12.70451458356539,
-          -2.734321707414102
+          2.62361298019661,
+          -2.6833355062661033
         ]
       }
     },
@@ -1299,35 +1299,35 @@
         "norad_id": 43689,
         "name": "METOP-C",
         "group": "weather",
-        "lat": 10.300065354301626,
-        "lon": -65.41718594263554,
-        "alt_km": 820.81896568303,
-        "timestamp": "2026-02-20T07:51:59.411250+00:00",
+        "lat": 25.950969610485934,
+        "lon": 108.76981484021204,
+        "alt_km": 819.560277938429,
+        "timestamp": "2026-02-20T08:53:04.372044+00:00",
         "meta_object_name": "METOP-C",
         "meta_object_id": "2018-087A",
-        "meta_epoch": "2026-02-19T20:56:09.801888",
-        "meta_mean_motion": 14.21490718,
-        "meta_eccentricity": 0.00019524,
-        "meta_inclination": 98.6806,
-        "meta_ra_of_asc_node": 112.5441,
-        "meta_arg_of_pericenter": 124.8916,
-        "meta_mean_anomaly": 235.2445,
+        "meta_epoch": "2026-02-20T03:41:36.045024",
+        "meta_mean_motion": 14.21490802,
+        "meta_eccentricity": 0.0001959,
+        "meta_inclination": 98.6805,
+        "meta_ra_of_asc_node": 112.821,
+        "meta_arg_of_pericenter": 124.5934,
+        "meta_mean_anomaly": 235.5428,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 43689,
         "meta_element_set_no": 999,
-        "meta_rev_at_epoch": 37816,
-        "meta_bstar": 7.2469261e-05,
-        "meta_mean_motion_dot": 1.15e-06,
+        "meta_rev_at_epoch": 37820,
+        "meta_bstar": 7.1377e-05,
+        "meta_mean_motion_dot": 1.13e-06,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 43689U 18087A   26050.87233567  .00000115  00000+0  72469-4 0  9996",
-        "tle_line2": "2 43689  98.6806 112.5441 0001952 124.8916 235.2445 14.21490718378162"
+        "tle_line1": "1 43689U 18087A   26051.15388941  .00000113  00000+0  71377-4 0  9990",
+        "tle_line2": "2 43689  98.6805 112.8210 0001959 124.5934 235.5428 14.21490802378205"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -65.41718594263554,
-          10.300065354301626
+          108.76981484021204,
+          25.950969610485934
         ]
       }
     },
@@ -1337,15 +1337,15 @@
         "norad_id": 43823,
         "name": "GEO-KOMPSAT-2A",
         "group": "weather",
-        "lat": -0.022565194881039263,
-        "lon": 36.4997005249511,
-        "alt_km": 35782.32875196051,
-        "timestamp": "2026-02-20T07:51:59.411271+00:00",
+        "lat": -0.01927364127410458,
+        "lon": 51.81484735203787,
+        "alt_km": 35782.42496716371,
+        "timestamp": "2026-02-20T08:53:04.372064+00:00",
         "meta_object_name": "GEO-KOMPSAT-2A",
         "meta_object_id": "2018-100A",
         "meta_epoch": "2026-02-19T21:59:18.192192",
         "meta_mean_motion": 1.00272251,
-        "meta_eccentricity": 8.786e-05,
+        "meta_eccentricity": 8.79e-05,
         "meta_inclination": 0.0097,
         "meta_ra_of_asc_node": 76.9606,
         "meta_arg_of_pericenter": 321.8877,
@@ -1359,13 +1359,13 @@
         "meta_mean_motion_dot": -3.38e-06,
         "meta_mean_motion_ddot": 0,
         "tle_line1": "1 43823U 18100A   26050.91618278 -.00000338  00000+0  00000+0 0  9998",
-        "tle_line2": "2 43823   0.0097  76.9606 0000878 321.8877 209.0543  1.00272251 26451"
+        "tle_line2": "2 43823   0.0097  76.9606 0000879 321.8877 209.0543  1.00272251 26452"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          36.4997005249511,
-          -0.022565194881039263
+          51.81484735203787,
+          -0.01927364127410458
         ]
       }
     },
@@ -1375,35 +1375,35 @@
         "norad_id": 44387,
         "name": "METEOR-M2 2",
         "group": "weather",
-        "lat": -47.203213434986175,
-        "lon": -152.80728664552444,
-        "alt_km": 818.7150470159859,
-        "timestamp": "2026-02-20T07:51:59.411282+00:00",
+        "lat": 79.92269444325918,
+        "lon": -24.935471904254353,
+        "alt_km": 802.5602433090007,
+        "timestamp": "2026-02-20T08:53:04.372076+00:00",
         "meta_object_name": "METEOR-M2 2",
         "meta_object_id": "2019-038A",
-        "meta_epoch": "2026-02-19T22:22:12.351360",
-        "meta_mean_motion": 14.24326549,
-        "meta_eccentricity": 0.00017286,
+        "meta_epoch": "2026-02-20T03:25:40.649376",
+        "meta_mean_motion": 14.24327303,
+        "meta_eccentricity": 0.0001743,
         "meta_inclination": 98.9059,
-        "meta_ra_of_asc_node": 36.5418,
-        "meta_arg_of_pericenter": 33.804,
-        "meta_mean_anomaly": 326.3248,
+        "meta_ra_of_asc_node": 36.7556,
+        "meta_arg_of_pericenter": 34.2809,
+        "meta_mean_anomaly": 325.8482,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 44387,
         "meta_element_set_no": 999,
-        "meta_rev_at_epoch": 34460,
-        "meta_bstar": 9.6504522e-05,
-        "meta_mean_motion_dot": 1.77e-06,
+        "meta_rev_at_epoch": 34463,
+        "meta_bstar": 0.00020014,
+        "meta_mean_motion_dot": 4.17e-06,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 44387U 19038A   26050.93208740  .00000177  00000+0  96505-4 0  9996",
-        "tle_line2": "2 44387  98.9059  36.5418 0001728  33.8040 326.3248 14.24326549344606"
+        "tle_line1": "1 44387U 19038A   26051.14283159  .00000417  00000+0  20014-3 0  9995",
+        "tle_line2": "2 44387  98.9059  36.7556 0001743  34.2809 325.8482 14.24327303344632"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -152.80728664552444,
-          -47.203213434986175
+          -24.935471904254353,
+          79.92269444325918
         ]
       }
     },
@@ -1413,35 +1413,35 @@
         "norad_id": 47719,
         "name": "ARKTIKA-M 1",
         "group": "weather",
-        "lat": -41.88140745162491,
-        "lon": -78.68948071659094,
-        "alt_km": 1791.220290433459,
-        "timestamp": "2026-02-20T07:51:59.411309+00:00",
+        "lat": 20.166780769838407,
+        "lon": 85.0518448260532,
+        "alt_km": 11328.619390001164,
+        "timestamp": "2026-02-20T08:53:04.372089+00:00",
         "meta_object_name": "ARKTIKA-M 1",
         "meta_object_id": "2021-016A",
-        "meta_epoch": "2026-02-17T20:43:11.566848",
-        "meta_mean_motion": 2.00622481,
-        "meta_eccentricity": 0.72369567,
-        "meta_inclination": 63.1981,
-        "meta_ra_of_asc_node": 74.6959,
-        "meta_arg_of_pericenter": 269.3955,
-        "meta_mean_anomaly": 15.2618,
+        "meta_epoch": "2026-02-19T20:34:13.465056",
+        "meta_mean_motion": 2.00622377,
+        "meta_eccentricity": 0.7237842,
+        "meta_inclination": 63.1979,
+        "meta_ra_of_asc_node": 74.4204,
+        "meta_arg_of_pericenter": 269.4006,
+        "meta_mean_anomaly": 15.2606,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 47719,
         "meta_element_set_no": 999,
-        "meta_rev_at_epoch": 3639,
+        "meta_rev_at_epoch": 3643,
         "meta_bstar": 0,
-        "meta_mean_motion_dot": -9e-07,
+        "meta_mean_motion_dot": -9.1e-07,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 47719U 21016A   26048.86332832 -.00000090  00000+0  00000+0 0  9991",
-        "tle_line2": "2 47719  63.1981  74.6959 7236956 269.3955  15.2618  2.00622481 36394"
+        "tle_line1": "1 47719U 21016A   26050.85710029 -.00000091  00000+0  00000+0 0  9992",
+        "tle_line2": "2 47719  63.1979  74.4204 7237842 269.4006  15.2606  2.00622377 36431"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -78.68948071659094,
-          -41.88140745162491
+          85.0518448260532,
+          20.166780769838407
         ]
       }
     },
@@ -1451,35 +1451,35 @@
         "norad_id": 49008,
         "name": "FENGYUN 3E",
         "group": "weather",
-        "lat": 20.123744374235773,
-        "lon": -120.72859473761578,
-        "alt_km": 825.6123464344901,
-        "timestamp": "2026-02-20T07:51:59.411324+00:00",
+        "lat": 15.870033958570943,
+        "lon": 53.56904817825086,
+        "alt_km": 825.276255731098,
+        "timestamp": "2026-02-20T08:53:04.372100+00:00",
         "meta_object_name": "FENGYUN 3E",
         "meta_object_id": "2021-062A",
-        "meta_epoch": "2026-02-19T22:39:42.520032",
-        "meta_mean_motion": 14.19890103,
-        "meta_eccentricity": 0.00026861,
+        "meta_epoch": "2026-02-20T03:44:07.714176",
+        "meta_mean_motion": 14.19890579,
+        "meta_eccentricity": 0.0002699,
         "meta_inclination": 98.7501,
-        "meta_ra_of_asc_node": 55.6572,
-        "meta_arg_of_pericenter": 73.2974,
-        "meta_mean_anomaly": 286.8497,
+        "meta_ra_of_asc_node": 55.8665,
+        "meta_arg_of_pericenter": 72.8615,
+        "meta_mean_anomaly": 287.2856,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 49008,
         "meta_element_set_no": 999,
-        "meta_rev_at_epoch": 23994,
-        "meta_bstar": -0.00011932309,
-        "meta_mean_motion_dot": -2.97e-06,
+        "meta_rev_at_epoch": 23997,
+        "meta_bstar": -2.7914e-05,
+        "meta_mean_motion_dot": -1.03e-06,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 49008U 21062A   26050.94424213 -.00000297  00000+0 -11932-3 0  9992",
-        "tle_line2": "2 49008  98.7501  55.6572 0002686  73.2974 286.8497 14.19890103239944"
+        "tle_line1": "1 49008U 21062A   26051.15564484 -.00000103  00000+0 -27914-4 0  9995",
+        "tle_line2": "2 49008  98.7501  55.8665 0002699  72.8615 287.2856 14.19890579239974"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -120.72859473761578,
-          20.123744374235773
+          53.56904817825086,
+          15.870033958570943
         ]
       }
     },
@@ -1489,35 +1489,35 @@
         "norad_id": 51850,
         "name": "GOES 18",
         "group": "weather",
-        "lat": 0.017752076295258403,
-        "lon": 131.26955514533927,
-        "alt_km": 35786.80449313727,
-        "timestamp": "2026-02-20T07:51:59.411340+00:00",
+        "lat": 0.024465773212132405,
+        "lon": 146.58118366493474,
+        "alt_km": 35787.44210434352,
+        "timestamp": "2026-02-20T08:53:04.372111+00:00",
         "meta_object_name": "GOES 18",
         "meta_object_id": "2022-021A",
-        "meta_epoch": "2026-02-19T17:18:15.133536",
-        "meta_mean_motion": 1.00272257,
-        "meta_eccentricity": 6.231e-05,
-        "meta_inclination": 0.0203,
-        "meta_ra_of_asc_node": 88.1963,
-        "meta_arg_of_pericenter": 292.9087,
-        "meta_mean_anomaly": 251.1045,
+        "meta_epoch": "2026-02-20T03:49:21.560448",
+        "meta_mean_motion": 1.00272371,
+        "meta_eccentricity": 6.17e-05,
+        "meta_inclination": 0.0192,
+        "meta_ra_of_asc_node": 88.9066,
+        "meta_arg_of_pericenter": 291.4849,
+        "meta_mean_anomaly": 50.0279,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 51850,
         "meta_element_set_no": 999,
         "meta_rev_at_epoch": 541,
         "meta_bstar": 0,
-        "meta_mean_motion_dot": 1.02e-06,
+        "meta_mean_motion_dot": 1.03e-06,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 51850U 22021A   26050.72100849  .00000102  00000+0  00000+0 0  9991",
-        "tle_line2": "2 51850   0.0203  88.1963 0000623 292.9087 251.1045  1.00272257  5413"
+        "tle_line1": "1 51850U 22021A   26051.15927732  .00000103  00000+0  00000+0 0  9998",
+        "tle_line2": "2 51850   0.0192  88.9066 0000617 291.4849  50.0279  1.00272371  5417"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          131.26955514533927,
-          0.017752076295258403
+          146.58118366493474,
+          0.024465773212132405
         ]
       }
     },
@@ -1527,35 +1527,35 @@
         "norad_id": 54234,
         "name": "NOAA 21 (JPSS-2)",
         "group": "weather",
-        "lat": 75.45129094191475,
-        "lon": -44.62341786623409,
-        "alt_km": 818.939999828809,
-        "timestamp": "2026-02-20T07:51:59.411352+00:00",
+        "lat": -63.61616685593507,
+        "lon": 9.932374386874509,
+        "alt_km": 835.4358586764765,
+        "timestamp": "2026-02-20T08:53:04.372122+00:00",
         "meta_object_name": "NOAA 21 (JPSS-2)",
         "meta_object_id": "2022-150A",
-        "meta_epoch": "2026-02-19T21:20:56.529888",
-        "meta_mean_motion": 14.19546998,
-        "meta_eccentricity": 0.00020626,
-        "meta_inclination": 98.7534,
-        "meta_ra_of_asc_node": 351.3618,
-        "meta_arg_of_pericenter": 139.0072,
-        "meta_mean_anomaly": 221.126,
+        "meta_epoch": "2026-02-20T02:25:26.159808",
+        "meta_mean_motion": 14.19547038,
+        "meta_eccentricity": 0.0002077,
+        "meta_inclination": 98.7535,
+        "meta_ra_of_asc_node": 351.5708,
+        "meta_arg_of_pericenter": 138.341,
+        "meta_mean_anomaly": 221.7924,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 54234,
         "meta_element_set_no": 999,
-        "meta_rev_at_epoch": 16990,
-        "meta_bstar": 5.1051025e-05,
-        "meta_mean_motion_dot": 6.4e-07,
+        "meta_rev_at_epoch": 16993,
+        "meta_bstar": 5.3032e-05,
+        "meta_mean_motion_dot": 6.8e-07,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 54234U 22150A   26050.88954317  .00000064  00000+0  51051-4 0  9991",
-        "tle_line2": "2 54234  98.7534 351.3618 0002062 139.0072 221.1260 14.19546998169900"
+        "tle_line1": "1 54234U 22150A   26051.10099722  .00000068  00000+0  53032-4 0  9992",
+        "tle_line2": "2 54234  98.7535 351.5708 0002077 138.3410 221.7924 14.19547038169939"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -44.62341786623409,
-          75.45129094191475
+          9.932374386874509,
+          -63.61616685593507
         ]
       }
     },
@@ -1565,19 +1565,19 @@
         "norad_id": 54743,
         "name": "METEOSAT-12 (MTG-I1)",
         "group": "weather",
-        "lat": -0.6186967633670787,
-        "lon": -92.0992353555262,
-        "alt_km": 35779.29702871378,
-        "timestamp": "2026-02-20T07:51:59.411364+00:00",
+        "lat": -0.6953007456302699,
+        "lon": -76.78079503961281,
+        "alt_km": 35778.28536731421,
+        "timestamp": "2026-02-20T08:53:04.372134+00:00",
         "meta_object_name": "METEOSAT-12 (MTG-I1)",
         "meta_object_id": "2022-170C",
-        "meta_epoch": "2026-02-19T21:22:36.708960",
-        "meta_mean_motion": 1.00272402,
-        "meta_eccentricity": 0.00019134,
-        "meta_inclination": 0.7275,
-        "meta_ra_of_asc_node": 27.1455,
-        "meta_arg_of_pericenter": 274.8451,
-        "meta_mean_anomaly": 168.1295,
+        "meta_epoch": "2026-02-20T02:30:44.668224",
+        "meta_mean_motion": 1.00272416,
+        "meta_eccentricity": 0.0001928,
+        "meta_inclination": 0.7281,
+        "meta_ra_of_asc_node": 27.1696,
+        "meta_arg_of_pericenter": 274.8517,
+        "meta_mean_anomaly": 245.3434,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 54743,
@@ -1586,14 +1586,14 @@
         "meta_bstar": 0,
         "meta_mean_motion_dot": -2e-08,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 54743U 22170C   26050.89070265 -.00000002  00000+0  00000+0 0  9996",
-        "tle_line2": "2 54743   0.7275  27.1455 0001913 274.8451 168.1295  1.00272402 11805"
+        "tle_line1": "1 54743U 22170C   26051.10468366 -.00000002  00000+0  00000+0 0  9994",
+        "tle_line2": "2 54743   0.7281  27.1696 0001928 274.8517 245.3434  1.00272416 11806"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -92.0992353555262,
-          -0.6186967633670787
+          -76.78079503961281,
+          -0.6953007456302699
         ]
       }
     },
@@ -1603,35 +1603,35 @@
         "norad_id": 55973,
         "name": "TIANMU-1 03",
         "group": "weather",
-        "lat": 73.50850088258956,
-        "lon": -165.41270950310047,
-        "alt_km": 428.20119582487496,
-        "timestamp": "2026-02-20T07:51:59.411376+00:00",
+        "lat": -48.60878221652108,
+        "lon": -130.27009042542488,
+        "alt_km": 445.02660400320656,
+        "timestamp": "2026-02-20T08:53:04.372145+00:00",
         "meta_object_name": "TIANMU-1 03",
         "meta_object_id": "2023-039A",
-        "meta_epoch": "2026-02-19T22:12:21.163680",
-        "meta_mean_motion": 15.43482965,
-        "meta_eccentricity": 0.00035917,
-        "meta_inclination": 97.5155,
-        "meta_ra_of_asc_node": 220.6553,
-        "meta_arg_of_pericenter": 153.0305,
-        "meta_mean_anomaly": 207.1129,
+        "meta_epoch": "2026-02-20T04:25:46.608672",
+        "meta_mean_motion": 15.43490443,
+        "meta_eccentricity": 0.000362,
+        "meta_inclination": 97.5156,
+        "meta_ra_of_asc_node": 220.9231,
+        "meta_arg_of_pericenter": 152.2644,
+        "meta_mean_anomaly": 207.8797,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 55973,
         "meta_element_set_no": 999,
-        "meta_rev_at_epoch": 16272,
-        "meta_bstar": 0.0003418519,
-        "meta_mean_motion_dot": 0.00015235,
+        "meta_rev_at_epoch": 16276,
+        "meta_bstar": 0.00033608,
+        "meta_mean_motion_dot": 0.0001498,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 55973U 23039A   26050.92524495  .00015235  00000+0  34185-3 0  9998",
-        "tle_line2": "2 55973  97.5155 220.6553 0003591 153.0305 207.1129 15.43482965162728"
+        "tle_line1": "1 55973U 23039A   26051.18456723  .00014980  00000+0  33608-3 0  9990",
+        "tle_line2": "2 55973  97.5156 220.9231 0003620 152.2644 207.8797 15.43490443162767"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -165.41270950310047,
-          73.50850088258956
+          -130.27009042542488,
+          -48.60878221652108
         ]
       }
     },
@@ -1641,35 +1641,35 @@
         "norad_id": 55974,
         "name": "TIANMU-1 04",
         "group": "weather",
-        "lat": -77.57951734704326,
-        "lon": -102.97274792618578,
-        "alt_km": 443.9274965932427,
-        "timestamp": "2026-02-20T07:51:59.411388+00:00",
+        "lat": 24.148544737443814,
+        "lon": 43.67031130898922,
+        "alt_km": 431.2192247752364,
+        "timestamp": "2026-02-20T08:53:04.372157+00:00",
         "meta_object_name": "TIANMU-1 04",
         "meta_object_id": "2023-039B",
-        "meta_epoch": "2026-02-19T21:19:28.142688",
-        "meta_mean_motion": 15.43874512,
-        "meta_eccentricity": 0.00043198,
-        "meta_inclination": 97.5087,
-        "meta_ra_of_asc_node": 219.7829,
-        "meta_arg_of_pericenter": 150.5292,
-        "meta_mean_anomaly": 209.62,
+        "meta_epoch": "2026-02-20T03:32:47.898240",
+        "meta_mean_motion": 15.43882796,
+        "meta_eccentricity": 0.0004346,
+        "meta_inclination": 97.5088,
+        "meta_ra_of_asc_node": 220.0505,
+        "meta_arg_of_pericenter": 149.6737,
+        "meta_mean_anomaly": 210.4763,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 55974,
         "meta_element_set_no": 999,
-        "meta_rev_at_epoch": 16272,
-        "meta_bstar": 0.00034657011,
-        "meta_mean_motion_dot": 0.00015655,
+        "meta_rev_at_epoch": 16276,
+        "meta_bstar": 0.00034593,
+        "meta_mean_motion_dot": 0.0001563,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 55974U 23039B   26050.88852017  .00015655  00000+0  34657-3 0  9998",
-        "tle_line2": "2 55974  97.5087 219.7829 0004319 150.5292 209.6200 15.43874512162724"
+        "tle_line1": "1 55974U 23039B   26051.14777660  .00015630  00000+0  34593-3 0  9990",
+        "tle_line2": "2 55974  97.5088 220.0505 0004346 149.6737 210.4763 15.43882796162765"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -102.97274792618578,
-          -77.57951734704326
+          43.67031130898922,
+          24.148544737443814
         ]
       }
     },
@@ -1679,35 +1679,35 @@
         "norad_id": 55975,
         "name": "TIANMU-1 05",
         "group": "weather",
-        "lat": -28.890277904033354,
-        "lon": 36.55228082834859,
-        "alt_km": 440.25988711683203,
-        "timestamp": "2026-02-20T07:51:59.411399+00:00",
+        "lat": 80.70590430041776,
+        "lon": 167.01603957548917,
+        "alt_km": 428.4129288146323,
+        "timestamp": "2026-02-20T08:53:04.372168+00:00",
         "meta_object_name": "TIANMU-1 05",
         "meta_object_id": "2023-039C",
-        "meta_epoch": "2026-02-19T23:11:01.204224",
-        "meta_mean_motion": 15.43426767,
-        "meta_eccentricity": 0.00031588,
-        "meta_inclination": 97.5134,
-        "meta_ra_of_asc_node": 220.3555,
-        "meta_arg_of_pericenter": 172.1279,
-        "meta_mean_anomaly": 188.0019,
+        "meta_epoch": "2026-02-20T03:51:05.911776",
+        "meta_mean_motion": 15.43432763,
+        "meta_eccentricity": 0.0003162,
+        "meta_inclination": 97.5135,
+        "meta_ra_of_asc_node": 220.5562,
+        "meta_arg_of_pericenter": 171.3381,
+        "meta_mean_anomaly": 188.7922,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 55975,
         "meta_element_set_no": 999,
-        "meta_rev_at_epoch": 16271,
-        "meta_bstar": 0.00034530674,
-        "meta_mean_motion_dot": 0.0001536,
+        "meta_rev_at_epoch": 16274,
+        "meta_bstar": 0.00034818,
+        "meta_mean_motion_dot": 0.00015492,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 55975U 23039C   26050.96598616  .00015360  00000+0  34531-3 0  9994",
-        "tle_line2": "2 55975  97.5134 220.3555 0003158 172.1279 188.0019 15.43426767162719"
+        "tle_line1": "1 55975U 23039C   26051.16048509  .00015492  00000+0  34818-3 0  9992",
+        "tle_line2": "2 55975  97.5135 220.5562 0003162 171.3381 188.7922 15.43432763162746"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          36.55228082834859,
-          -28.890277904033354
+          167.01603957548917,
+          80.70590430041776
         ]
       }
     },
@@ -1717,35 +1717,35 @@
         "norad_id": 55976,
         "name": "TIANMU-1 06",
         "group": "weather",
-        "lat": -78.24235435683404,
-        "lon": -99.38536623974142,
-        "alt_km": 442.8258431846816,
-        "timestamp": "2026-02-20T07:51:59.411410+00:00",
+        "lat": 25.004764474322602,
+        "lon": 44.82692126260957,
+        "alt_km": 431.53544291301023,
+        "timestamp": "2026-02-20T08:53:04.372178+00:00",
         "meta_object_name": "TIANMU-1 06",
         "meta_object_id": "2023-039D",
-        "meta_epoch": "2026-02-19T21:19:42.034080",
-        "meta_mean_motion": 15.43908012,
-        "meta_eccentricity": 0.00035449,
+        "meta_epoch": "2026-02-20T05:06:21.098880",
+        "meta_mean_motion": 15.43918399,
+        "meta_eccentricity": 0.0003579,
         "meta_inclination": 97.5145,
-        "meta_ra_of_asc_node": 220.7998,
-        "meta_arg_of_pericenter": 168.1259,
-        "meta_mean_anomaly": 192.0073,
+        "meta_ra_of_asc_node": 221.1345,
+        "meta_arg_of_pericenter": 166.8726,
+        "meta_mean_anomaly": 193.2615,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 55976,
         "meta_element_set_no": 999,
-        "meta_rev_at_epoch": 16272,
-        "meta_bstar": 0.00034767093,
-        "meta_mean_motion_dot": 0.00015721,
+        "meta_rev_at_epoch": 16277,
+        "meta_bstar": 0.00034781,
+        "meta_mean_motion_dot": 0.00015733,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 55976U 23039D   26050.88868095  .00015721  00000+0  34767-3 0  9999",
-        "tle_line2": "2 55976  97.5145 220.7998 0003544 168.1259 192.0073 15.43908012162723"
+        "tle_line1": "1 55976U 23039D   26051.21274420  .00015733  00000+0  34781-3 0  9999",
+        "tle_line2": "2 55976  97.5145 221.1345 0003579 166.8726 193.2615 15.43918399162775"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -99.38536623974142,
-          -78.24235435683404
+          44.82692126260957,
+          25.004764474322602
         ]
       }
     },
@@ -1755,35 +1755,35 @@
         "norad_id": 56232,
         "name": "FENGYUN 3G",
         "group": "weather",
-        "lat": -34.49977165112386,
-        "lon": -166.63548196762372,
-        "alt_km": 403.8043998864232,
-        "timestamp": "2026-02-20T07:51:59.411420+00:00",
+        "lat": -7.419425204815574,
+        "lon": 54.68376765232774,
+        "alt_km": 410.40271706528983,
+        "timestamp": "2026-02-20T08:53:04.372188+00:00",
         "meta_object_name": "FENGYUN 3G",
         "meta_object_id": "2023-055A",
-        "meta_epoch": "2026-02-19T21:15:50.118336",
-        "meta_mean_motion": 15.53355172,
-        "meta_eccentricity": 0.0010449,
+        "meta_epoch": "2026-02-20T01:53:43.762272",
+        "meta_mean_motion": 15.5336686,
+        "meta_eccentricity": 0.0010464,
         "meta_inclination": 49.9921,
-        "meta_ra_of_asc_node": 230.9032,
-        "meta_arg_of_pericenter": 294.6816,
-        "meta_mean_anomaly": 65.3064,
+        "meta_ra_of_asc_node": 229.9073,
+        "meta_arg_of_pericenter": 295.4168,
+        "meta_mean_anomaly": 64.5715,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 56232,
         "meta_element_set_no": 999,
-        "meta_rev_at_epoch": 16177,
-        "meta_bstar": 0.00043079715,
-        "meta_mean_motion_dot": 0.00027447,
+        "meta_rev_at_epoch": 16180,
+        "meta_bstar": 0.00042066,
+        "meta_mean_motion_dot": 0.000268,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 56232U 23055A   26050.88599674  .00027447  00000+0  43080-3 0  9993",
-        "tle_line2": "2 56232  49.9921 230.9032 0010449 294.6816  65.3064 15.53355172161770"
+        "tle_line1": "1 56232U 23055A   26051.07897873  .00026800  00000+0  42066-3 0  9992",
+        "tle_line2": "2 56232  49.9921 229.9073 0010464 295.4168  64.5715 15.53366860161803"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -166.63548196762372,
-          -34.49977165112386
+          54.68376765232774,
+          -7.419425204815574
         ]
       }
     },
@@ -1793,35 +1793,35 @@
         "norad_id": 57166,
         "name": "METEOR-M2 3",
         "group": "weather",
-        "lat": 28.385543061133745,
-        "lon": 103.90906336342299,
-        "alt_km": 811.5815289739803,
-        "timestamp": "2026-02-20T07:51:59.411465+00:00",
+        "lat": -64.88961734039943,
+        "lon": -90.24306661299525,
+        "alt_km": 819.9144912541115,
+        "timestamp": "2026-02-20T08:53:04.372198+00:00",
         "meta_object_name": "METEOR-M2 3",
         "meta_object_id": "2023-091A",
-        "meta_epoch": "2026-02-19T23:18:01.287936",
-        "meta_mean_motion": 14.2403568,
-        "meta_eccentricity": 0.00046724,
-        "meta_inclination": 98.6255,
-        "meta_ra_of_asc_node": 108.2637,
-        "meta_arg_of_pericenter": 140.2755,
-        "meta_mean_anomaly": 219.8767,
+        "meta_epoch": "2026-02-20T04:21:33.411744",
+        "meta_mean_motion": 14.24035692,
+        "meta_eccentricity": 0.0004681,
+        "meta_inclination": 98.6259,
+        "meta_ra_of_asc_node": 108.4706,
+        "meta_arg_of_pericenter": 139.7804,
+        "meta_mean_anomaly": 220.3722,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 57166,
         "meta_element_set_no": 999,
-        "meta_rev_at_epoch": 13783,
-        "meta_bstar": 1.7824145e-05,
-        "meta_mean_motion_dot": -2e-08,
+        "meta_rev_at_epoch": 13786,
+        "meta_bstar": 1.7002e-05,
+        "meta_mean_motion_dot": -4e-08,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 57166U 23091A   26050.97084824 -.00000002  00000+0  17824-4 0  9993",
-        "tle_line2": "2 57166  98.6255 108.2637 0004672 140.2755 219.8767 14.24035680137837"
+        "tle_line1": "1 57166U 23091A   26051.18163671 -.00000004  00000+0  17002-4 0  9995",
+        "tle_line2": "2 57166  98.6259 108.4706 0004681 139.7804 220.3722 14.24035692137862"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.90906336342299,
-          28.385543061133745
+          -90.24306661299525,
+          -64.88961734039943
         ]
       }
     },
@@ -1831,35 +1831,35 @@
         "norad_id": 57399,
         "name": "TIANMU-1 07",
         "group": "weather",
-        "lat": 76.6035902909531,
-        "lon": -42.898587666724545,
-        "alt_km": 470.164935939888,
-        "timestamp": "2026-02-20T07:51:59.411484+00:00",
+        "lat": -25.22051189866041,
+        "lon": 108.14998858783832,
+        "alt_km": 486.71714227777375,
+        "timestamp": "2026-02-20T08:53:04.372208+00:00",
         "meta_object_name": "TIANMU-1 07",
         "meta_object_id": "2023-101A",
-        "meta_epoch": "2026-02-19T22:00:07.926624",
-        "meta_mean_motion": 15.29169015,
-        "meta_eccentricity": 0.00041336,
-        "meta_inclination": 97.276,
-        "meta_ra_of_asc_node": 104.2565,
-        "meta_arg_of_pericenter": 174.0342,
-        "meta_mean_anomaly": 186.0948,
+        "meta_epoch": "2026-02-20T04:17:03.041952",
+        "meta_mean_motion": 15.29172253,
+        "meta_eccentricity": 0.0004173,
+        "meta_inclination": 97.2759,
+        "meta_ra_of_asc_node": 104.5125,
+        "meta_arg_of_pericenter": 173.0785,
+        "meta_mean_anomaly": 187.0513,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 57399,
         "meta_element_set_no": 999,
-        "meta_rev_at_epoch": 14372,
-        "meta_bstar": 0.00022479979,
-        "meta_mean_motion_dot": 6.291e-05,
+        "meta_rev_at_epoch": 14376,
+        "meta_bstar": 0.00022277,
+        "meta_mean_motion_dot": 6.234e-05,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 57399U 23101A   26050.91675841  .00006291  00000+0  22480-3 0  9990",
-        "tle_line2": "2 57399  97.2760 104.2565 0004133 174.0342 186.0948 15.29169015143723"
+        "tle_line1": "1 57399U 23101A   26051.17850743  .00006234  00000+0  22277-3 0  9996",
+        "tle_line2": "2 57399  97.2759 104.5125 0004173 173.0785 187.0513 15.29172253143761"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -42.898587666724545,
-          76.6035902909531
+          108.14998858783832,
+          -25.22051189866041
         ]
       }
     },
@@ -1869,35 +1869,35 @@
         "norad_id": 57400,
         "name": "TIANMU-1 08",
         "group": "weather",
-        "lat": -82.08112582995226,
-        "lon": -142.2510330589039,
-        "alt_km": 485.8377928871296,
-        "timestamp": "2026-02-20T07:51:59.411501+00:00",
+        "lat": 39.39993331916838,
+        "lon": -69.49621128462698,
+        "alt_km": 472.09474532094373,
+        "timestamp": "2026-02-20T08:53:04.372221+00:00",
         "meta_object_name": "TIANMU-1 08",
         "meta_object_id": "2023-101B",
-        "meta_epoch": "2026-02-19T22:51:02.325600",
-        "meta_mean_motion": 15.29161609,
-        "meta_eccentricity": 0.0005747,
+        "meta_epoch": "2026-02-20T03:33:43.742880",
+        "meta_mean_motion": 15.29164253,
+        "meta_eccentricity": 0.0005773,
         "meta_inclination": 97.2747,
-        "meta_ra_of_asc_node": 104.0718,
-        "meta_arg_of_pericenter": 175.8169,
-        "meta_mean_anomaly": 184.312,
+        "meta_ra_of_asc_node": 104.2638,
+        "meta_arg_of_pericenter": 175.1931,
+        "meta_mean_anomaly": 184.9366,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 57400,
         "meta_element_set_no": 999,
-        "meta_rev_at_epoch": 14372,
-        "meta_bstar": 0.00023600541,
-        "meta_mean_motion_dot": 6.608e-05,
+        "meta_rev_at_epoch": 14375,
+        "meta_bstar": 0.00023379,
+        "meta_mean_motion_dot": 6.546e-05,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 57400U 23101B   26050.95211025  .00006608  00000+0  23601-3 0  9995",
-        "tle_line2": "2 57400  97.2747 104.0718 0005747 175.8169 184.3120 15.29161609143721"
+        "tle_line1": "1 57400U 23101B   26051.14842295  .00006546  00000+0  23379-3 0  9999",
+        "tle_line2": "2 57400  97.2747 104.2638 0005773 175.1931 184.9366 15.29164253143752"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -142.2510330589039,
-          -82.08112582995226
+          -69.49621128462698,
+          39.39993331916838
         ]
       }
     },
@@ -1907,35 +1907,35 @@
         "norad_id": 57401,
         "name": "TIANMU-1 09",
         "group": "weather",
-        "lat": 6.039076942888437,
-        "lon": 103.14996804486947,
-        "alt_km": 483.55334926896103,
-        "timestamp": "2026-02-20T07:51:59.411522+00:00",
+        "lat": -58.947998160094286,
+        "lon": -88.27646159072623,
+        "alt_km": 483.48769275310224,
+        "timestamp": "2026-02-20T08:53:04.372233+00:00",
         "meta_object_name": "TIANMU-1 09",
         "meta_object_id": "2023-101C",
-        "meta_epoch": "2026-02-19T22:25:04.379808",
-        "meta_mean_motion": 15.29317391,
-        "meta_eccentricity": 0.00050994,
-        "meta_inclination": 97.2705,
-        "meta_ra_of_asc_node": 103.539,
-        "meta_arg_of_pericenter": 176.5952,
-        "meta_mean_anomaly": 183.5324,
+        "meta_epoch": "2026-02-20T04:41:57.303168",
+        "meta_mean_motion": 15.29320578,
+        "meta_eccentricity": 0.0005127,
+        "meta_inclination": 97.2704,
+        "meta_ra_of_asc_node": 103.7949,
+        "meta_arg_of_pericenter": 175.7389,
+        "meta_mean_anomaly": 184.3896,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 57401,
         "meta_element_set_no": 999,
-        "meta_rev_at_epoch": 14372,
-        "meta_bstar": 0.00022896695,
-        "meta_mean_motion_dot": 6.439e-05,
+        "meta_rev_at_epoch": 14376,
+        "meta_bstar": 0.00022338,
+        "meta_mean_motion_dot": 6.281e-05,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 57401U 23101C   26050.93407847  .00006439  00000+0  22897-3 0  9991",
-        "tle_line2": "2 57401  97.2705 103.5390 0005099 176.5952 183.5324 15.29317391143722"
+        "tle_line1": "1 57401U 23101C   26051.19580212  .00006281  00000+0  22338-3 0  9993",
+        "tle_line2": "2 57401  97.2704 103.7949 0005127 175.7389 184.3896 15.29320578143768"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.14996804486947,
-          6.039076942888437
+          -88.27646159072623,
+          -58.947998160094286
         ]
       }
     },
@@ -1945,35 +1945,35 @@
         "norad_id": 57402,
         "name": "TIANMU-1 10",
         "group": "weather",
-        "lat": 3.4724402182848015,
-        "lon": -74.70821595618213,
-        "alt_km": 475.91246844183297,
-        "timestamp": "2026-02-20T07:51:59.411538+00:00",
+        "lat": 49.093093830620234,
+        "lon": 96.40618483720542,
+        "alt_km": 476.4408433546123,
+        "timestamp": "2026-02-20T08:53:04.372243+00:00",
         "meta_object_name": "TIANMU-1 10",
         "meta_object_id": "2023-101D",
-        "meta_epoch": "2026-02-19T23:14:45.336192",
-        "meta_mean_motion": 15.29312269,
-        "meta_eccentricity": 0.00066946,
-        "meta_inclination": 97.2785,
-        "meta_ra_of_asc_node": 104.4959,
-        "meta_arg_of_pericenter": 181.2118,
-        "meta_mean_anomaly": 178.9108,
+        "meta_epoch": "2026-02-20T03:57:25.092000",
+        "meta_mean_motion": 15.29314641,
+        "meta_eccentricity": 0.0006723,
+        "meta_inclination": 97.2784,
+        "meta_ra_of_asc_node": 104.688,
+        "meta_arg_of_pericenter": 180.5331,
+        "meta_mean_anomaly": 179.5904,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 57402,
         "meta_element_set_no": 999,
-        "meta_rev_at_epoch": 14372,
-        "meta_bstar": 0.00023427573,
-        "meta_mean_motion_dot": 6.591e-05,
+        "meta_rev_at_epoch": 14375,
+        "meta_bstar": 0.00022712,
+        "meta_mean_motion_dot": 6.388e-05,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 57402U 23101D   26050.96858028  .00006591  00000+0  23428-3 0  9996",
-        "tle_line2": "2 57402  97.2785 104.4959 0006694 181.2118 178.9108 15.29312269143728"
+        "tle_line1": "1 57402U 23101D   26051.16487375  .00006388  00000+0  22712-3 0  9991",
+        "tle_line2": "2 57402  97.2784 104.6880 0006723 180.5331 179.5904 15.29314641143754"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -74.70821595618213,
-          3.4724402182848015
+          96.40618483720542,
+          49.093093830620234
         ]
       }
     },
@@ -1983,35 +1983,35 @@
         "norad_id": 57490,
         "name": "FENGYUN 3F",
         "group": "weather",
-        "lat": -49.23212422654511,
-        "lon": -66.76383882811031,
-        "alt_km": 833.2910803236664,
-        "timestamp": "2026-02-20T07:51:59.411557+00:00",
+        "lat": 80.6698965099375,
+        "lon": 54.81899832030289,
+        "alt_km": 817.1512295716602,
+        "timestamp": "2026-02-20T08:53:04.372254+00:00",
         "meta_object_name": "FENGYUN 3F",
         "meta_object_id": "2023-111A",
-        "meta_epoch": "2026-02-19T22:19:51.771648",
-        "meta_mean_motion": 14.19914951,
-        "meta_eccentricity": 0.00014622,
+        "meta_epoch": "2026-02-20T03:24:16.678944",
+        "meta_mean_motion": 14.19914987,
+        "meta_eccentricity": 0.0001458,
         "meta_inclination": 98.6965,
-        "meta_ra_of_asc_node": 123.0711,
-        "meta_arg_of_pericenter": 90.072,
-        "meta_mean_anomaly": 270.0624,
+        "meta_ra_of_asc_node": 123.2788,
+        "meta_arg_of_pericenter": 89.9558,
+        "meta_mean_anomaly": 270.1785,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 57490,
         "meta_element_set_no": 999,
-        "meta_rev_at_epoch": 13222,
-        "meta_bstar": 5.2479107e-05,
-        "meta_mean_motion_dot": 6.8e-07,
+        "meta_rev_at_epoch": 13225,
+        "meta_bstar": 4.7797e-05,
+        "meta_mean_motion_dot": 5.8e-07,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 57490U 23111A   26050.93046032  .00000068  00000+0  52479-4 0  9997",
-        "tle_line2": "2 57490  98.6965 123.0711 0001462  90.0720 270.0624 14.19914951132221"
+        "tle_line1": "1 57490U 23111A   26051.14185971  .00000058  00000+0  47797-4 0  9993",
+        "tle_line2": "2 57490  98.6965 123.2788 0001458  89.9558 270.1785 14.19914987132259"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -66.76383882811031,
-          -49.23212422654511
+          54.81899832030289,
+          80.6698965099375
         ]
       }
     },
@@ -2021,10 +2021,10 @@
         "norad_id": 58584,
         "name": "ARKTIKA-M 2",
         "group": "weather",
-        "lat": 62.90884547551307,
-        "lon": -112.32185286251702,
-        "alt_km": 38346.08638687181,
-        "timestamp": "2026-02-20T07:51:59.411577+00:00",
+        "lat": 63.02647027839264,
+        "lon": -94.9668058565827,
+        "alt_km": 37942.49066937703,
+        "timestamp": "2026-02-20T08:53:04.372266+00:00",
         "meta_object_name": "ARKTIKA-M 2",
         "meta_object_id": "2023-198A",
         "meta_epoch": "2026-02-19T02:52:17.251968",
@@ -2048,8 +2048,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -112.32185286251702,
-          62.90884547551307
+          -94.9668058565827,
+          63.02647027839264
         ]
       }
     },
@@ -2059,10 +2059,10 @@
         "norad_id": 58645,
         "name": "TIANMU-1 11",
         "group": "weather",
-        "lat": 0.7812473068662701,
-        "lon": -105.13682022121695,
-        "alt_km": 495.1349773787815,
-        "timestamp": "2026-02-20T07:51:59.411596+00:00",
+        "lat": 51.11190936007609,
+        "lon": 65.58712293272757,
+        "alt_km": 477.01628029639414,
+        "timestamp": "2026-02-20T08:53:04.372277+00:00",
         "meta_object_name": "TIANMU-1 11",
         "meta_object_id": "2023-205A",
         "meta_epoch": "2026-02-19T21:38:24.218880",
@@ -2086,8 +2086,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -105.13682022121695,
-          0.7812473068662701
+          65.58712293272757,
+          51.11190936007609
         ]
       }
     },
@@ -2097,10 +2097,10 @@
         "norad_id": 58646,
         "name": "TIANMU-1 12",
         "group": "weather",
-        "lat": 5.6162684845104005,
-        "lon": 73.81806571674758,
-        "alt_km": 487.24762322689276,
-        "timestamp": "2026-02-20T07:51:59.411613+00:00",
+        "lat": -57.952776314773004,
+        "lon": -117.31964281538434,
+        "alt_km": 502.2404554442892,
+        "timestamp": "2026-02-20T08:53:04.372287+00:00",
         "meta_object_name": "TIANMU-1 12",
         "meta_object_id": "2023-205B",
         "meta_epoch": "2026-02-19T22:23:47.064768",
@@ -2124,8 +2124,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          73.81806571674758,
-          5.6162684845104005
+          -117.31964281538434,
+          -57.952776314773004
         ]
       }
     },
@@ -2135,10 +2135,10 @@
         "norad_id": 58647,
         "name": "TIANMU-1 13",
         "group": "weather",
-        "lat": -13.21180732261841,
-        "lon": -106.96125601175865,
-        "alt_km": 499.1349388793624,
-        "timestamp": "2026-02-20T07:51:59.411630+00:00",
+        "lat": 64.9495656879138,
+        "lon": 58.769520129930065,
+        "alt_km": 477.7482751620537,
+        "timestamp": "2026-02-20T08:53:04.372298+00:00",
         "meta_object_name": "TIANMU-1 13",
         "meta_object_id": "2023-205C",
         "meta_epoch": "2026-02-19T21:34:39.196992",
@@ -2162,8 +2162,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -106.96125601175865,
-          -13.21180732261841
+          58.769520129930065,
+          64.9495656879138
         ]
       }
     },
@@ -2173,10 +2173,10 @@
         "norad_id": 58648,
         "name": "TIANMU-1 14",
         "group": "weather",
-        "lat": -78.26362729095828,
-        "lon": 112.47992467895081,
-        "alt_km": 499.48027732737046,
-        "timestamp": "2026-02-20T07:51:59.411645+00:00",
+        "lat": 27.44908670009861,
+        "lon": -102.05156392557048,
+        "alt_km": 490.81093579445496,
+        "timestamp": "2026-02-20T08:53:04.372307+00:00",
         "meta_object_name": "TIANMU-1 14",
         "meta_object_id": "2023-205D",
         "meta_epoch": "2026-02-19T22:46:30.219168",
@@ -2200,8 +2200,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          112.47992467895081,
-          -78.26362729095828
+          -102.05156392557048,
+          27.44908670009861
         ]
       }
     },
@@ -2211,10 +2211,10 @@
         "norad_id": 58660,
         "name": "TIANMU-1 19",
         "group": "weather",
-        "lat": -5.5086508481770124,
-        "lon": 168.02536221458334,
-        "alt_km": 478.171430469185,
-        "timestamp": "2026-02-20T07:51:59.411664+00:00",
+        "lat": -47.53285394137381,
+        "lon": -20.86073178690301,
+        "alt_km": 487.68151284879696,
+        "timestamp": "2026-02-20T08:53:04.372319+00:00",
         "meta_object_name": "TIANMU-1 19",
         "meta_object_id": "2023-208A",
         "meta_epoch": "2026-02-19T22:28:09.681024",
@@ -2238,8 +2238,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          168.02536221458334,
-          -5.5086508481770124
+          -20.86073178690301,
+          -47.53285394137381
         ]
       }
     },
@@ -2249,10 +2249,10 @@
         "norad_id": 58661,
         "name": "TIANMU-1 20",
         "group": "weather",
-        "lat": 6.511007101869135,
-        "lon": 166.96594532784036,
-        "alt_km": 471.33828650731357,
-        "timestamp": "2026-02-20T07:51:59.411681+00:00",
+        "lat": -59.49321542961662,
+        "lon": -24.938255507510608,
+        "alt_km": 485.5849131906234,
+        "timestamp": "2026-02-20T08:53:04.372329+00:00",
         "meta_object_name": "TIANMU-1 20",
         "meta_object_id": "2023-208B",
         "meta_epoch": "2026-02-19T22:25:26.072256",
@@ -2276,8 +2276,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          166.96594532784036,
-          6.511007101869135
+          -24.938255507510608,
+          -59.49321542961662
         ]
       }
     },
@@ -2287,10 +2287,10 @@
         "norad_id": 58662,
         "name": "TIANMU-1 21",
         "group": "weather",
-        "lat": -70.08610264186754,
-        "lon": -31.107800303931118,
-        "alt_km": 478.8274260751523,
-        "timestamp": "2026-02-20T07:51:59.411699+00:00",
+        "lat": 53.80336666794667,
+        "lon": 0.3550933149993459,
+        "alt_km": 464.1814289572594,
+        "timestamp": "2026-02-20T08:53:04.372339+00:00",
         "meta_object_name": "TIANMU-1 21",
         "meta_object_id": "2023-208C",
         "meta_epoch": "2026-02-19T21:22:13.398240",
@@ -2314,8 +2314,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -31.107800303931118,
-          -70.08610264186754
+          0.3550933149993459,
+          53.80336666794667
         ]
       }
     },
@@ -2325,10 +2325,10 @@
         "norad_id": 58663,
         "name": "TIANMU-1 22",
         "group": "weather",
-        "lat": -77.15105096828832,
-        "lon": -157.7324261198714,
-        "alt_km": 487.8732470544255,
-        "timestamp": "2026-02-20T07:51:59.411716+00:00",
+        "lat": 25.691165014916074,
+        "lon": -9.028870628739167,
+        "alt_km": 478.60428939135545,
+        "timestamp": "2026-02-20T08:53:04.372349+00:00",
         "meta_object_name": "TIANMU-1 22",
         "meta_object_id": "2023-208D",
         "meta_epoch": "2026-02-19T21:13:10.642080",
@@ -2352,8 +2352,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -157.7324261198714,
-          -77.15105096828832
+          -9.028870628739167,
+          25.691165014916074
         ]
       }
     },
@@ -2363,10 +2363,10 @@
         "norad_id": 58700,
         "name": "TIANMU-1 15",
         "group": "weather",
-        "lat": -67.08586797316161,
-        "lon": -104.33380994291143,
-        "alt_km": 498.78520641292744,
-        "timestamp": "2026-02-20T07:51:59.411732+00:00",
+        "lat": 15.000865522209017,
+        "lon": 59.649581240969674,
+        "alt_km": 492.6103209837529,
+        "timestamp": "2026-02-20T08:53:04.372360+00:00",
         "meta_object_name": "TIANMU-1 15",
         "meta_object_id": "2024-004A",
         "meta_epoch": "2026-02-19T22:43:12.136800",
@@ -2390,8 +2390,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.33380994291143,
-          -67.08586797316161
+          59.649581240969674,
+          15.000865522209017
         ]
       }
     },
@@ -2401,10 +2401,10 @@
         "norad_id": 58701,
         "name": "TIANMU-1 16",
         "group": "weather",
-        "lat": 20.14964960638507,
-        "lon": -125.82640607304607,
-        "alt_km": 485.3654797581212,
-        "timestamp": "2026-02-20T07:51:59.411749+00:00",
+        "lat": -71.75915105793106,
+        "lon": 33.54554279160359,
+        "alt_km": 500.49060038931293,
+        "timestamp": "2026-02-20T08:53:04.372371+00:00",
         "meta_object_name": "TIANMU-1 16",
         "meta_object_id": "2024-004B",
         "meta_epoch": "2026-02-19T22:19:57.595008",
@@ -2428,8 +2428,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -125.82640607304607,
-          20.14964960638507
+          33.54554279160359,
+          -71.75915105793106
         ]
       }
     },
@@ -2439,10 +2439,10 @@
         "norad_id": 58702,
         "name": "TIANMU-1 17",
         "group": "weather",
-        "lat": 63.71058288452431,
-        "lon": 72.76256461307871,
-        "alt_km": 480.8656651667952,
-        "timestamp": "2026-02-20T07:51:59.411765+00:00",
+        "lat": -12.080977903324833,
+        "lon": -120.97541845173966,
+        "alt_km": 491.8341464013656,
+        "timestamp": "2026-02-20T08:53:04.372383+00:00",
         "meta_object_name": "TIANMU-1 17",
         "meta_object_id": "2024-004C",
         "meta_epoch": "2026-02-19T21:55:07.729824",
@@ -2466,8 +2466,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          72.76256461307871,
-          63.71058288452431
+          -120.97541845173966,
+          -12.080977903324833
         ]
       }
     },
@@ -2477,10 +2477,10 @@
         "norad_id": 58703,
         "name": "TIANMU-1 18",
         "group": "weather",
-        "lat": -19.58837728806302,
-        "lon": 54.9089030922837,
-        "alt_km": 497.181767283093,
-        "timestamp": "2026-02-20T07:51:59.411786+00:00",
+        "lat": 70.93653696598724,
+        "lon": -144.67238130559616,
+        "alt_km": 478.9101930062834,
+        "timestamp": "2026-02-20T08:53:04.372394+00:00",
         "meta_object_name": "TIANMU-1 18",
         "meta_object_id": "2024-004D",
         "meta_epoch": "2026-02-19T23:07:24.508704",
@@ -2504,8 +2504,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          54.9089030922837,
-          -19.58837728806302
+          -144.67238130559616,
+          70.93653696598724
         ]
       }
     },
@@ -2515,10 +2515,10 @@
         "norad_id": 58990,
         "name": "INSAT-3DS",
         "group": "weather",
-        "lat": 0.0661865708810499,
-        "lon": -9.66172564529478,
-        "alt_km": 35776.71984576101,
-        "timestamp": "2026-02-20T07:51:59.411805+00:00",
+        "lat": 0.06002242012307417,
+        "lon": 5.657266573530053,
+        "alt_km": 35777.21320755189,
+        "timestamp": "2026-02-20T08:53:04.372406+00:00",
         "meta_object_name": "INSAT-3DS",
         "meta_object_id": "2024-033A",
         "meta_epoch": "2026-02-19T22:08:36.400992",
@@ -2542,8 +2542,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -9.66172564529478,
-          0.0661865708810499
+          5.657266573530053,
+          0.06002242012307417
         ]
       }
     },
@@ -2553,10 +2553,10 @@
         "norad_id": 59051,
         "name": "METEOR-M2 4",
         "group": "weather",
-        "lat": -80.82383119381839,
-        "lon": 83.35143510076263,
-        "alt_km": 828.2093438433903,
-        "timestamp": "2026-02-20T07:51:59.411822+00:00",
+        "lat": 49.18687716633515,
+        "lon": -157.5770233470702,
+        "alt_km": 807.3232230011145,
+        "timestamp": "2026-02-20T08:53:04.372417+00:00",
         "meta_object_name": "METEOR-M2 4",
         "meta_object_id": "2024-039A",
         "meta_epoch": "2026-02-19T22:08:47.188896",
@@ -2580,8 +2580,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          83.35143510076263,
-          -80.82383119381839
+          -157.5770233470702,
+          49.18687716633515
         ]
       }
     },
@@ -2591,10 +2591,10 @@
         "norad_id": 60133,
         "name": "GOES 19",
         "group": "weather",
-        "lat": 0.007679024588646375,
-        "lon": -166.92805066524468,
-        "alt_km": 35790.56819581705,
-        "timestamp": "2026-02-20T07:51:59.411843+00:00",
+        "lat": 0.009771796120356705,
+        "lon": -151.61872469658968,
+        "alt_km": 35790.31663142737,
+        "timestamp": "2026-02-20T08:53:04.372428+00:00",
         "meta_object_name": "GOES 19",
         "meta_object_id": "2024-119A",
         "meta_epoch": "2026-02-19T21:01:16.255776",
@@ -2618,8 +2618,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -166.92805066524468,
-          0.007679024588646375
+          -151.61872469658968,
+          0.009771796120356705
         ]
       }
     },
@@ -2629,35 +2629,35 @@
         "norad_id": 65815,
         "name": "FENGYUN 3H",
         "group": "weather",
-        "lat": -66.78716550736601,
-        "lon": 153.60421811737115,
-        "alt_km": 833.9345955895305,
-        "timestamp": "2026-02-20T07:51:59.411862+00:00",
+        "lat": 72.6527893285638,
+        "lon": -156.29553879025823,
+        "alt_km": 817.6328145063853,
+        "timestamp": "2026-02-20T08:53:04.372438+00:00",
         "meta_object_name": "FENGYUN 3H",
         "meta_object_id": "2025-219A",
-        "meta_epoch": "2026-02-19T22:14:40.631424",
-        "meta_mean_motion": 14.19927444,
-        "meta_eccentricity": 0.00015603,
+        "meta_epoch": "2026-02-20T03:19:05.390112",
+        "meta_mean_motion": 14.19927455,
+        "meta_eccentricity": 0.0001563,
         "meta_inclination": 98.6664,
-        "meta_ra_of_asc_node": 354.0439,
-        "meta_arg_of_pericenter": 74.2159,
-        "meta_mean_anomaly": 285.919,
+        "meta_ra_of_asc_node": 354.2509,
+        "meta_arg_of_pericenter": 74.1116,
+        "meta_mean_anomaly": 286.0232,
         "meta_ephemeris_type": 0,
         "meta_classification_type": "U",
         "meta_norad_cat_id": 65815,
         "meta_element_set_no": 999,
-        "meta_rev_at_epoch": 2074,
-        "meta_bstar": 5.4486324e-05,
-        "meta_mean_motion_dot": 7.2e-07,
+        "meta_rev_at_epoch": 2077,
+        "meta_bstar": 5.0017e-05,
+        "meta_mean_motion_dot": 6.3e-07,
         "meta_mean_motion_ddot": 0,
-        "tle_line1": "1 65815U 25219A   26050.92685916  .00000072  00000+0  54486-4 0  9992",
-        "tle_line2": "2 65815  98.6664 354.0439 0001560  74.2159 285.9190 14.19927444 20746"
+        "tle_line1": "1 65815U 25219A   26051.13825683  .00000063  00000+0  50017-4 0  9999",
+        "tle_line2": "2 65815  98.6664 354.2509 0001563  74.1116 286.0232 14.19927455 20775"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          153.60421811737115,
-          -66.78716550736601
+          -156.29553879025823,
+          72.6527893285638
         ]
       }
     }
